@@ -3,6 +3,7 @@ import Hr from "./Hr.astro";
 import IconX from "@/assets/icons/IconX.svg";
 import IconMoon from "@/assets/icons/IconMoon.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
+import IconRss from "@/assets/icons/IconRss.svg";
 // import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
@@ -96,6 +97,19 @@ const isActive = (path: string) => {
               <IconSearch />
               <span class="sr-only">Search</span>
             </LinkButton>
+          </li>
+          <li class="col-span-1 flex items-center justify-center">
+            <a
+              href="/rss.xml"
+              class="focus-outline group flex p-3 hover:text-accent sm:p-1 hover:[&>svg]:stroke-accent"
+              aria-label="rss feed"
+              title="RSS Feed"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconRss />
+              <span class="sr-only">RSS Feed</span>
+            </a>
           </li>
           {
             SITE.lightAndDarkMode && (

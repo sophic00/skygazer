@@ -8,7 +8,6 @@ import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
-import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
@@ -25,37 +24,20 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        Hey, I’m Vaibhav 👋
       </h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="inline-block"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Welcome to my corner of the internet. I’m a CS undergrad, building
+        things that run fast, scale well, and don’t break easily.
       </p>
-      <p class="mt-2">
-        Read the blog posts or check
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+      <p>
+        Most of my time goes into systems programming, tinkering with Rust,
+        Golang, and the low-level stuff that powers modern computing.
+      </p>
+      <p>
+        I like exploring operating systems, compilers, and machine learning,
+        always picking up something new along the way.
       </p>
       {
         // only display if at least one social link is enabled
@@ -69,7 +51,10 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     </section>
 
     {/* Show Hr separator if we have any posts sections to display */}
-    {((SITE.showFeaturedPosts && featuredPosts.length > 0) || (SITE.showRecentPosts && recentPosts.length > 0)) && <Hr />}
+    {
+      ((SITE.showFeaturedPosts && featuredPosts.length > 0) ||
+        (SITE.showRecentPosts && recentPosts.length > 0)) && <Hr />
+    }
 
     {
       SITE.showFeaturedPosts && featuredPosts.length > 0 && (
