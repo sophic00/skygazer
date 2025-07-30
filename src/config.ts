@@ -9,6 +9,9 @@ export const SITE = {
   lightAndDarkMode: true,
   postPerIndex: 2,
   postPerPage: 4,
+  showFeaturedPosts: false,
+  showRecentPosts: false,
+  showAllPostsButton: false,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: false,
   showBackButton: true, // show back button in post detail

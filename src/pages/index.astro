@@ -68,10 +68,11 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       }
     </section>
 
-    <Hr />
+    {/* Show Hr separator if we have any posts sections to display */}
+    {((SITE.showFeaturedPosts && featuredPosts.length > 0) || (SITE.showRecentPosts && recentPosts.length > 0)) && <Hr />}
 
     {
-      featuredPosts.length > 0 && (
+      SITE.showFeaturedPosts && featuredPosts.length > 0 && (
         <>
           <section id="featured" class="pt-12 pb-6">
             <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
@@ -81,13 +82,13 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
               ))}
             </ul>
           </section>
-          {recentPosts.length > 0 && <Hr />}
+          {SITE.showRecentPosts && recentPosts.length > 0 && <Hr />}
         </>
       )
     }
 
     {
-      recentPosts.length > 0 && (
+      SITE.showRecentPosts && recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
           <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
           <ul>
@@ -100,12 +101,16 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       )
     }
 
-    <div class="my-8 text-center">
-      <LinkButton href="/posts/">
-        All Posts
-        <IconArrowRight class="inline-block rtl:-rotate-180" />
-      </LinkButton>
-    </div>
+    {
+      SITE.showAllPostsButton && (
+        <div class="my-8 text-center">
+          <LinkButton href="/posts/">
+            All Posts
+            <IconArrowRight class="inline-block rtl:-rotate-180" />
+          </LinkButton>
+        </div>
+      )
+    }
   </main>
   <Footer />
 </Layout>

@@ -15,6 +15,14 @@ const sortedPosts = getSortedPosts(posts);
 <Layout title={`Posts | ${SITE.title}`}>
   <Header />
   <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
+    <div class="mb-6">
+      <a 
+        href="/tags" 
+        class="inline-flex items-center gap-2 rounded-lg border border-accent/20 bg-accent/5 px-4 py-2 text-sm font-medium text-accent hover:bg-accent/10 transition-colors"
+      >
+        Browse by Tags
+      </a>
+    </div>
     <ul>
       {sortedPosts.map(data => <Card {...data} />)}
     </ul>
