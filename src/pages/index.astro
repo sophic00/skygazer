@@ -24,21 +24,27 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Hey, I’m Vaibhav 👋
+        Hey, I'm Vaibhav 👋
       </h1>
 
-      <p>
-        Welcome to my corner of the internet. I’m a CS undergrad, building
-        things that run fast, scale well, and don’t break easily.
+      <p class="text-lg text-skin-base/90 mb-6">
+        Welcome to my corner of the internet. I'm a CS undergrad, building
+        things that run fast, scale well, and don't break easily.
       </p>
-      <p>
+      <p class="text-base text-skin-base/80 mb-4">
         Most of my time goes into systems programming, tinkering with Rust,
         Golang, and the low-level stuff that powers modern computing.
       </p>
-      <p>
+      <p class="text-base text-skin-base/80 mb-6">
         I like exploring operating systems, compilers, and machine learning,
         always picking up something new along the way.
       </p>
+      
+      <p class="text-base text-skin-base/80 mb-8">
+        Thanks for stopping by! Feel free to check out my projects, read my notes, 
+        or drop by if there's an interesting topic to chat about.
+      </p>
+
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
@@ -48,6 +54,46 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           </div>
         )
       }
+    </section>
+
+    <Hr />
+
+    <section id="current-work" class="pt-12 pb-6">
+      <h2 class="text-2xl font-semibold tracking-wide mb-6">What I'm working on</h2>
+      <ul class="space-y-3 text-skin-base/90">
+        <li class="flex items-start">
+          <span class="font-semibold text-skin-accent mr-2">•</span>
+          <span><strong class="text-skin-base">Sora</strong> – a Rust-based RISC-V OS.</span>
+        </li>
+        <li class="flex items-start">
+          <span class="font-semibold text-skin-accent mr-2">•</span>
+          <span>Crafting interpreters in <strong class="text-skin-base">Zig</strong>.</span>
+        </li>
+        <li class="flex items-start">
+          <span class="font-semibold text-skin-accent mr-2">•</span>
+          <span>Exploring <strong class="text-skin-base">Golang internals</strong> and backend profiling.</span>
+        </li>
+        <li class="flex items-start">
+          <span class="font-semibold text-skin-accent mr-2">•</span>
+          <span>Learning the <strong class="text-skin-base">LLVM toolchain</strong> and compiler internals.</span>
+        </li>
+      </ul>
+    </section>
+
+    <Hr />
+
+    <section id="interests-tech" class="pt-12 pb-6">
+      <h2 class="text-2xl font-semibold tracking-wide mb-6">Interests & Tech</h2>
+      <div class="text-skin-base/90 space-y-4">
+        <p>
+          I enjoy working with <strong class="text-skin-base">Rust, Go, Zig, and Python</strong>, 
+          along with <strong class="text-skin-base">Docker, PostgreSQL, Redis, and Linux</strong>.
+        </p>
+        <p>
+          I care about building <strong class="text-skin-base">reliable systems</strong> and 
+          exploring ideas that sit at the intersection of <strong class="text-skin-base">math, philosophy, and computation</strong>.
+        </p>
+      </div>
     </section>
 
     {/* Show Hr separator if we have any posts sections to display */}
