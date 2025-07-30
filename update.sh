@@ -38,7 +38,7 @@ update_dependencies() {
 
     echo -e "\n${COLOR_YELLOW}Step 1: Updating PATCH versions...${COLOR_NC}"
     ncu --target patch -u
-    npm install
+    pnpm install
     git add package.json package-lock.json
     git commit -m "chore(deps): update patch dependencies"
     echo -e "${COLOR_GREEN}Patch dependencies updated and committed.${COLOR_NC}"
@@ -49,8 +49,8 @@ update_dependencies() {
         echo
         if [[ $REPLY =~ ^[Yy]$ ]]; then
             ncu --target minor -u
-            npm install
-            echo "Please test your site now (e.g., 'npm run dev') to ensure nothing broke."
+            pnpm install
+            echo "Please test your site now (e.g., 'pnpm run dev') to ensure nothing broke."
             read -p "Press [Enter] to commit the minor updates..."
             git add package.json package-lock.json
             git commit -m "chore(deps): update minor dependencies"
@@ -121,7 +121,7 @@ update_template() {
         echo "   - And any component or layout files."
         echo "2. After resolving, stage the changes with 'git add .'"
         echo "3. Commit the merge with 'git commit'."
-        echo "4. Test your site thoroughly ('npm run dev', 'npm run build')."
+        echo "4. Test your site thoroughly ('pnpm run dev', 'pnpm run build')."
     else
         echo -e "${COLOR_GREEN}Merge was successful with no conflicts.${COLOR_NC}"
         echo "Please commit the result now and test your site thoroughly."
@@ -133,7 +133,7 @@ update_template() {
 
 # --- Script Entry Point ---
 check_command git
-check_command npm
+check_command pnpm
 
 echo "Select the update process to run:"
 echo "  1) Update Dependencies"
