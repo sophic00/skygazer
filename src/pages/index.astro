@@ -3,14 +3,14 @@ import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import Socials from "@/components/Socials.astro";
+// import Socials from "@/components/Socials.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
-import { SOCIALS } from "@/constants";
+// import { SOCIALS } from "@/constants";
 
 const posts = await getCollection("blog");
 
@@ -22,7 +22,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 <Layout>
   <Header />
   <main id="main-content" data-layout="index">
-    <section id="hero" class="pt-8 pb-6">
+    <section id="hero" class="pt-0 pb-0">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
         Hey, I'm Vaibhav 👋
       </h1>
@@ -39,26 +39,12 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         I like exploring operating systems, compilers, and machine learning,
         always picking up something new along the way.
       </p>
-      
-      <p class="text-base text-skin-base/80 mb-8">
-        Thanks for stopping by! Feel free to check out my projects, read my notes, 
-        or drop by if there's an interesting topic to chat about.
-      </p>
 
-      {
-        // only display if at least one social link is enabled
-        SOCIALS.length > 0 && (
-          <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
     </section>
 
     <Hr />
 
-    <section id="current-work" class="pt-12 pb-6">
+    <section id="current-work" class="pt-6 pb-6">
       <h2 class="text-2xl font-semibold tracking-wide mb-6">What I'm working on</h2>
       <ul class="space-y-3 text-skin-base/90">
         <li class="flex items-start">
@@ -82,12 +68,12 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <Hr />
 
-    <section id="interests-tech" class="pt-12 pb-6">
+    <section id="interests-tech" class="pt-6 pb-6">
       <h2 class="text-2xl font-semibold tracking-wide mb-6">Interests & Tech</h2>
       <div class="text-skin-base/90 space-y-4">
         <p>
           I enjoy working with <strong class="text-skin-base">Rust, Go, Zig, and Python</strong>, 
-          along with <strong class="text-skin-base">Docker, PostgreSQL, Redis, and Linux</strong>.
+          and hacking on <strong class="text-skin-base">Operating System, Compilers, Databases, and Backend Systems</strong>.
         </p>
         <p>
           I care about building <strong class="text-skin-base">reliable systems</strong> and 
@@ -142,6 +128,25 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         </div>
       )
     }
+
+    <!-- <Hr /> -->
+
+    <!-- <section id="closing-message" class="pt-12 pb-6">
+      <p class="text-base text-skin-base/80 mb-8">
+        Thanks for stopping by! Feel free to check out my projects, read my notes, 
+        or drop by if there's an interesting topic to chat about.
+      </p>
+
+      {
+        // only display if at least one social link is enabled
+        SOCIALS.length > 0 && (
+          <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
+            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+            <Socials />
+          </div>
+        )
+      }
+    </section> -->
   </main>
   <Footer />
 </Layout>
