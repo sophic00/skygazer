@@ -65,7 +65,7 @@ update_dependencies() {
     echo -e "\n${COLOR_YELLOW}Step 3: Checking for MAJOR updates...${COLOR_NC}"
     echo "Major updates require careful manual review and migration."
     echo "The following major updates are available:"
-    ncu --target major --format group
+    ncu --target latest --format group
     echo -e "\n${COLOR_YELLOW}ACTION REQUIRED:${COLOR_NC} Please update major versions one by one, read the changelogs, and test thoroughly."
 
     echo -e "\n${COLOR_GREEN}Dependency check complete.${COLOR_NC}"
