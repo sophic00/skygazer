@@ -2,6 +2,7 @@ export const SITE = {
   website: "https://sophic.dev/", // replace this with your deployed domain
   author: "Vaibhav Sijaria",
   profile: "https://sophic.dev/",
+  keybase: "https://keybase.io/vaibhav00/",
   desc: "My small place on internet.",
   title: "sophic00",
   ogImage: "img1.jpg",
@@ -9,7 +10,7 @@ export const SITE = {
   postPerIndex: 2,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: true,
+  showArchives: false,
   showBackButton: true, // show back button in post detail
   editPost: {
     enabled: false,
