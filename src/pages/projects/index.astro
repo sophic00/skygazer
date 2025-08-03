@@ -1,0 +1,69 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Main from "@/layouts/Main.astro";
+import { SITE } from "@/config";
+---
+
+<Layout title={`Projects | ${SITE.title}`}>
+  <Header />
+  <Main pageTitle="Projects" pageDesc="All the projects I've built.">
+    <ul>
+      <li class="my-6">
+        <h2 class="text-xl font-medium decoration-dashed hover:underline text-accent mb-2">
+          ⚙️ Compiler & OS
+        </h2>
+        <div class="ml-4 space-y-4">
+          <div>
+            <h3 class="text-lg font-medium text-accent decoration-dashed hover:underline">Sora</h3>
+            <p class="text-muted-foreground">A Rust-based RISC-V operating system focused on learning OS development fundamentals.</p>
+            <p class="text-sm text-muted-foreground mt-1"><strong>Tech Stack:</strong> Rust, RISC-V Assembly</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-medium text-accent decoration-dashed hover:underline">zlox</h3>
+            <p class="text-muted-foreground">Experimental interpreter crafted in Zig, exploring parsing and execution models.</p>
+            <p class="text-sm text-muted-foreground mt-1"><strong>Tech Stack:</strong> Zig</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="my-6">
+        <h2 class="text-xl font-medium decoration-dashed hover:underline text-accent mb-2">
+          🤖 Bots & Integrations
+        </h2>
+        <div class="ml-4 space-y-4">
+          <div>
+            <h3 class="text-lg font-medium text-accent decoration-dashed hover:underline">TeleTuneBot</h3>
+            <p class="text-muted-foreground">Spotify-integrated Telegram bot enabling synced playback and real-time controls.</p>
+            <p class="text-sm text-muted-foreground mt-1"><strong>Tech Stack:</strong> Python, Telegram Bot API, Spotify Web API</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-medium text-accent decoration-dashed hover:underline">Chronos</h3>
+            <p class="text-muted-foreground">Telegram bot that fetches LeetCode & Codeforces submissions, logs them in user channels, and sends daily & monthly summaries with difficulty breakdowns.</p>
+            <p class="text-sm text-muted-foreground mt-1"><strong>Tech Stack:</strong> Python, Telegram Bot API, LeetCode API, Codeforces API</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="my-6">
+        <h2 class="text-xl font-medium decoration-dashed hover:underline text-accent mb-2">
+          🏗️ Backend Projects
+        </h2>
+        <div class="ml-4 space-y-4">
+          <div>
+            <h3 class="text-lg font-medium text-accent decoration-dashed hover:underline">Competitive Coding Platform</h3>
+            <p class="text-muted-foreground">Real-time code evaluation and leaderboard system with secure sandboxing and Redis caching.</p>
+            <p class="text-sm text-muted-foreground mt-1"><strong>Tech Stack:</strong> Go, Redis, Docker, WebSockets</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-medium text-accent decoration-dashed hover:underline">DevSoc'25 Hackathon portal</h3>
+            <p class="text-muted-foreground">Hackathon management platform for 800+ users with optimized API key rotation and fast email notifications.</p>
+            <p class="text-sm text-muted-foreground mt-1"><strong>Tech Stack:</strong> Go, PostgreSQL, Redis, Email APIs</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </Main>
+  <Footer />
+</Layout>
