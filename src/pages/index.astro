@@ -27,41 +27,54 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         Hey, I'm Vaibhav 👋
       </h1>
 
-      <p class="text-lg text-skin-base/90 mb-6">
-        Welcome to my corner of the internet. I'm a CS undergrad, building
-        things that run fast, scale well, and don't break easily.
-      </p>
-      <p class="text-base text-skin-base/80 mb-4">
-        Most of my time goes into systems programming, tinkering with Rust,
-        Golang, and the low-level stuff that powers modern computing.
-      </p>
-      <p class="text-base text-skin-base/80 mb-6">
-        I like exploring operating systems, compilers, and machine learning,
-        always picking up something new along the way.
+      <p class="text-skin-base/90 mb-6 text-lg">
+        Welcome to my corner of the internet. I'm a CS undergrad who builds
+        systems that run fast, scale well, and don’t fall apart under pressure.
       </p>
 
+      <p class="text-skin-base/80 mb-6 text-base">
+        I write code to understand computers more deeply. When I see something
+        cool like a game engine rendering a scene, a program doing something
+        clever, my first instinct is to figure out how it works. Most of my
+        work sits at the intersection of systems programming, language runtimes,
+        and low-level internals.
+      </p>
     </section>
 
     <Hr />
 
     <section id="current-work" class="pt-6 pb-6">
-      <h2 class="text-2xl font-semibold tracking-wide mb-6">What I'm working on</h2>
-      <ul class="space-y-3 text-skin-base/90">
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">
+        Right now, my curiosity takes a few forms
+      </h2>
+      <ul class="text-skin-base/90 space-y-3">
         <li class="flex items-start">
-          <span class="font-semibold text-skin-accent mr-2">•</span>
-          <span><strong class="text-skin-base">Sora</strong> – a Rust-based RISC-V OS.</span>
+          <span class="text-skin-accent mr-2 font-semibold">•</span>
+          <span
+            ><strong class="text-skin-base">Sora</strong> – An attempt to build a
+            modern operating system for RISC-V in Rust.</span
+          >
         </li>
         <li class="flex items-start">
-          <span class="font-semibold text-skin-accent mr-2">•</span>
-          <span>Crafting interpreters in <strong class="text-skin-base">Zig</strong>.</span>
+          <span class="text-skin-accent mr-2 font-semibold">•</span>
+          <span
+            >Crafting interpreters in <strong class="text-skin-base">Zig</strong
+            >.</span
+          >
         </li>
         <li class="flex items-start">
-          <span class="font-semibold text-skin-accent mr-2">•</span>
-          <span>Exploring <strong class="text-skin-base">Golang internals</strong> and backend profiling.</span>
+          <span class="text-skin-accent mr-2 font-semibold">•</span>
+          <span
+            >Exploring <strong class="text-skin-base">Golang internals</strong> and
+            backend profiling.</span
+          >
         </li>
         <li class="flex items-start">
-          <span class="font-semibold text-skin-accent mr-2">•</span>
-          <span>Learning the <strong class="text-skin-base">LLVM toolchain</strong> and compiler internals.</span>
+          <span class="text-skin-accent mr-2 font-semibold">•</span>
+          <span
+            >Learning the <strong class="text-skin-base">LLVM toolchain</strong>
+            and compiler internals.</span
+          >
         </li>
       </ul>
     </section>
@@ -69,6 +82,38 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     <Hr />
 
     <section id="interests-tech" class="pt-6 pb-6">
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">Tools of trade</h2>
+      <div class="text-skin-base/90 space-y-4">
+        <p>
+          I’m not very loyal to tools or frameworks. I’m loyal to questions. If
+          something bothers me, or if I don’t understand how it works, I’ll
+          probably poke at it until I do. That’s how most of my projects begin.
+        </p>
+        <p>
+          This site is mostly a notebook for my own thinking. If you like <strong
+            class="text-skin-base">operating systems</strong
+          >,
+          <strong class="text-skin-base">language theory</strong>,
+          <strong class="text-skin-base">compilers</strong>,
+          <strong class="text-skin-base">performance tuning</strong>, or the
+          <strong class="text-skin-base"
+            >philosophy of how software ought to be built</strong
+          > — you might find something here worth your time. And if you do, I’d love
+          to hear from you.
+        </p>
+        <div class="mt-6 text-center">
+          <LinkButton
+            href="/keys.asc"
+            class="text-skin-accent hover:text-skin-accent/80 underline"
+            title="Download PGP Public Key"
+          >
+            🔐 PGP Public Key
+          </LinkButton>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="interests-tech" class="pt-6 pb-6">
       <h2 class="text-2xl font-semibold tracking-wide mb-6">How I Work</h2>
       <div class="text-skin-base/90 space-y-4">
         <p>
@@ -97,7 +142,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           </LinkButton>
         </div>
       </div>
-    </section>
+    </section> -->
 
     {/* Show Hr separator if we have any posts sections to display */}
     {
