@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T15:24:07.481Z",
+    "lastUpdated": "2025-08-05T15:50:16.958Z",
     "lastFetched": "2025-08-05T15:24:07.481Z"
   },
   {
@@ -156,7 +156,167 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T15:24:10.660Z",
+    "lastUpdated": "2025-08-05T15:50:19.733Z",
     "lastFetched": "2025-08-05T15:24:10.660Z"
+  },
+  {
+    "feedUrl": "https://mmapped.blog/feed.xml",
+    "title": "MMapped blog",
+    "siteUrl": "https://mmapped.blog/feed.xml",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Stepanov’s biggest blunder",
+        "link": "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
+        "pubDate": "2025-07-13T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Parasites found",
+        "link": "https://mmapped.blog/posts/42-parasites-found.html",
+        "pubDate": "2025-07-01T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Box combinators",
+        "link": "https://mmapped.blog/posts/41-box-combinators.html",
+        "pubDate": "2025-06-01T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Three degrees of validity",
+        "link": "https://mmapped.blog/posts/40-three-degress-of-validity.html",
+        "pubDate": "2025-04-26T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "3000 days of Duolingo",
+        "link": "https://mmapped.blog/posts/39-3000-days-of-duolingo.html",
+        "pubDate": "2025-04-14T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Static types are for perfectionists",
+        "link": "https://mmapped.blog/posts/38-static-types-perfectionism.html",
+        "pubDate": "2025-04-01T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "ONNX introduction",
+        "link": "https://mmapped.blog/posts/37-onnx-intro.html",
+        "pubDate": "2025-02-17T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "2024 retrospective",
+        "link": "https://mmapped.blog/posts/36-2024-retro.html",
+        "pubDate": "2025-01-20T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Advent of Code 2024",
+        "link": "https://mmapped.blog/posts/35-aoc-2024.html",
+        "pubDate": "2025-01-02T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Square joy: tile crush",
+        "link": "https://mmapped.blog/posts/34-square-joy-tile-crush.html",
+        "pubDate": "2024-12-16T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T15:50:21.183Z",
+    "lastFetched": "2025-08-05T15:50:21.183Z"
+  },
+  {
+    "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+    "title": "Scattered Thoughts",
+    "siteUrl": "https://www.scattered-thoughts.net/atom.xml",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Go allocation probe",
+        "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
+        "pubDate": "2025-07-18T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Store tags after payloads",
+        "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/",
+        "pubDate": "2025-07-13T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
+        "link": "https://www.scattered-thoughts.net/log/0053/",
+        "pubDate": "2025-05-31T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "A rough survey of compilation, recompilation, and compile-time evaluation",
+        "link": "https://www.scattered-thoughts.net/writing/a-rough-survey-of-compilation-recompilation-and-compile-time-evaluation/",
+        "pubDate": "2025-04-04T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "0052: hytradboi videos and post-mortem, zest repo, no internet, on social media, my product is my garden, datafusion and clickhouse jits, books",
+        "link": "https://www.scattered-thoughts.net/log/0052/",
+        "pubDate": "2025-03-14T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "HYTRADBOI 2025 postmortem",
+        "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-postmortem/",
+        "pubDate": "2025-03-03T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Other kinds of talks",
+        "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/",
+        "pubDate": "2025-02-24T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "0051: hytradboi program and tickets, query compilers, decorrelation encore, books, misc",
+        "link": "https://www.scattered-thoughts.net/log/0051/",
+        "pubDate": "2025-02-13T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "HYTRADBOI 2025 program and tickets",
+        "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/",
+        "pubDate": "2025-01-31T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "The missing tier for query compilers",
+        "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/",
+        "pubDate": "2025-01-12T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T15:50:23.124Z",
+    "lastFetched": "2025-08-05T15:50:23.124Z"
   }
 ]

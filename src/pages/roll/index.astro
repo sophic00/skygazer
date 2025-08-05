@@ -96,7 +96,7 @@ function formatDate(dateString: string): string {
           </p>
         </div>
       ) : (
-        <div class="space-y-6">
+        <div class="space-y-1">
           {allPosts.map(post => (
             <article class="py-2">
               <div class="flex items-center gap-2 mb-1">
@@ -111,6 +111,9 @@ function formatDate(dateString: string): string {
                 >
                   {post.feedTitle}
                 </a>
+                <span class="text-muted-foreground text-sm">
+                  @{new URL(post.siteUrl || '').hostname || post.siteUrl}
+                </span>
               </div>
               <a
                 href={post.link}
@@ -130,7 +133,7 @@ function formatDate(dateString: string): string {
     <div class="mt-12 rounded-lg border border-dashed bg-muted/30 p-4">
       <h3 class="mb-2 text-sm font-medium">About this Blogroll</h3>
       <p class="text-muted-foreground text-xs">
-        I first came across the idea of treating a blogroll as a personal feed
+        I first came across the idea of treating a blogroll as a feed
         reader on
         <a href="https://matklad.github.io" class="underline underline-offset-2"
           >Alex Kladov’s site</a
