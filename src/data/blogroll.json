@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:16.196Z",
+    "lastUpdated": "2025-08-05T17:11:36.346Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -168,7 +168,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:18.971Z",
+    "lastUpdated": "2025-08-05T17:11:39.117Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -272,7 +272,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:20.265Z",
+    "lastUpdated": "2025-08-05T17:11:40.382Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -397,7 +397,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:21.797Z",
+    "lastUpdated": "2025-08-05T17:11:41.579Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -651,7 +651,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:22.863Z",
+    "lastUpdated": "2025-08-05T17:11:42.938Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -771,7 +771,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:24.262Z",
+    "lastUpdated": "2025-08-05T17:11:44.612Z",
     "lastFetched": "2025-08-05T16:22:41.993Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
@@ -863,7 +863,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:27.303Z",
+    "lastUpdated": "2025-08-05T17:11:47.136Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -965,7 +965,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:28.379Z",
+    "lastUpdated": "2025-08-05T17:11:48.621Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1069,7 +1069,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T16:32:31.422Z",
+    "lastUpdated": "2025-08-05T17:11:51.398Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1084,6 +1084,2203 @@
       "https://www.ralfj.de/blog/2023/06/02/tree-borrows.html",
       "https://www.ralfj.de/blog/2022/09/26/cargo-careful.html",
       "https://www.ralfj.de/blog/2022/08/16/eth.html"
+    ]
+  },
+  {
+    "feedUrl": "https://andrewkelley.me/rss.xml",
+    "title": "Andrew Kelley",
+    "siteUrl": "https://andrewkelley.me/",
+    "description": "My personal website - thoughts, project demos, research.",
+    "latestPosts": [
+      {
+        "title": "Renting is for Suckers",
+        "link": "https://andrewkelley.me/post/renting-is-for-suckers.html",
+        "pubDate": "Thu, 24 Jul 2025 19:04:14 GMT",
+        "contentSnippet": "Renting is for Suckers\nA genie offers you a choice:\n50% chance to gain 10 million USD\n100% chance to gain 1 million USD\nWhich do you pick?\nYour answer, of course, depends on how much capital you have.",
+        "creator": ""
+      },
+      {
+        "title": "OpenZFS Bug Ported to Zig",
+        "link": "https://andrewkelley.me/post/openzfs-bug-ported-zig.html",
+        "pubDate": "Mon, 14 Jul 2025 18:31:28 GMT",
+        "contentSnippet": "Prism.languages['zig'] = Prism.languages.extend('clike', {\n    'keyword': /\\b(fn|import|cImport|const|var|extern|volatile|export|pub|noalias|inline|struct|enum|break|return|continue|asm|defer|if|else|",
+        "creator": ""
+      },
+      {
+        "title": "Zig's New CLI Progress Bar Explained",
+        "link": "https://andrewkelley.me/post/zig-new-cli-progress-bar-explained.html",
+        "pubDate": "Thu, 30 May 2024 03:27:38 GMT",
+        "contentSnippet": "Prism.languages['zig'] = Prism.languages.extend('clike', {\n    'keyword': /\\b(test|fn|import|cImport|const|var|extern|volatile|export|pub|noalias|inline|struct|enum|break|return|continue|asm|defer|if|",
+        "creator": ""
+      },
+      {
+        "title": "Redis Renamed to Redict",
+        "link": "https://andrewkelley.me/post/redis-renamed-to-redict.html",
+        "pubDate": "Fri, 22 Mar 2024 20:32:03 GMT",
+        "contentSnippet": "Redis Renamed to Redict\nRedict was originally\ncreated by Salvatore Sanfilippo under the name \"Redis\".\nAround 2018 he started losing interest in the project to pursue a science fiction career and gave\n",
+        "creator": ""
+      },
+      {
+        "title": "Why We Can't Have Nice Software",
+        "link": "https://andrewkelley.me/post/why-we-cant-have-nice-software.html",
+        "pubDate": "Sun, 04 Feb 2024 23:11:21 GMT",
+        "contentSnippet": "Why We Can't Have Nice Software\ntrickle of electricity to run it.\n\n\nImmediately, this poses a problem: how can a small number of people keep all\nthat wealth for themselves, and not let it escape in th",
+        "creator": ""
+      },
+      {
+        "title": "The Techno-Optimist Manifesto",
+        "link": "https://andrewkelley.me/post/the-techno-optimist-manifesto.html",
+        "pubDate": "Tue, 17 Oct 2023 20:14:51 GMT",
+        "contentSnippet": "The Techno-Optimist Manifesto\nmust, and we\nwill, create more advanced human systems to prevent war forevermore.\nHuman society will mature and overcome its\nbarbaric history, learning to cooperate with ",
+        "creator": ""
+      },
+      {
+        "title": "So Long, Twitter and Reddit",
+        "link": "https://andrewkelley.me/post/goodbye-twitter-reddit.html",
+        "pubDate": "Wed, 23 Aug 2023 22:05:07 GMT",
+        "contentSnippet": "So Long, Twitter and Reddit\nIt's been over three years since my last blog post. I think that\nthe website code started to feel like it had bitrotted, and so making new blog\nposts became onerous. But I'",
+        "creator": ""
+      },
+      {
+        "title": "`zig cc`: a Powerful Drop-In Replacement for GCC/Clang",
+        "link": "https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html",
+        "pubDate": "Tue, 24 Mar 2020 14:39:47 GMT",
+        "contentSnippet": "`zig cc`: a Powerful Drop-In Replacement for GCC/Clang\nZig before, you may know it as\na promising new programming language which is ambitiously trying to overthrow C as the\nde-facto systems language. ",
+        "creator": ""
+      },
+      {
+        "title": "Why I'm donating $150/month (10% of my income) to the musl libc project",
+        "link": "https://andrewkelley.me/post/why-donating-to-musl-libc-project.html",
+        "pubDate": "Mon, 24 Jun 2019 20:15:06 GMT",
+        "contentSnippet": "#prog {\n  background-color: #171717;\n  width: 350px;\n  height: 30px;\n  border: 1px solid black;\n}\n#done {\n  background-color: #309e07;\n  width: 100%;\n  height: 30px;\n  line-height: 30px;\n  text-align:",
+        "creator": ""
+      },
+      {
+        "title": "Using Zig to Provide Stack Traces on Kernel Panic for a Bare Bones Operating System",
+        "link": "https://andrewkelley.me/post/zig-stack-traces-kernel-panic-bare-bones-os.html",
+        "pubDate": "Tue, 04 Dec 2018 18:02:47 GMT",
+        "contentSnippet": "Prism.languages['zig'] = Prism.languages.extend('clike', {\n    'keyword': /\\b(test|fn|import|cImport|const|var|extern|volatile|export|pub|noalias|inline|struct|enum|break|return|continue|asm|defer|if|",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:11:53.865Z",
+    "lastFetched": "2025-08-05T16:47:01.249Z",
+    "allSeenPosts": [
+      "https://andrewkelley.me/post/renting-is-for-suckers.html",
+      "https://andrewkelley.me/post/openzfs-bug-ported-zig.html",
+      "https://andrewkelley.me/post/zig-new-cli-progress-bar-explained.html",
+      "https://andrewkelley.me/post/redis-renamed-to-redict.html",
+      "https://andrewkelley.me/post/why-we-cant-have-nice-software.html",
+      "https://andrewkelley.me/post/the-techno-optimist-manifesto.html",
+      "https://andrewkelley.me/post/goodbye-twitter-reddit.html",
+      "https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html",
+      "https://andrewkelley.me/post/why-donating-to-musl-libc-project.html",
+      "https://andrewkelley.me/post/zig-stack-traces-kernel-panic-bare-bones-os.html",
+      "https://andrewkelley.me/post/string-matching-comptime-perfect-hashing-zig.html",
+      "https://andrewkelley.me/post/full-time-zig.html",
+      "https://andrewkelley.me/post/zig-january-2018-in-review.html",
+      "https://andrewkelley.me/post/unsafe-zig-safer-than-unsafe-rust.html",
+      "https://andrewkelley.me/post/zig-december-2017-in-review.html",
+      "https://andrewkelley.me/post/a-better-way-to-implement-bit-fields.html",
+      "https://andrewkelley.me/post/zig-already-more-knowable-than-c.html",
+      "https://andrewkelley.me/post/zig-programming-language-blurs-line-compile-time-run-time.html",
+      "https://andrewkelley.me/post/troubleshooting-zig-regression-apitrace.html",
+      "https://andrewkelley.me/post/intro-to-zig.html",
+      "https://andrewkelley.me/post/raspberry-pi-music-player-server.html",
+      "https://andrewkelley.me/post/laptop-review-bonobo-extreme.html",
+      "https://andrewkelley.me/post/quest-build-ultimate-music-player.html",
+      "https://andrewkelley.me/post/do-not-use-bodyparser-with-express-js.html",
+      "https://andrewkelley.me/post/js-callback-organization.html",
+      "https://andrewkelley.me/post/not-a-js-developer.html",
+      "https://andrewkelley.me/post/7drts-game-reviews.html",
+      "https://andrewkelley.me/post/pillagers-7drts-game-dev-journal.html",
+      "https://andrewkelley.me/post/js-private-methods.html",
+      "https://andrewkelley.me/post/spot-the-fail.html",
+      "https://andrewkelley.me/post/jamulator.html",
+      "https://andrewkelley.me/post/swig-email-templates.html",
+      "https://andrewkelley.me/post/pyweek-success.html",
+      "https://andrewkelley.me/post/jmt.html",
+      "https://andrewkelley.me/post/lemming-pyweek-12.html"
+    ]
+  },
+  {
+    "feedUrl": "https://www.rfleury.com/feed",
+    "title": "Digital Grove",
+    "siteUrl": "https://www.rfleury.com",
+    "description": "From-scratch, from-first-principles software techniques, ideas, and projects. Building a new space for better computing.",
+    "latestPosts": [
+      {
+        "title": "Cracking the Code: Realtime Debugger Visualization Architecture – BSC 2025",
+        "link": "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
+        "pubDate": "Wed, 23 Jul 2025 04:56:17 GMT",
+        "contentSnippet": "My talk at the 2025 Better Software Conference.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Demystifying Debuggers, Part 3: Debugger-Kernel Interaction",
+        "link": "https://www.rfleury.com/p/demystifying-debuggers-part-3-kernel",
+        "pubDate": "Sat, 28 Dec 2024 06:11:58 GMT",
+        "contentSnippet": "On how kernels collect and expose information about program execution to debuggers.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Demystifying Debuggers, Part 2: The Anatomy Of A Running Program",
+        "link": "https://www.rfleury.com/p/demystifying-debuggers-part-2-the",
+        "pubDate": "Mon, 23 Dec 2024 03:39:45 GMT",
+        "contentSnippet": "On the concepts involved in a running program. What happens, exactly, when you double click an executable file, or launch it from the command line, and it begins to execute?",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Demystifying Debuggers, Part 1: A Busy Intersection",
+        "link": "https://www.rfleury.com/p/demystifying-debuggers-part-1-a-busy",
+        "pubDate": "Mon, 16 Dec 2024 21:45:55 GMT",
+        "contentSnippet": "An introduction to a new post series covering debugger basics.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Programmers Are Users (Bad Performance Makes Everyone Less Efficient)",
+        "link": "https://www.rfleury.com/p/programmers-are-users-bad-performance",
+        "pubDate": "Fri, 06 Dec 2024 00:04:41 GMT",
+        "contentSnippet": "On the often-referenced notion of saving “programmer cycles” at the expense of CPU cycles.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Codebase Walkthrough: Multi-Window, Panel-Tree UI",
+        "link": "https://www.rfleury.com/p/codebase-walkthrough-multi-window",
+        "pubDate": "Mon, 08 Jul 2024 06:05:29 GMT",
+        "contentSnippet": "Building a multi-window, panel-tree UI sample in the codebase.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Codebase Walkthrough: Using The Metaprogram",
+        "link": "https://www.rfleury.com/p/using-the-codebase-metaprogram",
+        "pubDate": "Sat, 06 Jul 2024 07:56:07 GMT",
+        "contentSnippet": "Walking through the structure and basic usage of the codebase's metaprogram, which allows for arbitrary compile-time execution, code generation, and code introspection.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Enter The Arena: Simplifying Memory Management (Talk)",
+        "link": "https://www.rfleury.com/p/enter-the-arena-talk",
+        "pubDate": "Mon, 13 May 2024 16:34:21 GMT",
+        "contentSnippet": "A talk on arena-based memory management.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Upstream & Downstream",
+        "link": "https://www.rfleury.com/p/upstream-and-downstream",
+        "pubDate": "Sat, 11 May 2024 17:38:51 GMT",
+        "contentSnippet": "Separating computational cause from effect.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Multi-Threading & Mutation ",
+        "link": "https://www.rfleury.com/p/multi-threading-and-mutation",
+        "pubDate": "Tue, 12 Mar 2024 01:40:49 GMT",
+        "contentSnippet": "On mutation, how it subtly occurs in single-threaded code, and how it can disrupt the process of upgrading single-threaded code to being multi-threaded.",
+        "creator": "Ryan Fleury"
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:11:55.328Z",
+    "lastFetched": "2025-08-05T16:47:03.171Z",
+    "allSeenPosts": [
+      "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
+      "https://www.rfleury.com/p/demystifying-debuggers-part-3-kernel",
+      "https://www.rfleury.com/p/demystifying-debuggers-part-2-the",
+      "https://www.rfleury.com/p/demystifying-debuggers-part-1-a-busy",
+      "https://www.rfleury.com/p/programmers-are-users-bad-performance",
+      "https://www.rfleury.com/p/codebase-walkthrough-multi-window",
+      "https://www.rfleury.com/p/using-the-codebase-metaprogram",
+      "https://www.rfleury.com/p/enter-the-arena-talk",
+      "https://www.rfleury.com/p/upstream-and-downstream",
+      "https://www.rfleury.com/p/multi-threading-and-mutation",
+      "https://www.rfleury.com/p/from-scratch-data-structures-in-the",
+      "https://www.rfleury.com/p/intro-to-the-codebase-part-v-strings",
+      "https://www.rfleury.com/p/the-easiest-way-to-handle-errors",
+      "https://www.rfleury.com/p/factorio-mutation-and-lossiness",
+      "https://www.rfleury.com/p/the-marketplace-of-ideals",
+      "https://www.rfleury.com/p/intro-to-the-codebase-part-iii-memory",
+      "https://www.rfleury.com/p/intro-to-the-codebase-part-iii-using",
+      "https://www.rfleury.com/p/intro-to-the-codebase-part-ii-getting",
+      "https://www.rfleury.com/p/intro-to-the-codebase-part-i-windows",
+      "https://www.rfleury.com/p/software-kingdoms"
+    ]
+  },
+  {
+    "feedUrl": "https://www.computerenhance.com/feed",
+    "title": "Computer, Enhance!",
+    "siteUrl": "https://www.computerenhance.com",
+    "description": "Programming courses, interviews, commentary.",
+    "latestPosts": [
+      {
+        "title": "My Cyber Rush Week Conversation with Josiah Stearns",
+        "link": "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
+        "pubDate": "Thu, 24 Jul 2025 22:12:06 GMT",
+        "contentSnippet": "This year I was invited to speak at a US Cyber Games event.",
+        "creator": "Casey Muratori"
+      },
+      {
+        "title": "Q&A #78 (2025-07-21)",
+        "link": "https://www.computerenhance.com/p/q-and-a-78-2025-07-21",
+        "pubDate": "Mon, 21 Jul 2025 22:33:09 GMT",
+        "contentSnippet": "Answers to questions from the last Q&A thread.",
+        "creator": ""
+      },
+      {
+        "title": "The Big OOPs: Anatomy of a Thirty-Five Year Mistake",
+        "link": "https://www.computerenhance.com/p/the-big-oops-anatomy-of-a-thirty",
+        "pubDate": "Thu, 17 Jul 2025 18:46:06 GMT",
+        "contentSnippet": "My presentation from the inaugural Better Software Conference, with notes.",
+        "creator": "Casey Muratori"
+      },
+      {
+        "title": "Catch the Live Broadcast of My BSC Talk!",
+        "link": "https://www.computerenhance.com/p/catch-the-live-broadcast-of-my-bsc",
+        "pubDate": "Fri, 11 Jul 2025 19:32:21 GMT",
+        "contentSnippet": "I have prepared a very special talk for the inaugural Better Software Conference. Hope to see you all on the live stream!",
+        "creator": "Casey Muratori"
+      },
+      {
+        "title": "Selectively Preventing Optimizations",
+        "link": "https://www.computerenhance.com/p/selectively-preventing-optimizations",
+        "pubDate": "Sun, 29 Jun 2025 05:11:19 GMT",
+        "contentSnippet": "When we want to microbenchmark code in a high-level language, we want almost all optimizations applied - except for the ones that would remove the code entirely.",
+        "creator": ""
+      },
+      {
+        "title": "Q&A #77 (2025-06-19)",
+        "link": "https://www.computerenhance.com/p/q-and-a-77-2025-06-19",
+        "pubDate": "Fri, 20 Jun 2025 05:51:21 GMT",
+        "contentSnippet": "Answers to questions from the last Q&A thread.",
+        "creator": ""
+      },
+      {
+        "title": "Simplified Haversine Candidates",
+        "link": "https://www.computerenhance.com/p/simplified-haversine-candidates",
+        "pubDate": "Sun, 15 Jun 2025 00:00:11 GMT",
+        "contentSnippet": "Even for a computation as simple as our haversine loop, removing waste yields a surprisingly large performance improvement for very little effort.",
+        "creator": ""
+      },
+      {
+        "title": "Computer Enhance Summer News!",
+        "link": "https://www.computerenhance.com/p/computer-enhance-summer-news",
+        "pubDate": "Fri, 30 May 2025 20:48:26 GMT",
+        "contentSnippet": "I certainly hope none of you were planning a summer vacation.",
+        "creator": "Casey Muratori"
+      },
+      {
+        "title": "Q&A #76 (2025-05-23)",
+        "link": "https://www.computerenhance.com/p/q-and-a-76-2025-05-23",
+        "pubDate": "Fri, 23 May 2025 21:08:03 GMT",
+        "contentSnippet": "Answers to questions from the last Q&A thread.",
+        "creator": ""
+      },
+      {
+        "title": "The Micro Group",
+        "link": "https://www.computerenhance.com/p/the-micro-group",
+        "pubDate": "Fri, 23 May 2025 21:01:43 GMT",
+        "contentSnippet": "The Complete History of Trinity - Episode 5",
+        "creator": "Casey Muratori"
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:11:57.352Z",
+    "lastFetched": "2025-08-05T16:47:04.405Z",
+    "allSeenPosts": [
+      "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
+      "https://www.computerenhance.com/p/q-and-a-78-2025-07-21",
+      "https://www.computerenhance.com/p/the-big-oops-anatomy-of-a-thirty",
+      "https://www.computerenhance.com/p/catch-the-live-broadcast-of-my-bsc",
+      "https://www.computerenhance.com/p/selectively-preventing-optimizations",
+      "https://www.computerenhance.com/p/q-and-a-77-2025-06-19",
+      "https://www.computerenhance.com/p/simplified-haversine-candidates",
+      "https://www.computerenhance.com/p/computer-enhance-summer-news",
+      "https://www.computerenhance.com/p/q-and-a-76-2025-05-23",
+      "https://www.computerenhance.com/p/the-micro-group",
+      "https://www.computerenhance.com/p/removing-waste",
+      "https://www.computerenhance.com/p/our-very-own-haversine",
+      "https://www.computerenhance.com/p/q-and-a-75-2025-05-02",
+      "https://www.computerenhance.com/p/extending-arcsine-to-the-full-input",
+      "https://www.computerenhance.com/p/approximating-arcsine",
+      "https://www.computerenhance.com/p/q-and-a-74-2025-04-01",
+      "https://www.computerenhance.com/p/an-interview-with-zen-chief-architect",
+      "https://www.computerenhance.com/p/coefficient-arrays-for-polynomial",
+      "https://www.computerenhance.com/p/q-and-a-73-2025-03-03",
+      "https://www.computerenhance.com/p/fused-multiply-add"
+    ]
+  },
+  {
+    "feedUrl": "https://norvig.com/rss-feed.xml",
+    "title": "Peter Norvig",
+    "siteUrl": "http://www.norvig.com",
+    "description": "Articles by Peter Norvig",
+    "latestPosts": [
+      {
+        "title": "Functional Lifestyles Training",
+        "link": "https://medium.com/@peternorvig/functional-lifestyles-training-47984a3cd2ba",
+        "pubDate": "2018-03-31T18:30:00.000Z",
+        "contentSnippet": "Some heavy lambda lifting could get you in better functional shape.",
+        "creator": ""
+      },
+      {
+        "title": "xkcd 1970: Name Dominoes",
+        "link": "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
+        "pubDate": "2018-03-20T18:30:00.000Z",
+        "contentSnippet": "Lay out dominoes legally; the dominoes have people names, not numbers.",
+        "creator": ""
+      },
+      {
+        "title": "Advent of Code 2017",
+        "link": "https://github.com/norvig/pytudes/blob/master/ipynb/Advent%202017.ipynb",
+        "pubDate": "2016-12-24T00:00:00.000Z",
+        "contentSnippet": "Solutions to the puzzle site.",
+        "creator": ""
+      },
+      {
+        "title": "Advent of Code 2016",
+        "link": "http://nbviewer.ipython.org/url/norvig.com/ipython/Advent%20of%20Code.ipynb",
+        "pubDate": "2016-12-24T00:00:00.000Z",
+        "contentSnippet": "Solutions to the puzzle site.",
+        "creator": ""
+      },
+      {
+        "title": "Even Longer Longest Palindrome",
+        "link": "http://norvig.com/palindrome.html",
+        "pubDate": "2016-10-06T00:00:00.000Z",
+        "contentSnippet": "Updating the palindrome program to search letter-by-letter; thus finding a longer palindrome.",
+        "creator": ""
+      },
+      {
+        "title": "Translating English Sentences into Propositional Logic Statements",
+        "link": "http://nbviewer.ipython.org/url/norvig.com/ipython/PropositionalLogic.ipynb",
+        "pubDate": "2016-10-01T00:00:00.000Z",
+        "contentSnippet": "Automatically converting informal English sentences into formal Propositional Logic.",
+        "creator": ""
+      },
+      {
+        "title": "On the (Small) Number of Atoms in the Universe",
+        "link": "http://norvig.com/atoms.html",
+        "pubDate": "2016-04-27T00:00:00.000Z",
+        "contentSnippet": "On the difference between counting things and counting combinations of things.",
+        "creator": ""
+      },
+      {
+        "title": "The Strength in Numbers Theorem",
+        "link": "http://nbviewer.ipython.org/url/norvig.com/ipython/Probability.ipynb#The-Central-Limit-Theorem-/-Strength-in-Numbers-Theorem",
+        "pubDate": "2016-04-27T00:00:00.000Z",
+        "contentSnippet": "Update to my probability notebook, adding the Central Limit Theorem, also known as the Strength in Numbers Theorem.",
+        "creator": ""
+      },
+      {
+        "title": "WWW: Will Warriors Win?",
+        "link": "http://nbviewer.ipython.org/url/norvig.com/ipython/WWW.ipynb",
+        "pubDate": "2016-04-27T00:00:00.000Z",
+        "contentSnippet": "Will the Warriors win the NBA title?",
+        "creator": ""
+      },
+      {
+        "title": "Go, Dog. Gauguin! The P. D. Eastman Story",
+        "link": "https://medium.com/@peternorvig/go-dog-gauguin-the-p-d-eastman-story-a81dd9704cb4",
+        "pubDate": "2016-04-01T00:00:00.000Z",
+        "contentSnippet": "The untold story of the children's book author/illustrator.",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:11:59.803Z",
+    "lastFetched": "2025-08-05T16:47:07.069Z",
+    "allSeenPosts": [
+      "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
+      "https://medium.com/@peternorvig/functional-lifestyles-training-47984a3cd2ba",
+      "https://github.com/norvig/pytudes/blob/master/ipynb/Advent%202017.ipynb",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Advent%20of%20Code.ipynb",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/PropositionalLogic.ipynb",
+      "http://norvig.com/palindrome.html",
+      "http://norvig.com/atoms.html",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Probability.ipynb#The-Central-Limit-Theorem-/-Strength-in-Numbers-Theorem",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/WWW.ipynb",
+      "https://medium.com/@peternorvig/go-dog-gauguin-the-p-d-eastman-story-a81dd9704cb4",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Countdown.ipynb",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Scrabble.ipynb",
+      "http://norvig.com/beal.html",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Probability.ipynb",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Fred%20Buns.ipynb",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Cheryl-and-Eve.ipynb",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Cheryl.ipynb",
+      "http://norvig.com/LI2",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/Golomb-Puzzle.ipynb?create=1",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/xkcd1313-part2.ipynb?create=1",
+      "http://nbviewer.ipython.org/url/norvig.com/ipython/xkcd1313.ipynb?create=1",
+      "http://norvig.com/scrabble-letter-scores.html",
+      "http://pn.smugmug.com/Nature/Costa-Rica-2013",
+      "http://norvig.com/mayzner.html",
+      "http://norvig.com/election-faq-2012.html",
+      "http://www.udacity.com/overview/Course/st101/CourseRev/1",
+      "http://www.ted.com/talks/peter_norvig_the_100_000_student_classroom.html",
+      "http://norvig.com/hybrid-research.pdf",
+      "http://blogs.scientificamerican.com/at-scientific-american/2011/08/23/systems-analysis-look-back-1966-scientific-american-article/",
+      "http://norvig.com/sciam/checkers.py",
+      "http://www.ai-class.org",
+      "http://norvig.com/chomsky.html",
+      "http://norvig.com/dance-photography.html",
+      "http://norvig.com/lispy2.html",
+      "http://norvig.com/lispy.html",
+      "http://norvig.com/SET.html",
+      "http://norvig.com/fact-check.html",
+      "http://norvig.com/chart538.html",
+      "http://norvig.com/ibol.html",
+      "http://norvig.com/election-faq.html#final",
+      "http://norvig.com/election-faq.html#change",
+      "http://norvig.com/election-faq.html#jpod",
+      "http://norvig.com/election-dashboard.html",
+      "http://norvig.com/election-faq.html#polls",
+      "http://norvig.com/election-faq.html#economy",
+      "http://norvig.com/election-faq.html#attacks",
+      "http://norvig.com/election-faq.html#race",
+      "http://norvig.com/election-faq.html#media",
+      "http://norvig.com/election-faq.html#rational",
+      "http://norvig.com/election-faq.html",
+      "http://norvig.com/geek.html",
+      "http://norvig.com/galapagos-photography.html",
+      "http://norvig.com/hiring-president2.html",
+      "http://norvig.com/prayer.html",
+      "http://norvig.com/experiment-design.html",
+      "http://norvig.com/spell-correct.html",
+      "http://norvig.com/logs-alexa.html",
+      "http://norvig.com/logs/logs06.html",
+      "http://norvig.com/carcassonne.html",
+      "http://www.norvig.com/speech.html",
+      "http://www.space-cadet.org/articles/norvig-norw.shtml",
+      "http://www.mcsweeneys.net/links/lists/15PeterNorvig.html",
+      "http://norvig.com/sudoku.html",
+      "http://norvig.com/reporters-and-parrots.html",
+      "http://norvig.com/romanian21-days.html",
+      "http://norvig.com/oreskes.html",
+      "http://norvig.com/performance-review.html",
+      "http://norvig.com/ipod.html",
+      "http://norvig.com/Gettysburg/index.htm",
+      "http://norvig.com/Gettysburg/making.htm",
+      "http://aima.cs.berkeley.edu/",
+      "http://norvig.com/21-days.html",
+      "http://norvig.com/design-patterns",
+      "http://norvig.com/java-iaq.html",
+      "http://norvig.com/python-iaq.html",
+      "http://norvig.com/paip/README.html",
+      "http://norvig.com/jscheme.html"
+    ]
+  },
+  {
+    "feedUrl": "https://slightknack.dev/atom.xml",
+    "title": "Isaac Clayton",
+    "siteUrl": "https://slightknack.dev",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Compiling a Neural Net to C for a 1,744× speedup",
+        "link": "https://slightknack.dev/blog/difflogic/",
+        "pubDate": "2025-05-27T00:00:00.000Z",
+        "contentSnippet": "tl;dr: I trained a neural network (NN), with logic gates in the place of activation functions, to learn a 3×3 kernel function for Conway’s Game of Life. I wanted to see if I could speed up inference b",
+        "creator": ""
+      },
+      {
+        "title": "Seeds of a Digital Garden",
+        "link": "https://slightknack.dev/blog/garden/",
+        "pubDate": "2025-04-25T00:00:00.000Z",
+        "contentSnippet": "N.B. I’m publishing some gems from writing I did over the course of two years while living in Brazil. Read the first post for more context.\n2022-12-03 · Isaac Clayton · 87 minutes spent\nOne problem I ",
+        "creator": ""
+      },
+      {
+        "title": "We need an LLVM project for browser engines",
+        "link": "https://slightknack.dev/blog/browser/",
+        "pubDate": "2025-04-18T00:00:00.000Z",
+        "contentSnippet": "N.B. I’m publishing some gems from writing I did over the course of two years while living in Brazil. Read the first post for more context.\n2023-09-13 · Isaac Clayton\nYou’re reading this in Chrome. Or",
+        "creator": ""
+      },
+      {
+        "title": "The Piano-Sleep Effect",
+        "link": "https://slightknack.dev/blog/sleep/",
+        "pubDate": "2025-04-17T00:00:00.000Z",
+        "contentSnippet": "An old note. I’m publishing a backlog of writing I’ve done. Read the first post for more context.\n2024-03-26 · Isaac Clayton\nI noticed something while playing the piano a while back that I thought was",
+        "creator": ""
+      },
+      {
+        "title": "Replication > REST",
+        "link": "https://slightknack.dev/blog/replication/",
+        "pubDate": "2025-04-16T00:00:00.000Z",
+        "contentSnippet": "I’m publishing a backlog of writing I’ve done. Read the first post for more context. On today’s menu: I have been thinking about CRDTs and synchronization for a few years (e.g. this old post about CRD",
+        "creator": ""
+      },
+      {
+        "title": "Habits for daily writing",
+        "link": "https://slightknack.dev/blog/writing/",
+        "pubDate": "2025-04-14T00:00:00.000Z",
+        "contentSnippet": "Context\nI wrote this piece—like, let’s see, gosh where did I put it… ah yes here it is—on 2022-11-26. That’s 870 days ago. For the non-walking calculators (non-calculating walkers?) among us, that’s 2",
+        "creator": ""
+      },
+      {
+        "title": "What's up with Haskell's do notation?",
+        "link": "https://slightknack.dev/blog/do-notation/",
+        "pubDate": "2025-01-30T00:00:00.000Z",
+        "contentSnippet": "Managing side effects in pure functional programming\nlanguages has always been something of a challenge.\nFunctions in purely functional languages produce outputs\nsolely dependent on their inputs, by d",
+        "creator": ""
+      },
+      {
+        "title": "Reasoning Trace",
+        "link": "https://slightknack.dev/blog/reasoning-trace/",
+        "pubDate": "2025-01-28T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "I'm offline, and that's OK",
+        "link": "https://slightknack.dev/blog/offline-ok/",
+        "pubDate": "2025-01-22T00:00:00.000Z",
+        "contentSnippet": "Stop showing me spinners, show me what’s loading.\nRecently, while on a trip between cities, we hit a patch of road without\ngood coverage. While on long trips, I enjoy reading books I have saved\non my ",
+        "creator": ""
+      },
+      {
+        "title": "One day with Zig, Raylib, and jj",
+        "link": "https://slightknack.dev/blog/zig-raylib/",
+        "pubDate": "2024-12-25T00:00:00.000Z",
+        "contentSnippet": "Merry Christmas!\nBack from the mission, first semester at MIT is in the books! Now I am at home, with family, on a break from school.\nA couple days ago, I was telling my younger brother how cool Zig (",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:02.281Z",
+    "lastFetched": "2025-08-05T16:47:09.738Z",
+    "allSeenPosts": [
+      "https://slightknack.dev/blog/difflogic/",
+      "https://slightknack.dev/blog/garden/",
+      "https://slightknack.dev/blog/browser/",
+      "https://slightknack.dev/blog/sleep/",
+      "https://slightknack.dev/blog/replication/",
+      "https://slightknack.dev/blog/writing/",
+      "https://slightknack.dev/blog/do-notation/",
+      "https://slightknack.dev/blog/reasoning-trace/",
+      "https://slightknack.dev/blog/offline-ok/",
+      "https://slightknack.dev/blog/zig-raylib/",
+      "https://slightknack.dev/blog/constraints/",
+      "https://slightknack.dev/blog/rust-cycles/",
+      "https://slightknack.dev/blog/shift/",
+      "https://slightknack.dev/blog/late/",
+      "https://slightknack.dev/passerine/traits-as/",
+      "https://slightknack.dev/blog/note/",
+      "https://slightknack.dev/blog/2027/",
+      "https://slightknack.dev/blog/dynamic-pow-backpressure/",
+      "https://slightknack.dev/blog/backing-crdt-store/",
+      "https://slightknack.dev/blog/nix-os-bindgen/",
+      "https://slightknack.dev/gallery/lenguas/",
+      "https://slightknack.dev/gallery/portal/",
+      "https://slightknack.dev/passerine/next-steps/",
+      "https://slightknack.dev/passerine/type-inference/",
+      "https://slightknack.dev/blog/first/",
+      "https://slightknack.dev/gallery/eye/",
+      "https://slightknack.dev/passerine/vaporization/",
+      "https://slightknack.dev/passerine/ffi-hard/",
+      "https://slightknack.dev/gallery/covid/",
+      "https://slightknack.dev/gallery/ten/",
+      "https://slightknack.dev/passerine/all-you-need/",
+      "https://slightknack.dev/passerine/schedule/",
+      "https://slightknack.dev/blog/parser/"
+    ]
+  },
+  {
+    "feedUrl": "https://www.journal.stuffwithstuff.com/rss.xml",
+    "title": "journal.stuffwithstuff.com",
+    "siteUrl": "http://journal.stuffwithstuff.com/",
+    "description": "Programming, languages, compilers, games, etc.",
+    "latestPosts": [
+      {
+        "title": "Setting Up an SDL3 Mac App in XCode 16",
+        "link": "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
+        "pubDate": "Sun, 13 Jul 2025 07:00:00 GMT",
+        "contentSnippet": "This is mainly a note for my future self, but making it a blog post in case it\nhelps anyone else. This weekend, I decided to try making a little SDL3 app on my\nnew M4 MacBook Pro. It took me a few hou",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "Consider Knitting",
+        "link": "http://journal.stuffwithstuff.com/2025/05/30/consider-knitting/",
+        "pubDate": "Fri, 30 May 2025 07:00:00 GMT",
+        "contentSnippet": "Let’s say that, like me, you are a person who stares at a computer and writes\ncode for a living. As a straight male who grew up in a time where knitting was\nvery strongly female coded, it for the most",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "Access Control Syntax",
+        "link": "http://journal.stuffwithstuff.com/2025/05/26/access-control-syntax/",
+        "pubDate": "Mon, 26 May 2025 07:00:00 GMT",
+        "contentSnippet": "I’m still tinkering on a scripting language for my hobby fantasy console\nproject. I’m ashamed to admit this, but up to this point, the language\nhad absolutely no notion of modules. Literally every sou",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "Does Go Have Subtyping?",
+        "link": "http://journal.stuffwithstuff.com/2023/10/19/does-go-have-subtyping/",
+        "pubDate": "Thu, 19 Oct 2023 07:00:00 GMT",
+        "contentSnippet": "I’ve been noodling on a static type system for my current hobby\nlanguage. To try to keep the language as simple as possible, I’m trying to see\nif I can live without subtyping. Since most of my program",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "Representing Heterogeneous Data",
+        "link": "http://journal.stuffwithstuff.com/2023/08/04/representing-heterogeneous-data/",
+        "pubDate": "Fri, 04 Aug 2023 07:00:00 GMT",
+        "contentSnippet": "As I mentioned in the last post, I’m working on taking my little videogame\nscripting language and turning it into a statically typed one. As much as\npossible, I’m trying to make the language simple an",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "Type Checking If Expressions",
+        "link": "http://journal.stuffwithstuff.com/2023/01/03/type-checking-if-expressions/",
+        "pubDate": "Tue, 03 Jan 2023 08:00:00 GMT",
+        "contentSnippet": "I have this hobby project I’ve been hacking on for several years. It’s a fantasy\nconsole, very much inspired by the delightful PICO-8. Like PICO-8, my\nconsole has its own built-in scripting language. ",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "Stupid Dog",
+        "link": "http://journal.stuffwithstuff.com/2022/02/13/stupid-dog/",
+        "pubDate": "Sun, 13 Feb 2022 08:00:00 GMT",
+        "contentSnippet": "It’s my 30th birthday, and Megan and I are walking down Duval Street in Key\nWest. There is a pet store here, which must be the most unlikely place for a pet\nstore in all the world. Everyone here is a ",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "640 Pages in 15 Months",
+        "link": "http://journal.stuffwithstuff.com/2021/07/29/640-pages-in-15-months/",
+        "pubDate": "Thu, 29 Jul 2021 07:00:00 GMT",
+        "contentSnippet": "My book Crafting Interpreters on programming languages is done. OK, OK.\nI know I said it was done like fifteen months ago. But now it’s really\ndone. And by that I mean, the print, e-book and PDF versi",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "Crafting “Crafting Interpreters”",
+        "link": "http://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/",
+        "pubDate": "Sun, 05 Apr 2020 07:00:00 GMT",
+        "contentSnippet": "It took three years and 200,000 words more than I expected, but my second book,\nCrafting Interpreters, is complete. I finished the third draft of the last\nchapter today, marking the last of around 1,4",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      },
+      {
+        "title": "40 Songs",
+        "link": "http://journal.stuffwithstuff.com/2018/05/19/40-songs/",
+        "pubDate": "Sat, 19 May 2018 07:00:00 GMT",
+        "contentSnippet": "I turned 40 today. Well, actually, as I’m writing this, I’m not yet 40. And,\nunless you happen to be reading this on the very day I post it, it’s no longer\nmy birthday. Chronology in text is weird.\nI’",
+        "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:05.205Z",
+    "lastFetched": "2025-08-05T16:47:13.079Z",
+    "allSeenPosts": [
+      "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
+      "http://journal.stuffwithstuff.com/2025/05/30/consider-knitting/",
+      "http://journal.stuffwithstuff.com/2025/05/26/access-control-syntax/",
+      "http://journal.stuffwithstuff.com/2023/10/19/does-go-have-subtyping/",
+      "http://journal.stuffwithstuff.com/2023/08/04/representing-heterogeneous-data/",
+      "http://journal.stuffwithstuff.com/2023/01/03/type-checking-if-expressions/",
+      "http://journal.stuffwithstuff.com/2022/02/13/stupid-dog/",
+      "http://journal.stuffwithstuff.com/2021/07/29/640-pages-in-15-months/",
+      "http://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/",
+      "http://journal.stuffwithstuff.com/2018/05/19/40-songs/"
+    ]
+  },
+  {
+    "feedUrl": "https://eieio.games/feed.xml",
+    "title": "eieio.games",
+    "siteUrl": "https://eieio.games",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Running a million-board chess MMO in a single process",
+        "link": "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
+        "pubDate": "2025-06-24T00:00:00.000Z",
+        "contentSnippet": "Running a million-board chess MMO in a single process\nRecently I made a game called One Million Chessboards. It's a realtime chess MMO played over a 1000x1000 grid of chess boards. Pieces can move bet",
+        "creator": ""
+      },
+      {
+        "title": "One Million Chessboards",
+        "link": "https://eieio.games/blog/one-million-chessboards",
+        "pubDate": "2025-04-28T00:00:00.000Z",
+        "contentSnippet": "One Million Chessboards\nI made a website. It's called One Million Chessboards. It has a million chessboards on it. Moving a piece moves it for everyone, instantly. There are no turns.\nRead the full po",
+        "creator": ""
+      },
+      {
+        "title": "Smile Like Zuck",
+        "link": "https://eieio.games/blog/smile-like-zuck",
+        "pubDate": "2025-03-10T00:00:00.000Z",
+        "contentSnippet": "Smile Like Zuck\nSometimes I'm photographed and I'm not sure how to smile. It's hard! There's a lot that you have to do with your mouth and eyes. Last week I decided to improve at this - and who better",
+        "creator": ""
+      },
+      {
+        "title": "Running Pong in 240 Browser Tabs",
+        "link": "https://eieio.games/blog/running-pong-in-240-browser-tabs",
+        "pubDate": "2025-02-20T00:00:00.000Z",
+        "contentSnippet": "Running Pong in 240 Browser Tabs\nSometimes I'm browsing the web and I open up a bunch of tabs. I never close them, and before I know it I've opened up like 240 tabs in a perfect grid 8x30 grid. This i",
+        "creator": ""
+      },
+      {
+        "title": "The time I Broke my High School Mail Server",
+        "link": "https://eieio.games/blog/breaking-my-highschool-mail-server",
+        "pubDate": "2025-02-11T00:00:00.000Z",
+        "contentSnippet": "The time I Broke my High School Mail Server\nFor 3 days in 2006, nobody at my high school could turn in homework because of my dumb joke. It's a fun story, and thinking about it leaves my grateful for ",
+        "creator": ""
+      },
+      {
+        "title": "Be Skeptical of All Code - Not Just the Funny Stuff",
+        "link": "https://eieio.games/blog/be-skeptical-of-all-code-not-just-the-funny-stuff",
+        "pubDate": "2025-02-08T00:00:00.000Z",
+        "contentSnippet": "Be Skeptical of All Code - Not Just the Funny Stuff\nShould you be more skeptical of code that is a 'self-admitted keylogger' than code that purports to be useful. I'm not so sure.\nRead the full post o",
+        "creator": ""
+      },
+      {
+        "title": "THE GLOBAL CAPSLOCK KEY",
+        "link": "https://eieio.games/blog/the-global-capslock-key",
+        "pubDate": "2025-02-05T00:00:00.000Z",
+        "contentSnippet": "THE GLOBAL CAPSLOCK KEY\nI MADE A GLOBAL CAPS LOCK KEY SO THAT WE CAN ALL AGREE ON WHEN TO USE CAPS LOCK. You can see the status and download the client at https://globalcapslock.com.\nRead the full pos",
+        "creator": ""
+      },
+      {
+        "title": "The NYC tech art games triangle",
+        "link": "https://eieio.games/blog/the-nyc-game-art-tech-triangle",
+        "pubDate": "2025-01-22T00:00:00.000Z",
+        "contentSnippet": "The NYC tech art games triangle\nI'm regularly asked about places that it's worth checking out if you're interested in weird tech/art/game stuff in NYC; this blog answers that question.\nRead the full p",
+        "creator": ""
+      },
+      {
+        "title": "1Crossword: crosswords for your password manager",
+        "link": "https://eieio.games/blog/1Crossword",
+        "pubDate": "2025-01-15T00:00:00.000Z",
+        "contentSnippet": "1Crossword: crosswords for your password manager\nI made a game. It's called 1Crossword. It generates crosswords using the passwords in your 1Password vault. The crosswords are fun, simple, and perfect",
+        "creator": ""
+      },
+      {
+        "title": "Bad Apple but it's 6,500 regexes that I search for in vim",
+        "link": "https://eieio.games/blog/bad-apple-with-regex-in-vim",
+        "pubDate": "2025-01-10T00:00:00.000Z",
+        "contentSnippet": "Bad Apple but it's 6,500 regexes that I search for in vim\nLook. There's simply no reason that I should have to exit vim when I want to watch Bad Apple, the shadow-art video that folks enjoy embedding ",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:06.525Z",
+    "lastFetched": "2025-08-05T16:47:14.287Z",
+    "allSeenPosts": [
+      "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
+      "https://eieio.games/blog/one-million-chessboards",
+      "https://eieio.games/blog/smile-like-zuck",
+      "https://eieio.games/blog/running-pong-in-240-browser-tabs",
+      "https://eieio.games/blog/breaking-my-highschool-mail-server",
+      "https://eieio.games/blog/be-skeptical-of-all-code-not-just-the-funny-stuff",
+      "https://eieio.games/blog/the-global-capslock-key",
+      "https://eieio.games/blog/the-nyc-game-art-tech-triangle",
+      "https://eieio.games/blog/1Crossword",
+      "https://eieio.games/blog/bad-apple-with-regex-in-vim"
+    ]
+  },
+  {
+    "feedUrl": "https://eev.ee/feeds/atom.xml",
+    "title": "fuzzy notepad",
+    "siteUrl": "https://eev.ee/",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "I am thirty-eight years old",
+        "link": "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
+        "pubDate": "2025-07-22T03:56:00.000Z",
+        "contentSnippet": "There are several old, personal events that I’ve been rotating in my head for a very long time.  I’m finally writing about them because I’ve just had the staggering realization that they all form one ",
+        "creator": ""
+      },
+      {
+        "title": "The rise of Whatever",
+        "link": "https://eev.ee/blog/2025/07/03/the-rise-of-whatever/",
+        "pubDate": "2025-07-04T00:26:00.000Z",
+        "contentSnippet": "This was originally titled “I miss when computers were fun”.  But in the course of writing it, I discovered that there is a reason computers became less fun, a dark thread woven through a number of ev",
+        "creator": ""
+      },
+      {
+        "title": "Anise lives",
+        "link": "https://eev.ee/blog/2025/06/10/anise-lives/",
+        "pubDate": "2025-06-10T09:00:00.000Z",
+        "contentSnippet": "(a post rescued from Cohost, originally Aug 2024)\nSome backstory may be necessary.\nSome backstory\nFIP is a cruel joke of a cat disease.  It’s a mutation of the feline coronavirus, which as you might i",
+        "creator": ""
+      },
+      {
+        "title": "🔞 vignettes",
+        "link": "https://eev.ee/blog/2025/04/21/vignettes/",
+        "pubDate": "2025-04-22T01:33:00.000Z",
+        "contentSnippet": "vignettes is the spicy visual novel we’ve been plugging away at for the past year or so.  It’s about transformation and sex and conflict and magic tricks.  I think it’s pretty good!  But I’m biased, s",
+        "creator": ""
+      },
+      {
+        "title": "Eevee gained 4,219 experience points…",
+        "link": "https://eev.ee/blog/2025/01/17/eevee-gained-4219-experience-points/",
+        "pubDate": "2025-01-18T04:00:00.000Z",
+        "contentSnippet": "Eevee grew to level 38!\nIt’s been a few years since I did one of these.  My birthday in 2022 was kind of overshadowed by the loss of our darling cat Pearl.  But I think I’d like to get back into it, t",
+        "creator": ""
+      },
+      {
+        "title": "Fresh start",
+        "link": "https://eev.ee/blog/2024/12/03/fresh-start/",
+        "pubDate": "2024-12-03T23:41:00.000Z",
+        "contentSnippet": "I hit a point where I just didn’t like this website any more.  It was too…  stuffy.  Posts kept getting longer, more elaborate, more time-consuming to write.  I didn’t recognize the tone any more, and",
+        "creator": ""
+      },
+      {
+        "title": "Monday Night Itch #1: Mystery Trap Adventure",
+        "link": "https://eev.ee/blog/2022/01/31/monday-night-itch-1-mystery-trap-adventure/",
+        "pubDate": "2022-02-01T05:15:00.000Z",
+        "contentSnippet": "Welcome to Monday Night Itch, a harebrained scheme to encourage folks to play more non-AAA games by adding a touch of social gamification.  I thought I would be tweeting my adventures here, but I just",
+        "creator": ""
+      },
+      {
+        "title": "Goodbye, Pearl",
+        "link": "https://eev.ee/blog/2022/01/25/goodbye-pearl/",
+        "pubDate": "2022-01-26T06:57:00.000Z",
+        "contentSnippet": "A Chronicling of the Lyfe and Times of one Miss Pearl Twig Woods, who has Passed at a Young Age from Troubles of the Heart.  She is survived by Anise, her Arch Nemesis; Cheeseball, her Adoptive Ruffia",
+        "creator": ""
+      },
+      {
+        "title": "Recommended GZDoom settings",
+        "link": "https://eev.ee/blog/2021/12/11/recommended-gzdoom-settings/",
+        "pubDate": "2021-12-12T02:58:00.000Z",
+        "contentSnippet": "GZDoom is the fanciest way to play Doom.  Unfortunately, it has also historically been difficult to recommend to newcomers, because its default settings are…  questionable.\nConspicuously, for over a d",
+        "creator": ""
+      },
+      {
+        "title": "Gamedev from scratch 1: Scaffolding",
+        "link": "https://eev.ee/blog/2021/01/26/gamedev-from-scratch-1-scaffolding/",
+        "pubDate": "2021-01-27T02:27:00.000Z",
+        "contentSnippet": "Welcome to part 1 of this narrative series about writing a complete video game from scratch, using the PICO-8.  This is actually the second part, because in this house (unlike Lua) we index from 0, so",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:11.558Z",
+    "lastFetched": "2025-08-05T16:47:18.263Z",
+    "allSeenPosts": [
+      "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
+      "https://eev.ee/blog/2025/07/03/the-rise-of-whatever/",
+      "https://eev.ee/blog/2025/06/10/anise-lives/",
+      "https://eev.ee/blog/2025/04/21/vignettes/",
+      "https://eev.ee/blog/2025/01/17/eevee-gained-4219-experience-points/",
+      "https://eev.ee/blog/2024/12/03/fresh-start/",
+      "https://eev.ee/blog/2022/01/31/monday-night-itch-1-mystery-trap-adventure/",
+      "https://eev.ee/blog/2022/01/25/goodbye-pearl/",
+      "https://eev.ee/blog/2021/12/11/recommended-gzdoom-settings/",
+      "https://eev.ee/blog/2021/01/26/gamedev-from-scratch-1-scaffolding/",
+      "https://eev.ee/blog/2021/01/24/eevee-gained-3367-experience-points/",
+      "https://eev.ee/blog/2020/11/30/cherry-kisses-on-steam/",
+      "https://eev.ee/blog/2020/11/30/gamedev-from-scratch-0-groundwork/",
+      "https://eev.ee/blog/2020/09/26/lexys-labyrinth/",
+      "https://eev.ee/blog/2020/08/04/fox-flux-three-years-later/",
+      "https://eev.ee/blog/2020/06/11/rowling-is-dangerously-wrong/",
+      "https://eev.ee/blog/2020/05/10/star-anise-chronicles-oh-no-wheres-twig/",
+      "https://eev.ee/blog/2020/02/01/old-css-new-css/",
+      "https://eev.ee/blog/2020/01/14/eevee-gained-3169-experience-points/",
+      "https://eev.ee/blog/2019/12/01/advent-calendar-2019/"
+    ]
+  },
+  {
+    "feedUrl": "https://blog.reverberate.org/feed.xml",
+    "title": "Josh Haberman",
+    "siteUrl": "https://blog.reverberate.org/",
+    "description": "Parsing, performance, and low-level programming.",
+    "latestPosts": [
+      {
+        "title": "A Tail Calling Interpreter For Python (And Other Updates)",
+        "link": "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
+        "pubDate": "Mon, 10 Feb 2025 00:00:00 +0000",
+        "contentSnippet": "It’s been nearly four years since I published Parsing Protobuf at 2+GB/s: How\nI Learned To Love Tail Calls in\nC.\nIn that article, I presented a technique I co-developed for how to write really\nfast in",
+        "creator": ""
+      },
+      {
+        "title": "No-Panic Rust: A Nice Technique for Systems Programming",
+        "link": "https://blog.reverberate.org/2025/02/03/no-panic-rust.html",
+        "pubDate": "Mon, 03 Feb 2025 00:00:00 +0000",
+        "contentSnippet": "Can Rust replace C? This is a question that has been on my mind for many years,\nas I created and now am tech lead for\nupb, a C library\nfor Protocol Buffers.  There is an understandable push to bring m",
+        "creator": ""
+      },
+      {
+        "title": "An Ode to Header Files",
+        "link": "https://blog.reverberate.org/2025/01/27/an-ode-to-header-files.html",
+        "pubDate": "Mon, 27 Jan 2025 00:00:00 +0000",
+        "contentSnippet": "C and C++ have a somewhat distinctive feature that almost no language since has\ndecided to replicate, which is to put public API declarations into separate\nfiles called header files:\n\n// square.h: def",
+        "creator": ""
+      },
+      {
+        "title": "Arenas and Rust",
+        "link": "https://blog.reverberate.org/2021/12/19/arenas-and-rust.html",
+        "pubDate": "Sun, 19 Dec 2021 00:00:00 +0000",
+        "contentSnippet": "For a while I’ve been wondering what it would be like to use\narenas in Rust.\nIn C and C++ I have been turning to arenas more and more as a fast alternative\nto heap allocation.  If you have a bunch of ",
+        "creator": ""
+      },
+      {
+        "title": "Thread Safety in C++ and Rust",
+        "link": "https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html",
+        "pubDate": "Sat, 18 Dec 2021 00:00:00 +0000",
+        "contentSnippet": "Lately I’ve been experimenting with Rust, and I want to report some of what\nI’ve learned about thread-safety.  I am an enthusiastic dabbler in Rust: I\nspend most of my time in C and C++, but I’m alway",
+        "creator": ""
+      },
+      {
+        "title": "Parsing Protobuf at 2+GB/s: How I Learned To Love Tail Calls in C",
+        "link": "https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html",
+        "pubDate": "Wed, 21 Apr 2021 00:00:00 +0000",
+        "contentSnippet": "[Note: there have been several developments in this space since this\narticle was published.  See A Tail Calling Interpreter For Python (And Other Updates) for the latest information about\nthis techniq",
+        "creator": ""
+      },
+      {
+        "title": "Hoare’s Rebuttal and Bubble Sort’s Comeback",
+        "link": "https://blog.reverberate.org/2020/05/29/hoares-rebuttal-bubble-sorts-comeback.html",
+        "pubDate": "Fri, 29 May 2020 00:00:00 +0000",
+        "contentSnippet": "Editor’s note: For this blog entry I welcome my friend and colleague Gerben Stavenga\nas a guest author.\nRecently Andrei Alexandrescu published an interesting\npost about optimizing\nQuickSort using the ",
+        "creator": ""
+      },
+      {
+        "title": "Optimizing UTC → Unix Time Conversion For Size And Speed",
+        "link": "https://blog.reverberate.org/2020/05/12/optimizing-date-algorithms.html",
+        "pubDate": "Tue, 12 May 2020 00:00:00 +0000",
+        "contentSnippet": "How do you convert a UTC timestamp to Unix\nTime (seconds since the\nepoch)?\n\n \"2020-04-29 04:48:15\" → 1588135695\n\n\nOf course the right answer is “you use a standard library function.”\nBut what if you d",
+        "creator": ""
+      },
+      {
+        "title": "Bloaty McBloatface 1.0",
+        "link": "https://blog.reverberate.org/2018/08/07/bloaty-1.0.html",
+        "pubDate": "Tue, 07 Aug 2018 00:00:00 +0000",
+        "contentSnippet": "Today I am releasing Bloaty McBloatface 1.0.\nBloaty is a size profiler for binaries.  It helps you peek into\nELF/Mach-O binaries to see what is taking up space inside.\nBloaty has gotten lots new featu",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:13.399Z",
+    "lastFetched": "2025-08-05T17:12:13.399Z",
+    "allSeenPosts": [
+      "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
+      "https://blog.reverberate.org/2025/02/03/no-panic-rust.html",
+      "https://blog.reverberate.org/2025/01/27/an-ode-to-header-files.html",
+      "https://blog.reverberate.org/2021/12/19/arenas-and-rust.html",
+      "https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html",
+      "https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html",
+      "https://blog.reverberate.org/2020/05/29/hoares-rebuttal-bubble-sorts-comeback.html",
+      "https://blog.reverberate.org/2020/05/12/optimizing-date-algorithms.html",
+      "https://blog.reverberate.org/2018/08/07/bloaty-1.0.html"
+    ]
+  },
+  {
+    "feedUrl": "https://hirrolot.github.io/rss.xml",
+    "title": "hirrolot",
+    "siteUrl": "https://hirrolot.github.io/",
+    "description": "My blog about programming and computer science.",
+    "latestPosts": [
+      {
+        "title": "Calculus of Constructions in 60 Lines of Ocaml",
+        "link": "",
+        "pubDate": "Thu, 23 Apr 2025 00:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:14.768Z",
+    "lastFetched": "2025-08-05T17:12:14.768Z",
+    "allSeenPosts": [
+      ""
+    ]
+  },
+  {
+    "feedUrl": "https://lisyarus.github.io/blog/feed.xml",
+    "title": "lisyarus blog",
+    "siteUrl": "https://lisyarus.github.io/blog",
+    "description": "I write stuff about math, simulation, graphics, gamedev, and programming",
+    "latestPosts": [
+      {
+        "title": "Particle Life simulation in browser using WebGPU",
+        "link": "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
+        "pubDate": "25 May 2025 12:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Estimating variance reduction in importance sampling",
+        "link": "https://lisyarus.github.io/blog/posts/estimating-variance-reduction-in-importance-sampling.html",
+        "pubDate": "16 Mar 2025 12:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Simulating water over terrain",
+        "link": "https://lisyarus.github.io/blog/posts/simulating-water-over-terrain.html",
+        "pubDate": "04 Feb 2025 18:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Exploring ways to mipmap alpha-tested textures",
+        "link": "https://lisyarus.github.io/blog/posts/exploring-ways-to-mipmap-alpha-tested-textures.html",
+        "pubDate": "05 Jan 2025 18:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Implementing a tiny CPU rasterizer | Part 3: Interpolating colors",
+        "link": "https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer-part-3.html",
+        "pubDate": "01 Nov 2024 11:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Implementing a tiny CPU rasterizer | Part 2: Drawing a triangle",
+        "link": "https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer-part-2.html",
+        "pubDate": "31 Oct 2024 18:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Implementing a tiny CPU rasterizer | Part 1: Clearing the screen",
+        "link": "https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer-part-1.html",
+        "pubDate": "30 Oct 2024 18:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "(Yet another) Introduction to quaternions",
+        "link": "https://lisyarus.github.io/blog/posts/introduction-to-quaternions.html",
+        "pubDate": "26 Oct 2024 18:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Transforming colors with matrices",
+        "link": "https://lisyarus.github.io/blog/posts/transforming-colors-with-matrices.html",
+        "pubDate": "10 Oct 2024 12:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Demystifying multiple importance sampling",
+        "link": "https://lisyarus.github.io/blog/posts/multiple-importance-sampling.html",
+        "pubDate": "25 Apr 2024 18:00:00 GMT",
+        "contentSnippet": "",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:16.079Z",
+    "lastFetched": "2025-08-05T17:12:16.079Z",
+    "allSeenPosts": [
+      "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
+      "https://lisyarus.github.io/blog/posts/estimating-variance-reduction-in-importance-sampling.html",
+      "https://lisyarus.github.io/blog/posts/simulating-water-over-terrain.html",
+      "https://lisyarus.github.io/blog/posts/exploring-ways-to-mipmap-alpha-tested-textures.html",
+      "https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer-part-3.html",
+      "https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer-part-2.html",
+      "https://lisyarus.github.io/blog/posts/implementing-a-tiny-cpu-rasterizer-part-1.html",
+      "https://lisyarus.github.io/blog/posts/introduction-to-quaternions.html",
+      "https://lisyarus.github.io/blog/posts/transforming-colors-with-matrices.html",
+      "https://lisyarus.github.io/blog/posts/multiple-importance-sampling.html",
+      "https://lisyarus.github.io/blog/posts/3d-shape-matching-with-quaternions.html",
+      "https://lisyarus.github.io/blog/posts/structural-mechanics-2.html",
+      "https://lisyarus.github.io/blog/posts/structural-mechanics.html",
+      "https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html",
+      "https://lisyarus.github.io/blog/posts/quaternion-derivatives.html",
+      "https://lisyarus.github.io/blog/posts/complex-derivatives.html",
+      "https://lisyarus.github.io/blog/posts/porting-for-android.html",
+      "https://lisyarus.github.io/blog/posts/gltf-animation.html",
+      "https://lisyarus.github.io/blog/posts/matrix-inverses.html",
+      "https://lisyarus.github.io/blog/posts/soft-body-physics.html",
+      "https://lisyarus.github.io/blog/posts/how-not-to-ui.html",
+      "https://lisyarus.github.io/blog/posts/blur-coefficients-generator.html",
+      "https://lisyarus.github.io/blog/posts/exponential-smoothing.html",
+      "https://lisyarus.github.io/blog/posts/animation-controller.html",
+      "https://lisyarus.github.io/blog/posts/building-a-quadtree.html",
+      "https://lisyarus.github.io/blog/posts/perfect-collisions.html",
+      "https://lisyarus.github.io/blog/posts/audio-mixing.html",
+      "https://lisyarus.github.io/blog/posts/behavior-trees.html",
+      "https://lisyarus.github.io/blog/posts/expanding-nd-array.html",
+      "https://lisyarus.github.io/blog/posts/texture-packing.html",
+      "https://lisyarus.github.io/blog/posts/point-light-attenuation.html",
+      "https://lisyarus.github.io/blog/posts/compute-blur.html"
+    ]
+  },
+  {
+    "feedUrl": "https://seiya.me/atom.xml",
+    "title": "seiya.me",
+    "siteUrl": "https://seiya.me",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Building Linux kernel on macOS natively",
+        "link": "https://seiya.me/blog/building-linux-on-macos-natively",
+        "pubDate": "2025-07-03T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Hypervisor as a Library",
+        "link": "https://seiya.me/blog/hypervisor-as-a-library",
+        "pubDate": "2025-05-20T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Implementing a RISC-V Hypervisor",
+        "link": "https://seiya.me/blog/riscv-hypervisor",
+        "pubDate": "2025-05-17T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Writing an OS in 1,000 Lines",
+        "link": "https://seiya.me/blog/operating-system-in-1000-lines-en",
+        "pubDate": "2024-12-09T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "How starina.dev works",
+        "link": "https://seiya.me/blog/how-starina-dev-works",
+        "pubDate": "2024-11-20T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Rethinking microkernels: Towards a modern general-purpose OS",
+        "link": "https://seiya.me/blog/rethinking-microkernels",
+        "pubDate": "2024-11-11T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Exploring the internals of Linux v0.01",
+        "link": "https://seiya.me/blog/reading-linux-v0.01",
+        "pubDate": "2023-08-12T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "1,000行で作るオペレーティングシステム",
+        "link": "https://seiya.me/blog/operating-system-in-1000-lines",
+        "pubDate": "2023-08-11T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "マイクロカーネルの本を書きました (5月18日販売)",
+        "link": "https://seiya.me/blog/microkernel-book-2023",
+        "pubDate": "2023-05-04T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "この個人サイトは自作OSで動いています",
+        "link": "https://seiya.me/blog/this-website-is-now-powered-by-kerla",
+        "pubDate": "2021-12-23T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:32.314Z",
+    "lastFetched": "2025-08-05T17:12:32.314Z",
+    "allSeenPosts": [
+      "https://seiya.me/blog/gsoc19",
+      "https://seiya.me/blog/writing-a-microkernel-from-scratch",
+      "https://seiya.me/blog/microkernel-book",
+      "https://seiya.me/blog/implementing-linux-abi",
+      "https://seiya.me/blog/resea-on-google-compute-engine",
+      "https://seiya.me/blog/intel-hd-audio",
+      "https://seiya.me/blog/implementing-hypervisor-on-resea",
+      "https://seiya.me/blog/my-kernel-is-too-fast-for-virbr0",
+      "https://seiya.me/blog/writing-linux-clone-in-rust",
+      "https://seiya.me/blog/resea-101",
+      "https://seiya.me/blog/this-website-is-now-powered-by-kerla",
+      "https://seiya.me/blog/microkernel-book-2023",
+      "https://seiya.me/blog/operating-system-in-1000-lines",
+      "https://seiya.me/blog/reading-linux-v0.01",
+      "https://seiya.me/blog/rethinking-microkernels",
+      "https://seiya.me/blog/how-starina-dev-works",
+      "https://seiya.me/blog/operating-system-in-1000-lines-en",
+      "https://seiya.me/blog/riscv-hypervisor",
+      "https://seiya.me/blog/hypervisor-as-a-library",
+      "https://seiya.me/blog/building-linux-on-macos-natively"
+    ]
+  },
+  {
+    "feedUrl": "https://www.brendangregg.com/blog/rss.xml",
+    "title": "Brendan Gregg's Blog",
+    "siteUrl": "http://www.brendangregg.com/blog",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "When to Hire a Computer Performance Engineering Team (2025) part 1 of 2",
+        "link": "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
+        "pubDate": "Mon, 04 Aug 2025 00:00:00 +1000",
+        "contentSnippet": "As a leader in computer performance I've been asked by companies about how (and why) to form a performance engineering team, and as this is broadly useful I'll share my advice here.\nLarge tech compani",
+        "creator": ""
+      },
+      {
+        "title": "3 Years of Extremely Remote Work",
+        "link": "http://www.brendangregg.com/blog//2025-05-22/3-years-of-extremely-remote-work.html",
+        "pubDate": "Thu, 22 May 2025 00:00:00 +1000",
+        "contentSnippet": "In the last 3 years I've attended 77 meetings that began between 1am and 6am, roughly once every two weeks, followed by my usual 7am start, Monday to Saturday. I'm working remotely from Australia for ",
+        "creator": ""
+      },
+      {
+        "title": "Doom GPU Flame Graphs",
+        "link": "http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html",
+        "pubDate": "Thu, 01 May 2025 00:00:00 +1000",
+        "contentSnippet": "AI Flame Graphs are now open source and include Intel Battlemage GPU support, which means it can also generate full-stack GPU flame graphs for providing new insights into gaming performance, especiall",
+        "creator": ""
+      },
+      {
+        "title": "AI Flame Graphs",
+        "link": "http://www.brendangregg.com/blog//2024-10-29/ai-flame-graphs.html",
+        "pubDate": "Tue, 29 Oct 2024 00:00:00 +1100",
+        "contentSnippet": "Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 20301.",
+        "creator": ""
+      },
+      {
+        "title": "No More Blue Fridays",
+        "link": "http://www.brendangregg.com/blog//2024-07-22/no-more-blue-fridays.html",
+        "pubDate": "Mon, 22 Jul 2024 00:00:00 +1000",
+        "contentSnippet": "In the future, computers will not crash due to bad software updates, even those updates that involve kernel code. In the future, these updates will push eBPF code.\nFriday July 19th provided an unprece",
+        "creator": ""
+      },
+      {
+        "title": "Linux Crisis Tools",
+        "link": "http://www.brendangregg.com/blog//2024-03-24/linux-crisis-tools.html",
+        "pubDate": "Sun, 24 Mar 2024 00:00:00 +1100",
+        "contentSnippet": "When you have an outage caused by a performance issue, you don't want to lose precious time just to install the tools needed to diagnose it. Here is a list of \"crisis tools\" I recommend installing on ",
+        "creator": ""
+      },
+      {
+        "title": "The Return of the Frame Pointers",
+        "link": "http://www.brendangregg.com/blog//2024-03-17/the-return-of-the-frame-pointers.html",
+        "pubDate": "Sun, 17 Mar 2024 00:00:00 +1100",
+        "contentSnippet": "Sometimes debuggers and profilers are obviously broken, sometimes it's subtle and hard to spot. From my flame graphs page:\n\nCPU flame graph (partly broken)\n(Click for original SVG.) This is pretty com",
+        "creator": ""
+      },
+      {
+        "title": "eBPF Documentary",
+        "link": "http://www.brendangregg.com/blog//2024-03-10/ebpf-documentary.html",
+        "pubDate": "Sun, 10 Mar 2024 00:00:00 +1100",
+        "contentSnippet": "eBPF is a crazy technology – like putting JavaScript into the Linux kernel –  and getting it accepted had so far been an untold story of strategy and ingenuity. The eBPF documentary, published late la",
+        "creator": ""
+      },
+      {
+        "title": "eBPF Observability Tools Are Not Security Tools",
+        "link": "http://www.brendangregg.com/blog//2023-04-28/ebpf-security-issues.html",
+        "pubDate": "Fri, 28 Apr 2023 00:00:00 +1000",
+        "contentSnippet": "eBPF has many uses in improving computer security, but just taking eBPF observability tools as-is and using them for security monitoring would be like driving your car into the ocean and expecting it ",
+        "creator": ""
+      },
+      {
+        "title": "USENIX SREcon APAC 2022: Computing Performance: What's on the Horizon",
+        "link": "http://www.brendangregg.com/blog//2023-03-01/computer-performance-future-2022.html",
+        "pubDate": "Wed, 01 Mar 2023 00:00:00 +1100",
+        "contentSnippet": "At USENIX SREcon22 APAC I gave the opening keynote on the future of computer performance, rounding up the latest developments and making predictions of where I see things heading. This talk originated",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:35.732Z",
+    "lastFetched": "2025-08-05T17:12:35.732Z",
+    "allSeenPosts": [
+      "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
+      "http://www.brendangregg.com/blog//2025-05-22/3-years-of-extremely-remote-work.html",
+      "http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html",
+      "http://www.brendangregg.com/blog//2024-10-29/ai-flame-graphs.html",
+      "http://www.brendangregg.com/blog//2024-07-22/no-more-blue-fridays.html",
+      "http://www.brendangregg.com/blog//2024-03-24/linux-crisis-tools.html",
+      "http://www.brendangregg.com/blog//2024-03-17/the-return-of-the-frame-pointers.html",
+      "http://www.brendangregg.com/blog//2024-03-10/ebpf-documentary.html",
+      "http://www.brendangregg.com/blog//2023-04-28/ebpf-security-issues.html",
+      "http://www.brendangregg.com/blog//2023-03-01/computer-performance-future-2022.html"
+    ]
+  },
+  {
+    "feedUrl": "https://caseymuratori.com/blog_atom.rss",
+    "title": "Casey Muratori's Blog",
+    "siteUrl": "https://caseymuratori.com/blog",
+    "description": "Personal stuff.",
+    "latestPosts": [
+      {
+        "title": "Printing Presses Are Giant GPUs",
+        "link": "https://caseymuratori.com/blog_0038",
+        "pubDate": "Tue, 28 Apr 2020 00:00:00 GMT",
+        "contentSnippet": "The more I learn about printing presses, the more they seem like giant GPUs.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "Jittering Fonts in Photoshop with Prime Pussify",
+        "link": "https://caseymuratori.com/blog_0037",
+        "pubDate": "Sat, 18 Apr 2020 00:00:00 GMT",
+        "contentSnippet": "A Photoshop script for randomizing per-character font attributes on text layers.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "Stable Filtering  -  Part 2",
+        "link": "https://caseymuratori.com/blog_0036",
+        "pubDate": "Mon, 25 Mar 2019 00:00:00 GMT",
+        "contentSnippet": "How to make a filter than can be implied an infinite number of times without producing artifacts and remain nearly indistinguishable from the original image.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "Stable Filtering  -  Part 1",
+        "link": "https://caseymuratori.com/blog_0035",
+        "pubDate": "Tue, 05 Mar 2019 00:00:00 GMT",
+        "contentSnippet": "How to make a filter that can be applied millions of times without producing artifacts.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "How to get clang++ to find link.exe",
+        "link": "https://caseymuratori.com/blog_0034",
+        "pubDate": "Wed, 23 Jan 2019 00:00:00 GMT",
+        "contentSnippet": "As of version 8.0.0, clang on Windows requires some gyrations if you want to tell it where link.exe is located.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "How close is WinDBG Preview to an everyday debugger?",
+        "link": "https://caseymuratori.com/blog_0033",
+        "pubDate": "Wed, 09 Jan 2019 00:00:00 GMT",
+        "contentSnippet": "A look at what Microsoft has been doing to improve the usability of WinDBG, and what's still missing.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "Killing the Walk Monster (2018)",
+        "link": "https://caseymuratori.com/blog_0032",
+        "pubDate": "Thu, 11 Oct 2018 00:00:00 GMT",
+        "contentSnippet": "My BICFest 2018 lecture overview of the movement system I developed for The Witness.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "The Thirty-Million-Line Problem (2015)",
+        "link": "https://caseymuratori.com/blog_0031",
+        "pubDate": "Mon, 21 May 2018 00:00:00 GMT",
+        "contentSnippet": "A lecture from 2015 that argues for moving away from drivers and toward ISAs.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "Papers I Have Loved (2016)",
+        "link": "https://caseymuratori.com/blog_0030",
+        "pubDate": "Mon, 05 Feb 2018 00:00:00 GMT",
+        "contentSnippet": "A lecture from the 2016 Papers We Love conference about papers that proved inspirational to new work.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      },
+      {
+        "title": "How to Open a Black Box (2007)",
+        "link": "https://caseymuratori.com/blog_0029",
+        "pubDate": "Mon, 05 Feb 2018 00:00:00 GMT",
+        "contentSnippet": "A look back at the development of normal mapping technology as a motivating example of why understanding concepts at a deep level is important for game engine programming.",
+        "creator": "casey@mollyrocket.com (Casey Muratori)"
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:37.376Z",
+    "lastFetched": "2025-08-05T17:12:37.376Z",
+    "allSeenPosts": [
+      "https://caseymuratori.com/blog_0038",
+      "https://caseymuratori.com/blog_0037",
+      "https://caseymuratori.com/blog_0036",
+      "https://caseymuratori.com/blog_0035",
+      "https://caseymuratori.com/blog_0034",
+      "https://caseymuratori.com/blog_0033",
+      "https://caseymuratori.com/blog_0032",
+      "https://caseymuratori.com/blog_0031",
+      "https://caseymuratori.com/blog_0030",
+      "https://caseymuratori.com/blog_0029",
+      "https://caseymuratori.com/blog_0028",
+      "https://caseymuratori.com/blog_0027",
+      "https://caseymuratori.com/blog_0026",
+      "https://caseymuratori.com/blog_0025",
+      "https://caseymuratori.com/blog_0024",
+      "https://caseymuratori.com/blog_0023",
+      "https://caseymuratori.com/blog_0022",
+      "https://caseymuratori.com/blog_0021",
+      "https://caseymuratori.com/blog_0020",
+      "https://caseymuratori.com/blog_0019",
+      "https://caseymuratori.com/blog_0018",
+      "https://caseymuratori.com/blog_0017",
+      "https://caseymuratori.com/blog_0016",
+      "https://caseymuratori.com/blog_0015",
+      "https://caseymuratori.com/blog_0014",
+      "https://caseymuratori.com/blog_0013",
+      "https://caseymuratori.com/blog_0012",
+      "https://caseymuratori.com/blog_0011",
+      "https://caseymuratori.com/blog_0010",
+      "https://caseymuratori.com/blog_0009",
+      "https://caseymuratori.com/blog_0008",
+      "https://caseymuratori.com/blog_0007",
+      "https://caseymuratori.com/blog_0006",
+      "https://caseymuratori.com/blog_0005",
+      "https://caseymuratori.com/blog_0004",
+      "https://caseymuratori.com/blog_0003",
+      "https://caseymuratori.com/blog_0002",
+      "https://caseymuratori.com/blog_0001"
+    ]
+  },
+  {
+    "feedUrl": "https://feeds.feedburner.com/martinkl",
+    "title": "Martin Kleppmann's blog",
+    "siteUrl": "http://martin.kleppmann.com/",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Pudding: user discovery for anonymity networks",
+        "link": "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
+        "pubDate": "Fri, 05 Jul 2024 00:00:00 +0000",
+        "contentSnippet": "I’d like to introduce an exciting new research paper I worked on! It’s about a system called Pudding, and it was presented by Ceren at the IEEE Symposium on Security and Privacy, one of the top academ",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "2023 year in review",
+        "link": "http://martin.kleppmann.com/2024/01/04/year-in-review.html",
+        "pubDate": "Thu, 04 Jan 2024 00:00:00 +0000",
+        "contentSnippet": "A lot has happened in the last year, so I thought it would be good to write up a review. My biggest change in 2023 was that my wife and I had a baby! This has brought a mixture of joys and frustration",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "Verifying distributed systems with Isabelle/HOL",
+        "link": "http://martin.kleppmann.com/2022/10/12/verifying-distributed-systems-isabelle.html",
+        "pubDate": "Wed, 12 Oct 2022 00:00:00 +0000",
+        "contentSnippet": "This post also appears on Larry Paulson’s blog. We use distributed systems every day in the form of internet services. These systems are very useful, but also challenging to implement because networks",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "Book Review: The Future of Fusion Energy",
+        "link": "http://martin.kleppmann.com/2022/01/03/future-of-fusion-energy.html",
+        "pubDate": "Mon, 03 Jan 2022 00:00:00 +0000",
+        "contentSnippet": "I give a five-star ⭐️⭐️⭐️⭐️⭐️ rating to the following book: Jason Parisi and Justin Ball. The Future of Fusion Energy. World Scientific, 2019. ISBN 978-1-78634-749-7. Available from Amazon US, Amazon ",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "Several podcast interviews",
+        "link": "http://martin.kleppmann.com/2021/09/01/podcast-interviews.html",
+        "pubDate": "Wed, 01 Sep 2021 00:00:00 +0000",
+        "contentSnippet": "I regularly get asked to give interviews on the topics that I work on, especially for podcasts. To make them easier to find for anybody who’s interested, I thought I would make a list. They touch on a",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "It's time to say goodbye to the GPL",
+        "link": "http://martin.kleppmann.com/2021/04/14/goodbye-gpl.html",
+        "pubDate": "Wed, 14 Apr 2021 00:00:00 +0000",
+        "contentSnippet": "The trigger for this post is the reinstating of Richard Stallman, a very problematic character, to the board of the Free Software Foundation (FSF). I am appalled by this move, and join others in the c",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "Building the future of computing, with your help",
+        "link": "http://martin.kleppmann.com/2021/02/23/patreon.html",
+        "pubDate": "Tue, 23 Feb 2021 00:00:00 +0000",
+        "contentSnippet": "For the last five or six years, since I bid goodbye to the startup scene and Silicon Valley, I have been increasingly working in public. I have written a book, given around 100 talks (many of which ar",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "Decentralised content moderation",
+        "link": "http://martin.kleppmann.com/2021/01/13/decentralised-content-moderation.html",
+        "pubDate": "Wed, 13 Jan 2021 00:00:00 +0000",
+        "contentSnippet": "Who is doing interesting work on decentralised content moderation? With Donald Trump suspended from Twitter and Facebook, and Parler kicked off AWS, there is renewed discussion about what sort of spee",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "Using Bloom filters to efficiently synchronise hash graphs",
+        "link": "http://martin.kleppmann.com/2020/12/02/bloom-filter-hash-graph-sync.html",
+        "pubDate": "Wed, 02 Dec 2020 00:00:00 +0000",
+        "contentSnippet": "This blog post uses MathJax to render mathematics. You need JavaScript enabled for MathJax to work. In some recent research, Heidi and I needed to solve the following problem. Say you want to sync a h",
+        "creator": "Martin Kleppmann"
+      },
+      {
+        "title": "New courses on distributed systems and elliptic curve cryptography",
+        "link": "http://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html",
+        "pubDate": "Wed, 18 Nov 2020 00:00:00 +0000",
+        "contentSnippet": "I have just published new educational materials that might be of interest to computing people: a new 8-lecture course on distributed systems, and a tutorial on elliptic curve cryptography. Distributed",
+        "creator": "Martin Kleppmann"
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:39.563Z",
+    "lastFetched": "2025-08-05T17:12:39.563Z",
+    "allSeenPosts": [
+      "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
+      "http://martin.kleppmann.com/2024/01/04/year-in-review.html",
+      "http://martin.kleppmann.com/2022/10/12/verifying-distributed-systems-isabelle.html",
+      "http://martin.kleppmann.com/2022/01/03/future-of-fusion-energy.html",
+      "http://martin.kleppmann.com/2021/09/01/podcast-interviews.html",
+      "http://martin.kleppmann.com/2021/04/14/goodbye-gpl.html",
+      "http://martin.kleppmann.com/2021/02/23/patreon.html",
+      "http://martin.kleppmann.com/2021/01/13/decentralised-content-moderation.html",
+      "http://martin.kleppmann.com/2020/12/02/bloom-filter-hash-graph-sync.html",
+      "http://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html"
+    ]
+  },
+  {
+    "feedUrl": "https://www.daemonology.net/blog/index.rss",
+    "title": "Daemonic Dispatches",
+    "siteUrl": "https://www.daemonology.net/blog/",
+    "description": "Musings from Colin Percival",
+    "latestPosts": [
+      {
+        "title": "A year of funded FreeBSD",
+        "link": "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
+        "pubDate": "Fri, 06 Jun 2025 19:30:00 +0000",
+        "contentSnippet": "I've been maintaining\nFreeBSD on the\nAmazon EC2 platform ever since I\nfirst got it booting in 2010, but in\nNovember\n2023 I added to my responsibilities the role of FreeBSD release\nengineering lead — j",
+        "creator": ""
+      },
+      {
+        "title": "Chunking attacks on Tarsnap (and others)",
+        "link": "https://www.daemonology.net/blog/2025-03-21-Chunking-attacks-on-Tarsnap.html",
+        "pubDate": "Fri, 21 Mar 2025 19:00:00 +0000",
+        "contentSnippet": "Ten years ago I wrote that\nit would require\nsomeone smarter than me to extract information from the way that\nTarsnap splits data into chunks.\nWell, I never claimed to be the smartest person in the wor",
+        "creator": ""
+      },
+      {
+        "title": "My re:Invent asks",
+        "link": "https://www.daemonology.net/blog/2024-12-04-My-reinvent-asks.html",
+        "pubDate": "Wed, 04 Dec 2024 02:30:00 +0000",
+        "contentSnippet": "As an AWS Hero\nI get free admission to the AWS\nre:Invent conference; while it's rare that I'm interested in many talks\n— in previous years I've attended \"Advanced\" talks which didn't say\nanything whic",
+        "creator": ""
+      },
+      {
+        "title": "Generalist AI doesn't scale",
+        "link": "https://www.daemonology.net/blog/2024-04-06-Generalist-AI-doesnt-scale.html",
+        "pubDate": "Sat, 06 Apr 2024 15:30:00 +0000",
+        "contentSnippet": "There has been a lot of talk about AI recently, and one particular point\nhas received sigificant attention in the tech industry: The cost of\ntraining models.  According to some insiders — and the mark",
+        "creator": ""
+      },
+      {
+        "title": "Please test: FreeBSD 13.3-RC1",
+        "link": "https://www.daemonology.net/blog/2024-02-26-Please-test-FreeBSD-13.3-RC1.html",
+        "pubDate": "Mon, 26 Feb 2024 22:45:00 +0000",
+        "contentSnippet": "I just announced the availability of\nFreeBSD 13.3-RC1.\nThis is the first release candidate of FreeBSD 13.3, and if no further\nissues are reported will be the only release candidate; I would\nlike to st",
+        "creator": ""
+      },
+      {
+        "title": "An APPR claim with Air Canada",
+        "link": "https://www.daemonology.net/blog/2024-01-10-An-APPR-claim-with-Air-Canada.html",
+        "pubDate": "Wed, 10 Jan 2024 17:55:00 +0000",
+        "contentSnippet": "Like most countries now, Canada has regulations requiring passengers to\nbe compensated for flight delays under certain circumstances; Canada's\nregulations are called the Air Passenger Protection Regul",
+        "creator": ""
+      },
+      {
+        "title": "A Canadian payroll dependency chart",
+        "link": "https://www.daemonology.net/blog/2023-12-31-Canadian-payroll-dependency-chart.html",
+        "pubDate": "Sun, 31 Dec 2023 00:00:00 +0000",
+        "contentSnippet": "The Canada Revenue Agency publishes, on a regular basis (they're now up to\nthe 119th edition), a document entitled\n\"Payroll\nDeductions Formulas\".  This document contains all of the formulas needed\nto ",
+        "creator": ""
+      },
+      {
+        "title": "Some late-breaking FreeBSD 14 breakage",
+        "link": "https://www.daemonology.net/blog/2023-11-21-late-breaking-FreeBSD-14-breakage.html",
+        "pubDate": "Tue, 21 Nov 2023 18:35:00 +0000",
+        "contentSnippet": "I assumed the role of FreeBSD Release Engineering Lead a few days ago, and\none of my first duties in the role was to write and send out the\nFreeBSD\n14.0-RELEASE announcement.  (To be clear: Glen Barbe",
+        "creator": ""
+      },
+      {
+        "title": "Tarsnap has given 2^18 dollars to open source",
+        "link": "https://www.daemonology.net/blog/2023-10-25-2^18-dollars-to-open-source.html",
+        "pubDate": "Wed, 25 Oct 2023 07:35:00 +0000",
+        "contentSnippet": "Yesterday I read a great article from Sentry entitled\n\"We\nJust Gave $500,000 to Open Source Maintainers\", and it made me wonder\njust how much Tarsnap had spent\non supporting open source software over ",
+        "creator": ""
+      },
+      {
+        "title": "Announcing the FreeBSD/Firecracker platform",
+        "link": "https://www.daemonology.net/blog/2022-10-18-FreeBSD-Firecracker.html",
+        "pubDate": "Tue, 18 Oct 2022 06:05:00 +0000",
+        "contentSnippet": "The Firecracker\nVirtual Machine Monitor was developed at Amazon Web Services as a\nbuilding block for services like\nAWS Lambda and\nAWS Fargate.\nWhile there are many ways of launching and managing VMs, ",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:41.570Z",
+    "lastFetched": "2025-08-05T17:12:41.570Z",
+    "allSeenPosts": [
+      "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
+      "https://www.daemonology.net/blog/2025-03-21-Chunking-attacks-on-Tarsnap.html",
+      "https://www.daemonology.net/blog/2024-12-04-My-reinvent-asks.html",
+      "https://www.daemonology.net/blog/2024-04-06-Generalist-AI-doesnt-scale.html",
+      "https://www.daemonology.net/blog/2024-02-26-Please-test-FreeBSD-13.3-RC1.html",
+      "https://www.daemonology.net/blog/2024-01-10-An-APPR-claim-with-Air-Canada.html",
+      "https://www.daemonology.net/blog/2023-12-31-Canadian-payroll-dependency-chart.html",
+      "https://www.daemonology.net/blog/2023-11-21-late-breaking-FreeBSD-14-breakage.html",
+      "https://www.daemonology.net/blog/2023-10-25-2^18-dollars-to-open-source.html",
+      "https://www.daemonology.net/blog/2022-10-18-FreeBSD-Firecracker.html"
+    ]
+  },
+  {
+    "feedUrl": "https://bcantrill.dtrace.org/index.xml",
+    "title": "The Observation Deck",
+    "siteUrl": "https://bcantrill.dtrace.org/",
+    "description": "Recent content on The Observation Deck",
+    "latestPosts": [
+      {
+        "title": "The end game for John Fisher",
+        "link": "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
+        "pubDate": "Sun, 29 Jun 2025 00:00:00 +0000",
+        "contentSnippet": "A year and a half ago,\nI wrote about the unconscionable John Fisher,\nthe inept, soulless owner of the formerly-Oakland A’s.\nWhen the\nteam announced that it would be temporarily crashing\non Sacramento’",
+        "creator": ""
+      },
+      {
+        "title": "College Baseball, Venture Capital, and the Long Maybe",
+        "link": "https://bcantrill.dtrace.org/2025/06/15/college-baseball-venture-capital-and-the-long-maybe/",
+        "pubDate": "Sun, 15 Jun 2025 00:00:00 +0000",
+        "contentSnippet": "My son is a college baseball player.\nOne of the singular aspects of having kids is that they open your eyes to\nfacets of humanity that you might not have seen otherwise.\nI was not a college athlete (a",
+        "creator": ""
+      },
+      {
+        "title": "RIP USENIX ATC",
+        "link": "https://bcantrill.dtrace.org/2025/05/11/rip-usenix-atc/",
+        "pubDate": "Sun, 11 May 2025 00:00:00 +0000",
+        "contentSnippet": "USENIX made the decision this week to\ndiscontinue its flagship\nAnnual Technical Conference.  When USENIX was started in 1975 — before the\nInternet, really — conferences were the fastest vector for pra",
+        "creator": ""
+      },
+      {
+        "title": "Oxide’s compensation model: How is it going?",
+        "link": "https://bcantrill.dtrace.org/2025/05/01/oxides-compensation-model-how-is-it-going/",
+        "pubDate": "Thu, 01 May 2025 00:00:00 +0000",
+        "contentSnippet": "How it started\nFour years ago, we were struggling to hire. Our team was small (~23\nemployees), and we knew that we needed many more people to execute on our\naudacious vision.  While we had\nhad success",
+        "creator": ""
+      },
+      {
+        "title": "Why Gelsinger was wrong for Intel",
+        "link": "https://bcantrill.dtrace.org/2024/12/08/why-gelsinger-was-wrong-for-intel/",
+        "pubDate": "Sun, 08 Dec 2024 00:00:00 +0000",
+        "contentSnippet": "By all accounts, Pat Gelsinger is affable, technically sharp, hard-working, and decent.\nThose who have worked for him praise him as a singularly good manager.\nIn January 2021, when Gelsinger was abrup",
+        "creator": ""
+      },
+      {
+        "title": "dtrace.conf(24)",
+        "link": "https://bcantrill.dtrace.org/2024/12/05/dtrace.conf24/",
+        "pubDate": "Thu, 05 Dec 2024 00:00:00 +0000",
+        "contentSnippet": "Sometime in late 2007, we had the idea of a DTrace conference.\nOr really, more of a meetup; from the primordial e-mail I sent:\nThe goal here, by the way, is not a DTrace user group, but more of a\nface",
+        "creator": ""
+      },
+      {
+        "title": "Blogging through the decades",
+        "link": "https://bcantrill.dtrace.org/2024/11/16/blogging-through-the-decades/",
+        "pubDate": "Sat, 16 Nov 2024 00:00:00 +0000",
+        "contentSnippet": "Over the summer, I hit an anniversary of sorts:  I’ve been blogging for\ntwo decades (!).\nFor reasons I’ll get to, I’ve been reflecting back on\nmy history of writing in general and blogging in particul",
+        "creator": ""
+      },
+      {
+        "title": "Remembering Charles Beeler",
+        "link": "https://bcantrill.dtrace.org/2024/11/12/remembering-charles-beeler/",
+        "pubDate": "Tue, 12 Nov 2024 00:00:00 +0000",
+        "contentSnippet": "Note: This was co-authored with Steve Tuck, and originally appeared\non the Oxide blog.\nWe are heartbroken to relay that Charles Beeler, a friend and early investor\nin Oxide, passed\naway in September a",
+        "creator": ""
+      },
+      {
+        "title": "Reflections on Founder Mode",
+        "link": "https://bcantrill.dtrace.org/2024/09/02/reflections-on-founder-mode/",
+        "pubDate": "Mon, 02 Sep 2024 00:00:00 +0000",
+        "contentSnippet": "Paul Graham’s Founder Mode is an important piece, and you should read it if for no other reason that “founder mode” will surely enter the lexicon (and as Graham grimly predicts: “as soon as the concep",
+        "creator": ""
+      },
+      {
+        "title": "Engineering a culture",
+        "link": "https://bcantrill.dtrace.org/2024/03/31/engineering-a-culture/",
+        "pubDate": "Sun, 31 Mar 2024 00:00:00 +0000",
+        "contentSnippet": "We ran into an interesting issue recently.  On the one hand, it was routine:\nwe had a bug — a regression — and the team quickly jumped on it, getting\nit root caused and fixed.  But on the other, this ",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:44.760Z",
+    "lastFetched": "2025-08-05T17:12:44.760Z",
+    "allSeenPosts": [
+      "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
+      "https://bcantrill.dtrace.org/2025/06/15/college-baseball-venture-capital-and-the-long-maybe/",
+      "https://bcantrill.dtrace.org/2025/05/11/rip-usenix-atc/",
+      "https://bcantrill.dtrace.org/2025/05/01/oxides-compensation-model-how-is-it-going/",
+      "https://bcantrill.dtrace.org/2024/12/08/why-gelsinger-was-wrong-for-intel/",
+      "https://bcantrill.dtrace.org/2024/12/05/dtrace.conf24/",
+      "https://bcantrill.dtrace.org/2024/11/16/blogging-through-the-decades/",
+      "https://bcantrill.dtrace.org/2024/11/12/remembering-charles-beeler/",
+      "https://bcantrill.dtrace.org/2024/09/02/reflections-on-founder-mode/",
+      "https://bcantrill.dtrace.org/2024/03/31/engineering-a-culture/",
+      "https://bcantrill.dtrace.org/2024/02/20/moores-scofflaws/",
+      "https://bcantrill.dtrace.org/2023/11/26/what-punch-cards-teach-us-about-ai-risk/",
+      "https://bcantrill.dtrace.org/2023/11/18/is-it-worse-for-john-fisher/",
+      "https://bcantrill.dtrace.org/2023/10/26/the-cloud-computer/",
+      "https://bcantrill.dtrace.org/2022/11/27/homebrew-social-networking/",
+      "https://bcantrill.dtrace.org/2022/11/05/twitter-when-the-wall-came-down/",
+      "https://bcantrill.dtrace.org/2021/11/30/hubris-and-humility/",
+      "https://bcantrill.dtrace.org/2021/05/02/twitter-spaces-a-few-weeks-in/",
+      "https://bcantrill.dtrace.org/2021/03/03/compensation-as-a-reflection-of-values/",
+      "https://bcantrill.dtrace.org/2020/10/11/rust-after-the-honeymoon/"
+    ]
+  },
+  {
+    "feedUrl": "https://dave.cheney.net/feed/atom",
+    "title": "Dave Cheney",
+    "siteUrl": "https://dave.cheney.net",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Microblog: TestMain can cause one to question reality",
+        "link": "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
+        "pubDate": "2024-02-21T21:04:26.000Z",
+        "contentSnippet": "This morning a one line change had several of us tearing up the fabric of reality trying to understand why a failing test wasn’t failing, or, in fact, being run at all. Increasingly frantic efforts to",
+        "creator": ""
+      },
+      {
+        "title": "A few bytes here, a few there, pretty soon you&#8217;re talking real memory",
+        "link": "https://dave.cheney.net/2021/01/05/a-few-bytes-here-a-few-there-pretty-soon-youre-talking-real-memory",
+        "pubDate": "2021-01-05T12:39:20.000Z",
+        "contentSnippet": "Today’s post comes from a recent Go pop quiz. Consider this benchmark fragment.1\nfunc BenchmarkSortStrings(b *testing.B) {\n        s := []string{\"heart\", \"lungs\", \"brain\", \"kidneys\", \"pancreas\"}\n     ",
+        "creator": ""
+      },
+      {
+        "title": "The story of the one line fix",
+        "link": "https://dave.cheney.net/2020/12/15/the-story-of-the-one-line-fix",
+        "pubDate": "2020-12-15T04:45:54.000Z",
+        "contentSnippet": "Picture yourself, an engineer working at the hottest distributed microservices de jour, assigned to fix a bug. You jump into an unfamiliar codebase and quickly locate the line where the problem occurr",
+        "creator": ""
+      },
+      {
+        "title": "How to dump the GOSSAFUNC graph for a method",
+        "link": "https://dave.cheney.net/2020/06/19/how-to-dump-the-gossafunc-graph-for-a-method",
+        "pubDate": "2020-06-19T03:36:57.000Z",
+        "contentSnippet": "The Go compiler’s SSA backend contains a facility to produce HTML debugging output of the compilation phases. This post covers how to print the SSA output for function and methods.\nLet’s start with a ",
+        "creator": ""
+      },
+      {
+        "title": "Diamond interface composition in Go 1.14",
+        "link": "https://dave.cheney.net/2020/05/24/diamond-interface-composition-in-go-1-14",
+        "pubDate": "2020-05-24T08:49:01.000Z",
+        "contentSnippet": "Per the overlapping interfaces proposal, Go 1.14 now permits embedding of interfaces with overlapping method sets. This is a brief post explain what this change means:\nLet’s start with the definition ",
+        "creator": ""
+      },
+      {
+        "title": "Fatih&#8217;s question",
+        "link": "https://dave.cheney.net/2020/05/16/fatihs-question",
+        "pubDate": "2020-05-16T11:31:37.000Z",
+        "contentSnippet": "A few days ago Fatih posted this question on twitter.\nI’m going to attempt to give my answer, however to do that I need to apply some simplifications as my previous attempts to answer it involved a lo",
+        "creator": ""
+      },
+      {
+        "title": "Ensmallening Go binaries by prohibiting comparisons",
+        "link": "https://dave.cheney.net/2020/05/09/ensmallening-go-binaries-by-prohibiting-comparisons",
+        "pubDate": "2020-05-09T10:23:17.000Z",
+        "contentSnippet": "Conventional wisdom dictates that the larger the number of types declared in a Go program, the larger the resulting binary. Intuitively this makes sense, after all, what’s the point in defining a bunc",
+        "creator": ""
+      },
+      {
+        "title": "Mid-stack inlining in Go",
+        "link": "https://dave.cheney.net/2020/05/02/mid-stack-inlining-in-go",
+        "pubDate": "2020-05-02T05:09:15.000Z",
+        "contentSnippet": "In the previous post I discussed how leaf inlining allows the Go compiler to reduce the overhead of function calls and extend optimisation opportunities across function boundaries. In this post I’ll d",
+        "creator": ""
+      },
+      {
+        "title": "Inlining optimisations in Go",
+        "link": "https://dave.cheney.net/2020/04/25/inlining-optimisations-in-go",
+        "pubDate": "2020-04-25T06:38:17.000Z",
+        "contentSnippet": "This is a post about how the Go compiler implements inlining and how this optimisation  affects your Go code. \nn.b. This article focuses on gc, the de facto Go compiler from golang.org. The concepts d",
+        "creator": ""
+      },
+      {
+        "title": "go test -v streaming output",
+        "link": "https://dave.cheney.net/2020/03/10/go-test-v-streaming-output",
+        "pubDate": "2020-03-10T07:03:03.000Z",
+        "contentSnippet": "The testing package is one of my favourite packages in the Go standard library, not just because of its low noise approach to unit testing, but, over the lifetime of Go, it has received a steady strea",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:47.626Z",
+    "lastFetched": "2025-08-05T17:12:47.626Z",
+    "allSeenPosts": [
+      "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
+      "https://dave.cheney.net/2021/01/05/a-few-bytes-here-a-few-there-pretty-soon-youre-talking-real-memory",
+      "https://dave.cheney.net/2020/12/15/the-story-of-the-one-line-fix",
+      "https://dave.cheney.net/2020/06/19/how-to-dump-the-gossafunc-graph-for-a-method",
+      "https://dave.cheney.net/2020/05/24/diamond-interface-composition-in-go-1-14",
+      "https://dave.cheney.net/2020/05/16/fatihs-question",
+      "https://dave.cheney.net/2020/05/09/ensmallening-go-binaries-by-prohibiting-comparisons",
+      "https://dave.cheney.net/2020/05/02/mid-stack-inlining-in-go",
+      "https://dave.cheney.net/2020/04/25/inlining-optimisations-in-go",
+      "https://dave.cheney.net/2020/03/10/go-test-v-streaming-output",
+      "https://dave.cheney.net/2020/03/01/are-large-slices-more-expensive-than-smaller-ones",
+      "https://dave.cheney.net/2020/02/23/the-zen-of-go",
+      "https://dave.cheney.net/2019/12/08/dynamically-scoped-variables-in-go",
+      "https://dave.cheney.net/2019/12/05/internets-of-interest-15-the-queen-of-the-skies",
+      "https://dave.cheney.net/2019/12/04/complementary-engineering-indicators",
+      "https://dave.cheney.net/2019/11/18/internets-of-interest-14-unix-v0",
+      "https://dave.cheney.net/2019/11/16/internets-of-interest-warner-losh-on-the-first-ten-years-of-unix",
+      "https://dave.cheney.net/2019/10/06/use-internal-packages-to-reduce-your-public-api-surface",
+      "https://dave.cheney.net/2019/09/24/be-wary-of-functions-which-take-several-parameters-of-the-same-type",
+      "https://dave.cheney.net/2019/09/05/dont-force-allocations-on-the-callers-of-your-api"
+    ]
+  },
+  {
+    "feedUrl": "https://danluu.com/atom.xml",
+    "title": "Unknown Feed",
+    "siteUrl": "https://danluu.com/atom/index.xml",
+    "description": "Recent content on ",
+    "latestPosts": [
+      {
+        "title": "Steve Ballmer was an underrated CEO",
+        "link": "https://danluu.com/ballmer/",
+        "pubDate": "Mon, 28 Oct 2024 00:00:00 +0000",
+        "contentSnippet": "There's a common narrative that Microsoft was moribund under Steve Ballmer and then later saved by the miraculous leadership of Satya Nadella. This is the dominant narrative in every online discussion",
+        "creator": ""
+      },
+      {
+        "title": "How good can you be at Codenames without knowing any words?",
+        "link": "https://danluu.com/codenames/",
+        "pubDate": "Sun, 11 Aug 2024 00:00:00 +0000",
+        "contentSnippet": "About eight years ago, I was playing a game of Codenames where the game state was such that our team would almost certainly lose if we didn't correctly guess all of our remaining words on our turn. Fr",
+        "creator": ""
+      },
+      {
+        "title": "A discussion of discussions on AI bias",
+        "link": "https://danluu.com/ai-bias/",
+        "pubDate": "Sun, 16 Jun 2024 00:00:00 +0000",
+        "contentSnippet": "There've been regular viral stories about ML/AI bias with LLMs and generative AI for the past couple years. One thing I find interesting about discussions of bias is how different the reaction is in t",
+        "creator": ""
+      },
+      {
+        "title": "What the FTC got wrong in the Google antitrust investigation",
+        "link": "https://danluu.com/ftc-google-antitrust/",
+        "pubDate": "Sun, 26 May 2024 00:00:00 +0000",
+        "contentSnippet": "From 2011-2012, the FTC investigated the possibility of pursuing antitrust action against Google. The FTC decided to close the investigation and not much was publicly known about what happened until P",
+        "creator": ""
+      },
+      {
+        "title": "How web bloat impacts users with slow devices",
+        "link": "https://danluu.com/slow-device/",
+        "pubDate": "Sat, 16 Mar 2024 00:00:00 +0000",
+        "contentSnippet": "In 2017, we looked at how web bloat affects users with slow connections. Even in the U.S., many users didn't have broadband speeds, making much of the web difficult to use. It's still the case that ma",
+        "creator": ""
+      },
+      {
+        "title": "Diseconomies of scale in fraud, spam, support, and moderation",
+        "link": "https://danluu.com/diseconomies-scale/",
+        "pubDate": "Sun, 18 Feb 2024 00:00:00 +0000",
+        "contentSnippet": "If I ask myself a question like \"I'd like to buy an SD card; who do I trust to sell me a real SD card and not some fake, Amazon or my local Best Buy?\", of course the answer is that I trust my local Be",
+        "creator": ""
+      },
+      {
+        "title": "Why it's impossible to agree on what's allowed",
+        "link": "https://danluu.com/impossible-agree/",
+        "pubDate": "Wed, 07 Feb 2024 00:00:00 +0000",
+        "contentSnippet": "On large platforms, it's impossible to have policies on things like moderation, spam, fraud, and sexual content that people agree on. David Turner made a simple game to illustrate how difficult this i",
+        "creator": ""
+      },
+      {
+        "title": "Notes on Cruise's pedestrian accident",
+        "link": "https://danluu.com/cruise-report/",
+        "pubDate": "Mon, 29 Jan 2024 00:00:00 +0000",
+        "contentSnippet": "This is a set of notes on the Quinn Emanuel report on Cruise's handling of the 2023-10-02 accident where a Cruise autonomous vehicle (AV) hit a pedestrian, stopped, and then started moving again with ",
+        "creator": ""
+      },
+      {
+        "title": "Why do people post on [bad platform] instead of [good platform]?",
+        "link": "https://danluu.com/why-video/",
+        "pubDate": "Thu, 25 Jan 2024 00:00:00 +0000",
+        "contentSnippet": "There's a class of comment you often see when someone makes a popular thread on Mastodon/Twitter/Threads/etc., that you also see on videos that's basically \"Why make a Twitter thread? This would be be",
+        "creator": ""
+      },
+      {
+        "title": "How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT",
+        "link": "https://danluu.com/seo-spam/",
+        "pubDate": "Sat, 30 Dec 2023 00:00:00 +0000",
+        "contentSnippet": "In The birth & death of search engine optimization, Xe suggests\nHere's a fun experiment to try. Take an open source project such as yt-dlp and try to find it from a very generic term like \"youtube dow",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:54.062Z",
+    "lastFetched": "2025-08-05T17:12:54.062Z",
+    "allSeenPosts": [
+      "https://danluu.com/ballmer/",
+      "https://danluu.com/codenames/",
+      "https://danluu.com/ai-bias/",
+      "https://danluu.com/ftc-google-antitrust/",
+      "https://danluu.com/slow-device/",
+      "https://danluu.com/diseconomies-scale/",
+      "https://danluu.com/impossible-agree/",
+      "https://danluu.com/cruise-report/",
+      "https://danluu.com/why-video/",
+      "https://danluu.com/seo-spam/",
+      "https://danluu.com/elon-dave-chappelle/",
+      "https://danluu.com/elon-twitter-texts/",
+      "https://danluu.com/futurist-predictions/",
+      "https://danluu.com/simple-architectures/",
+      "https://danluu.com/nothing-works/",
+      "https://danluu.com/talent/",
+      "https://danluu.com/cache-incidents/",
+      "https://danluu.com/cocktail-ideas/",
+      "https://danluu.com/cgroup-throttling/",
+      "https://danluu.com/writing-non-advice/",
+      "https://danluu.com/latency-pitfalls/",
+      "https://danluu.com/corrections/",
+      "https://danluu.com/people-matter/",
+      "https://danluu.com/culture/",
+      "https://danluu.com/look-stupid/",
+      "https://danluu.com/learn-what/",
+      "https://danluu.com/productivity-velocity/",
+      "https://danluu.com/in-house/",
+      "https://danluu.com/why-benchmark/",
+      "https://danluu.com/essential-complexity/",
+      "https://danluu.com/car-safety/",
+      "https://danluu.com/voyager-story/",
+      "https://danluu.com/tracing-analytics/",
+      "https://danluu.com/metrics-analytics/",
+      "https://danluu.com/corp-eng-blogs/",
+      "https://danluu.com/cli-complexity/",
+      "https://danluu.com/discontinuities/",
+      "https://danluu.com/p95-skill/",
+      "https://danluu.com/algorithms-interviews/",
+      "https://danluu.com/deconstruct-files/",
+      "https://danluu.com/overwatch-gender/",
+      "https://danluu.com/fsyncgate/",
+      "https://danluu.com/input-lag/",
+      "https://danluu.com/bad-decisions/",
+      "https://danluu.com/android-updates/",
+      "https://danluu.com/ui-compatibility/",
+      "https://danluu.com/filesystem-errors/",
+      "https://danluu.com/keyboard-latency/",
+      "https://danluu.com/branch-prediction/",
+      "https://danluu.com/sattolo/",
+      "https://danluu.com/term-latency/",
+      "https://danluu.com/keyboard-v-mouse/",
+      "https://danluu.com/startup-options/",
+      "https://danluu.com/web-bloat/",
+      "https://danluu.com/hn-comments/",
+      "https://danluu.com/programming-books/",
+      "https://danluu.com/hiring-lemons/",
+      "https://danluu.com/sounds-easy/",
+      "https://danluu.com/bimodal-compensation/",
+      "https://danluu.com/learning-to-program/",
+      "https://danluu.com/concurrency-bugs/",
+      "https://danluu.com/programming-blogs/",
+      "https://danluu.com/google-sre-book/",
+      "https://danluu.com/programmer-moneyball/",
+      "https://danluu.com/su3su2u1/hpmor/",
+      "https://danluu.com/su3su2u1/physics/",
+      "https://danluu.com/perf-tracing/",
+      "https://danluu.com/cpu-bugs/",
+      "https://danluu.com/wat/",
+      "https://danluu.com/startup-tradeoffs/",
+      "https://danluu.com/file-consistency/",
+      "https://danluu.com/why-ecc/",
+      "https://danluu.com/butler-lampson-1999/",
+      "https://danluu.com/infinite-disk/",
+      "https://danluu.com/intel-cat/",
+      "https://danluu.com/limplock/",
+      "https://danluu.com/yegge-predictions/",
+      "https://danluu.com/postmortem-lessons/",
+      "https://danluu.com/slashdot-sourceforge/",
+      "https://danluu.com/googlebot-monopoly/",
+      "https://danluu.com/boring-languages/",
+      "https://danluu.com/monorepo/",
+      "https://danluu.com/datacenter-power/",
+      "https://danluu.com/dunning-kruger/",
+      "https://danluu.com/testing/",
+      "https://danluu.com/navigate-url/",
+      "https://danluu.com/percentile-latency/",
+      "https://danluu.com/customer-service/",
+      "https://danluu.com/cpu-backdoors/",
+      "https://danluu.com/blog-ads/",
+      "https://danluu.com/new-cpu-features/",
+      "https://danluu.com/julialang/",
+      "https://danluu.com/integer-overflow/",
+      "https://danluu.com/malloc-tutorial/",
+      "https://danluu.com/tech-discrimination/",
+      "https://danluu.com/linux-devs-say/",
+      "https://danluu.com/everything-is-broken/",
+      "https://danluu.com/octopress-speedup/",
+      "https://danluu.com/broken-builds/",
+      "https://danluu.com/empirical-pl/",
+      "https://danluu.com/clwb-pcommit/",
+      "https://danluu.com/2choices-eviction/",
+      "https://danluu.com/tests-v-reason/",
+      "https://danluu.com/assembly-intrinsics/",
+      "https://danluu.com/google-wage-fixing/",
+      "https://danluu.com/verilog-vs-vhdl/",
+      "https://danluu.com/bugalytics/",
+      "https://danluu.com/edit-binary/",
+      "https://danluu.com/gender-gap/",
+      "https://danluu.com/anon-benchmark/",
+      "https://danluu.com/teach-debugging/",
+      "https://danluu.com/math-bias/",
+      "https://danluu.com/3c-conflict/",
+      "https://danluu.com/linear-hammer/",
+      "https://danluu.com/hardware-unforgiving/",
+      "https://danluu.com/discourage-oss/",
+      "https://danluu.com/randomize-hn/",
+      "https://danluu.com/pl-troll/",
+      "https://danluu.com/why-hardware-development-is-hard/",
+      "https://danluu.com/about/",
+      "https://danluu.com/latency-mitigation/",
+      "https://danluu.com/karajack/",
+      "https://danluu.com/bitc-retrospective/",
+      "https://danluu.com/open-social-networks/",
+      "https://danluu.com/mit-stanford/",
+      "https://danluu.com/bioware/",
+      "https://danluu.com/symbolics-lisp-machines/",
+      "https://danluu.com/subspace-history/"
+    ]
+  },
+  {
+    "feedUrl": "https://karpathy.github.io/feed.xml",
+    "title": "Andrej Karpathy blog",
+    "siteUrl": "http://karpathy.github.io/",
+    "description": "Musings of a Computer Scientist.",
+    "latestPosts": [
+      {
+        "title": "Deep Neural Nets: 33 years ago and 33 years from now",
+        "link": "http://karpathy.github.io/2022/03/14/lecun1989/",
+        "pubDate": "Mon, 14 Mar 2022 07:00:00 +0000",
+        "contentSnippet": ".post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfcfc;\n    font-size: 13px; /* make code smaller for this post... */\n}\n\n\nThe Yann LeCun et al. (1989) paper Bac",
+        "creator": ""
+      },
+      {
+        "title": "A from-scratch tour of Bitcoin in Python",
+        "link": "http://karpathy.github.io/2021/06/21/blockchain/",
+        "pubDate": "Mon, 21 Jun 2021 10:00:00 +0000",
+        "contentSnippet": ".wrap {\n    max-width: 900px;\n}\np {\n    font-family: sans-serif;\n    font-size: 15px;\n    font-weight: 300;\n    overflow-wrap: break-word; /* allow wrapping of very very long strings, like txids */\n}\n",
+        "creator": ""
+      },
+      {
+        "title": "Short Story on AI: Forward Pass",
+        "link": "http://karpathy.github.io/2021/03/27/forward-pass/",
+        "pubDate": "Sat, 27 Mar 2021 10:00:00 +0000",
+        "contentSnippet": "p {\n  text-align: justify;\n}\n.post pre, .post code {\n    border: none;\n    background-color: #eee;\n}\n\n\n\nThe inspiration for this short story came to me while reading Kevin Lacker’s Giving GPT-3 a Turi",
+        "creator": ""
+      },
+      {
+        "title": "Biohacking Lite",
+        "link": "http://karpathy.github.io/2020/06/11/biohacking-lite/",
+        "pubDate": "Thu, 11 Jun 2020 10:00:00 +0000",
+        "contentSnippet": "Throughout my life I never paid too much attention to health, exercise, diet or nutrition. I knew that you’re supposed to get some exercise and eat vegetables or something, but it stopped at that (“mo",
+        "creator": ""
+      },
+      {
+        "title": "A Recipe for Training Neural Networks",
+        "link": "http://karpathy.github.io/2019/04/25/recipe/",
+        "pubDate": "Thu, 25 Apr 2019 09:00:00 +0000",
+        "contentSnippet": "Some few weeks ago I posted a tweet on “the most common neural net mistakes”, listing a few common gotchas related to training neural nets. The tweet got quite a bit more engagement than I anticipated",
+        "creator": ""
+      },
+      {
+        "title": "(started posting on Medium instead)",
+        "link": "http://karpathy.github.io/2018/01/20/medium/",
+        "pubDate": "Sat, 20 Jan 2018 11:00:00 +0000",
+        "contentSnippet": "The current state of this blog (with the last post 2 years ago) makes it look like I’ve disappeared. I’ve certainly become less active on blogs since I’ve joined Tesla, but\nwhenever I do get a chance ",
+        "creator": ""
+      },
+      {
+        "title": "A Survival Guide to a PhD",
+        "link": "http://karpathy.github.io/2016/09/07/phd/",
+        "pubDate": "Wed, 07 Sep 2016 11:00:00 +0000",
+        "contentSnippet": "This guide is patterned after my “Doing well in your courses”, a post I wrote a long time ago on some of the tips/tricks I’ve developed during my undergrad. I’ve received nice comments about that guid",
+        "creator": ""
+      },
+      {
+        "title": "Deep Reinforcement Learning: Pong from Pixels",
+        "link": "http://karpathy.github.io/2016/05/31/rl/",
+        "pubDate": "Tue, 31 May 2016 11:00:00 +0000",
+        "contentSnippet": "-->\n\nThis is a long overdue blog post on Reinforcement Learning (RL). RL is hot! You may have noticed that computers can now automatically learn to play ATARI games (from raw game pixels!), they are b",
+        "creator": ""
+      },
+      {
+        "title": "Short Story on AI: A Cognitive Discontinuity.",
+        "link": "http://karpathy.github.io/2015/11/14/ai/",
+        "pubDate": "Sat, 14 Nov 2015 11:00:00 +0000",
+        "contentSnippet": "p {\n  text-align: justify;\n}\n\n\nThe idea of writing a collection of short stories has been on my mind for a while. This post is my first ever half-serious attempt at a story, and what better way to kic",
+        "creator": ""
+      },
+      {
+        "title": "What a Deep Neural Network thinks about your #selfie",
+        "link": "http://karpathy.github.io/2015/10/25/selfie/",
+        "pubDate": "Sun, 25 Oct 2015 11:00:00 +0000",
+        "contentSnippet": "Convolutional Neural Networks are great: they recognize things, places and people in your personal photos, signs, people and lights in self-driving cars, crops, forests and traffic in aerial imagery, ",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:12:56.085Z",
+    "lastFetched": "2025-08-05T17:12:56.085Z",
+    "allSeenPosts": [
+      "http://karpathy.github.io/2022/03/14/lecun1989/",
+      "http://karpathy.github.io/2021/06/21/blockchain/",
+      "http://karpathy.github.io/2021/03/27/forward-pass/",
+      "http://karpathy.github.io/2020/06/11/biohacking-lite/",
+      "http://karpathy.github.io/2019/04/25/recipe/",
+      "http://karpathy.github.io/2018/01/20/medium/",
+      "http://karpathy.github.io/2016/09/07/phd/",
+      "http://karpathy.github.io/2016/05/31/rl/",
+      "http://karpathy.github.io/2015/11/14/ai/",
+      "http://karpathy.github.io/2015/10/25/selfie/"
+    ]
+  },
+  {
+    "feedUrl": "https://writings.stephenwolfram.com/feed",
+    "title": "Stephen Wolfram Writings",
+    "siteUrl": "https://writings.stephenwolfram.com",
+    "description": "Just another wordpress.wolfram.com site",
+    "latestPosts": [
+      {
+        "title": "What If We Had Bigger Brains? Imagining Minds beyond Ours",
+        "link": "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
+        "pubDate": "Wed, 21 May 2025 14:28:31 +0000",
+        "contentSnippet": "Cats Don’t Talk We humans have perhaps 100 billion neurons in our brains. But what if we had many more? Or what if the AIs we built effectively had many more? What kinds of things might then become po",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "What Can We Learn about Engineering and Innovation from Half a Century of the Game of Life Cellular Automaton?",
+        "link": "https://writings.stephenwolfram.com/2025/03/what-can-we-learn-about-engineering-and-innovation-from-half-a-century-of-the-game-of-life-cellular-automaton/",
+        "pubDate": "Tue, 18 Mar 2025 18:25:33 +0000",
+        "contentSnippet": "Metaengineering and Laws of Innovation Things are invented. Things are discovered. And somehow there’s an arc of progress that’s formed. But are there what amount to “laws of innovation” that govern t",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "Towards a Computational Formalization for Foundations of Medicine",
+        "link": "https://writings.stephenwolfram.com/2025/02/towards-a-computational-formalization-for-foundations-of-medicine/",
+        "pubDate": "Mon, 03 Feb 2025 23:27:46 +0000",
+        "contentSnippet": "A Theory of Medicine? As it’s practiced today, medicine is almost always about particulars: “this has gone wrong; this is how to fix it”. But might it also be possible to talk about medicine in a more",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "Launching Version 14.2 of Wolfram Language & Mathematica: Big Data Meets Computation & AI",
+        "link": "https://writings.stephenwolfram.com/2025/01/launching-version-14-2-of-wolfram-language-mathematica-big-data-meets-computation-ai/",
+        "pubDate": "Thu, 23 Jan 2025 19:00:09 +0000",
+        "contentSnippet": "The Drumbeat of Releases Continues… Notebook Assistant Chat inside Any Notebook Bring Us Your Gigabytes! Introducing Tabular Manipulating Data in Tabular Getting Data into Tabular Cleaning Data for Ta",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "Who Can Understand the Proof? A Window on Formalized Mathematics",
+        "link": "https://writings.stephenwolfram.com/2025/01/who-can-understand-the-proof-a-window-on-formalized-mathematics/",
+        "pubDate": "Thu, 09 Jan 2025 22:42:31 +0000",
+        "contentSnippet": "Related writings: “Logic, Explainability and the Future of Understanding” (2018) » “The Physicalization of Metamathematics and Its Implications for the Foundations of Mathematics” (2022) » “Computatio",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "Useful to the Point of Being Revolutionary: Introducing Wolfram Notebook Assistant",
+        "link": "https://writings.stephenwolfram.com/2024/12/useful-to-the-point-of-being-revolutionary-introducing-wolfram-notebook-assistant/",
+        "pubDate": "Mon, 09 Dec 2024 18:38:15 +0000",
+        "contentSnippet": "Note: As of today, copies of Wolfram Version 14.1 are being auto-updated to allow subscription access to the capabilities described here. [For additional installation information see here.] Just Say W",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "Foundations of Biological Evolution: More Results & More Surprises",
+        "link": "https://writings.stephenwolfram.com/2024/12/foundations-of-biological-evolution-more-results-more-surprises/",
+        "pubDate": "Thu, 05 Dec 2024 23:13:27 +0000",
+        "contentSnippet": "This is a follow-on to Why Does Biological Evolution Work? A Minimal Model for Biological Evolution and Other Adaptive Processes [May 3, 2024]. Even More from an Extremely Simple Model A few months ag",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "On the Nature of Time",
+        "link": "https://writings.stephenwolfram.com/2024/10/on-the-nature-of-time/",
+        "pubDate": "Tue, 08 Oct 2024 21:41:58 +0000",
+        "contentSnippet": "The Computational View of Time Time is a central feature of human experience. But what actually is it? In traditional scientific accounts it’s often represented as some kind of coordinate much like sp",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "Nestedly Recursive Functions",
+        "link": "https://writings.stephenwolfram.com/2024/09/nestedly-recursive-functions/",
+        "pubDate": "Fri, 27 Sep 2024 17:50:59 +0000",
+        "contentSnippet": "Yet Another Ruliological Surprise Integers. Addition. Subtraction. Maybe multiplication. Surely that’s not enough to be able to generate any serious complexity. In the early 1980s I had made the very ",
+        "creator": "Stephen Wolfram"
+      },
+      {
+        "title": "Five Most Productive Years: What Happened and What’s Next",
+        "link": "https://writings.stephenwolfram.com/2024/08/five-most-productive-years-what-happened-and-whats-next/",
+        "pubDate": "Thu, 29 Aug 2024 16:31:46 +0000",
+        "contentSnippet": "So… What Happened? Today is my birthday—for the 65th time. Five years ago, on my 60th birthday, I did a livestream where I talked about some of my plans. So… what happened? Well, what happened was gre",
+        "creator": "Stephen Wolfram"
+      }
+    ],
+    "lastUpdated": "2025-08-05T17:13:06.201Z",
+    "lastFetched": "2025-08-05T17:13:06.201Z",
+    "allSeenPosts": [
+      "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
+      "https://writings.stephenwolfram.com/2025/03/what-can-we-learn-about-engineering-and-innovation-from-half-a-century-of-the-game-of-life-cellular-automaton/",
+      "https://writings.stephenwolfram.com/2025/02/towards-a-computational-formalization-for-foundations-of-medicine/",
+      "https://writings.stephenwolfram.com/2025/01/launching-version-14-2-of-wolfram-language-mathematica-big-data-meets-computation-ai/",
+      "https://writings.stephenwolfram.com/2025/01/who-can-understand-the-proof-a-window-on-formalized-mathematics/",
+      "https://writings.stephenwolfram.com/2024/12/useful-to-the-point-of-being-revolutionary-introducing-wolfram-notebook-assistant/",
+      "https://writings.stephenwolfram.com/2024/12/foundations-of-biological-evolution-more-results-more-surprises/",
+      "https://writings.stephenwolfram.com/2024/10/on-the-nature-of-time/",
+      "https://writings.stephenwolfram.com/2024/09/nestedly-recursive-functions/",
+      "https://writings.stephenwolfram.com/2024/08/five-most-productive-years-what-happened-and-whats-next/",
+      "https://writings.stephenwolfram.com/2024/08/whats-really-going-on-in-machine-learning-some-minimal-models/",
+      "https://writings.stephenwolfram.com/2024/07/yet-more-new-ideas-and-new-functions-launching-version-14-1-of-wolfram-language-mathematica/"
     ]
   }
 ]
