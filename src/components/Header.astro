@@ -60,88 +60,111 @@ const isActive = (path: string) => {
           <IconX id="close-icon" class="hidden" />
           <IconMenuDeep id="menu-icon" />
         </button>
-        <ul
+        <div
           id="menu-items"
           class:list={[
-            "mt-4 grid w-44 grid-cols-2 place-content-center gap-2",
-            "[&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium [&>li>a]:hover:text-accent sm:[&>li>a]:px-2 sm:[&>li>a]:py-1",
+            "mt-4 w-64",
             "hidden",
-            "sm:mt-0 sm:flex sm:w-auto sm:gap-x-0 sm:gap-y-0",
+            "sm:mt-0 sm:flex sm:w-auto sm:gap-x-4",
           ]}
         >
-          <li class="col-span-2">
-            <a href="/projects" class:list={{ "active-nav": isActive("/projects") }}>
-              /projects
-            </a>
-          </li>
-          <li class="col-span-2">
-            <a href="/roll" class:list={{ "active-nav": isActive("/roll") }}>
-              /roll
-            </a>
-          </li>
-          {/* <li class="col-span-2">
-            <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-              /post
-            </a>
-          </li> */}
-          <li class="col-span-2">
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-              /resume
-            </a>
-          </li>
-          <li class="col-span-2">
-            <a href={SITE.keybase} target="_blank" rel="noopener noreferrer">
-              /keys
-            </a>
-          </li>
-          {
-            SITE.showSearch && (
-              <li class="col-span-1 flex items-center justify-center">
-                <LinkButton
-                  href="/search"
-                  class:list={[
-                    "focus-outline flex p-3 sm:p-1",
-                    { "[&>svg]:stroke-accent": isActive("/search") },
-                  ]}
-                  ariaLabel="search"
-                  title="Search"
-                >
-                  <IconSearch />
-                  <span class="sr-only">Search</span>
-                </LinkButton>
-              </li>
-            )
-          }
-          <li class="col-span-1 flex items-center justify-center">
-            <a
-              href="/rss.xml"
-              class="focus-outline group flex p-3 hover:text-accent sm:p-1 hover:[&>svg]:stroke-accent"
-              aria-label="rss feed"
-              title="RSS Feed"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IconRss />
-              <span class="sr-only">RSS Feed</span>
-            </a>
-          </li>
-          {
-            SITE.lightAndDarkMode && (
-              <li class="col-span-1 flex items-center justify-center">
-                <button
-                  id="theme-btn"
-                  class="focus-outline relative size-12 p-4 sm:size-8 hover:[&>svg]:stroke-accent"
-                  title="Toggles light & dark"
-                  aria-label="auto"
-                  aria-live="polite"
-                >
-                  <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-                  <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-                </button>
-              </li>
-            )
-          }
-        </ul>
+          <!-- Text navigation links in 2-column grid on mobile -->
+          <ul class="grid grid-cols-2 gap-1 sm:flex sm:gap-x-4">
+            <li>
+              <a 
+                href="/projects" 
+                class:list={[
+                  "block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1",
+                  { "active-nav": isActive("/projects") }
+                ]}
+              >
+                /projects
+              </a>
+            </li>
+            <li>
+              <a 
+                href="/roll" 
+                class:list={[
+                  "block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1",
+                  { "active-nav": isActive("/roll") }
+                ]}
+              >
+                /roll
+              </a>
+            </li>
+            <li>
+              <a 
+                href="/resume.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1"
+              >
+                /resume
+              </a>
+            </li>
+            <li>
+              <a 
+                href={SITE.keybase} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1"
+              >
+                /keys
+              </a>
+            </li>
+          </ul>
+          
+          <!-- Icon buttons in a separate row -->
+          <ul class="mt-4 flex justify-center gap-2 sm:mt-0 sm:gap-x-4">
+            {
+              SITE.showSearch && (
+                <li class="flex items-center justify-center">
+                  <LinkButton
+                    href="/search"
+                    class:list={[
+                      "focus-outline flex p-3 sm:p-1",
+                      { "[&>svg]:stroke-accent": isActive("/search") },
+                    ]}
+                    ariaLabel="search"
+                    title="Search"
+                  >
+                    <IconSearch />
+                    <span class="sr-only">Search</span>
+                  </LinkButton>
+                </li>
+              )
+            }
+            <li class="flex items-center justify-center">
+              <a
+                href="/rss.xml"
+                class="focus-outline group flex p-3 hover:text-accent sm:p-1 hover:[&>svg]:stroke-accent"
+                aria-label="rss feed"
+                title="RSS Feed"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IconRss />
+                <span class="sr-only">RSS Feed</span>
+              </a>
+            </li>
+            {
+              SITE.lightAndDarkMode && (
+                <li class="flex items-center justify-center">
+                  <button
+                    id="theme-btn"
+                    class="focus-outline relative size-12 p-4 sm:size-8 hover:[&>svg]:stroke-accent"
+                    title="Toggles light & dark"
+                    aria-label="auto"
+                    aria-live="polite"
+                  >
+                    <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
+                    <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+                  </button>
+                </li>
+              )
+            }
+          </ul>
+        </div>
       </nav>
     </div>
   </div>
