@@ -96,22 +96,22 @@ function formatDate(dateString: string): string {
           </p>
         </div>
       ) : (
-        <div class="space-y-3">
+        <div class="space-y-4">
           {allPosts.map(post => (
             <article class="py-2">
-              <div class="flex items-center gap-2 mb-1">
-                <span class="text-muted-foreground text-base">
+              <div class="flex flex-wrap items-center gap-x-2 gap-y-1 mb-1 text-sm sm:text-base">
+                <span class="text-muted-foreground">
                   {post.pubDate && formatDate(post.pubDate)}
                 </span>
                 <a
                   href={post.siteUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-base text-accent decoration-dashed hover:underline"
+                  class="text-accent decoration-dashed hover:underline"
                 >
                   {post.feedTitle}
                 </a>
-                <span class="text-muted-foreground text-sm">
+                <span class="text-muted-foreground text-xs sm:text-sm">
                   {new URL(post.siteUrl || '').hostname || post.siteUrl}
                 </span>
               </div>
@@ -119,7 +119,7 @@ function formatDate(dateString: string): string {
                 href={post.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="block text-2xl font-medium transition-colors hover:text-accent decoration-dashed hover:underline leading-relaxed"
+                class="block text-lg sm:text-xl lg:text-2xl font-medium transition-colors hover:text-accent decoration-dashed hover:underline leading-relaxed"
                 style="word-break: break-word; hyphens: auto;"
               >
                 {post.title}
