@@ -5,10 +5,18 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
 const parser = new Parser({
-  timeout: 10000,
+  timeout: 15000, // Increased timeout
   headers: {
-    'User-Agent': 'Mozilla/5.0 (compatible; BlogrollBot/1.0)',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Cache-Control': 'no-cache',
+    'Connection': 'keep-alive',
   },
+  requestOptions: {
+    rejectUnauthorized: false, // Less strict SSL
+    family: 4, // Force IPv4
+  }
 });
 
 function loadExistingData() {
@@ -26,7 +34,7 @@ function loadExistingData() {
     blogrollData.forEach(blog => {
       existingDataMap[blog.feedUrl] = {
         ...blog,
-        seenPosts: new Set(blog.latestPosts.map(post => post.link))
+        seenPosts: new Set(blog.allSeenPosts || blog.latestPosts.map(post => post.link))
       };
     });
     
@@ -110,6 +118,12 @@ async function fetchBlogroll() {
         console.log(`  → Found ${newPosts.length} posts, ${hasNewContent ? 'has new content' : 'no new content'}`);
       }
 
+      // Create a comprehensive set of all seen post links
+      const allSeenPosts = new Set([
+        ...(existing?.seenPosts || []),
+        ...newPosts.map(post => post.link)
+      ]);
+
       blogrollEntries.push({
         feedUrl,
         title: feed.title || existing?.title || 'Unknown Feed',
@@ -118,6 +132,7 @@ async function fetchBlogroll() {
         latestPosts: mergedPosts,
         lastUpdated: new Date().toISOString(),
         lastFetched: existing?.lastFetched || new Date().toISOString(),
+        allSeenPosts: Array.from(allSeenPosts), // Store as array for JSON
       });
 
       // Add small delay to be respectful to servers
@@ -133,6 +148,7 @@ async function fetchBlogroll() {
           seenPosts: undefined, // Remove the Set from the output
           lastUpdated: existing.lastUpdated, // Keep original update time
           lastFetched: new Date().toISOString(), // Update fetch attempt time
+          allSeenPosts: existing.allSeenPosts || Array.from(existing.seenPosts || []), // Preserve seen posts
         });
       }
       // If no existing data, skip this feed (it will be retried next time)
