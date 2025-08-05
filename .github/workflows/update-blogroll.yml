@@ -1,0 +1,56 @@
+name: blogroll ci
+
+on:
+  schedule:
+    # Run daily at 6:00 AM UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-blogroll:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Fetch blogroll data
+        run: pnpm update-blogroll
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code src/data/blogroll.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add src/data/blogroll.json
+          git commit -m "chore: update blogroll data [skip ci]"
+          git push
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.git-check.outputs.changes }}" == "true" ]; then
+            echo "✅ Blogroll updated successfully"
+          else
+            echo "ℹ️ No changes to blogroll data"
+          fi

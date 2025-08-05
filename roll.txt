@@ -1,0 +1,4 @@
+https://matklad.github.io/feed.xml
+https://research.swtch.com/feed.atom
+https://mmapped.blog/feed.xml
+https://www.scattered-thoughts.net/atom.xml

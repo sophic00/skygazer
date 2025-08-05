@@ -1,0 +1,162 @@
+[
+  {
+    "feedUrl": "https://matklad.github.io/feed.xml",
+    "title": "matklad",
+    "siteUrl": "https://matklad.github.io",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "font-size-adjust Is Useful",
+        "link": "https://matklad.github.io/2025/07/16/font-size-adjust.html",
+        "pubDate": "2025-07-16T00:00:00.000Z",
+        "contentSnippet": "font-size-adjust Is Useful Jul 16, 2025\nIn this article, I will describe a recent addition to CSS, the font-size-adjust property. I am also\nmaking a bold claim that everyone in the world misunderstand",
+        "creator": ""
+      },
+      {
+        "title": "Inverse Triangle Inequality",
+        "link": "https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html",
+        "pubDate": "2025-07-07T00:00:00.000Z",
+        "contentSnippet": "Inverse Triangle Inequality Jul 7, 2025\n  |AC| < |A B| + |BC|  \nis one of the most hardworking inequalities in mathematics. It illustrates an obvious fact — the fastest way to go from point A to point",
+        "creator": ""
+      },
+      {
+        "title": "RSS Server Side Reader",
+        "link": "https://matklad.github.io/2025/06/26/rssssr.html",
+        "pubDate": "2025-06-26T00:00:00.000Z",
+        "contentSnippet": "RSS Server Side Reader Jun 26, 2025\nI like the idea of RSS, but none of the RSS readers stuck with me, until I implemented one of my\nown, using a somewhat unusual technique. There’s at least one other",
+        "creator": ""
+      },
+      {
+        "title": "Open Source Can't Coordinate",
+        "link": "https://matklad.github.io/2025/05/20/open-source-cant-coordinate.html",
+        "pubDate": "2025-05-20T00:00:00.000Z",
+        "contentSnippet": "Open Source Can’t Coordinate May 20, 2025\nI was taking a shower this morning, and was pondering yesterday’s\nproblem, where I suspect\nthat I have an outdated version of hotspot Linux profiler, but I\nca",
+        "creator": ""
+      },
+      {
+        "title": "Profiling Challenge Results",
+        "link": "https://matklad.github.io/2025/05/19/profiling-challenge-results.html",
+        "pubDate": "2025-05-19T00:00:00.000Z",
+        "contentSnippet": "Profiling Challenge Results May 19, 2025\nA few days ago, I posted a\nPerformance Profile Visualization Challenge\n# Clone the repo\n$ git clone https://github.com/tigerbeetle/tigerbeetle\n$ cd tigerbeetle",
+        "creator": ""
+      },
+      {
+        "title": "Scalar Select Anti-Pattern",
+        "link": "https://matklad.github.io/2025/05/14/scalar-select-aniti-pattern.html",
+        "pubDate": "2025-05-14T00:00:00.000Z",
+        "contentSnippet": "Scalar Select Anti-Pattern May 14, 2025\nI’ve written a number of stateful services starting with an event loop at the core:\nasync for event in events_incoming:\n    await process(event)\nI had to refact",
+        "creator": ""
+      },
+      {
+        "title": "Performance Profile Visualization Challenge",
+        "link": "https://matklad.github.io/2025/05/06/performance-profile-visualization-challenge.html",
+        "pubDate": "2025-05-06T00:00:00.000Z",
+        "contentSnippet": "Performance Profile Visualization Challenge May 6, 2025\nI love profiling! There’s a whole lot of different profiling tools available, and they provide a\ntreasure trove of information. If you roughly k",
+        "creator": ""
+      },
+      {
+        "title": "Against Horizontal Scroll",
+        "link": "https://matklad.github.io/2025/04/22/horizontal-scroll.html",
+        "pubDate": "2025-04-22T00:00:00.000Z",
+        "contentSnippet": "Against Horizontal Scroll Apr 22, 2025\nWhat’s in common between these two blog posts (pardon me, my fellow crustaceans of lobster variety)?\nThey both have horizontal scroll on mobile! Horizontal scrol",
+        "creator": ""
+      },
+      {
+        "title": "A Fun Zig Program",
+        "link": "https://matklad.github.io/2025/04/21/fun-zig-program.html",
+        "pubDate": "2025-04-21T00:00:00.000Z",
+        "contentSnippet": "A Fun Zig Program Apr 21, 2025\nThis short example is worth pondering a bit if you are learning Zig:\nfn f(comptime x: bool) if (x) u32 else bool {\n    return if (x) 0 else false;\n}\n\nconst print = @impo",
+        "creator": ""
+      },
+      {
+        "title": "Things Zig comptime Won't Do",
+        "link": "https://matklad.github.io/2025/04/19/things-zig-comptime-wont-do.html",
+        "pubDate": "2025-04-19T00:00:00.000Z",
+        "contentSnippet": "Things Zig comptime Won’t Do Apr 19, 2025\nEs el disco de Odín. Tiene un solo lado. En la tierra no hay otra cosa que tenga un solo lado.\nZig’s comptime feature is most famous for what it can do: gener",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T15:24:07.481Z",
+    "lastFetched": "2025-08-05T15:24:07.481Z"
+  },
+  {
+    "feedUrl": "https://research.swtch.com/feed.atom",
+    "title": "research!rsc",
+    "siteUrl": "http://research.swtch.com/feed.atom",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Differential Coverage for Debugging",
+        "link": "http://research.swtch.com/diffcover",
+        "pubDate": "2025-04-25T15:40:00.000Z",
+        "contentSnippet": "pre {\n    white-space: pre-wrap;       /* Since CSS 2.1 */\n    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */\n    white-space: -pre-wrap;      /* Opera 4-6 */\n    white-space: -o-pre-wrap;    ",
+        "creator": ""
+      },
+      {
+        "title": "Hash-Based Bisect Debugging in Compilers and Runtimes",
+        "link": "http://research.swtch.com/bisect",
+        "pubDate": "2024-07-18T14:18:53.000Z",
+        "contentSnippet": "blockquote {\n  padding-left: 0.5em;\n  border-left-style: solid;\n  border-left-width: 4px;\n  border-left-color: #ccf;\n}\n\n\nSetting the Stage\n\n\n\n\nDoes this sound familar?\nYou make a change to a library t",
+        "creator": ""
+      },
+      {
+        "title": "The xz attack shell script",
+        "link": "http://research.swtch.com/xz-script",
+        "pubDate": "2024-04-02T08:00:00.000Z",
+        "contentSnippet": "Introduction\n\n\n\n\nAndres Freund published the existence of the xz attack on 2024-03-29 to the public oss-security@openwall mailing list. The day before, he alerted Debian security and the (private) dis",
+        "creator": ""
+      },
+      {
+        "title": "Timeline of the xz open source attack",
+        "link": "http://research.swtch.com/xz-timeline",
+        "pubDate": "2024-04-02T03:23:00.000Z",
+        "contentSnippet": "Over a period of over two years, an attacker using the name “Jia Tan”\nworked as a diligent, effective contributor to the xz compression library,\neventually being granted commit access and maintainersh",
+        "creator": ""
+      },
+      {
+        "title": "Go Changes",
+        "link": "http://research.swtch.com/gochanges",
+        "pubDate": "2023-12-08T17:00:00.000Z",
+        "contentSnippet": "I opened GopherCon (USA) in October with the talk “Go Changes”,\nwhich looked at how Go evolves, the importance of data in making shared decisions,\nand why opt-in telemetry in the Go toolchain\nis a use",
+        "creator": ""
+      },
+      {
+        "title": "Go Testing By Example",
+        "link": "http://research.swtch.com/testing",
+        "pubDate": "2023-12-05T13:00:00.000Z",
+        "contentSnippet": "I opened GopherCon Australia in early November with the talk “Go Testing By Example”.\nBeing the first talk, there were some A/V issues, so I re-recorded it at home and have posted it here:\n\n\n\n\n\n\nHere ",
+        "creator": ""
+      },
+      {
+        "title": "Open Source Supply Chain Security at Google",
+        "link": "http://research.swtch.com/acmscored",
+        "pubDate": "2023-11-30T09:10:00.000Z",
+        "contentSnippet": "I was a remote opening keynote speaker at ACM SCORED 2023, which we decided meant that I sent a video to play and I was on Discord during the talk for attendees to text directly with question as the v",
+        "creator": ""
+      },
+      {
+        "title": "Running the “Reflections on Trusting Trust” Compiler",
+        "link": "http://research.swtch.com/nih",
+        "pubDate": "2023-10-26T01:00:00.000Z",
+        "contentSnippet": "body { font-family: 'Minion 3'; }\n.nih pre { padding-top: 0.2em; margin: 0; }\n.nih { border-spacing: 0; }\n.nih tr { padding: 0; }\n.nih td { padding: 0.5em; min-width: 25em; }\n.nih td { vertical-align:",
+        "creator": ""
+      },
+      {
+        "title": "C and C++ Prioritize Performance over Correctness",
+        "link": "http://research.swtch.com/ub",
+        "pubDate": "2023-08-18T16:00:00.000Z",
+        "contentSnippet": "The original ANSI C standard, C89, introduced the concept of “undefined behavior,”\nwhich was used both to describe the effect of outright bugs like\naccessing memory in a freed object\nand also to captu",
+        "creator": ""
+      },
+      {
+        "title": "Coroutines for Go",
+        "link": "http://research.swtch.com/coro",
+        "pubDate": "2023-07-17T18:00:00.000Z",
+        "contentSnippet": "This post is about why we need a coroutine package for Go, and what it would look like.\nBut first, what are coroutines?\n\n\nEvery programmer today is familiar with function calls (subroutines):\nF calls ",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T15:24:10.660Z",
+    "lastFetched": "2025-08-05T15:24:10.660Z"
+  }
+]
