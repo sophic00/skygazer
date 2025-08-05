@@ -2,3 +2,9 @@ https://matklad.github.io/feed.xml
 https://research.swtch.com/feed.atom
 https://mmapped.blog/feed.xml
 https://www.scattered-thoughts.net/atom.xml
+https://kristoff.it/index.xml
+https://mcyoung.xyz/feed
+https://www.openmymind.net/atom.xml
+https://typesanitizer.com/blog/rss.xml
+https://www.ralfj.de/blog/feed.xml
+

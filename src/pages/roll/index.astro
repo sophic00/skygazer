@@ -96,7 +96,7 @@ function formatDate(dateString: string): string {
           </p>
         </div>
       ) : (
-        <div class="space-y-1">
+        <div class="space-y-3">
           {allPosts.map(post => (
             <article class="py-2">
               <div class="flex items-center gap-2 mb-1">
@@ -112,7 +112,7 @@ function formatDate(dateString: string): string {
                   {post.feedTitle}
                 </a>
                 <span class="text-muted-foreground text-sm">
-                  @{new URL(post.siteUrl || '').hostname || post.siteUrl}
+                  {new URL(post.siteUrl || '').hostname || post.siteUrl}
                 </span>
               </div>
               <a

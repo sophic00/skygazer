@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T15:50:16.958Z",
+    "lastUpdated": "2025-08-05T16:24:35.485Z",
     "lastFetched": "2025-08-05T15:24:07.481Z"
   },
   {
@@ -156,7 +156,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T15:50:19.733Z",
+    "lastUpdated": "2025-08-05T16:24:38.414Z",
     "lastFetched": "2025-08-05T15:24:10.660Z"
   },
   {
@@ -236,7 +236,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T15:50:21.183Z",
+    "lastUpdated": "2025-08-05T16:24:39.814Z",
     "lastFetched": "2025-08-05T15:50:21.183Z"
   },
   {
@@ -316,7 +316,327 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-05T15:50:23.124Z",
+    "lastUpdated": "2025-08-05T16:24:41.111Z",
     "lastFetched": "2025-08-05T15:50:23.124Z"
+  },
+  {
+    "feedUrl": "https://kristoff.it/index.xml",
+    "title": "Loris Cro's Personal Website",
+    "siteUrl": "https://kristoff.it/",
+    "description": "Recent content on Loris Cro's Personal Website",
+    "latestPosts": [
+      {
+        "title": "Asynchrony is not Concurrency",
+        "link": "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
+        "pubDate": "Fri, 18 Jul 2025 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Zig's New Async I/O",
+        "link": "https://kristoff.it/blog/zig-new-async-io/",
+        "pubDate": "Sun, 13 Jul 2025 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Announcing zig.day",
+        "link": "https://kristoff.it/blog/announcing-zig-day/",
+        "pubDate": "Wed, 23 Apr 2025 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Dead Simple Snapshot Testing In Zig",
+        "link": "https://kristoff.it/blog/dead-simple-snapshot-testing/",
+        "pubDate": "Sun, 09 Feb 2025 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "All Your Codebase",
+        "link": "https://kristoff.it/blog/all-your-codebase/",
+        "pubDate": "Tue, 10 Dec 2024 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Advent of Code in Zig",
+        "link": "https://kristoff.it/blog/advent-of-code-zig/",
+        "pubDate": "Mon, 25 Nov 2024 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "RAII and the Rust/Linux Drama",
+        "link": "https://kristoff.it/blog/raii-rust-linux/",
+        "pubDate": "Tue, 22 Oct 2024 01:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Go Exceptions for the Unconvinced",
+        "link": "https://kristoff.it/blog/go-exceptions-unconvinced/",
+        "pubDate": "Tue, 22 Oct 2024 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Yes, Go Does Have Exceptions",
+        "link": "https://kristoff.it/blog/go-exceptions/",
+        "pubDate": "Thu, 17 Oct 2024 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "The Static Site Paradox",
+        "link": "https://kristoff.it/blog/static-site-paradox/",
+        "pubDate": "Tue, 08 Oct 2024 00:00:00 +0000",
+        "contentSnippet": "",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T16:24:42.473Z",
+    "lastFetched": "2025-08-05T16:22:39.794Z"
+  },
+  {
+    "feedUrl": "https://mcyoung.xyz/feed",
+    "title": "mcyoung",
+    "siteUrl": "https://mcyoung.xyz/https://mcyoung.xyz/",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Parsing Protobuf Like Never Before",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
+        "pubDate": "2025-07-16T07:00:00.000Z",
+        "contentSnippet": "Historically I have worked on many projects related to high-performance Protobuf, be that on the C++ runtime, on the Rust runtime, or on integrating UPB, the fastest Protobuf runtime, written by my co",
+        "creator": ""
+      },
+      {
+        "title": "The Best C++ Library",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/14/best/",
+        "pubDate": "2025-07-14T07:00:00.000Z",
+        "contentSnippet": "It’s no secret that my taste in programming languages is very weird for a programming language enthusiast professional. Several of my last few posts are about Go, broadly regarded as the programming l",
+        "creator": ""
+      },
+      {
+        "title": "What’s //go:nosplit for?",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/07/nosplit/",
+        "pubDate": "2025-07-07T07:00:00.000Z",
+        "contentSnippet": "Most people don’t know that Go has special syntax for directives. Unfortunately, it’s not real syntax, it’s just a comment. For example, //go:noinline causes the next function declaration to never get",
+        "creator": ""
+      },
+      {
+        "title": "Protobuf Tip #7: Scoping It Out",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/06/03/protobuf-tip-7/",
+        "pubDate": "2025-06-03T07:00:00.000Z",
+        "contentSnippet": "You’d need a very specialized electron microscope to get down to the level to actually see a single strand of DNA. – Craig Venter\n TL;DR: buf convert is a powerful tool for examining wire format dumps",
+        "creator": ""
+      },
+      {
+        "title": "Protobuf Tip #6: The Subtle Dangers of Enum Aliases",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/05/20/protobuf-tip-6/",
+        "pubDate": "2025-05-20T07:00:00.000Z",
+        "contentSnippet": "I’ve been very fortunate to dodge a nickname throughout my entire career. I’ve never had one. – Jimmie Johnson\n TL;DR: Enum values can have aliases. This feature is poorly designed and shouldn’t be us",
+        "creator": ""
+      },
+      {
+        "title": "Protobuf Tip #5: Avoid import public/weak",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/05/13/protobuf-tip-5/",
+        "pubDate": "2025-05-13T07:00:00.000Z",
+        "contentSnippet": "My dad had a guitar but it was acoustic, so I smashed a mirror and glued broken glass to it to make it look more metal. It looked ridiculous! –Max Cavalera\n TL;DR: Avoid import public and import weak.",
+        "creator": ""
+      },
+      {
+        "title": "Protobuf Tip #4: Accepting Mistakes We Can’t Fix",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/04/29/protobuf-tip-4/",
+        "pubDate": "2025-04-29T07:00:00.000Z",
+        "contentSnippet": "Bad humor is an evasion of reality; good humor is an acceptance of it. –Malcolm Muggeridge\n TL;DR: Protobuf’s distributed nature introduces evolution risks that make it hard to fix some types of mista",
+        "creator": ""
+      },
+      {
+        "title": "Protobuf Tip #3: Enum Names Need Prefixes",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/04/22/protobuf-tip-3/",
+        "pubDate": "2025-04-22T07:00:00.000Z",
+        "contentSnippet": "Smart people learn from their mistakes. But the real sharp ones learn from the mistakes of others. –Brandon Mull\n TL;DR: enums inherit some unfortunate behaviors from C++. Use the Buf lint rules ENUM_",
+        "creator": ""
+      },
+      {
+        "title": "Cheating the Reaper in Go",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/04/21/go-arenas/",
+        "pubDate": "2025-04-21T07:00:00.000Z",
+        "contentSnippet": "Even though I am a C++ programmer at heart, Go fascinates me for none of the reasons you think. Go has made several interesting design decisions:\n  \n It has virtually no Undefined Behavior1.\n  \n It ha",
+        "creator": ""
+      },
+      {
+        "title": "Protobuf Tip #2: Compress Your Protos!",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/04/15/protobuf-tip-2/",
+        "pubDate": "2025-04-15T07:00:00.000Z",
+        "contentSnippet": "As a matter of fact, when compression technology came along, we thought the future in 1996 was about voice. We got it wrong. It is about voice, video, and data, and that is what we have today on these",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T16:24:44.138Z",
+    "lastFetched": "2025-08-05T16:22:41.993Z"
+  },
+  {
+    "feedUrl": "https://www.openmymind.net/atom.xml",
+    "title": "openmymind.net",
+    "siteUrl": "https://www.openmymind.net/",
+    "description": "",
+    "latestPosts": [
+      {
+        "title": "Zig's new Writer",
+        "link": "https://www.openmymind.net/Zigs-New-Writer/",
+        "pubDate": "2025-07-17T00:00:00.000Z",
+        "contentSnippet": "As you might have heard, Zig's Io namespace is being reworked. Eventually, this will mean the re-introduction of async. As a first step though, the Writer and Reader interfaces and some of the related",
+        "creator": ""
+      },
+      {
+        "title": "Zig's new LinkedList API (it's time to learn @fieldParentPtr)",
+        "link": "https://www.openmymind.net/Zigs-New-LinkedList-API/",
+        "pubDate": "2025-04-10T00:00:00.000Z",
+        "contentSnippet": "In a recent, post-Zig 0.14 commit, Zig's SinglyLinkedList and DoublyLinkedList saw significant changes.\nThe previous version was a generic and, with all the methods removed, looked like:\n\npub fn Singl",
+        "creator": ""
+      },
+      {
+        "title": "Allocator.resize",
+        "link": "https://www.openmymind.net/Allocator-resize/",
+        "pubDate": "2025-03-27T00:00:00.000Z",
+        "contentSnippet": "There are four important methods on Zig's std.mem.Allocator interface that Zig developers must be comfortable with:\nalloc(T, n) - which creates an array of n items of type T,\nfree(ptr) - which frees m",
+        "creator": ""
+      },
+      {
+        "title": "ArenaAllocator.free and Nested Arenas",
+        "link": "https://www.openmymind.net/ArenaAllocator-free-and-Nested-Arenas/",
+        "pubDate": "2025-03-15T00:00:00.000Z",
+        "contentSnippet": "What happens when you free with an ArenaAllocator? You might be tempted to look at the documentation for std.mem.Allocator.free which says \"Free an array allocated with alloc\". But this is the one thi",
+        "creator": ""
+      },
+      {
+        "title": "Zig's dot star syntax (value.*)",
+        "link": "https://www.openmymind.net/Zig-Dot-Star-Syntax/",
+        "pubDate": "2025-03-07T00:00:00.000Z",
+        "contentSnippet": "Maybe I'm the only one, but it always takes my little brain a split second to understand what's happening whenever I see, or have to write, something like value.* = .{...}.\nIf we take a step back, a v",
+        "creator": ""
+      },
+      {
+        "title": "GetOrPut With String Keys",
+        "link": "https://www.openmymind.net/GetOrPut-With-String-Keys/",
+        "pubDate": "2025-02-27T00:00:00.000Z",
+        "contentSnippet": "I've previously blogged about how much I like Zig's getOrPut hashmap method. As a brief recap, we can visualize Zig's hashmap as two arrays:\n\n  keys:               values:\n       --------          ---",
+        "creator": ""
+      },
+      {
+        "title": "Comparing Strings as Integers with @bitCast",
+        "link": "https://www.openmymind.net/Comparing-Strings-as-Integers-with-bitCast/",
+        "pubDate": "2025-02-20T00:00:00.000Z",
+        "contentSnippet": "In the last blog posts, we looked at different ways to compare strings in Zig. A few posts back, we introduced Zig's @bitCast. As a quick recap, @bitCast lets us force a specific type onto a value. Fo",
+        "creator": ""
+      },
+      {
+        "title": "Switching on Strings in Zig",
+        "link": "https://www.openmymind.net/Switching-On-Strings-In-Zig/",
+        "pubDate": "2025-02-13T00:00:00.000Z",
+        "contentSnippet": "Newcomers to Zig will quickly learn that you can't switch on a string (i.e. []const u8). The following code gives us the unambiguous error message cannot switch on strings:\n\nswitch (color) {\n    \"red\"",
+        "creator": ""
+      },
+      {
+        "title": "Using Generics to Inject Stubs when Testing",
+        "link": "https://www.openmymind.net/Using-Generics-To-Inject-Stubs-When-Testing/",
+        "pubDate": "2025-02-07T00:00:00.000Z",
+        "contentSnippet": "I have an unapologetic and, I'd like to think, pragmatic take on testing. I want tests to run fast, not be flaky and not be brittle. By \"flaky\", I mean tests that randomly fail. By \"brittle\", I mean t",
+        "creator": ""
+      },
+      {
+        "title": "In Zig, What's a Writer?",
+        "link": "https://www.openmymind.net/In-Zig-Whats-a-Writer/",
+        "pubDate": "2025-01-28T00:00:00.000Z",
+        "contentSnippet": "As of mid-July 2025, development on a new Io namespace is underway. If you're using Zig 0.14.1 or earlier, this post is still relevant. I've written a bit about Zig's new Writer.\n\n\nI find Zig's idea o",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-08-05T16:24:46.908Z",
+    "lastFetched": "2025-08-05T16:23:41.655Z"
+  },
+  {
+    "feedUrl": "https://typesanitizer.com/blog/rss.xml",
+    "title": "@typesanitizer's blog",
+    "siteUrl": "https://typesanitizer.com/",
+    "description": "Musings on compilers, programming languages and software engineering.",
+    "latestPosts": [
+      {
+        "title": "How should we learn from bugs?",
+        "link": "https://typesanitizer.com/blog/bug-analysis.html",
+        "pubDate": "Sun, 03 Aug 2025 00:00:00 GMT",
+        "contentSnippet": "Reflections on a one-line bug fix that took two days to figure out, and the unspoken assumptions in how we talk about bugs.",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "Deeper theories of program design",
+        "link": "https://typesanitizer.com/blog/deeper-theories.html",
+        "pubDate": "Tue, 01 Jul 2025 00:00:00 GMT",
+        "contentSnippet": "A discussion on substantive theories of program design, with the running example of concurrent file modifications.",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "A meta-analysis of three different notions of software complexity",
+        "link": "https://typesanitizer.com/blog/complexity-definitions.html",
+        "pubDate": "Sat, 14 Jun 2025 00:00:00 GMT",
+        "contentSnippet": "Discussion on notions of software complexity as defined by Rich Hickey, John Ousterhout and Zach Tellman.",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "The ability to learn how to judge outcomes is probably a core skill",
+        "link": "https://typesanitizer.com/blog/outcome-judgement.html",
+        "pubDate": "Sun, 30 Mar 2025 00:00:00 GMT",
+        "contentSnippet": "Discussion and counter-points to the necessity of being able to judge outcomes in unfamiliar contexts, for being a good leader.",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "An epic treatise on error models for systems programming languages",
+        "link": "https://typesanitizer.com/blog/errors.html",
+        "pubDate": "Thu, 06 Mar 2025 00:00:00 GMT",
+        "contentSnippet": "Musings on the representation, propagation and handling of errors in existing programming languages, as well as thoughts on future systems. (15K+ words)",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "Our optimizers need a rethink",
+        "link": "https://typesanitizer.com/blog/rethink-optimizers.html",
+        "pubDate": "Wed, 23 Oct 2024 00:00:00 GMT",
+        "contentSnippet": "Thoughts on how compiler and database optimizers should evolve in the future, focusing on predictability and guarantees instead of smarts and heroics",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "On leaving my last job",
+        "link": "https://typesanitizer.com/blog/leaving-apple.html",
+        "pubDate": "Sun, 29 Sep 2024 00:00:00 GMT",
+        "contentSnippet": "Notes on why I left the Swift team at Apple, with some reflections for job seekers and junior people.",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "My first and last Strange Loop",
+        "link": "https://typesanitizer.com/blog/strange-loop.html",
+        "pubDate": "Fri, 01 Sep 2023 00:00:00 GMT",
+        "contentSnippet": "Thoughts, feelings, some personal history and musings on Strange Loop as an event, an experience and as an idea.",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "TFW UBSan flags a dynamic type error inside Clang",
+        "link": "https://typesanitizer.com/blog/ubsan.html",
+        "pubDate": "Sun, 01 Jan 2023 00:00:00 GMT",
+        "contentSnippet": "Recently, I turned on UBSan for a fledgling work project. It went a little more sideways than I was expecting.",
+        "creator": "@typesanitizer"
+      },
+      {
+        "title": "Zig-style generics are not well-suited for most languages",
+        "link": "https://typesanitizer.com/blog/zig-generics.html",
+        "pubDate": "Sat, 01 Oct 2022 00:00:00 GMT",
+        "contentSnippet": "A discussion of some of the downsides of Zig's implementation of generics, and why other programming languages should think super hard before adopting a similar system.",
+        "creator": "@typesanitizer"
+      }
+    ],
+    "lastUpdated": "2025-08-05T16:24:48.117Z",
+    "lastFetched": "2025-08-05T16:22:46.179Z"
   }
 ]
