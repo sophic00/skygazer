@@ -96,32 +96,31 @@ function formatDate(dateString: string): string {
           </p>
         </div>
       ) : (
-        <div class="space-y-4">
+        <div class="space-y-6">
           {allPosts.map(post => (
-            <article class="flex items-start gap-4 py-2">
-              <div class="text-muted-foreground min-w-[80px] flex-shrink-0 text-sm">
-                {post.pubDate && formatDate(post.pubDate)}
-              </div>
-              <div class="min-w-0 flex-1">
-                <div class="mb-1 flex items-center gap-2">
-                  <a
-                    href={post.siteUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-sm text-accent decoration-dashed hover:underline"
-                  >
-                    {post.feedTitle}
-                  </a>
-                </div>
+            <article class="py-2">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-muted-foreground text-base">
+                  {post.pubDate && formatDate(post.pubDate)}
+                </span>
                 <a
-                  href={post.link}
+                  href={post.siteUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="block text-base font-medium transition-colors hover:text-accent"
+                  class="text-base text-accent decoration-dashed hover:underline"
                 >
-                  {post.title}
+                  {post.feedTitle}
                 </a>
               </div>
+              <a
+                href={post.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block text-2xl font-medium transition-colors hover:text-accent decoration-dashed hover:underline leading-relaxed"
+                style="word-break: break-word; hyphens: auto;"
+              >
+                {post.title}
+              </a>
             </article>
           ))}
         </div>
