@@ -28,7 +28,7 @@ jobs:
           cache: "pnpm"
 
       - name: Install dependencies
-        run: NODE_OPTIONS="--max-old-space-size=4096" pnpm install --frozen-lockfile
+        run: NODE_OPTIONS="--max-old-space-size=6144" pnpm install --frozen-lockfile
 
       - name: Fetch blogroll data
         run: pnpm update-blogroll
