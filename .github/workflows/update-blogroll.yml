@@ -1,4 +1,4 @@
-name: blogroll ci
+name: update blogroll 
 
 on:
   schedule:
