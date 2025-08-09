@@ -71,31 +71,31 @@ const isActive = (path: string) => {
           <!-- Text navigation links in 2-column grid on mobile -->
           <ul class="grid grid-cols-2 gap-1 sm:flex sm:gap-x-4">
             <li>
-              <a 
-                href="/projects" 
+              <a
+                href="/projects"
                 class:list={[
                   "block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1",
-                  { "active-nav": isActive("/projects") }
+                  { "active-nav": isActive("/projects") },
                 ]}
               >
                 /projects
               </a>
             </li>
             <li>
-              <a 
-                href="/roll" 
+              <a
+                href="/roll"
                 class:list={[
                   "block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1",
-                  { "active-nav": isActive("/roll") }
+                  { "active-nav": isActive("/roll") },
                 ]}
               >
                 /roll
               </a>
             </li>
             <li>
-              <a 
-                href="/resume.pdf" 
-                target="_blank" 
+              <a
+                href="/resume.pdf"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1"
               >
@@ -103,9 +103,9 @@ const isActive = (path: string) => {
               </a>
             </li>
             <li>
-              <a 
-                href={SITE.keybase} 
-                target="_blank" 
+              <a
+                href={SITE.keybase}
+                target="_blank"
                 rel="noopener noreferrer"
                 class="block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1"
               >
@@ -113,7 +113,7 @@ const isActive = (path: string) => {
               </a>
             </li>
           </ul>
-          
+
           <!-- Icon buttons in a separate row -->
           <ul class="mt-4 flex justify-center gap-2 sm:mt-0 sm:gap-x-4">
             {
