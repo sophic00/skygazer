@@ -99,7 +99,7 @@ function formatDate(dateString: string): string {
         <div class="space-y-4">
           {allPosts.map(post => (
             <article class="py-2">
-              <div class="flex flex-wrap items-center gap-x-2 gap-y-1 mb-1 text-sm sm:text-base">
+              <div class="mb-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm sm:text-base">
                 <span class="text-muted-foreground">
                   {post.pubDate && formatDate(post.pubDate)}
                 </span>
@@ -112,14 +112,14 @@ function formatDate(dateString: string): string {
                   {post.feedTitle}
                 </a>
                 <span class="text-muted-foreground text-xs sm:text-sm">
-                  {new URL(post.siteUrl || '').hostname || post.siteUrl}
+                  {new URL(post.siteUrl || "").hostname || post.siteUrl}
                 </span>
               </div>
               <a
                 href={post.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="block text-lg sm:text-xl lg:text-2xl font-medium transition-colors hover:text-accent decoration-dashed hover:underline leading-relaxed"
+                class="block text-lg leading-relaxed font-medium decoration-dashed transition-colors hover:text-accent hover:underline sm:text-xl lg:text-2xl"
                 style="word-break: break-word; hyphens: auto;"
               >
                 {post.title}
@@ -133,8 +133,7 @@ function formatDate(dateString: string): string {
     <div class="mt-12 rounded-lg border border-dashed bg-muted/30 p-4">
       <h3 class="mb-2 text-sm font-medium">About this Blogroll</h3>
       <p class="text-muted-foreground text-xs">
-        I first came across the idea of treating a blogroll as a feed
-        reader on
+        I first came across the idea of treating a blogroll as a feed reader on
         <a href="https://matklad.github.io" class="underline underline-offset-2"
           >Alex Kladov’s site</a
         >. His approach struck me as both minimal and effective, and it inspired

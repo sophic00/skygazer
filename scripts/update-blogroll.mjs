@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin / env node
+/* eslint-disable no-console */
 
 import Parser from 'rss-parser';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
