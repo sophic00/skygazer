@@ -1,0 +1,25 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Main from "@/layouts/Main.astro";
+import { SITE } from "@/config";
+---
+
+<Layout title={`About | ${SITE.title}`}>
+  <Header />
+  <Main pageTitle="About" pageDesc="A little bit about me.">
+    <section class="prose dark:prose-invert max-w-none">
+      <p>
+        I'm {SITE.author}. I build tools, backends, and little web things that
+        make life nicer. This site is my space on the internet where I share
+        projects, notes, and experiments.
+      </p>
+      <p>
+        When I'm not tinkering with code, I enjoy reading, music, and exploring
+        systems that balance simplicity and power.
+      </p>
+    </section>
+  </Main>
+  <Footer />
+</Layout>

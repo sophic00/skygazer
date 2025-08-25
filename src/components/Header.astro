@@ -81,6 +81,17 @@ const isActive = (path: string) => {
                 /projects
               </a>
             </li>
+            <li>
+              <a
+                href="/about"
+                class:list={[
+                  "block px-2 py-3 text-center font-medium hover:text-accent sm:px-2 sm:py-1",
+                  { "active-nav": isActive("/about") },
+                ]}
+              >
+                /about
+              </a>
+            </li>
 
             <li>
               <a
@@ -159,6 +170,7 @@ const isActive = (path: string) => {
     </div>
   </div>
   <Hr />
+
 </header>
 
 <script>
