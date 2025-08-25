@@ -2,31 +2,24 @@
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import Main from "@/layouts/Main.astro";
 import Hr from "@/components/Hr.astro";
 import LinkButton from "@/components/LinkButton.astro";
+import { SITE } from "@/config";
 ---
 
-<Layout
-  title="About"
-  description="Learn more about my interests in systems programming, compilers, and low-level software development."
->
+<Layout title={`About | ${SITE.title}`}>
   <Header />
-  <main id="main-content">
-    <section id="about-hero" class="pt-0 pb-0">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        About Me
-      </h1>
-
-      <p class="text-skin-base/90 mb-6 text-lg">
-        I'm fascinated by well-crafted systems from backend architectures and
-        distributed services to compilers and operating systems. When I
-        encounter something masterfully crafted, I like to take it apart in
-        thought tracing its workings, weighing its trade-offs, and reimagining
-        how it could be built. Lately, I've been drawn to the overlap between
-        systems programming, language runtimes, backend efficiency, and
-        low-level internals.
-      </p>
-    </section>
+  <Main pageTitle="About" pageDesc="Learn more about my interests in systems programming, compilers, and low-level software development.">
+    <div class="text-skin-base/90 mb-6 text-lg">
+      I'm fascinated by well-crafted systems from backend architectures and
+      distributed services to compilers and operating systems. When I
+      encounter something masterfully crafted, I like to take it apart in
+      thought tracing its workings, weighing its trade-offs, and reimagining
+      how it could be built. Lately, I've been drawn to the overlap between
+      systems programming, language runtimes, backend efficiency, and
+      low-level internals.
+    </div>
 
     <Hr />
 
@@ -99,6 +92,6 @@ import LinkButton from "@/components/LinkButton.astro";
         </div>
       </div>
     </section>
-  </main>
+  </Main>
   <Footer />
 </Layout>
