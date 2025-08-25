@@ -3,14 +3,12 @@ import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-// import Socials from "@/components/Socials.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
-// import { SOCIALS } from "@/constants";
 
 const posts = await getCollection("blog");
 
@@ -21,7 +19,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
 <Layout>
   <Header />
-  <main id="main-content" data-layout="index">
+  <main id="main-content">
     <section id="hero" class="pt-0 pb-0">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
         Hey, I'm Vaibhav
@@ -29,42 +27,47 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
       <p class="text-skin-base/90 mb-6 text-lg">
         Welcome to my quiet corner of the internet. I'm currently a CS undergrad
-        and likes building things that run fast, accurately, and don’t fall
+        and likes building things that run fast, accurately, and don't fall
         apart under pressure.
       </p>
-
     </section>
 
-    <!-- <section id="interests-tech" class="pt-6 pb-6">
-      <h2 class="text-2xl font-semibold tracking-wide mb-6">How I Work</h2>
+    <Hr />
+
+    <section id="about-work" class="pt-6 pb-6">
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">What I Do</h2>
       <div class="text-skin-base/90 space-y-4">
         <p>
-          I'm most engaged when I'm deep into problems I haven't figured out yet—whether that means 
-          <strong class="text-skin-base">writing an operating system</strong>, <strong class="text-skin-base">designing a backend system</strong>, 
-          <strong class="text-skin-base">building a interpreter</strong>, or sketching out ideas on paper.
+          I love building systems from the ground up, whether that's 
+          <strong class="text-skin-base">operating systems</strong>, 
+          <strong class="text-skin-base">emulators</strong>, 
+          <strong class="text-skin-base">compilers</strong>, or 
+          <strong class="text-skin-base">large-scale backend services</strong>. 
+          I'm happiest working at scale, where I can own a system end to end, design, implementation, debugging, and keeping it reliable in production.
         </p>
         <p>
-          I rarely start with a language or framework in mind; I start with a question, a curiosity, or a constraint. 
-          <strong class="text-skin-base">The tools follow</strong>. My work often spans <strong class="text-skin-base">systems programming</strong>, 
-          <strong class="text-skin-base">compilers</strong>, <strong class="text-skin-base">backend architecture</strong>, 
-          and the occasional detour into <strong class="text-skin-base">graphics or AI</strong>—whatever best serves the challenge at hand.
+          I enjoy peeling back abstractions to see how things really work, and I 
+          don't mind working with legacy or opaque code if it means making the 
+          system more performant and reliable.
         </p>
-        <p>
-          I enjoy working with <strong class="text-skin-base">Rust, Go, Zig, and Python</strong>, 
-          and care about building <strong class="text-skin-base">reliable systems</strong> that explore ideas 
-          at the intersection of <strong class="text-skin-base">math, philosophy, and computation</strong>.
-        </p>
-        <div class="mt-6 text-center">
-          <LinkButton 
-            href="/keys.asc" 
-            class="text-skin-accent hover:text-skin-accent/80 underline"
-            title="Download PGP Public Key"
-          >
-            🔐 PGP Public Key
-          </LinkButton>
-        </div>
       </div>
-    </section> -->
+    </section>
+
+    <Hr />
+
+    <section id="technical-skills" class="pt-6 pb-6">
+      <h2 class="mb-6 text-2xl font-semibold tracking-wide">Technical Stack</h2>
+      <div class="text-skin-base/90 space-y-4">
+        <p>
+          On the programming side, I'm very comfortable with Rust, C, Python, and Go for systems and backend work. I've also worked with Docker, Kubernetes, and distributed systems tooling. These are the instruments I reach for most often, though I'm always open to exploring whatever tool best suits the problem at hand.
+        </p>
+        <p>
+          Beyond code, I'm deeply interested in the philosophy of computation, programming language theory, and the craft of abstraction: how great designs can be simple, powerful, and enduring.
+        </p>
+      </div>
+    </section>
+
+
 
     {/* Show Hr separator if we have any posts sections to display */}
     {
@@ -75,8 +78,8 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       SITE.showFeaturedPosts && featuredPosts.length > 0 && (
         <>
-          <section id="featured" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+          <section id="featured" class="pt-6 pb-6">
+            <h2 class="mb-6 text-2xl font-semibold tracking-wide">Featured</h2>
             <ul>
               {featuredPosts.map(data => (
                 <Card variant="h3" {...data} />
@@ -90,8 +93,8 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     {
       SITE.showRecentPosts && recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+        <section id="recent-posts" class="pt-6 pb-6">
+          <h2 class="mb-6 text-2xl font-semibold tracking-wide">Recent Posts</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -104,7 +107,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     {
       SITE.showAllPostsButton && (
-        <div class="my-8 text-center">
+        <div class="mt-6 text-center">
           <LinkButton href="/posts/">
             All Posts
             <IconArrowRight class="inline-block rtl:-rotate-180" />
@@ -112,35 +115,6 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         </div>
       )
     }
-
-    <!-- <Hr /> -->
-
-    <!-- <section id="closing-message" class="pt-12 pb-6">
-      <p class="text-base text-skin-base/80 mb-8">
-        Thanks for stopping by! Feel free to check out my projects, read my notes, 
-        or drop by if there's an interesting topic to chat about.
-      </p>
-
-      {
-        // only display if at least one social link is enabled
-        SOCIALS.length > 0 && (
-          <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
-    </section> -->
   </main>
   <Footer />
 </Layout>
-
-<script>
-  document.addEventListener("astro:page-load", () => {
-    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
-      ?.dataset?.layout;
-    if (indexLayout) {
-      sessionStorage.setItem("backUrl", "/");
-    }
-  });
-</script>
