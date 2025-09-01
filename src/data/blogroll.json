@@ -6,6 +6,13 @@
     "description": "",
     "latestPosts": [
       {
+        "title": "Vibe Coding Terminal Editor",
+        "link": "https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html",
+        "pubDate": "2025-08-31T00:00:00.000Z",
+        "contentSnippet": "Vibe Coding Terminal Editor\nAug 31, 2025\n\nI “wrote” a small tool for myself as my biannual\nroutine check of where llms are currently at. I think I’ve learned a bunch from this exercise. This\nis frustr",
+        "creator": ""
+      },
+      {
         "title": "Ads Are a Positional Good",
         "link": "https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html",
         "pubDate": "2025-08-30T00:00:00.000Z",
@@ -67,16 +74,9 @@
         "pubDate": "2025-06-26T00:00:00.000Z",
         "contentSnippet": "RSS Server Side Reader Jun 26, 2025\nI like the idea of RSS, but none of the RSS readers stuck with me, until I implemented one of my\nown, using a somewhat unusual technique. There’s at least one other",
         "creator": ""
-      },
-      {
-        "title": "Open Source Can't Coordinate",
-        "link": "https://matklad.github.io/2025/05/20/open-source-cant-coordinate.html",
-        "pubDate": "2025-05-20T00:00:00.000Z",
-        "contentSnippet": "Open Source Can’t Coordinate May 20, 2025\nI was taking a shower this morning, and was pondering yesterday’s\nproblem, where I suspect\nthat I have an outdated version of hotspot Linux profiler, but I\nca",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:17.677Z",
+    "lastUpdated": "2025-09-01T06:40:41.737Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -94,7 +94,8 @@
       "https://matklad.github.io/2025/08/16/reserve-first.html",
       "https://matklad.github.io/2025/08/23/retry-loop-retry.html",
       "https://matklad.github.io/2025/08/23/links.html",
-      "https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html"
+      "https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html",
+      "https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html"
     ]
   },
   {
@@ -174,7 +175,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:19.204Z",
+    "lastUpdated": "2025-09-01T06:40:43.075Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -278,7 +279,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:20.319Z",
+    "lastUpdated": "2025-09-01T06:40:44.203Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -404,7 +405,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:21.662Z",
+    "lastUpdated": "2025-09-01T06:40:45.272Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -660,7 +661,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:22.843Z",
+    "lastUpdated": "2025-09-01T06:40:46.404Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -780,7 +781,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:24.052Z",
+    "lastUpdated": "2025-09-01T06:40:47.518Z",
     "lastFetched": "2025-08-05T16:22:41.993Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
@@ -873,7 +874,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:26.050Z",
+    "lastUpdated": "2025-09-01T06:40:49.281Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -976,7 +977,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:27.109Z",
+    "lastUpdated": "2025-09-01T06:40:50.395Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1081,7 +1082,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:29.011Z",
+    "lastUpdated": "2025-09-01T06:40:52.186Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1175,7 +1176,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:30.229Z",
+    "lastUpdated": "2025-09-01T06:40:53.317Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1293,7 +1294,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:31.387Z",
+    "lastUpdated": "2025-09-01T06:40:54.473Z",
     "lastFetched": "2025-08-05T16:47:03.171Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1395,7 +1396,7 @@
         "creator": "Casey Muratori"
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:32.561Z",
+    "lastUpdated": "2025-09-01T06:40:55.622Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1499,7 +1500,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:33.891Z",
+    "lastUpdated": "2025-09-01T06:40:56.884Z",
     "lastFetched": "2025-08-05T16:47:07.069Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1658,7 +1659,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:35.326Z",
+    "lastUpdated": "2025-09-01T06:40:58.332Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -1774,7 +1775,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:36.779Z",
+    "lastUpdated": "2025-09-01T06:41:00.134Z",
     "lastFetched": "2025-08-05T16:47:13.079Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -1866,7 +1867,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:37.975Z",
+    "lastUpdated": "2025-09-01T06:41:01.318Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -1958,7 +1959,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:39.306Z",
+    "lastUpdated": "2025-09-01T06:41:02.695Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2053,7 +2054,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:40.613Z",
+    "lastUpdated": "2025-09-01T06:41:03.993Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2081,7 +2082,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:41.682Z",
+    "lastUpdated": "2025-09-01T06:41:05.011Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2164,7 +2165,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:42.748Z",
+    "lastUpdated": "2025-09-01T06:41:06.042Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2278,7 +2279,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:43.926Z",
+    "lastUpdated": "2025-09-01T06:41:07.099Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2412,7 +2413,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:45.020Z",
+    "lastUpdated": "2025-09-01T06:41:08.255Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2515,7 +2516,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:46.418Z",
+    "lastUpdated": "2025-09-01T06:41:09.742Z",
     "lastFetched": "2025-08-05T17:12:35.732Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2607,7 +2608,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:47.569Z",
+    "lastUpdated": "2025-09-01T06:41:11.054Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -2727,7 +2728,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:48.823Z",
+    "lastUpdated": "2025-09-01T06:41:12.249Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -2748,6 +2749,13 @@
     "siteUrl": "https://www.daemonology.net/blog/",
     "description": "Musings from Colin Percival",
     "latestPosts": [
+      {
+        "title": "Thoughts on (Amazonian) Leadership",
+        "link": "https://www.daemonology.net/blog/2025-09-01-Thoughts-on-Amazonian-Leadership.html",
+        "pubDate": "Mon, 01 Sep 2025 00:30:00 +0000",
+        "contentSnippet": "Amazon's\nLeadership\nPrinciples are famous, not just within Amazon but also in the tech\nworld at large.  While they're frequently mocked — including by\nAmazonians — they're also generally sensible rule",
+        "creator": ""
+      },
       {
         "title": "A year of funded FreeBSD",
         "link": "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -2810,16 +2818,9 @@
         "pubDate": "Wed, 25 Oct 2023 07:35:00 +0000",
         "contentSnippet": "Yesterday I read a great article from Sentry entitled\n\"We\nJust Gave $500,000 to Open Source Maintainers\", and it made me wonder\njust how much Tarsnap had spent\non supporting open source software over ",
         "creator": ""
-      },
-      {
-        "title": "Announcing the FreeBSD/Firecracker platform",
-        "link": "https://www.daemonology.net/blog/2022-10-18-FreeBSD-Firecracker.html",
-        "pubDate": "Tue, 18 Oct 2022 06:05:00 +0000",
-        "contentSnippet": "The Firecracker\nVirtual Machine Monitor was developed at Amazon Web Services as a\nbuilding block for services like\nAWS Lambda and\nAWS Fargate.\nWhile there are many ways of launching and managing VMs, ",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:50.058Z",
+    "lastUpdated": "2025-09-01T06:41:13.517Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -2831,7 +2832,8 @@
       "https://www.daemonology.net/blog/2023-12-31-Canadian-payroll-dependency-chart.html",
       "https://www.daemonology.net/blog/2023-11-21-late-breaking-FreeBSD-14-breakage.html",
       "https://www.daemonology.net/blog/2023-10-25-2^18-dollars-to-open-source.html",
-      "https://www.daemonology.net/blog/2022-10-18-FreeBSD-Firecracker.html"
+      "https://www.daemonology.net/blog/2022-10-18-FreeBSD-Firecracker.html",
+      "https://www.daemonology.net/blog/2025-09-01-Thoughts-on-Amazonian-Leadership.html"
     ]
   },
   {
@@ -2911,7 +2913,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:51.609Z",
+    "lastUpdated": "2025-09-01T06:41:15.177Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3013,7 +3015,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:53.080Z",
+    "lastUpdated": "2025-09-01T06:41:16.743Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3115,7 +3117,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:54.432Z",
+    "lastUpdated": "2025-09-01T06:41:18.112Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3325,7 +3327,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:55.518Z",
+    "lastUpdated": "2025-09-01T06:41:19.193Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3417,7 +3419,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:57.301Z",
+    "lastUpdated": "2025-09-01T06:41:21.414Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3513,7 +3515,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-08-31T06:34:58.472Z",
+    "lastUpdated": "2025-09-01T06:41:22.717Z",
     "lastFetched": "2025-08-05T17:56:29.248Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
