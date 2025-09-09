@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:21.490Z",
+    "lastUpdated": "2025-09-09T06:37:24.678Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -176,7 +176,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:22.827Z",
+    "lastUpdated": "2025-09-09T06:37:26.434Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -280,7 +280,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:23.956Z",
+    "lastUpdated": "2025-09-09T06:37:27.897Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -406,7 +406,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:25.099Z",
+    "lastUpdated": "2025-09-09T06:37:29.379Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -664,7 +664,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:26.248Z",
+    "lastUpdated": "2025-09-09T06:37:30.693Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -784,7 +784,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:27.370Z",
+    "lastUpdated": "2025-09-09T06:37:32.204Z",
     "lastFetched": "2025-08-05T16:22:41.993Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
@@ -877,7 +877,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:29.211Z",
+    "lastUpdated": "2025-09-09T06:37:34.455Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -981,7 +981,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:30.329Z",
+    "lastUpdated": "2025-09-09T06:37:35.715Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1086,7 +1086,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:32.197Z",
+    "lastUpdated": "2025-09-09T06:37:37.793Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1180,7 +1180,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:33.513Z",
+    "lastUpdated": "2025-09-09T06:37:39.184Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1298,7 +1298,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:34.741Z",
+    "lastUpdated": "2025-09-09T06:37:40.480Z",
     "lastFetched": "2025-08-05T16:47:03.171Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1401,7 +1401,7 @@
         "creator": "Casey Muratori"
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:35.883Z",
+    "lastUpdated": "2025-09-09T06:37:41.733Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1505,7 +1505,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:37.067Z",
+    "lastUpdated": "2025-09-09T06:37:43.052Z",
     "lastFetched": "2025-08-05T16:47:07.069Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1588,6 +1588,121 @@
     ]
   },
   {
+    "feedUrl": "https://www.gingerbill.org/article/index.xml",
+    "title": "Articles on gingerBill",
+    "siteUrl": "/article/",
+    "description": "Recent content in Articles on gingerBill",
+    "latestPosts": [
+      {
+        "title": "Package Managers are Evil",
+        "link": "/article/2025/09/08/package-managers-are-evil/",
+        "pubDate": "Mon, 08 Sep 2025 00:00:00 +0000",
+        "contentSnippet": "n.b. This is a written version of a dialogue from a YouTube video: 2 Language Creators vs 2 Idiots | The Standup\nPackage managers (for programming languages) are evil1.\nTo start, I need to make a few ",
+        "creator": ""
+      },
+      {
+        "title": "If Odin Had Macros",
+        "link": "/article/2025/07/31/if-odin-had-macros/",
+        "pubDate": "Thu, 31 Jul 2025 00:00:00 +0000",
+        "contentSnippet": "I sometimes get asked if Odin has any plans to add hygienic macros or some other similar construct. My general, and now (in)famous, answer is to many such questions is: No.\nI am not against macros nor",
+        "creator": ""
+      },
+      {
+        "title": "Unstructured Thoughts on the Problems of OSS/FOSS",
+        "link": "/article/2025/04/22/unstructured-thoughts-on-oss/",
+        "pubDate": "Tue, 22 Apr 2025 00:00:00 +0000",
+        "contentSnippet": "Originally from replies to a Twitter thread: https://x.com/TheGingerBill/status/1914389352416993395\nThis is not a structured argument against FOSS/OSS but my uncommon thoughts on the topic.\nI am not s",
+        "creator": ""
+      },
+      {
+        "title": "OpenGL is not Right-Handed",
+        "link": "/article/2024/11/10/opengl-is-not-right-handed/",
+        "pubDate": "Sun, 10 Nov 2024 00:00:00 +0000",
+        "contentSnippet": "The original Twitter thread: https://x.com/TheGingerBill/status/1508833104567414785\nI have a huge gripe when I read articles/tutorials on OpenGL: most people have no idea what they are talking about w",
+        "creator": ""
+      },
+      {
+        "title": "Marketing the Odin Programming Language is Weird",
+        "link": "/article/2024/09/08/odin-weird-to-market/",
+        "pubDate": "Sun, 08 Sep 2024 00:00:00 +0000",
+        "contentSnippet": "[Originally from a Twitter Thread]\nOriginal Twitter Post\n“Killer Feature”\nOdin is a weird programming language to advertise/market for.\nOdin is very pragmatic in terms of its design and overall philos",
+        "creator": ""
+      },
+      {
+        "title": "Why People are Angry over Go 1.23 Iterators",
+        "link": "/article/2024/06/17/go-iterator-design/",
+        "pubDate": "Mon, 17 Jun 2024 00:00:00 +0000",
+        "contentSnippet": "NOTE: This is based on, but completely rewritten, from a Twitter post: https://x.com/TheGingerBill/status/1802645945642799423\nTL;DR It makes Go feel too “functional” rather than being an unabashed imp",
+        "creator": ""
+      },
+      {
+        "title": "String Type Distinctions",
+        "link": "/article/2024/04/05/string-type-distinctions/",
+        "pubDate": "Fri, 05 Apr 2024 00:00:00 +0000",
+        "contentSnippet": "[Originally from a Twitter Thread]\nOriginal Twitter Post\nOne thing many languages & API designers get wrong is the concept of a string. I try to make a firm distinction between:\nstring value (string o",
+        "creator": ""
+      },
+      {
+        "title": "The Video That Inspired Me To Create Odin",
+        "link": "/article/2024/04/04/video-that-inspired-odin/",
+        "pubDate": "Thu, 04 Apr 2024 00:00:00 +0000",
+        "contentSnippet": "[Originally from a Twitter Thread]\nOriginal Twitter Post\nMany people may not know this but this video by Sean Barrett @nothings is partially the reason why I made the Odin programming language.\n\r\n  \r\n",
+        "creator": ""
+      },
+      {
+        "title": "Why I Hate Language Benchmarks",
+        "link": "/article/2024/01/22/comparing-language-benchmarks/",
+        "pubDate": "Mon, 22 Jan 2024 00:00:00 +0000",
+        "contentSnippet": "[Originally from a Twitter Thread]\nOriginal Twitter Post\nI don’t know if I have “ranted” about this here before but:\nI absolutely HATE comparing programming languages with “benchmarks”.\nLanguage bench",
+        "creator": ""
+      },
+      {
+        "title": "Reverse Engineering Alembic",
+        "link": "/article/2022/07/11/reverse-engineering-alembic/",
+        "pubDate": "Mon, 11 Jul 2022 00:00:00 +0000",
+        "contentSnippet": "For my work at JangaFX, we require the use of the Alembic interchange file format. We have been using other libraries which wrap reading the Alembic file format but because it is not the native librar",
+        "creator": ""
+      }
+    ],
+    "lastUpdated": "2025-09-09T06:37:44.370Z",
+    "lastFetched": "2025-09-09T06:37:44.370Z",
+    "allSeenPosts": [
+      "/article/2025/09/08/package-managers-are-evil/",
+      "/article/2025/07/31/if-odin-had-macros/",
+      "/article/2025/04/22/unstructured-thoughts-on-oss/",
+      "/article/2024/11/10/opengl-is-not-right-handed/",
+      "/article/2024/09/08/odin-weird-to-market/",
+      "/article/2024/06/17/go-iterator-design/",
+      "/article/2024/04/05/string-type-distinctions/",
+      "/article/2024/04/04/video-that-inspired-odin/",
+      "/article/2024/01/22/comparing-language-benchmarks/",
+      "/article/2022/07/11/reverse-engineering-alembic/",
+      "/article/2021/12/15/multiple-return-values-research/",
+      "/article/2021/12/02/memory-allocation-strategies-006/",
+      "/article/2021/11/30/memory-allocation-strategies-005/",
+      "/article/2021/09/06/value-propagation-experiment-part-2/",
+      "/article/2021/07/05/value-propagation-experiment/",
+      "/article/2021/03/07/untyped-types/",
+      "/article/2021/02/02/structured-control-flow/",
+      "/article/2021/02/01/the-essence-of-programming/",
+      "/article/2020/06/21/the-ownership-semantics-flaw/",
+      "/article/2020/06/13/flash-fads-model/",
+      "/article/2020/05/31/progamming-pragmatist-proverbs/",
+      "/article/2020/05/17/relative-pointers/",
+      "/article/2020/01/25/a-reply-to-lets-stop-copying-c/",
+      "/article/2019/05/13/a-reply-to-the-road-to-zig/",
+      "/article/2019/03/10/quine-in-odin/",
+      "/article/2019/02/16/memory-allocation-strategies-004/",
+      "/article/2019/02/15/memory-allocation-strategies-003/",
+      "/article/2019/02/08/memory-allocation-strategies-002/",
+      "/article/2019/02/01/memory-allocation-strategies-001/",
+      "/article/2018/09/05/exceptions---and-why-odin-will-never-have-them/",
+      "/article/2018/03/12/on-the-aesthetics-of-the-syntax-of-declarations/",
+      "/article/2016/12/01/the-metaprogramming-dilemma/",
+      "/article/2015/08/19/defer-in-cpp/"
+    ]
+  },
+  {
     "feedUrl": "https://slightknack.dev/atom.xml",
     "title": "Isaac Clayton",
     "siteUrl": "https://slightknack.dev",
@@ -1664,7 +1779,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:38.451Z",
+    "lastUpdated": "2025-09-09T06:37:45.736Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -1780,7 +1895,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:40.199Z",
+    "lastUpdated": "2025-09-09T06:37:47.314Z",
     "lastFetched": "2025-08-05T16:47:13.079Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -1872,7 +1987,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:41.278Z",
+    "lastUpdated": "2025-09-09T06:37:48.658Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -1964,7 +2079,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:42.623Z",
+    "lastUpdated": "2025-09-09T06:37:50.077Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2059,7 +2174,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:43.891Z",
+    "lastUpdated": "2025-09-09T06:37:51.429Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2087,7 +2202,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:44.931Z",
+    "lastUpdated": "2025-09-09T06:37:52.571Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2170,7 +2285,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:45.959Z",
+    "lastUpdated": "2025-09-09T06:37:53.704Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2284,7 +2399,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:47.047Z",
+    "lastUpdated": "2025-09-09T06:37:54.958Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2418,7 +2533,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:48.095Z",
+    "lastUpdated": "2025-09-09T06:37:56.139Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2521,7 +2636,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:49.594Z",
+    "lastUpdated": "2025-09-09T06:37:57.644Z",
     "lastFetched": "2025-08-05T17:12:35.732Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2613,7 +2728,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:50.688Z",
+    "lastUpdated": "2025-09-09T06:37:58.985Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -2733,7 +2848,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:51.799Z",
+    "lastUpdated": "2025-09-09T06:38:00.208Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -2825,7 +2940,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:53.202Z",
+    "lastUpdated": "2025-09-09T06:38:01.372Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -2918,7 +3033,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:54.701Z",
+    "lastUpdated": "2025-09-09T06:38:02.987Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3020,7 +3135,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:56.261Z",
+    "lastUpdated": "2025-09-09T06:38:04.233Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3122,7 +3237,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:57.558Z",
+    "lastUpdated": "2025-09-09T06:38:05.822Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3332,7 +3447,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-09-08T06:38:58.647Z",
+    "lastUpdated": "2025-09-09T06:38:07.059Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3424,7 +3539,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2025-09-08T06:39:00.906Z",
+    "lastUpdated": "2025-09-09T06:38:09.473Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3521,7 +3636,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2025-08-05T17:56:29.248Z",
+    "lastFetched": "2025-09-09T06:38:10.711Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
