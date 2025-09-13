@@ -72,6 +72,16 @@ function formatDate(dateString: string): string {
     return dateString;
   }
 }
+function safeHostname(url?: string): string {
+  if (!url || typeof url !== "string" || url.trim() === "") return "";
+  try {
+    const normalized = url.startsWith("http://") || url.startsWith("https://") ? url : `https://${url}`;
+    const u = new URL(normalized);
+    return u.hostname || url;
+  } catch {
+    return url;
+  }
+}
 ---
 
 <Layout title={`Blogroll | ${SITE.title}`}>
@@ -112,7 +122,7 @@ function formatDate(dateString: string): string {
                   {post.feedTitle}
                 </a>
                 <span class="text-muted-foreground text-xs sm:text-sm">
-                  {new URL(post.siteUrl || "").hostname || post.siteUrl}
+                  {safeHostname(post.siteUrl) || post.siteUrl}
                 </span>
               </div>
               <a
