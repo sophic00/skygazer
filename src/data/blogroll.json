@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:24.782Z",
+    "lastUpdated": "2025-11-03T06:40:20.037Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -177,7 +177,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:26.343Z",
+    "lastUpdated": "2025-11-03T06:40:21.783Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -281,7 +281,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:27.524Z",
+    "lastUpdated": "2025-11-03T06:40:23.305Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -408,7 +408,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:28.706Z",
+    "lastUpdated": "2025-11-03T06:40:24.552Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -667,7 +667,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:29.888Z",
+    "lastUpdated": "2025-11-03T06:40:25.887Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -717,10 +717,66 @@
     "description": "",
     "latestPosts": [
       {
+        "title": "Living Room 2",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/30/living-room-2/",
+        "pubDate": "2025-10-30T07:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Boombox Boobs",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/28/boombox-boobs/",
+        "pubDate": "2025-10-28T07:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Living Room",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/27/living-room/",
+        "pubDate": "2025-10-27T07:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
         "title": "Why SSA?",
         "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/21/ssa-1/",
         "pubDate": "2025-10-21T07:00:00.000Z",
         "contentSnippet": "If you’ve read anything about compilers in the last two decades or so, you have almost certainly heard of SSA compilers, a popular architecture featured in many optimizing compilers, including ahead-o",
+        "creator": ""
+      },
+      {
+        "title": "Boombox",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/18/boombox/",
+        "pubDate": "2025-10-18T07:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Crystal",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/30/crystal/",
+        "pubDate": "2025-09-30T07:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Tidbit",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/24/tidbit/",
+        "pubDate": "2025-09-24T07:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Momo",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/21/momo/",
+        "pubDate": "2025-09-21T07:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
+      {
+        "title": "Presenting",
+        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/01/presenting/",
+        "pubDate": "2025-09-01T07:00:00.000Z",
+        "contentSnippet": "",
         "creator": ""
       },
       {
@@ -729,65 +785,9 @@
         "pubDate": "2025-08-25T07:00:00.000Z",
         "contentSnippet": "Go’s interfaces are very funny. Rather than being explicitly implemented, like in Java or Rust, they are simply a collection of methods (a “method set”) that the concrete type must happen to have. Thi",
         "creator": ""
-      },
-      {
-        "title": "Parsing Protobuf Like Never Before",
-        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
-        "pubDate": "2025-07-16T07:00:00.000Z",
-        "contentSnippet": "Historically I have worked on many projects related to high-performance Protobuf, be that on the C++ runtime, on the Rust runtime, or on integrating UPB, the fastest Protobuf runtime, written by my co",
-        "creator": ""
-      },
-      {
-        "title": "The Best C++ Library",
-        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/14/best/",
-        "pubDate": "2025-07-14T07:00:00.000Z",
-        "contentSnippet": "It’s no secret that my taste in programming languages is very weird for a programming language enthusiast professional. Several of my last few posts are about Go, broadly regarded as the programming l",
-        "creator": ""
-      },
-      {
-        "title": "What’s //go:nosplit for?",
-        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/07/nosplit/",
-        "pubDate": "2025-07-07T07:00:00.000Z",
-        "contentSnippet": "Most people don’t know that Go has special syntax for directives. Unfortunately, it’s not real syntax, it’s just a comment. For example, //go:noinline causes the next function declaration to never get",
-        "creator": ""
-      },
-      {
-        "title": "Protobuf Tip #7: Scoping It Out",
-        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/06/03/protobuf-tip-7/",
-        "pubDate": "2025-06-03T07:00:00.000Z",
-        "contentSnippet": "You’d need a very specialized electron microscope to get down to the level to actually see a single strand of DNA. – Craig Venter\n TL;DR: buf convert is a powerful tool for examining wire format dumps",
-        "creator": ""
-      },
-      {
-        "title": "Protobuf Tip #6: The Subtle Dangers of Enum Aliases",
-        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/05/20/protobuf-tip-6/",
-        "pubDate": "2025-05-20T07:00:00.000Z",
-        "contentSnippet": "I’ve been very fortunate to dodge a nickname throughout my entire career. I’ve never had one. – Jimmie Johnson\n TL;DR: Enum values can have aliases. This feature is poorly designed and shouldn’t be us",
-        "creator": ""
-      },
-      {
-        "title": "Protobuf Tip #5: Avoid import public/weak",
-        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/05/13/protobuf-tip-5/",
-        "pubDate": "2025-05-13T07:00:00.000Z",
-        "contentSnippet": "My dad had a guitar but it was acoustic, so I smashed a mirror and glued broken glass to it to make it look more metal. It looked ridiculous! –Max Cavalera\n TL;DR: Avoid import public and import weak.",
-        "creator": ""
-      },
-      {
-        "title": "Protobuf Tip #4: Accepting Mistakes We Can’t Fix",
-        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/04/29/protobuf-tip-4/",
-        "pubDate": "2025-04-29T07:00:00.000Z",
-        "contentSnippet": "Bad humor is an evasion of reality; good humor is an acceptance of it. –Malcolm Muggeridge\n TL;DR: Protobuf’s distributed nature introduces evolution risks that make it hard to fix some types of mista",
-        "creator": ""
-      },
-      {
-        "title": "Protobuf Tip #3: Enum Names Need Prefixes",
-        "link": "https://mcyoung.xyz/https://mcyoung.xyz/2025/04/22/protobuf-tip-3/",
-        "pubDate": "2025-04-22T07:00:00.000Z",
-        "contentSnippet": "Smart people learn from their mistakes. But the real sharp ones learn from the mistakes of others. –Brandon Mull\n TL;DR: enums inherit some unfortunate behaviors from C++. Use the Buf lint rules ENUM_",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:31.086Z",
+    "lastUpdated": "2025-11-03T06:40:27.112Z",
     "lastFetched": "2025-08-05T16:22:41.993Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
@@ -801,7 +801,15 @@
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/04/21/go-arenas/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/04/15/protobuf-tip-2/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/08/25/go-default-methods/",
-      "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/21/ssa-1/"
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/21/ssa-1/",
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/30/living-room-2/",
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/28/boombox-boobs/",
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/27/living-room/",
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/10/18/boombox/",
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/30/crystal/",
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/24/tidbit/",
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/21/momo/",
+      "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/01/presenting/"
     ]
   },
   {
@@ -881,7 +889,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:33.742Z",
+    "lastUpdated": "2025-11-03T06:40:29.529Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -986,7 +994,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:34.845Z",
+    "lastUpdated": "2025-11-03T06:40:30.705Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1093,7 +1101,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:36.532Z",
+    "lastUpdated": "2025-11-03T06:40:32.803Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1187,7 +1195,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:37.745Z",
+    "lastUpdated": "2025-11-03T06:40:34.334Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1306,7 +1314,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:38.878Z",
+    "lastUpdated": "2025-11-03T06:40:35.580Z",
     "lastFetched": "2025-08-05T16:47:03.171Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1410,7 +1418,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:40.091Z",
+    "lastUpdated": "2025-11-03T06:40:37.036Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1520,7 +1528,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:41.250Z",
+    "lastUpdated": "2025-11-03T06:40:38.826Z",
     "lastFetched": "2025-08-05T16:47:07.069Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1679,7 +1687,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:42.631Z",
+    "lastUpdated": "2025-11-03T06:40:40.322Z",
     "lastFetched": "2025-09-09T06:37:44.370Z",
     "allSeenPosts": [
       "/article/2025/09/08/package-managers-are-evil/",
@@ -1794,7 +1802,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:43.737Z",
+    "lastUpdated": "2025-11-03T06:40:41.787Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -1910,7 +1918,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:45.201Z",
+    "lastUpdated": "2025-11-03T06:40:43.442Z",
     "lastFetched": "2025-08-05T16:47:13.079Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -2002,7 +2010,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:46.543Z",
+    "lastUpdated": "2025-11-03T06:40:44.943Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -2094,7 +2102,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:47.913Z",
+    "lastUpdated": "2025-11-03T06:40:46.743Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2189,7 +2197,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:49.141Z",
+    "lastUpdated": "2025-11-03T06:40:48.000Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2217,7 +2225,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:50.202Z",
+    "lastUpdated": "2025-11-03T06:40:49.137Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2300,7 +2308,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:51.273Z",
+    "lastUpdated": "2025-11-03T06:40:50.284Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2414,7 +2422,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:52.419Z",
+    "lastUpdated": "2025-11-03T06:40:51.360Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2548,7 +2556,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:53.628Z",
+    "lastUpdated": "2025-11-03T06:40:52.596Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2651,7 +2659,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:55.047Z",
+    "lastUpdated": "2025-11-03T06:40:53.907Z",
     "lastFetched": "2025-08-05T17:12:35.732Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2743,7 +2751,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:56.209Z",
+    "lastUpdated": "2025-11-03T06:40:55.275Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -2863,7 +2871,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:57.398Z",
+    "lastUpdated": "2025-11-03T06:40:56.547Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -2955,7 +2963,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:36:58.614Z",
+    "lastUpdated": "2025-11-03T06:40:57.858Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -3048,7 +3056,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:37:00.004Z",
+    "lastUpdated": "2025-11-03T06:40:59.146Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3153,7 +3161,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:37:01.370Z",
+    "lastUpdated": "2025-11-03T06:41:00.360Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3255,7 +3263,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:37:02.733Z",
+    "lastUpdated": "2025-11-03T06:41:01.755Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3465,7 +3473,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:37:04.025Z",
+    "lastUpdated": "2025-11-03T06:41:03.098Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3557,7 +3565,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2025-11-02T06:37:05.881Z",
+    "lastUpdated": "2025-11-03T06:41:05.774Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3655,7 +3663,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2025-11-02T06:37:06.986Z",
+    "lastFetched": "2025-11-03T06:41:07.197Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
@@ -3799,7 +3807,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-11-02T06:37:07.261Z",
+    "lastUpdated": "2025-11-03T06:41:07.727Z",
     "lastFetched": "2025-10-24T06:37:47.887Z",
     "allSeenPosts": [
       "https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",
