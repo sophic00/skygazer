@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:18.670Z",
+    "lastUpdated": "2025-12-03T06:41:47.148Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -183,7 +183,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:20.091Z",
+    "lastUpdated": "2025-12-03T06:41:48.501Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -287,7 +287,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:21.149Z",
+    "lastUpdated": "2025-12-03T06:41:49.583Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -414,7 +414,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:22.332Z",
+    "lastUpdated": "2025-12-03T06:41:50.772Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -673,7 +673,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:23.706Z",
+    "lastUpdated": "2025-12-03T06:41:51.898Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -794,7 +794,7 @@
       }
     ],
     "lastUpdated": "2025-11-26T06:40:59.276Z",
-    "lastFetched": "2025-12-02T06:42:24.761Z",
+    "lastFetched": "2025-12-03T06:41:52.945Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/14/best/",
@@ -895,7 +895,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:26.540Z",
+    "lastUpdated": "2025-12-03T06:41:54.661Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -1000,7 +1000,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:27.587Z",
+    "lastUpdated": "2025-12-03T06:41:55.698Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1107,7 +1107,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:29.484Z",
+    "lastUpdated": "2025-12-03T06:41:57.296Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1201,7 +1201,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:30.596Z",
+    "lastUpdated": "2025-12-03T06:41:58.395Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1320,7 +1320,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:31.708Z",
+    "lastUpdated": "2025-12-03T06:41:59.552Z",
     "lastFetched": "2025-08-05T16:47:03.171Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1425,7 +1425,7 @@
         "creator": "Casey Muratori"
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:32.913Z",
+    "lastUpdated": "2025-12-03T06:42:00.686Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1536,7 +1536,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:34.080Z",
+    "lastUpdated": "2025-12-03T06:42:01.814Z",
     "lastFetched": "2025-08-05T16:47:07.069Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1695,7 +1695,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:35.471Z",
+    "lastUpdated": "2025-12-03T06:42:03.185Z",
     "lastFetched": "2025-09-09T06:37:44.370Z",
     "allSeenPosts": [
       "/article/2025/09/08/package-managers-are-evil/",
@@ -1810,7 +1810,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:36.805Z",
+    "lastUpdated": "2025-12-03T06:42:04.361Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -1926,7 +1926,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:38.437Z",
+    "lastUpdated": "2025-12-03T06:42:05.939Z",
     "lastFetched": "2025-08-05T16:47:13.079Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -2018,7 +2018,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:39.715Z",
+    "lastUpdated": "2025-12-03T06:42:07.010Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -2110,7 +2110,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:41.078Z",
+    "lastUpdated": "2025-12-03T06:42:08.505Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2205,7 +2205,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:42.349Z",
+    "lastUpdated": "2025-12-03T06:42:09.775Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2233,7 +2233,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:43.365Z",
+    "lastUpdated": "2025-12-03T06:42:10.791Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2316,7 +2316,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:44.463Z",
+    "lastUpdated": "2025-12-03T06:42:11.895Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2430,7 +2430,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:45.522Z",
+    "lastUpdated": "2025-12-03T06:42:12.950Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2564,7 +2564,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:46.577Z",
+    "lastUpdated": "2025-12-03T06:42:14.208Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2667,7 +2667,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:48.119Z",
+    "lastUpdated": "2025-12-03T06:42:15.799Z",
     "lastFetched": "2025-08-05T17:12:35.732Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2762,7 +2762,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:49.304Z",
+    "lastUpdated": "2025-12-03T06:42:16.906Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -2882,7 +2882,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:50.425Z",
+    "lastUpdated": "2025-12-03T06:42:18.000Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -2974,7 +2974,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:51.688Z",
+    "lastUpdated": "2025-12-03T06:42:19.358Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -3068,7 +3068,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:53.288Z",
+    "lastUpdated": "2025-12-03T06:42:20.969Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3173,7 +3173,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:54.728Z",
+    "lastUpdated": "2025-12-03T06:42:22.541Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3276,7 +3276,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:56.097Z",
+    "lastUpdated": "2025-12-03T06:42:23.916Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3486,7 +3486,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:57.171Z",
+    "lastUpdated": "2025-12-03T06:42:25.002Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3507,6 +3507,13 @@
     "siteUrl": "https://writings.stephenwolfram.com",
     "description": "Just another wordpress.wolfram.com site",
     "latestPosts": [
+      {
+        "title": "Instant Supercompute: Launching Wolfram Compute Services",
+        "link": "https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/",
+        "pubDate": "Tue, 02 Dec 2025 19:23:40 +0000",
+        "contentSnippet": "To immediately enable Wolfram Compute Services in Version 14.3 Wolfram Desktop systems, run RemoteBatchSubmissionEnvironment[\"WolframBatch\"]. (The functionality is automatically available in the Wolfr",
+        "creator": "Stephen Wolfram"
+      },
       {
         "title": "What’s Special about Life? Bulk Orchestration and the Rulial Ensemble in Biology and Beyond",
         "link": "https://writings.stephenwolfram.com/2025/11/whats-special-about-life-bulk-orchestration-and-the-rulial-ensemble-in-biology-and-beyond/",
@@ -3569,16 +3576,9 @@
         "pubDate": "Thu, 09 Jan 2025 22:42:31 +0000",
         "contentSnippet": "Related writings: “Logic, Explainability and the Future of Understanding” (2018) » “The Physicalization of Metamathematics and Its Implications for the Foundations of Mathematics” (2022) » “Computatio",
         "creator": "Stephen Wolfram"
-      },
-      {
-        "title": "Useful to the Point of Being Revolutionary: Introducing Wolfram Notebook Assistant",
-        "link": "https://writings.stephenwolfram.com/2024/12/useful-to-the-point-of-being-revolutionary-introducing-wolfram-notebook-assistant/",
-        "pubDate": "Mon, 09 Dec 2024 18:38:15 +0000",
-        "contentSnippet": "Note: As of today, copies of Wolfram Version 14.1 are being auto-updated to allow subscription access to the capabilities described here. [For additional installation information see here.] Just Say W",
-        "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2025-12-02T06:42:59.308Z",
+    "lastUpdated": "2025-12-03T06:42:27.031Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3596,7 +3596,8 @@
       "https://writings.stephenwolfram.com/2025/08/new-features-everywhere-launching-version-14-3-of-wolfram-language-mathematica/",
       "https://writings.stephenwolfram.com/2025/08/i-have-a-theory-too-the-challenge-and-opportunity-of-avocational-science/",
       "https://writings.stephenwolfram.com/2025/09/the-ruliology-of-lambdas/",
-      "https://writings.stephenwolfram.com/2025/11/whats-special-about-life-bulk-orchestration-and-the-rulial-ensemble-in-biology-and-beyond/"
+      "https://writings.stephenwolfram.com/2025/11/whats-special-about-life-bulk-orchestration-and-the-rulial-ensemble-in-biology-and-beyond/",
+      "https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/"
     ]
   },
   {
@@ -3677,7 +3678,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2025-12-02T06:43:00.490Z",
+    "lastFetched": "2025-12-03T06:42:28.270Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
@@ -3821,7 +3822,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-02T06:43:00.559Z",
+    "lastUpdated": "2025-12-03T06:42:28.363Z",
     "lastFetched": "2025-10-24T06:37:47.887Z",
     "allSeenPosts": [
       "https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",
