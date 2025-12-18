@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:28.031Z",
+    "lastUpdated": "2025-12-18T06:43:45.237Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -185,7 +185,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:29.696Z",
+    "lastUpdated": "2025-12-18T06:43:46.725Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -289,7 +289,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:30.771Z",
+    "lastUpdated": "2025-12-18T06:43:47.992Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -416,7 +416,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:31.918Z",
+    "lastUpdated": "2025-12-18T06:43:49.297Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -676,7 +676,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:33.181Z",
+    "lastUpdated": "2025-12-18T06:43:50.508Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -796,7 +796,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:34.355Z",
+    "lastUpdated": "2025-12-18T06:43:51.871Z",
     "lastFetched": "2025-12-07T06:37:19.966Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
@@ -820,7 +820,40 @@
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/21/momo/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/09/01/presenting/",
       "/2025/10/21/ssa-1",
-      "/2025/12/15/value-barriers"
+      "/2025/12/15/value-barriers",
+      "/2025/08/25/go-default-methods",
+      "/2025/07/16/hyperpb",
+      "/2025/07/14/best",
+      "/2025/07/07/nosplit",
+      "/2025/06/03/protobuf-tip-7",
+      "/2025/05/20/protobuf-tip-6",
+      "/2025/05/13/protobuf-tip-5",
+      "/2025/04/29/protobuf-tip-4",
+      "/2025/04/22/protobuf-tip-3",
+      "/2025/04/21/go-arenas",
+      "/2025/04/15/protobuf-tip-2",
+      "/2025/04/14/target-triples",
+      "/2025/04/08/protobuf-tip-1",
+      "/2025/03/11/formatters",
+      "/2024/12/16/rangefuncs",
+      "/2024/12/12/go-abi",
+      "/2024/12/10/json-sucks",
+      "/2024/04/17/calling-convention",
+      "/2023/11/27/simd-base64",
+      "/2023/09/29/what-is-a-matrix",
+      "/2023/08/09/yarns",
+      "/2023/08/01/llvm-ir",
+      "/2023/05/11/sam-closures",
+      "/2023/04/04/trait-rez-wishlist",
+      "/2023/03/29/rseq-checkout",
+      "/2022/07/24/curta",
+      "/2022/07/13/tuples-the-hard-way",
+      "/2022/06/07/alkyne-gc",
+      "/2021/12/19/move-ctors-2",
+      "/2021/11/29/assembly-1",
+      "/2021/06/01/linker-script",
+      "/2021/05/24/ptr-taxonomy",
+      "/2021/04/26/move-ctors"
     ]
   },
   {
@@ -900,7 +933,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:36.758Z",
+    "lastUpdated": "2025-12-18T06:43:54.477Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -1005,7 +1038,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:37.929Z",
+    "lastUpdated": "2025-12-18T06:43:55.547Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1112,7 +1145,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:40.132Z",
+    "lastUpdated": "2025-12-18T06:43:57.443Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1206,7 +1239,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:41.617Z",
+    "lastUpdated": "2025-12-18T06:43:58.828Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1325,7 +1358,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:42.770Z",
+    "lastUpdated": "2025-12-18T06:43:59.989Z",
     "lastFetched": "2025-08-05T16:47:03.171Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1430,7 +1463,7 @@
         "creator": "Casey Muratori"
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:44.017Z",
+    "lastUpdated": "2025-12-18T06:44:01.264Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1541,7 +1574,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:45.395Z",
+    "lastUpdated": "2025-12-18T06:44:02.442Z",
     "lastFetched": "2025-08-05T16:47:07.069Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1700,7 +1733,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:46.777Z",
+    "lastUpdated": "2025-12-18T06:44:03.814Z",
     "lastFetched": "2025-09-09T06:37:44.370Z",
     "allSeenPosts": [
       "/article/2025/09/08/package-managers-are-evil/",
@@ -1816,7 +1849,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:48.021Z",
+    "lastUpdated": "2025-12-18T06:44:04.976Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -1932,7 +1965,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:49.238Z",
+    "lastUpdated": "2025-12-18T06:44:06.429Z",
     "lastFetched": "2025-08-05T16:47:13.079Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -2024,7 +2057,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:50.323Z",
+    "lastUpdated": "2025-12-18T06:44:07.509Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -2117,7 +2150,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:51.788Z",
+    "lastUpdated": "2025-12-18T06:44:08.810Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2212,7 +2245,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:53.182Z",
+    "lastUpdated": "2025-12-18T06:44:10.064Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2240,7 +2273,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:54.317Z",
+    "lastUpdated": "2025-12-18T06:44:11.164Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2323,7 +2356,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:55.444Z",
+    "lastUpdated": "2025-12-18T06:44:12.218Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2437,7 +2470,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:56.482Z",
+    "lastUpdated": "2025-12-18T06:44:13.418Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2571,7 +2604,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:57.532Z",
+    "lastUpdated": "2025-12-18T06:44:14.504Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2674,7 +2707,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:58.751Z",
+    "lastUpdated": "2025-12-18T06:44:15.975Z",
     "lastFetched": "2025-08-05T17:12:35.732Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2770,7 +2803,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2025-12-17T06:44:59.882Z",
+    "lastUpdated": "2025-12-18T06:44:17.099Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -2890,7 +2923,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2025-12-17T06:45:01.287Z",
+    "lastUpdated": "2025-12-18T06:44:18.334Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -2983,7 +3016,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:45:02.430Z",
+    "lastUpdated": "2025-12-18T06:44:19.544Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -3077,7 +3110,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:45:03.621Z",
+    "lastUpdated": "2025-12-18T06:44:21.068Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3112,6 +3145,13 @@
     "siteUrl": "https://dave.cheney.net",
     "description": "",
     "latestPosts": [
+      {
+        "title": "Pop quiz: what time was it?",
+        "link": "https://dave.cheney.net/2025/12/18/pop-quiz-what-time-was-it",
+        "pubDate": "2025-12-18T00:38:52.000Z",
+        "contentSnippet": "Here’s a small quiz derived from some incorrect advice from an AI coding assistant. \npackage main\n\nimport (\n    \"fmt\"\n    \"time\"\n)\n\nfunc main() {\n    fmt.Println(time.Now())\n    defer fmt.Println(time",
+        "creator": ""
+      },
       {
         "title": "Pointer pop quiz",
         "link": "https://dave.cheney.net/2025/11/27/pointer-pop-quiz",
@@ -3174,16 +3214,9 @@
         "pubDate": "2020-05-02T05:09:15.000Z",
         "contentSnippet": "In the previous post I discussed how leaf inlining allows the Go compiler to reduce the overhead of function calls and extend optimisation opportunities across function boundaries. In this post I’ll d",
         "creator": ""
-      },
-      {
-        "title": "Inlining optimisations in Go",
-        "link": "https://dave.cheney.net/2020/04/25/inlining-optimisations-in-go",
-        "pubDate": "2020-04-25T06:38:17.000Z",
-        "contentSnippet": "This is a post about how the Go compiler implements inlining and how this optimisation  affects your Go code. \nn.b. This article focuses on gc, the de facto Go compiler from golang.org. The concepts d",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:45:04.772Z",
+    "lastUpdated": "2025-12-18T06:44:22.510Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3206,7 +3239,8 @@
       "https://dave.cheney.net/2019/10/06/use-internal-packages-to-reduce-your-public-api-surface",
       "https://dave.cheney.net/2019/09/24/be-wary-of-functions-which-take-several-parameters-of-the-same-type",
       "https://dave.cheney.net/2019/09/05/dont-force-allocations-on-the-callers-of-your-api",
-      "https://dave.cheney.net/2025/11/27/pointer-pop-quiz"
+      "https://dave.cheney.net/2025/11/27/pointer-pop-quiz",
+      "https://dave.cheney.net/2025/12/18/pop-quiz-what-time-was-it"
     ]
   },
   {
@@ -3286,7 +3320,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:45:06.116Z",
+    "lastUpdated": "2025-12-18T06:44:23.819Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3496,7 +3530,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:45:07.397Z",
+    "lastUpdated": "2025-12-18T06:44:24.925Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3588,7 +3622,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2025-12-17T06:45:10.196Z",
+    "lastUpdated": "2025-12-18T06:44:26.786Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3688,7 +3722,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2025-12-17T06:45:11.533Z",
+    "lastFetched": "2025-12-18T06:44:27.867Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
@@ -3832,7 +3866,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-17T06:45:12.051Z",
+    "lastUpdated": "2025-12-18T06:44:28.105Z",
     "lastFetched": "2025-10-24T06:37:47.887Z",
     "allSeenPosts": [
       "https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",
