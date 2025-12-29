@@ -1,0 +1,321 @@
+---
+// OrigamiBird.astro - Interactive origami bird scroll animation using Three.js
+---
+
+<div id="origami-bird-container"></div>
+
+<script>
+  import * as THREE from "three";
+
+  // Check for reduced motion preference
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
+
+  // Only initialize if motion is not reduced and WebGL is supported
+  if (!prefersReducedMotion && isWebGLAvailable()) {
+    initOrigamiBird();
+  }
+
+  function isWebGLAvailable(): boolean {
+    try {
+      const canvas = document.createElement("canvas");
+      return !!(
+        window.WebGLRenderingContext &&
+        (canvas.getContext("webgl") || canvas.getContext("experimental-webgl"))
+      );
+    } catch {
+      return false;
+    }
+  }
+
+  function initOrigamiBird() {
+    const container = document.getElementById("origami-bird-container");
+    if (!container) return;
+
+    // Scene setup
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(
+      50,
+      window.innerWidth / window.innerHeight,
+      0.1,
+      1000
+    );
+    camera.position.z = 5;
+
+    const renderer = new THREE.WebGLRenderer({
+      alpha: true,
+      antialias: true,
+    });
+    renderer.setSize(200, 200);
+    renderer.setPixelRatio(window.devicePixelRatio);
+    container.appendChild(renderer.domElement);
+
+    // Get theme colors from CSS variables
+    function getAccentColor(): string {
+      return getComputedStyle(document.documentElement)
+        .getPropertyValue("--accent")
+        .trim();
+    }
+
+    // Lighting
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+    scene.add(ambientLight);
+
+    const directionalLight1 = new THREE.DirectionalLight(0xffffff, 0.5);
+    directionalLight1.position.set(5, 5, 5);
+    scene.add(directionalLight1);
+
+    const directionalLight2 = new THREE.DirectionalLight(0xffffff, 0.3);
+    directionalLight2.position.set(-5, -5, 5);
+    scene.add(directionalLight2);
+
+    // Create origami bird geometry
+    const birdGroup = new THREE.Group();
+
+    // Material that will use accent color
+    const material = new THREE.MeshLambertMaterial({
+      color: getAccentColor(),
+      side: THREE.DoubleSide,
+    });
+
+    // Bird body (center diamond)
+    const bodyGeometry = new THREE.BufferGeometry();
+    const bodyVertices = new Float32Array([
+      0, 0.5, 0, -0.3, 0, 0, 0, -0.5, 0, 0.3, 0, 0,
+    ]);
+    const bodyIndices = new Uint16Array([0, 1, 2, 0, 2, 3]);
+    bodyGeometry.setAttribute(
+      "position",
+      new THREE.BufferAttribute(bodyVertices, 3)
+    );
+    bodyGeometry.setIndex(new THREE.BufferAttribute(bodyIndices, 1));
+    bodyGeometry.computeVertexNormals();
+    const body = new THREE.Mesh(bodyGeometry, material);
+    birdGroup.add(body);
+
+    // Left wing
+    const leftWingGeometry = new THREE.BufferGeometry();
+    const leftWingVertices = new Float32Array([
+      -0.3, 0, 0, -1.2, 0.3, 0, -1.2, -0.3, 0,
+    ]);
+    const leftWingIndices = new Uint16Array([0, 1, 2]);
+    leftWingGeometry.setAttribute(
+      "position",
+      new THREE.BufferAttribute(leftWingVertices, 3)
+    );
+    leftWingGeometry.setIndex(new THREE.BufferAttribute(leftWingIndices, 1));
+    leftWingGeometry.computeVertexNormals();
+    const leftWing = new THREE.Mesh(leftWingGeometry, material);
+    birdGroup.add(leftWing);
+
+    // Right wing
+    const rightWingGeometry = new THREE.BufferGeometry();
+    const rightWingVertices = new Float32Array([
+      0.3, 0, 0, 1.2, 0.3, 0, 1.2, -0.3, 0,
+    ]);
+    const rightWingIndices = new Uint16Array([0, 1, 2]);
+    rightWingGeometry.setAttribute(
+      "position",
+      new THREE.BufferAttribute(rightWingVertices, 3)
+    );
+    rightWingGeometry.setIndex(new THREE.BufferAttribute(rightWingIndices, 1));
+    rightWingGeometry.computeVertexNormals();
+    const rightWing = new THREE.Mesh(rightWingGeometry, material);
+    birdGroup.add(rightWing);
+
+    // Head (small triangle at top)
+    const headGeometry = new THREE.BufferGeometry();
+    const headVertices = new Float32Array([
+      0, 0.5, 0, -0.15, 0.7, 0, 0.15, 0.7, 0,
+    ]);
+    const headIndices = new Uint16Array([0, 1, 2]);
+    headGeometry.setAttribute(
+      "position",
+      new THREE.BufferAttribute(headVertices, 3)
+    );
+    headGeometry.setIndex(new THREE.BufferAttribute(headIndices, 1));
+    headGeometry.computeVertexNormals();
+    const head = new THREE.Mesh(headGeometry, material);
+    birdGroup.add(head);
+
+    // Tail (small triangle at bottom)
+    const tailGeometry = new THREE.BufferGeometry();
+    const tailVertices = new Float32Array([
+      0, -0.5, 0, -0.15, -0.8, 0, 0.15, -0.8, 0,
+    ]);
+    const tailIndices = new Uint16Array([0, 1, 2]);
+    tailGeometry.setAttribute(
+      "position",
+      new THREE.BufferAttribute(tailVertices, 3)
+    );
+    tailGeometry.setIndex(new THREE.BufferAttribute(tailIndices, 1));
+    tailGeometry.computeVertexNormals();
+    const tail = new THREE.Mesh(tailGeometry, material);
+    birdGroup.add(tail);
+
+    scene.add(birdGroup);
+
+    // Animation state
+    let scrollProgress = 0;
+    let floatOffset = 0;
+
+    // Update material color on theme change
+    function updateBirdColor() {
+      const newColor = getAccentColor();
+      material.color.set(newColor);
+    }
+
+    // Listen for theme changes
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (
+          mutation.type === "attributes" &&
+          mutation.attributeName === "data-theme"
+        ) {
+          updateBirdColor();
+        }
+      });
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-theme"],
+    });
+
+    // Scroll handler
+    function handleScroll() {
+      const scrollTop = window.scrollY;
+      const docHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      scrollProgress = Math.min(Math.max(scrollTop / Math.max(docHeight, 1), 0), 1);
+    }
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll(); // Initialize
+
+    // Resize handler
+    function handleResize() {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+    }
+
+    window.addEventListener("resize", handleResize, { passive: true });
+
+    // Animation loop
+    function animate() {
+      const animationId = requestAnimationFrame(animate);
+
+      // Floating animation
+      floatOffset += 0.01;
+      const floatY = Math.sin(floatOffset) * 0.1;
+
+      // Apply transformations based on scroll progress
+      // Wings fold up as scroll increases
+      const wingAngle = scrollProgress * Math.PI * 0.4; // 0 to ~72 degrees
+      leftWing.rotation.z = wingAngle;
+      rightWing.rotation.z = -wingAngle;
+
+      // Body slightly rotates
+      birdGroup.rotation.y = scrollProgress * Math.PI * 0.5;
+
+      // Head and tail fold in slightly
+      const foldAngle = scrollProgress * Math.PI * 0.2;
+      head.rotation.x = -foldAngle;
+      tail.rotation.x = foldAngle;
+
+      // Apply floating animation
+      birdGroup.position.y = floatY;
+
+      // Slight rotation for visual interest
+      birdGroup.rotation.z = Math.sin(floatOffset * 0.5) * 0.05;
+
+      renderer.render(scene, camera);
+
+      // Store animation ID for cleanup
+      if (container) {
+        container.dataset.animationId = animationId.toString();
+      }
+    }
+
+    animate();
+
+    // Cleanup on page navigation (Astro view transitions)
+    document.addEventListener("astro:before-preparation", () => {
+      if (container) {
+        const animationId = container.dataset.animationId;
+        if (animationId) {
+          cancelAnimationFrame(parseInt(animationId));
+        }
+        if (container.firstChild) {
+          container.removeChild(container.firstChild);
+        }
+      }
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
+      observer.disconnect();
+      renderer.dispose();
+      material.dispose();
+      bodyGeometry.dispose();
+      leftWingGeometry.dispose();
+      rightWingGeometry.dispose();
+      headGeometry.dispose();
+      tailGeometry.dispose();
+    });
+
+    // Also cleanup on regular page unload
+    window.addEventListener("beforeunload", () => {
+      if (container) {
+        const animationId = container.dataset.animationId;
+        if (animationId) {
+          cancelAnimationFrame(parseInt(animationId));
+        }
+      }
+      renderer.dispose();
+      material.dispose();
+      bodyGeometry.dispose();
+      leftWingGeometry.dispose();
+      rightWingGeometry.dispose();
+      headGeometry.dispose();
+      tailGeometry.dispose();
+    });
+  }
+</script>
+
+<style>
+  #origami-bird-container {
+    position: fixed;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.7;
+  }
+
+  #origami-bird-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Hide on smaller screens to avoid clutter */
+  @media (max-width: 768px) {
+    #origami-bird-container {
+      display: none;
+    }
+  }
+
+  /* Ensure it's behind content */
+  #origami-bird-container {
+    isolation: isolate;
+  }
+
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    #origami-bird-container {
+      display: none;
+    }
+  }
+</style>
