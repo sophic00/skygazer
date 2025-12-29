@@ -188,7 +188,9 @@
       const scrollTop = window.scrollY;
       const docHeight =
         document.documentElement.scrollHeight - window.innerHeight;
-      scrollProgress = Math.min(Math.max(scrollTop / Math.max(docHeight, 1), 0), 1);
+      // Clamp scroll progress between 0 and 1
+      const rawProgress = scrollTop / Math.max(docHeight, 1);
+      scrollProgress = Math.max(0, Math.min(1, rawProgress));
     }
 
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -202,9 +204,12 @@
 
     window.addEventListener("resize", handleResize, { passive: true });
 
+    // Animation ID tracker for cleanup
+    let currentAnimationId: number | null = null;
+
     // Animation loop
     function animate() {
-      const animationId = requestAnimationFrame(animate);
+      currentAnimationId = requestAnimationFrame(animate);
 
       // Floating animation
       floatOffset += 0.01;
@@ -231,25 +236,15 @@
       birdGroup.rotation.z = Math.sin(floatOffset * 0.5) * 0.05;
 
       renderer.render(scene, camera);
-
-      // Store animation ID for cleanup
-      if (container) {
-        container.dataset.animationId = animationId.toString();
-      }
     }
 
     animate();
 
-    // Cleanup on page navigation (Astro view transitions)
-    document.addEventListener("astro:before-preparation", () => {
-      if (container) {
-        const animationId = container.dataset.animationId;
-        if (animationId) {
-          cancelAnimationFrame(parseInt(animationId));
-        }
-        if (container.firstChild) {
-          container.removeChild(container.firstChild);
-        }
+    // Cleanup function
+    function cleanup() {
+      if (currentAnimationId !== null) {
+        cancelAnimationFrame(currentAnimationId);
+        currentAnimationId = null;
       }
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
@@ -261,24 +256,16 @@
       rightWingGeometry.dispose();
       headGeometry.dispose();
       tailGeometry.dispose();
-    });
+      if (container && container.firstChild) {
+        container.removeChild(container.firstChild);
+      }
+    }
+
+    // Cleanup on page navigation (Astro view transitions)
+    document.addEventListener("astro:before-preparation", cleanup);
 
     // Also cleanup on regular page unload
-    window.addEventListener("beforeunload", () => {
-      if (container) {
-        const animationId = container.dataset.animationId;
-        if (animationId) {
-          cancelAnimationFrame(parseInt(animationId));
-        }
-      }
-      renderer.dispose();
-      material.dispose();
-      bodyGeometry.dispose();
-      leftWingGeometry.dispose();
-      rightWingGeometry.dispose();
-      headGeometry.dispose();
-      tailGeometry.dispose();
-    });
+    window.addEventListener("beforeunload", cleanup);
   }
 </script>
 
