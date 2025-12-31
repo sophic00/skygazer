@@ -6,6 +6,13 @@
     "description": "",
     "latestPosts": [
       {
+        "title": "Memory Safety Is ...",
+        "link": "https://matklad.github.io/2025/12/30/memory-safety-is.html",
+        "pubDate": "2025-12-30T00:00:00.000Z",
+        "contentSnippet": "Memory Safety Is …\nDec 30, 2025\n\nMemory safety is one of those elusive concepts like intelligence, consciousness, or\nporn, that resist attempts to be put to\nwords. Thus, I am not going to attempt to d",
+        "creator": ""
+      },
+      {
         "title": "The Second Great Error Model Convergence",
         "link": "https://matklad.github.io/2025/12/29/second-error-model-convergence.html",
         "pubDate": "2025-12-29T00:00:00.000Z",
@@ -67,16 +74,9 @@
         "pubDate": "2025-11-10T00:00:00.000Z",
         "contentSnippet": "Readonly Characters Are a Big Deal\nNov 10, 2025\n\nI like Emacs UX as exemplified by Magit. I consider it to be a user interface\nparadigm on the same footing as UNIX pipes:\nAn Engine for an Editor\nPipes",
         "creator": ""
-      },
-      {
-        "title": "Error ABI",
-        "link": "https://matklad.github.io/2025/11/09/error-ABI.html",
-        "pubDate": "2025-11-09T00:00:00.000Z",
-        "contentSnippet": "Error ABI\nNov 9, 2025\n\nA follow-up on the\n“strongly typed error codes”\narticle.\nOne common argument about using algebraic data types for errors is that:\nThis argument is not entirely correct. Naively ",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:43:52.291Z",
+    "lastUpdated": "2025-12-31T06:44:14.714Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -109,7 +109,8 @@
       "https://matklad.github.io/2025/12/23/static-allocation-compilers.html",
       "https://matklad.github.io/2025/12/23/zig-newtype-index-pattern.html",
       "https://matklad.github.io/2025/12/29/second-error-model-convergence.html",
-      "https://matklad.github.io/2025/12/28/parsing-advances.html"
+      "https://matklad.github.io/2025/12/28/parsing-advances.html",
+      "https://matklad.github.io/2025/12/30/memory-safety-is.html"
     ]
   },
   {
@@ -189,7 +190,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:43:53.868Z",
+    "lastUpdated": "2025-12-31T06:44:16.325Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -293,7 +294,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:43:54.937Z",
+    "lastUpdated": "2025-12-31T06:44:17.465Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -421,7 +422,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:43:56.124Z",
+    "lastUpdated": "2025-12-31T06:44:18.778Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -681,7 +682,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:43:57.426Z",
+    "lastUpdated": "2025-12-31T06:44:20.045Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -803,7 +804,7 @@
       }
     ],
     "lastUpdated": "2025-12-21T06:40:10.715Z",
-    "lastFetched": "2025-12-30T06:43:58.615Z",
+    "lastFetched": "2025-12-31T06:44:21.305Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/14/best/",
@@ -939,7 +940,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:43:59.977Z",
+    "lastUpdated": "2025-12-31T06:44:22.990Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -1044,7 +1045,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:01.106Z",
+    "lastUpdated": "2025-12-31T06:44:24.193Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1151,7 +1152,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:03.284Z",
+    "lastUpdated": "2025-12-31T06:44:26.117Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1246,7 +1247,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:04.758Z",
+    "lastUpdated": "2025-12-31T06:44:27.571Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1365,7 +1366,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:05.928Z",
+    "lastUpdated": "2025-12-31T06:44:28.782Z",
     "lastFetched": "2025-08-05T16:47:03.171Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1470,7 +1471,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:07.022Z",
+    "lastUpdated": "2025-12-31T06:44:29.956Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1583,7 +1584,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:08.408Z",
+    "lastUpdated": "2025-12-31T06:44:31.358Z",
     "lastFetched": "2025-08-05T16:47:07.069Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1742,7 +1743,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:09.668Z",
+    "lastUpdated": "2025-12-31T06:44:32.710Z",
     "lastFetched": "2025-09-09T06:37:44.370Z",
     "allSeenPosts": [
       "/article/2025/09/08/package-managers-are-evil/",
@@ -1858,7 +1859,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:10.928Z",
+    "lastUpdated": "2025-12-31T06:44:34.075Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -1974,7 +1975,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:12.104Z",
+    "lastUpdated": "2025-12-31T06:44:35.535Z",
     "lastFetched": "2025-08-05T16:47:13.079Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -2066,7 +2067,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:13.388Z",
+    "lastUpdated": "2025-12-31T06:44:36.813Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -2160,7 +2161,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:14.834Z",
+    "lastUpdated": "2025-12-31T06:44:38.087Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2255,7 +2256,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:16.180Z",
+    "lastUpdated": "2025-12-31T06:44:39.634Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2283,7 +2284,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:17.295Z",
+    "lastUpdated": "2025-12-31T06:44:40.750Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2366,7 +2367,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:18.409Z",
+    "lastUpdated": "2025-12-31T06:44:41.843Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2480,7 +2481,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:19.449Z",
+    "lastUpdated": "2025-12-31T06:44:43.056Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2614,7 +2615,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:20.498Z",
+    "lastUpdated": "2025-12-31T06:44:44.313Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2717,7 +2718,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:21.917Z",
+    "lastUpdated": "2025-12-31T06:44:45.727Z",
     "lastFetched": "2025-08-05T17:12:35.732Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2813,7 +2814,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:23.081Z",
+    "lastUpdated": "2025-12-31T06:44:47.098Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -2933,7 +2934,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:24.295Z",
+    "lastUpdated": "2025-12-31T06:44:48.380Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -3026,7 +3027,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:25.385Z",
+    "lastUpdated": "2025-12-31T06:44:49.562Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -3120,7 +3121,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:26.430Z",
+    "lastUpdated": "2025-12-31T06:44:50.957Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3226,7 +3227,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:27.524Z",
+    "lastUpdated": "2025-12-31T06:44:52.316Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3330,7 +3331,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:28.799Z",
+    "lastUpdated": "2025-12-31T06:44:53.804Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3540,7 +3541,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:29.981Z",
+    "lastUpdated": "2025-12-31T06:44:55.016Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3632,7 +3633,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:32.871Z",
+    "lastUpdated": "2025-12-31T06:44:58.317Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3732,7 +3733,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2025-12-30T06:44:34.112Z",
+    "lastFetched": "2025-12-31T06:44:59.479Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
@@ -3806,6 +3807,13 @@
     "description": "I'm Evan Hahn, a programmer.",
     "latestPosts": [
       {
+        "title": "Prediction: Mastodon will outlive Bluesky",
+        "link": "https://evanhahn.com/prediction-mastodon-will-outlive-bluesky/",
+        "pubDate": "Tue, 30 Dec 2025 00:00:00 +0000",
+        "contentSnippet": "Disclaimer: I don’t know what I’m talking about.\nMastodon and Bluesky are, in my opinion, superior to the centralized status quo. They’re built on important protocols: ActivityPub for Mastodon and the",
+        "creator": ""
+      },
+      {
         "title": "Notes from \"Bad Company: Private Equity and the Death of the American Dream\"",
         "link": "https://evanhahn.com/bad-company-book-notes/",
         "pubDate": "Mon, 29 Dec 2025 00:00:00 +0000",
@@ -3867,16 +3875,9 @@
         "pubDate": "Mon, 10 Nov 2025 00:00:00 +0000",
         "contentSnippet": "I gave a talk, “Understanding Unicode”, at Longhorn PHP last month. It’s loosely based on “Why does ‘👩🏾‍🌾’ have a length of 7 in JavaScript?”, a blog post I wrote in 2023.\nThough the talk is for PH",
         "creator": ""
-      },
-      {
-        "title": "Kirby Air Riders demo impressions (from a big fan of the original)",
-        "link": "https://evanhahn.com/kirby-air-riders-demo-impressions/",
-        "pubDate": "Mon, 10 Nov 2025 00:00:00 +0000",
-        "contentSnippet": "Kirby Air Ride patch art by @threadbreak_embroidery\n  \n\nI like to think I’m a pretty big fan of Kirby Air Ride. I’ve played the game for thousands of hours since its release in 2003. I have a TV in my",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2025-12-30T06:44:34.594Z",
+    "lastUpdated": "2025-12-31T06:44:59.772Z",
     "lastFetched": "2025-10-24T06:37:47.887Z",
     "allSeenPosts": [
       "https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",
@@ -3900,7 +3901,8 @@
       "https://evanhahn.com/stopping-bad-guys-from-using-my-open-source-project/",
       "https://evanhahn.com/playback-speed-calculator/",
       "https://evanhahn.com/pyodide-relative-imports/",
-      "https://evanhahn.com/bad-company-book-notes/"
+      "https://evanhahn.com/bad-company-book-notes/",
+      "https://evanhahn.com/prediction-mastodon-will-outlive-bluesky/"
     ]
   }
 ]
