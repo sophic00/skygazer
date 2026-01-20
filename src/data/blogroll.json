@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:51:54.977Z",
+    "lastUpdated": "2026-01-20T06:49:35.964Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -120,6 +120,20 @@
     "description": "",
     "latestPosts": [
       {
+        "title": "Fast Unrounded Scaling: Proof by Ivy",
+        "link": "https://research.swtch.com/fp-proof",
+        "pubDate": "2026-01-19T21:46:00.000Z",
+        "contentSnippet": "My post “Floating-Point Printing and Parsing Can Be Simple And Fast”\ndepends on fast unrounded scaling, defined as:\n⟨x⟩=⌊2x⌋||(2x≠⌊2x⌋)uscale(x,e,p)=⟨x·2e·10p⟩\nx∈ℝ, ⟨x⟩, is the integer value of ⌊x⌋ co",
+        "creator": ""
+      },
+      {
+        "title": "Floating-Point Printing and Parsing Can Be Simple And Fast",
+        "link": "https://research.swtch.com/fp",
+        "pubDate": "2026-01-19T21:45:00.000Z",
+        "contentSnippet": "@media print {\n  table img[src*=\"-scat\"] {\n    width: 432px;\n    height: auto;\n  }\n  table img[src*=\"-cdf\"] {\n    width: 288px;\n    height: auto;\n  }\n}\n\n\n.main-wide td {\n  padding-left: 0 !important;\n",
+        "creator": ""
+      },
+      {
         "title": "Pulling a New Proof from Knuth’s Fixed-Point Printer",
         "link": "http://research.swtch.com/fp-knuth",
         "pubDate": "2026-01-10T14:00:00.000Z",
@@ -131,6 +145,13 @@
         "link": "https://research.swtch.com/fp-knuth",
         "pubDate": "2026-01-10T14:00:00.000Z",
         "contentSnippet": "pre code !important { word-spacing: normal; }\ncode { word-spacing: -0.25em; }\nmtd { padding: 0.5ex 0.2em 0.5ex 0.2em; }\nmi, mtext, mn { font-family: 'Minion 3'; }\nmn.nbf { font-weight: bold; }\nmath[di",
+        "creator": ""
+      },
+      {
+        "title": "Floating Point Formatting",
+        "link": "https://research.swtch.com/fp-all",
+        "pubDate": "2026-01-10T13:00:00.000Z",
+        "contentSnippet": "These are the posts in the “Floating Point Formatting” series,\nwhich started in 2011 and continued in 2026.\n\n\n“Floating Point to Decimal Conversion is Easy” (2011)\n\n“Pulling a New Proof from Knuth’s F",
         "creator": ""
       },
       {
@@ -167,30 +188,9 @@
         "pubDate": "2024-04-02T08:00:00.000Z",
         "contentSnippet": "Introduction\n\n\n\n\nAndres Freund published the existence of the xz attack on 2024-03-29 to the public oss-security@openwall mailing list. The day before, he alerted Debian security and the (private) dis",
         "creator": ""
-      },
-      {
-        "title": "The xz attack shell script",
-        "link": "https://research.swtch.com/xz-script",
-        "pubDate": "2024-04-02T08:00:00.000Z",
-        "contentSnippet": "Introduction\n\n\n\n\nAndres Freund published the existence of the xz attack on 2024-03-29 to the public oss-security@openwall mailing list. The day before, he alerted Debian security and the (private) dis",
-        "creator": ""
-      },
-      {
-        "title": "Timeline of the xz open source attack",
-        "link": "http://research.swtch.com/xz-timeline",
-        "pubDate": "2024-04-02T03:23:00.000Z",
-        "contentSnippet": "Over a period of over two years, an attacker using the name “Jia Tan”\nworked as a diligent, effective contributor to the xz compression library,\neventually being granted commit access and maintainersh",
-        "creator": ""
-      },
-      {
-        "title": "Timeline of the xz open source attack",
-        "link": "https://research.swtch.com/xz-timeline",
-        "pubDate": "2024-04-02T03:23:00.000Z",
-        "contentSnippet": "Over a period of over two years, an attacker using the name “Jia Tan”\nworked as a diligent, effective contributor to the xz compression library,\neventually being granted commit access and maintainersh",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:51:56.330Z",
+    "lastUpdated": "2026-01-20T06:49:37.891Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -237,7 +237,10 @@
       "https://research.swtch.com/bell-labs",
       "https://research.swtch.com/sparse",
       "https://research.swtch.com/tictactoe",
-      "https://research.swtch.com/crabs"
+      "https://research.swtch.com/crabs",
+      "https://research.swtch.com/fp-proof",
+      "https://research.swtch.com/fp",
+      "https://research.swtch.com/fp-all"
     ]
   },
   {
@@ -246,6 +249,13 @@
     "siteUrl": "https://mmapped.blog/feed.xml",
     "description": "",
     "latestPosts": [
+      {
+        "title": "2025 retrospective",
+        "link": "https://mmapped.blog/posts/47-2025-retro.html",
+        "pubDate": "2026-01-19T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
       {
         "title": "Advent of Code 2025",
         "link": "https://mmapped.blog/posts/46-aoc-2025.html",
@@ -308,16 +318,9 @@
         "pubDate": "2025-04-01T00:00:00.000Z",
         "contentSnippet": "",
         "creator": ""
-      },
-      {
-        "title": "ONNX introduction",
-        "link": "https://mmapped.blog/posts/37-onnx-intro.html",
-        "pubDate": "2025-02-17T00:00:00.000Z",
-        "contentSnippet": "",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:51:57.404Z",
+    "lastUpdated": "2026-01-20T06:49:39.032Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -365,7 +368,8 @@
       "https://mmapped.blog/posts/01-effective-rust-canisters.html",
       "https://mmapped.blog/posts/44-tag-based-logging.html",
       "https://mmapped.blog/posts/45-compilation-is-communication.html",
-      "https://mmapped.blog/posts/46-aoc-2025.html"
+      "https://mmapped.blog/posts/46-aoc-2025.html",
+      "https://mmapped.blog/posts/47-2025-retro.html"
     ]
   },
   {
@@ -445,7 +449,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:51:58.974Z",
+    "lastUpdated": "2026-01-20T06:49:40.277Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -705,7 +709,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:00.136Z",
+    "lastUpdated": "2026-01-20T06:49:41.609Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -827,7 +831,7 @@
       }
     ],
     "lastUpdated": "2025-12-21T06:40:10.715Z",
-    "lastFetched": "2026-01-19T06:52:01.349Z",
+    "lastFetched": "2026-01-20T06:49:42.894Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/14/best/",
@@ -963,7 +967,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:03.081Z",
+    "lastUpdated": "2026-01-20T06:49:44.514Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -1068,7 +1072,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:04.133Z",
+    "lastUpdated": "2026-01-20T06:49:45.663Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1175,7 +1179,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:05.916Z",
+    "lastUpdated": "2026-01-20T06:49:47.755Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1270,7 +1274,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:07.050Z",
+    "lastUpdated": "2026-01-20T06:49:49.206Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1389,7 +1393,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:08.228Z",
+    "lastUpdated": "2026-01-20T06:49:50.504Z",
     "lastFetched": "2025-08-05T16:47:03.171Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1495,7 +1499,7 @@
         "creator": "Casey Muratori"
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:09.540Z",
+    "lastUpdated": "2026-01-20T06:49:51.744Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1609,7 +1613,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:10.702Z",
+    "lastUpdated": "2026-01-20T06:49:53.083Z",
     "lastFetched": "2026-01-17T06:40:55.378Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1693,9 +1697,9 @@
   },
   {
     "feedUrl": "https://www.gingerbill.org/article/index.xml",
-    "title": "Articles on gingerBill",
-    "siteUrl": "/article/",
-    "description": "Recent content in Articles on gingerBill",
+    "title": "gingerBill - Articles",
+    "siteUrl": "https://www.gingerbill.org/article/",
+    "description": "Articles by gingerBill",
     "latestPosts": [
       {
         "title": "Mitigating the Billion Dollar Mistake",
@@ -1768,7 +1772,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-18T06:41:51.928Z",
+    "lastUpdated": "2026-01-20T06:49:54.408Z",
     "lastFetched": "2026-01-19T06:52:12.003Z",
     "allSeenPosts": [
       "/article/2025/09/08/package-managers-are-evil/",
@@ -1806,7 +1810,44 @@
       "/article/2015/08/19/defer-in-cpp/",
       "/article/2025/12/15/odins-most-misunderstood-feature-context/",
       "/article/2026/01/02/was-it-really-a-billion-dollar-mistake/",
-      "/article/2026/01/11/mitigating-the-billion-dollar-mistake/"
+      "/article/2026/01/11/mitigating-the-billion-dollar-mistake/",
+      "https://www.gingerbill.org/article/2026/01/19/two-families-of-markup-languages/",
+      "https://www.gingerbill.org/article/2026/01/11/mitigating-the-billion-dollar-mistake/",
+      "https://www.gingerbill.org/article/2026/01/02/was-it-really-a-billion-dollar-mistake/",
+      "https://www.gingerbill.org/article/2025/12/15/odins-most-misunderstood-feature-context/",
+      "https://www.gingerbill.org/article/2025/09/08/package-managers-are-evil/",
+      "https://www.gingerbill.org/article/2025/07/31/if-odin-had-macros/",
+      "https://www.gingerbill.org/article/2025/04/22/unstructured-thoughts-on-oss/",
+      "https://www.gingerbill.org/article/2024/11/10/opengl-is-not-right-handed/",
+      "https://www.gingerbill.org/article/2024/09/08/odin-weird-to-market/",
+      "https://www.gingerbill.org/article/2024/06/17/go-iterator-design/",
+      "https://www.gingerbill.org/article/2024/04/05/string-type-distinctions/",
+      "https://www.gingerbill.org/article/2024/04/04/video-that-inspired-odin/",
+      "https://www.gingerbill.org/article/2024/01/22/comparing-language-benchmarks/",
+      "https://www.gingerbill.org/article/2022/07/11/reverse-engineering-alembic/",
+      "https://www.gingerbill.org/article/2021/12/15/multiple-return-values-research/",
+      "https://www.gingerbill.org/article/2021/12/02/memory-allocation-strategies-006/",
+      "https://www.gingerbill.org/article/2021/11/30/memory-allocation-strategies-005/",
+      "https://www.gingerbill.org/article/2021/09/06/value-propagation-experiment-part-2/",
+      "https://www.gingerbill.org/article/2021/07/05/value-propagation-experiment/",
+      "https://www.gingerbill.org/article/2021/03/07/untyped-types/",
+      "https://www.gingerbill.org/article/2021/02/02/structured-control-flow/",
+      "https://www.gingerbill.org/article/2021/02/01/the-essence-of-programming/",
+      "https://www.gingerbill.org/article/2020/06/21/the-ownership-semantics-flaw/",
+      "https://www.gingerbill.org/article/2020/06/13/flash-fads-model/",
+      "https://www.gingerbill.org/article/2020/05/31/programming-pragmatist-proverbs/",
+      "https://www.gingerbill.org/article/2020/05/17/relative-pointers/",
+      "https://www.gingerbill.org/article/2020/01/25/a-reply-to-lets-stop-copying-c/",
+      "https://www.gingerbill.org/article/2019/05/13/a-reply-to-the-road-to-zig/",
+      "https://www.gingerbill.org/article/2019/03/10/quine-in-odin/",
+      "https://www.gingerbill.org/article/2019/02/16/memory-allocation-strategies-004/",
+      "https://www.gingerbill.org/article/2019/02/15/memory-allocation-strategies-003/",
+      "https://www.gingerbill.org/article/2019/02/08/memory-allocation-strategies-002/",
+      "https://www.gingerbill.org/article/2019/02/01/memory-allocation-strategies-001/",
+      "https://www.gingerbill.org/article/2018/09/05/exceptions---and-why-odin-will-never-have-them/",
+      "https://www.gingerbill.org/article/2018/03/12/on-the-aesthetics-of-the-syntax-of-declarations/",
+      "https://www.gingerbill.org/article/2016/12/01/the-metaprogramming-dilemma/",
+      "https://www.gingerbill.org/article/2015/08/19/defer-in-cpp/"
     ]
   },
   {
@@ -1886,7 +1927,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:12.193Z",
+    "lastUpdated": "2026-01-20T06:49:55.704Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -2003,7 +2044,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:13.823Z",
+    "lastUpdated": "2026-01-20T06:49:57.174Z",
     "lastFetched": "2026-01-17T06:40:58.161Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -2095,7 +2136,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:15.397Z",
+    "lastUpdated": "2026-01-20T06:49:58.493Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -2189,7 +2230,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:17.384Z",
+    "lastUpdated": "2026-01-20T06:50:00.111Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2284,7 +2325,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:18.707Z",
+    "lastUpdated": "2026-01-20T06:50:01.536Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2312,7 +2353,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:19.754Z",
+    "lastUpdated": "2026-01-20T06:50:02.662Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2395,7 +2436,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:20.853Z",
+    "lastUpdated": "2026-01-20T06:50:03.845Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2510,7 +2551,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:21.931Z",
+    "lastUpdated": "2026-01-20T06:50:05.098Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2644,7 +2685,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:22.990Z",
+    "lastUpdated": "2026-01-20T06:50:06.433Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2747,7 +2788,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:24.470Z",
+    "lastUpdated": "2026-01-20T06:50:07.710Z",
     "lastFetched": "2025-08-05T17:12:35.732Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2843,7 +2884,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:25.595Z",
+    "lastUpdated": "2026-01-20T06:50:08.966Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -2963,7 +3004,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:26.719Z",
+    "lastUpdated": "2026-01-20T06:50:10.333Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -3056,7 +3097,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:28.045Z",
+    "lastUpdated": "2026-01-20T06:50:11.690Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -3150,7 +3191,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:29.511Z",
+    "lastUpdated": "2026-01-20T06:50:13.089Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3258,7 +3299,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:30.998Z",
+    "lastUpdated": "2026-01-20T06:50:14.306Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3362,7 +3403,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:32.320Z",
+    "lastUpdated": "2026-01-20T06:50:15.785Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3572,7 +3613,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:33.440Z",
+    "lastUpdated": "2026-01-20T06:50:17.175Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3664,7 +3705,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:35.711Z",
+    "lastUpdated": "2026-01-20T06:50:19.473Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3765,7 +3806,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2026-01-19T06:52:36.849Z",
+    "lastFetched": "2026-01-20T06:50:20.703Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
@@ -3909,7 +3950,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-19T06:52:36.924Z",
+    "lastUpdated": "2026-01-20T06:50:21.009Z",
     "lastFetched": "2025-10-24T06:37:47.887Z",
     "allSeenPosts": [
       "https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",
