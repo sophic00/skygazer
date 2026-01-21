@@ -6,6 +6,13 @@
     "description": "",
     "latestPosts": [
       {
+        "title": "Vibecoding #2",
+        "link": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
+        "pubDate": "2026-01-20T00:00:00.000Z",
+        "contentSnippet": "Vibecoding #2\nJan 20, 2026\n\nI feel like I got substantial value out of Claude today, and want to document it. I am at the tail\nend of AI adoption, so I don’t expect to say anything particularly useful",
+        "creator": ""
+      },
+      {
         "title": "Memory Safety Is ...",
         "link": "https://matklad.github.io/2025/12/30/memory-safety-is.html",
         "pubDate": "2025-12-30T00:00:00.000Z",
@@ -67,16 +74,9 @@
         "pubDate": "2025-11-22T00:00:00.000Z",
         "contentSnippet": "TigerBeetle Blog\nNov 22, 2025\n\nContinuing the tradition, I’ve been\nalso blogging somewhat regularly on TigerBeetle’s blog, so you might want to check those articles\nout or even subscribe (my favorite ",
         "creator": ""
-      },
-      {
-        "title": "Readonly Characters Are a Big Deal",
-        "link": "https://matklad.github.io/2025/11/10/readonly-characters.html",
-        "pubDate": "2025-11-10T00:00:00.000Z",
-        "contentSnippet": "Readonly Characters Are a Big Deal\nNov 10, 2025\n\nI like Emacs UX as exemplified by Magit. I consider it to be a user interface\nparadigm on the same footing as UNIX pipes:\nAn Engine for an Editor\nPipes",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:35.964Z",
+    "lastUpdated": "2026-01-21T06:49:39.073Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -110,7 +110,8 @@
       "https://matklad.github.io/2025/12/23/zig-newtype-index-pattern.html",
       "https://matklad.github.io/2025/12/29/second-error-model-convergence.html",
       "https://matklad.github.io/2025/12/28/parsing-advances.html",
-      "https://matklad.github.io/2025/12/30/memory-safety-is.html"
+      "https://matklad.github.io/2025/12/30/memory-safety-is.html",
+      "https://matklad.github.io/2026/01/20/vibecoding-2.html"
     ]
   },
   {
@@ -190,7 +191,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:37.891Z",
+    "lastUpdated": "2026-01-21T06:49:40.847Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -320,7 +321,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:39.032Z",
+    "lastUpdated": "2026-01-21T06:49:42.380Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -449,7 +450,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:40.277Z",
+    "lastUpdated": "2026-01-21T06:49:43.885Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -709,7 +710,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:41.609Z",
+    "lastUpdated": "2026-01-21T06:49:45.401Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -831,7 +832,7 @@
       }
     ],
     "lastUpdated": "2025-12-21T06:40:10.715Z",
-    "lastFetched": "2026-01-20T06:49:42.894Z",
+    "lastFetched": "2026-01-21T06:49:46.728Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/14/best/",
@@ -967,7 +968,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:44.514Z",
+    "lastUpdated": "2026-01-21T06:49:48.335Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -1072,7 +1073,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:45.663Z",
+    "lastUpdated": "2026-01-21T06:49:49.480Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1179,7 +1180,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:47.755Z",
+    "lastUpdated": "2026-01-21T06:49:51.680Z",
     "lastFetched": "2025-08-05T16:32:31.422Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1274,7 +1275,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:49.206Z",
+    "lastUpdated": "2026-01-21T06:49:53.160Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1393,7 +1394,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:50.504Z",
+    "lastUpdated": "2026-01-21T06:49:54.462Z",
     "lastFetched": "2025-08-05T16:47:03.171Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1499,7 +1500,7 @@
         "creator": "Casey Muratori"
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:51.744Z",
+    "lastUpdated": "2026-01-21T06:49:55.666Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1613,7 +1614,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:53.083Z",
+    "lastUpdated": "2026-01-21T06:49:56.905Z",
     "lastFetched": "2026-01-17T06:40:55.378Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1702,10 +1703,31 @@
     "description": "Articles by gingerBill",
     "latestPosts": [
       {
+        "title": "The Only Two Markup Languages",
+        "link": "https://www.gingerbill.org/article/2026/01/19/two-families-of-markup-languages/",
+        "pubDate": "Mon, 19 Jan 2026 09:00:00 +0000",
+        "contentSnippet": "There are only two families of proper arbitrary markup languages: TeX and SGML  I would normally link to official thing as reference but it's behind the \"wonderful\" ISO paywall: ISO 8879:1986.. By arb",
+        "creator": ""
+      },
+      {
+        "title": "Mitigating the Billion Dollar Mistake",
+        "link": "https://www.gingerbill.org/article/2026/01/11/mitigating-the-billion-dollar-mistake/",
+        "pubDate": "Sun, 11 Jan 2026 09:00:00 +0000",
+        "contentSnippet": "This article is continuation to: Was it really a Billion Dollar Mistake?.After reading a lot of the comments on numerous social media sites on the original article, I think I need to clarify a lot mor",
+        "creator": ""
+      },
+      {
         "title": "Mitigating the Billion Dollar Mistake",
         "link": "/article/2026/01/11/mitigating-the-billion-dollar-mistake/",
         "pubDate": "Sun, 11 Jan 2026 00:00:00 +0000",
         "contentSnippet": "This article is continuation to: Was it really a Billion Dollar Mistake?.\nAfter reading a lot of the comments on numerous social media sites on the original article, I think I need to clarify a lot mo",
+        "creator": ""
+      },
+      {
+        "title": "Was it really a Billion Dollar Mistake?",
+        "link": "https://www.gingerbill.org/article/2026/01/02/was-it-really-a-billion-dollar-mistake/",
+        "pubDate": "Fri, 02 Jan 2026 09:00:00 +0000",
+        "contentSnippet": "TL;DR  pointer dereferences are empirically the easiest class of invalid memory addresses to catch at runtime, and are the least common kind of invalid memory addresses that happen in memory unsafe la",
         "creator": ""
       },
       {
@@ -1717,9 +1739,23 @@
       },
       {
         "title": "context—Odin's Most Misunderstood Feature",
+        "link": "https://www.gingerbill.org/article/2025/12/15/odins-most-misunderstood-feature-context/",
+        "pubDate": "Mon, 15 Dec 2025 09:00:00 +0000",
+        "contentSnippet": "Even with the documentation on the topic, many people completely misunderstand what the  system is for, and what problem it actually solves.For those not familiar with Odin, in each scope, there is an",
+        "creator": ""
+      },
+      {
+        "title": "context—Odin's Most Misunderstood Feature",
         "link": "/article/2025/12/15/odins-most-misunderstood-feature-context/",
         "pubDate": "Mon, 15 Dec 2025 00:00:00 +0000",
         "contentSnippet": "Even with the documentation on the topic, many people completely misunderstand what the context system is for, and what problem it actually solves.\nFor those not familiar with Odin, in each scope, the",
+        "creator": ""
+      },
+      {
+        "title": "Package Managers are Evil",
+        "link": "https://www.gingerbill.org/article/2025/09/08/package-managers-are-evil/",
+        "pubDate": "Mon, 08 Sep 2025 09:00:00 +0000",
+        "contentSnippet": "n.b. This is a written version of a dialogue from a YouTube video: 2 Language Creators vs 2 Idiots | The StandupPackage managers (for programming languages) are evil  The term \"evil\" is being used par",
         "creator": ""
       },
       {
@@ -1731,48 +1767,13 @@
       },
       {
         "title": "If Odin Had Macros",
-        "link": "/article/2025/07/31/if-odin-had-macros/",
-        "pubDate": "Thu, 31 Jul 2025 00:00:00 +0000",
-        "contentSnippet": "I sometimes get asked if Odin has any plans to add hygienic macros or some other similar construct. My general, and now (in)famous, answer is to many such questions is: No.\nI am not against macros nor",
-        "creator": ""
-      },
-      {
-        "title": "Unstructured Thoughts on the Problems of OSS/FOSS",
-        "link": "/article/2025/04/22/unstructured-thoughts-on-oss/",
-        "pubDate": "Tue, 22 Apr 2025 00:00:00 +0000",
-        "contentSnippet": "Originally from replies to a Twitter thread: https://x.com/TheGingerBill/status/1914389352416993395\nThis is not a structured argument against FOSS/OSS but my uncommon thoughts on the topic.\nI am not s",
-        "creator": ""
-      },
-      {
-        "title": "OpenGL is not Right-Handed",
-        "link": "/article/2024/11/10/opengl-is-not-right-handed/",
-        "pubDate": "Sun, 10 Nov 2024 00:00:00 +0000",
-        "contentSnippet": "The original Twitter thread: https://x.com/TheGingerBill/status/1508833104567414785\nI have a huge gripe when I read articles/tutorials on OpenGL: most people have no idea what they are talking about w",
-        "creator": ""
-      },
-      {
-        "title": "Marketing the Odin Programming Language is Weird",
-        "link": "/article/2024/09/08/odin-weird-to-market/",
-        "pubDate": "Sun, 08 Sep 2024 00:00:00 +0000",
-        "contentSnippet": "[Originally from a Twitter Thread]\nOriginal Twitter Post\n“Killer Feature”\nOdin is a weird programming language to advertise/market for.\nOdin is very pragmatic in terms of its design and overall philos",
-        "creator": ""
-      },
-      {
-        "title": "Why People are Angry over Go 1.23 Iterators",
-        "link": "/article/2024/06/17/go-iterator-design/",
-        "pubDate": "Mon, 17 Jun 2024 00:00:00 +0000",
-        "contentSnippet": "NOTE: This is based on, but completely rewritten, from a Twitter post: https://x.com/TheGingerBill/status/1802645945642799423\nTL;DR It makes Go feel too “functional” rather than being an unabashed imp",
-        "creator": ""
-      },
-      {
-        "title": "String Type Distinctions",
-        "link": "/article/2024/04/05/string-type-distinctions/",
-        "pubDate": "Fri, 05 Apr 2024 00:00:00 +0000",
-        "contentSnippet": "[Originally from a Twitter Thread]\nOriginal Twitter Post\nOne thing many languages & API designers get wrong is the concept of a string. I try to make a firm distinction between:\nstring value (string o",
+        "link": "https://www.gingerbill.org/article/2025/07/31/if-odin-had-macros/",
+        "pubDate": "Thu, 31 Jul 2025 09:00:00 +0000",
+        "contentSnippet": "I sometimes get asked if Odin has any plans to add hygienic macros or some other similar construct. My general, and now (in)famous, answer is to many such questions is: No.I am not against macros nor ",
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:54.408Z",
+    "lastUpdated": "2026-01-21T06:49:58.226Z",
     "lastFetched": "2026-01-19T06:52:12.003Z",
     "allSeenPosts": [
       "/article/2025/09/08/package-managers-are-evil/",
@@ -1927,7 +1928,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:55.704Z",
+    "lastUpdated": "2026-01-21T06:49:59.562Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -2044,7 +2045,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:57.174Z",
+    "lastUpdated": "2026-01-21T06:50:02.115Z",
     "lastFetched": "2026-01-17T06:40:58.161Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -2065,6 +2066,13 @@
     "siteUrl": "https://eieio.games",
     "description": "",
     "latestPosts": [
+      {
+        "title": "Will AI Pet My Dog for Me?",
+        "link": "https://eieio.games/blog/will-ai-pet-my-dog-for-me",
+        "pubDate": "2026-01-19T00:00:00.000Z",
+        "contentSnippet": "Will AI Pet My Dog for Me?\nSometimes I don't want to outsource work - especially when it comes to understanding a system. Where should I draw the line?\nRead the full post on my blog!\n\n  Here's a raw l",
+        "creator": ""
+      },
       {
         "title": "ssh tiny.christmas",
         "link": "https://eieio.games/blog/tiny-christmas",
@@ -2127,16 +2135,9 @@
         "pubDate": "2025-02-05T00:00:00.000Z",
         "contentSnippet": "THE GLOBAL CAPSLOCK KEY\nI MADE A GLOBAL CAPS LOCK KEY SO THAT WE CAN ALL AGREE ON WHEN TO USE CAPS LOCK. You can see the status and download the client at https://globalcapslock.com.\nRead the full pos",
         "creator": ""
-      },
-      {
-        "title": "The NYC tech art games triangle",
-        "link": "https://eieio.games/blog/the-nyc-game-art-tech-triangle",
-        "pubDate": "2025-01-22T00:00:00.000Z",
-        "contentSnippet": "The NYC tech art games triangle\nI'm regularly asked about places that it's worth checking out if you're interested in weird tech/art/game stuff in NYC; this blog answers that question.\nRead the full p",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:49:58.493Z",
+    "lastUpdated": "2026-01-21T06:50:03.513Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -2150,7 +2151,8 @@
       "https://eieio.games/blog/1Crossword",
       "https://eieio.games/blog/bad-apple-with-regex-in-vim",
       "https://eieio.games/blog/are-two-heads-better-than-one",
-      "https://eieio.games/blog/tiny-christmas"
+      "https://eieio.games/blog/tiny-christmas",
+      "https://eieio.games/blog/will-ai-pet-my-dog-for-me"
     ]
   },
   {
@@ -2230,7 +2232,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:00.111Z",
+    "lastUpdated": "2026-01-21T06:50:09.440Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2325,7 +2327,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:01.536Z",
+    "lastUpdated": "2026-01-21T06:50:10.792Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2353,7 +2355,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:02.662Z",
+    "lastUpdated": "2026-01-21T06:50:11.917Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2436,7 +2438,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:03.845Z",
+    "lastUpdated": "2026-01-21T06:50:13.197Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2551,7 +2553,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:05.098Z",
+    "lastUpdated": "2026-01-21T06:50:14.426Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2685,7 +2687,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:06.433Z",
+    "lastUpdated": "2026-01-21T06:50:15.692Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2788,7 +2790,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:07.710Z",
+    "lastUpdated": "2026-01-21T06:50:17.008Z",
     "lastFetched": "2025-08-05T17:12:35.732Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2884,7 +2886,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:08.966Z",
+    "lastUpdated": "2026-01-21T06:50:18.194Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -3004,7 +3006,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:10.333Z",
+    "lastUpdated": "2026-01-21T06:50:19.497Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -3026,6 +3028,13 @@
     "siteUrl": "https://www.daemonology.net/blog/",
     "description": "Musings from Colin Percival",
     "latestPosts": [
+      {
+        "title": "Patched FreeBSD AMIs",
+        "link": "https://www.daemonology.net/blog/2026-01-20-Patched-FreeBSD-AMIs.html",
+        "pubDate": "Tue, 20 Jan 2026 18:30:00 +0000",
+        "contentSnippet": "I've been maintaining FreeBSD in the EC2 cloud since 2012, and from October\n2013 onwards FreeBSD AMIs had code to automatically download and install\nsecurity and critical errata updates when they firs",
+        "creator": ""
+      },
       {
         "title": "How to support FreeBSD on your cloud",
         "link": "https://www.daemonology.net/blog/2025-11-08-How-to-support-FreeBSD-on-your-cloud.html",
@@ -3088,16 +3097,9 @@
         "pubDate": "Sun, 31 Dec 2023 00:00:00 +0000",
         "contentSnippet": "The Canada Revenue Agency publishes, on a regular basis (they're now up to\nthe 119th edition), a document entitled\n\"Payroll\nDeductions Formulas\".  This document contains all of the formulas needed\nto ",
         "creator": ""
-      },
-      {
-        "title": "Some late-breaking FreeBSD 14 breakage",
-        "link": "https://www.daemonology.net/blog/2023-11-21-late-breaking-FreeBSD-14-breakage.html",
-        "pubDate": "Tue, 21 Nov 2023 18:35:00 +0000",
-        "contentSnippet": "I assumed the role of FreeBSD Release Engineering Lead a few days ago, and\none of my first duties in the role was to write and send out the\nFreeBSD\n14.0-RELEASE announcement.  (To be clear: Glen Barbe",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:11.690Z",
+    "lastUpdated": "2026-01-21T06:50:20.801Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -3111,7 +3113,8 @@
       "https://www.daemonology.net/blog/2023-10-25-2^18-dollars-to-open-source.html",
       "https://www.daemonology.net/blog/2022-10-18-FreeBSD-Firecracker.html",
       "https://www.daemonology.net/blog/2025-09-01-Thoughts-on-Amazonian-Leadership.html",
-      "https://www.daemonology.net/blog/2025-11-08-How-to-support-FreeBSD-on-your-cloud.html"
+      "https://www.daemonology.net/blog/2025-11-08-How-to-support-FreeBSD-on-your-cloud.html",
+      "https://www.daemonology.net/blog/2026-01-20-Patched-FreeBSD-AMIs.html"
     ]
   },
   {
@@ -3191,7 +3194,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:13.089Z",
+    "lastUpdated": "2026-01-21T06:50:22.204Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3299,7 +3302,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:14.306Z",
+    "lastUpdated": "2026-01-21T06:50:23.454Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3403,7 +3406,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:15.785Z",
+    "lastUpdated": "2026-01-21T06:50:24.889Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3613,7 +3616,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:17.175Z",
+    "lastUpdated": "2026-01-21T06:50:26.313Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3705,7 +3708,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:19.473Z",
+    "lastUpdated": "2026-01-21T06:50:28.522Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3806,7 +3809,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2026-01-20T06:50:20.703Z",
+    "lastFetched": "2026-01-21T06:50:29.749Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
@@ -3950,7 +3953,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-01-20T06:50:21.009Z",
+    "lastUpdated": "2026-01-21T06:50:30.089Z",
     "lastFetched": "2025-10-24T06:37:47.887Z",
     "allSeenPosts": [
       "https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",
