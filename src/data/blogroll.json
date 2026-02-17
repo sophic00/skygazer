@@ -6,6 +6,13 @@
     "description": "",
     "latestPosts": [
       {
+        "title": "Diagnostics Factory",
+        "link": "https://matklad.github.io/2026/02/16/diagnostics-factory.html",
+        "pubDate": "2026-02-16T00:00:00.000Z",
+        "contentSnippet": "Diagnostics Factory\nFeb 16, 2026\n\nIn\nError Codes For Control Flow,\nI explained that Zig’s strongly-typed error codes solve the “handling” half of error management,\nleaving “reporting” to the users. To",
+        "creator": ""
+      },
+      {
         "title": "Justifying text-wrap: pretty",
         "link": "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
         "pubDate": "2026-02-14T00:00:00.000Z",
@@ -67,16 +74,9 @@
         "pubDate": "2025-12-28T00:00:00.000Z",
         "contentSnippet": "Parsing Advances\nDec 28, 2025\n\nI find myself writing yet another toy parser, as one does during a Christmas break. It roughly follows\nResilient LL Parsing Tutorial.\nNot because I need resilience, but ",
         "creator": ""
-      },
-      {
-        "title": "Static Allocation For Compilers",
-        "link": "https://matklad.github.io/2025/12/23/static-allocation-compilers.html",
-        "pubDate": "2025-12-23T00:00:00.000Z",
-        "contentSnippet": "Static Allocation For Compilers\nDec 23, 2025\n\nTigerBeetle famously\nuses “static allocation”.\nInfamously, the use of the term is idiosyncratic: what is meant is not static arrays, as found\nin embedded ",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:40.059Z",
+    "lastUpdated": "2026-02-17T07:09:13.903Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -116,7 +116,8 @@
       "https://matklad.github.io/2026/01/27/make-ts.html",
       "https://matklad.github.io/2026/02/06/ci-in-a-box.html",
       "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
-      "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html"
+      "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
+      "https://matklad.github.io/2026/02/16/diagnostics-factory.html"
     ]
   },
   {
@@ -196,7 +197,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:41.905Z",
+    "lastUpdated": "2026-02-17T07:09:15.761Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -326,7 +327,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:42.978Z",
+    "lastUpdated": "2026-02-17T07:09:16.858Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -455,7 +456,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:44.151Z",
+    "lastUpdated": "2026-02-17T07:09:18.038Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -715,7 +716,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:45.436Z",
+    "lastUpdated": "2026-02-17T07:09:19.328Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -837,7 +838,7 @@
       }
     ],
     "lastUpdated": "2025-12-21T06:40:10.715Z",
-    "lastFetched": "2026-02-16T07:15:46.641Z",
+    "lastFetched": "2026-02-17T07:09:20.636Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/14/best/",
@@ -973,7 +974,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:47.997Z",
+    "lastUpdated": "2026-02-17T07:09:22.149Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -1078,7 +1079,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:49.259Z",
+    "lastUpdated": "2026-02-17T07:09:23.309Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1185,7 +1186,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:51.552Z",
+    "lastUpdated": "2026-02-17T07:09:25.501Z",
     "lastFetched": "2026-02-03T07:02:22.558Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1280,7 +1281,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:52.867Z",
+    "lastUpdated": "2026-02-17T07:09:26.861Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1325,12 +1326,26 @@
   {
     "feedUrl": "https://www.rfleury.com/feed",
     "title": "Digital Grove",
-    "siteUrl": "https://www.rfleury.com",
+    "siteUrl": "https://www.dgtlgrove.com",
     "description": "Towards better computers.",
     "latestPosts": [
       {
+        "title": "Demystifying Debuggers, Part 4: CPU Features & Debuggers",
+        "link": "https://www.dgtlgrove.com/p/demystifying-debuggers-part-4-cpu",
+        "pubDate": "Mon, 16 Feb 2026 21:10:35 GMT",
+        "contentSnippet": "On CPU features that debuggers can use, like interruption instructions, debug registers, single-stepping mode, and more.",
+        "creator": "Ryan Fleury"
+      },
+      {
         "title": "The Magic of the Better Software Conference",
         "link": "https://www.rfleury.com/p/the-magic-of-the-better-software",
+        "pubDate": "Thu, 15 Jan 2026 23:49:12 GMT",
+        "contentSnippet": "Why BSC worked; why other conferences don't.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "The Magic of the Better Software Conference",
+        "link": "https://www.dgtlgrove.com/p/the-magic-of-the-better-software",
         "pubDate": "Thu, 15 Jan 2026 23:49:12 GMT",
         "contentSnippet": "Why BSC worked; why other conferences don't.",
         "creator": "Ryan Fleury"
@@ -1343,8 +1358,22 @@
         "creator": "Ryan Fleury"
       },
       {
+        "title": "Desktop Abstraction and OS Design — Video Discussion w/ Sam Smith",
+        "link": "https://www.dgtlgrove.com/p/desktop-abstraction-and-os-design",
+        "pubDate": "Thu, 20 Nov 2025 07:13:53 GMT",
+        "contentSnippet": "A video call I had with Sam Smith—creator of the Serenum operating system—about fundamental concepts in operating system design pertaining to user-space applications and the desktop environment.",
+        "creator": "Ryan Fleury"
+      },
+      {
         "title": "Multi-Core By Default",
         "link": "https://www.rfleury.com/p/multi-core-by-default",
+        "pubDate": "Fri, 10 Oct 2025 01:19:42 GMT",
+        "contentSnippet": "On multi-core programming, not as a special-case technique, but as a new dimension in all code.",
+        "creator": "Ryan Fleury"
+      },
+      {
+        "title": "Multi-Core By Default",
+        "link": "https://www.dgtlgrove.com/p/multi-core-by-default",
         "pubDate": "Fri, 10 Oct 2025 01:19:42 GMT",
         "contentSnippet": "On multi-core programming, not as a special-case technique, but as a new dimension in all code.",
         "creator": "Ryan Fleury"
@@ -1357,49 +1386,21 @@
         "creator": "Ryan Fleury"
       },
       {
+        "title": "Multithreaded Radix Sort Implementation Walkthrough",
+        "link": "https://www.dgtlgrove.com/p/multithreaded-radix-sort-implementation",
+        "pubDate": "Thu, 04 Sep 2025 05:18:10 GMT",
+        "contentSnippet": "A stream clip where I was asked about a multithreaded radix sort.",
+        "creator": "Ryan Fleury"
+      },
+      {
         "title": "Cracking the Code: Realtime Debugger Visualization Architecture – BSC 2025",
         "link": "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
         "pubDate": "Wed, 23 Jul 2025 04:56:17 GMT",
         "contentSnippet": "My talk at the 2025 Better Software Conference.",
         "creator": "Ryan Fleury"
-      },
-      {
-        "title": "Demystifying Debuggers, Part 3: Debugger-Kernel Interaction",
-        "link": "https://www.rfleury.com/p/demystifying-debuggers-part-3-kernel",
-        "pubDate": "Sat, 28 Dec 2024 06:11:58 GMT",
-        "contentSnippet": "On how kernels collect and expose information about program execution to debuggers.",
-        "creator": "Ryan Fleury"
-      },
-      {
-        "title": "Demystifying Debuggers, Part 2: The Anatomy Of A Running Program",
-        "link": "https://www.rfleury.com/p/demystifying-debuggers-part-2-the",
-        "pubDate": "Mon, 23 Dec 2024 03:39:45 GMT",
-        "contentSnippet": "On the concepts involved in a running program. What happens, exactly, when you double click an executable file, or launch it from the command line, and it begins to execute?",
-        "creator": "Ryan Fleury"
-      },
-      {
-        "title": "Demystifying Debuggers, Part 1: A Busy Intersection",
-        "link": "https://www.rfleury.com/p/demystifying-debuggers-part-1-a-busy",
-        "pubDate": "Mon, 16 Dec 2024 21:45:55 GMT",
-        "contentSnippet": "An introduction to a new post series covering debugger basics.",
-        "creator": "Ryan Fleury"
-      },
-      {
-        "title": "Programmers Are Users (Bad Performance Makes Everyone Less Efficient)",
-        "link": "https://www.rfleury.com/p/programmers-are-users-bad-performance",
-        "pubDate": "Fri, 06 Dec 2024 00:04:41 GMT",
-        "contentSnippet": "On the often-referenced notion of saving “programmer cycles” at the expense of CPU cycles.",
-        "creator": "Ryan Fleury"
-      },
-      {
-        "title": "Codebase Walkthrough: Multi-Window, Panel-Tree UI",
-        "link": "https://www.rfleury.com/p/codebase-walkthrough-multi-window",
-        "pubDate": "Mon, 08 Jul 2024 06:05:29 GMT",
-        "contentSnippet": "Building a multi-window, panel-tree UI sample in the codebase.",
-        "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2026-02-15T07:00:39.758Z",
+    "lastUpdated": "2026-02-17T07:09:28.255Z",
     "lastFetched": "2026-02-16T07:15:53.912Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1425,7 +1426,27 @@
       "https://www.rfleury.com/p/multithreaded-radix-sort-implementation",
       "https://www.rfleury.com/p/multi-core-by-default",
       "https://www.rfleury.com/p/desktop-abstraction-and-os-design",
-      "https://www.rfleury.com/p/the-magic-of-the-better-software"
+      "https://www.rfleury.com/p/the-magic-of-the-better-software",
+      "https://www.dgtlgrove.com/p/demystifying-debuggers-part-4-cpu",
+      "https://www.dgtlgrove.com/p/the-magic-of-the-better-software",
+      "https://www.dgtlgrove.com/p/desktop-abstraction-and-os-design",
+      "https://www.dgtlgrove.com/p/multi-core-by-default",
+      "https://www.dgtlgrove.com/p/multithreaded-radix-sort-implementation",
+      "https://www.dgtlgrove.com/p/cracking-the-code-realtime-debugger",
+      "https://www.dgtlgrove.com/p/demystifying-debuggers-part-3-kernel",
+      "https://www.dgtlgrove.com/p/demystifying-debuggers-part-2-the",
+      "https://www.dgtlgrove.com/p/demystifying-debuggers-part-1-a-busy",
+      "https://www.dgtlgrove.com/p/programmers-are-users-bad-performance",
+      "https://www.dgtlgrove.com/p/codebase-walkthrough-multi-window",
+      "https://www.dgtlgrove.com/p/using-the-codebase-metaprogram",
+      "https://www.dgtlgrove.com/p/enter-the-arena-talk",
+      "https://www.dgtlgrove.com/p/upstream-and-downstream",
+      "https://www.dgtlgrove.com/p/multi-threading-and-mutation",
+      "https://www.dgtlgrove.com/p/from-scratch-data-structures-in-the",
+      "https://www.dgtlgrove.com/p/intro-to-the-codebase-part-v-strings",
+      "https://www.dgtlgrove.com/p/the-easiest-way-to-handle-errors",
+      "https://www.dgtlgrove.com/p/factorio-mutation-and-lossiness",
+      "https://www.dgtlgrove.com/p/the-marketplace-of-ideals"
     ]
   },
   {
@@ -1505,7 +1526,7 @@
         "creator": "Casey Muratori"
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:54.010Z",
+    "lastUpdated": "2026-02-17T07:09:29.497Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1621,7 +1642,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:55.433Z",
+    "lastUpdated": "2026-02-17T07:09:30.817Z",
     "lastFetched": "2026-01-17T06:40:55.378Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1780,7 +1801,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:56.587Z",
+    "lastUpdated": "2026-02-17T07:09:32.229Z",
     "lastFetched": "2026-01-19T06:52:12.003Z",
     "allSeenPosts": [
       "/article/2025/09/08/package-managers-are-evil/",
@@ -1935,7 +1956,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:57.878Z",
+    "lastUpdated": "2026-02-17T07:09:33.537Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -2067,7 +2088,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2026-02-16T07:15:59.105Z",
+    "lastUpdated": "2026-02-17T07:09:34.793Z",
     "lastFetched": "2026-01-17T06:40:58.161Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -2160,7 +2181,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:00.260Z",
+    "lastUpdated": "2026-02-17T07:09:35.891Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -2256,7 +2277,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:02.091Z",
+    "lastUpdated": "2026-02-17T07:09:37.321Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2351,7 +2372,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:03.162Z",
+    "lastUpdated": "2026-02-17T07:09:38.697Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2379,7 +2400,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:04.276Z",
+    "lastUpdated": "2026-02-17T07:09:39.852Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2462,7 +2483,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:05.382Z",
+    "lastUpdated": "2026-02-17T07:09:41.004Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2577,7 +2598,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:06.438Z",
+    "lastUpdated": "2026-02-17T07:09:42.286Z",
     "lastFetched": "2025-08-05T17:55:47.711Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2711,7 +2732,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:07.476Z",
+    "lastUpdated": "2026-02-17T07:09:43.395Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2815,7 +2836,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:08.642Z",
+    "lastUpdated": "2026-02-17T07:09:44.643Z",
     "lastFetched": "2026-02-02T07:13:56.703Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2912,7 +2933,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:09.752Z",
+    "lastUpdated": "2026-02-17T07:09:45.893Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -3032,7 +3053,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:10.985Z",
+    "lastUpdated": "2026-02-17T07:09:47.191Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -3125,7 +3146,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:12.070Z",
+    "lastUpdated": "2026-02-17T07:09:48.321Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -3220,7 +3241,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:13.274Z",
+    "lastUpdated": "2026-02-17T07:09:49.627Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3328,7 +3349,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:14.371Z",
+    "lastUpdated": "2026-02-17T07:09:50.856Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3432,7 +3453,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:15.661Z",
+    "lastUpdated": "2026-02-17T07:09:52.178Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3642,7 +3663,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:16.837Z",
+    "lastUpdated": "2026-02-17T07:09:53.512Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3735,7 +3756,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:19.787Z",
+    "lastUpdated": "2026-02-17T07:09:56.206Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3838,7 +3859,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2026-02-16T07:16:21.041Z",
+    "lastFetched": "2026-02-17T07:09:57.498Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
@@ -3982,7 +4003,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-02-16T07:16:21.516Z",
+    "lastUpdated": "2026-02-17T07:09:57.879Z",
     "lastFetched": "2026-02-02T07:14:24.340Z",
     "allSeenPosts": [
       "https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",
