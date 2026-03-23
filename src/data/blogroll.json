@@ -76,7 +76,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:45.891Z",
+    "lastUpdated": "2026-03-23T07:23:03.589Z",
     "lastFetched": "2025-08-05T15:24:07.481Z",
     "allSeenPosts": [
       "https://matklad.github.io/2025/07/16/font-size-adjust.html",
@@ -201,7 +201,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:47.473Z",
+    "lastUpdated": "2026-03-23T07:23:05.231Z",
     "lastFetched": "2025-08-05T15:24:10.660Z",
     "allSeenPosts": [
       "http://research.swtch.com/diffcover",
@@ -260,6 +260,13 @@
     "siteUrl": "https://mmapped.blog/feed.xml",
     "description": "",
     "latestPosts": [
+      {
+        "title": "Kirk, Scotty, and Spock",
+        "link": "https://mmapped.blog/posts/49-kirk-scotty-spock.html",
+        "pubDate": "2026-03-22T00:00:00.000Z",
+        "contentSnippet": "",
+        "creator": ""
+      },
       {
         "title": "The third hard problem",
         "link": "https://mmapped.blog/posts/48-the-third-hard-problem.html",
@@ -322,16 +329,9 @@
         "pubDate": "2025-04-26T00:00:00.000Z",
         "contentSnippet": "",
         "creator": ""
-      },
-      {
-        "title": "3000 days of Duolingo",
-        "link": "https://mmapped.blog/posts/39-3000-days-of-duolingo.html",
-        "pubDate": "2025-04-14T00:00:00.000Z",
-        "contentSnippet": "",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:48.597Z",
+    "lastUpdated": "2026-03-23T07:23:06.466Z",
     "lastFetched": "2025-08-05T15:50:21.183Z",
     "allSeenPosts": [
       "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
@@ -381,7 +381,8 @@
       "https://mmapped.blog/posts/45-compilation-is-communication.html",
       "https://mmapped.blog/posts/46-aoc-2025.html",
       "https://mmapped.blog/posts/47-2025-retro.html",
-      "https://mmapped.blog/posts/48-the-third-hard-problem.html"
+      "https://mmapped.blog/posts/48-the-third-hard-problem.html",
+      "https://mmapped.blog/posts/49-kirk-scotty-spock.html"
     ]
   },
   {
@@ -461,7 +462,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:49.903Z",
+    "lastUpdated": "2026-03-23T07:23:07.689Z",
     "lastFetched": "2025-08-05T15:50:23.124Z",
     "allSeenPosts": [
       "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
@@ -723,7 +724,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:51.166Z",
+    "lastUpdated": "2026-03-23T07:23:08.916Z",
     "lastFetched": "2025-08-05T16:22:39.794Z",
     "allSeenPosts": [
       "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
@@ -845,7 +846,7 @@
       }
     ],
     "lastUpdated": "2025-12-21T06:40:10.715Z",
-    "lastFetched": "2026-03-22T07:00:52.441Z",
+    "lastFetched": "2026-03-23T07:23:10.215Z",
     "allSeenPosts": [
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/16/hyperpb/",
       "https://mcyoung.xyz/https://mcyoung.xyz/2025/07/14/best/",
@@ -981,7 +982,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:54.176Z",
+    "lastUpdated": "2026-03-23T07:23:11.799Z",
     "lastFetched": "2025-08-05T16:29:20.589Z",
     "allSeenPosts": [
       "https://www.openmymind.net/Zigs-New-Writer/",
@@ -1086,7 +1087,7 @@
         "creator": "@typesanitizer"
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:55.335Z",
+    "lastUpdated": "2026-03-23T07:23:13.024Z",
     "lastFetched": "2025-08-05T16:22:46.179Z",
     "allSeenPosts": [
       "https://typesanitizer.com/blog/bug-analysis.html",
@@ -1193,7 +1194,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:57.334Z",
+    "lastUpdated": "2026-03-23T07:23:14.900Z",
     "lastFetched": "2026-02-03T07:02:22.558Z",
     "allSeenPosts": [
       "https://www.ralfj.de/blog/2025/07/24/memory-safety.html",
@@ -1289,7 +1290,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:00:58.551Z",
+    "lastUpdated": "2026-03-23T07:23:16.203Z",
     "lastFetched": "2025-08-05T16:47:01.249Z",
     "allSeenPosts": [
       "https://andrewkelley.me/post/renting-is-for-suckers.html",
@@ -1408,7 +1409,7 @@
         "creator": "Ryan Fleury"
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:00.035Z",
+    "lastUpdated": "2026-03-23T07:23:17.681Z",
     "lastFetched": "2026-02-16T07:15:53.912Z",
     "allSeenPosts": [
       "https://www.rfleury.com/p/cracking-the-code-realtime-debugger",
@@ -1535,7 +1536,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:01.261Z",
+    "lastUpdated": "2026-03-23T07:23:18.857Z",
     "lastFetched": "2025-08-05T16:47:04.405Z",
     "allSeenPosts": [
       "https://www.computerenhance.com/p/my-cyber-rush-week-conversation-with",
@@ -1655,7 +1656,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:02.479Z",
+    "lastUpdated": "2026-03-23T07:23:20.145Z",
     "lastFetched": "2026-02-19T07:10:58.208Z",
     "allSeenPosts": [
       "https://github.com/norvig/pytudes/blob/master/ipynb/xkcd-Name-Dominoes.ipynb",
@@ -1814,7 +1815,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:03.750Z",
+    "lastUpdated": "2026-03-23T07:23:21.310Z",
     "lastFetched": "2026-01-19T06:52:12.003Z",
     "allSeenPosts": [
       "/article/2025/09/08/package-managers-are-evil/",
@@ -1972,7 +1973,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:05.232Z",
+    "lastUpdated": "2026-03-23T07:23:22.633Z",
     "lastFetched": "2025-08-05T16:47:09.738Z",
     "allSeenPosts": [
       "https://slightknack.dev/blog/difflogic/",
@@ -2108,7 +2109,7 @@
         "creator": "robert@stuffwithstuff.com (Robert Nystrom)"
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:06.741Z",
+    "lastUpdated": "2026-03-23T07:23:24.210Z",
     "lastFetched": "2026-02-19T07:11:00.955Z",
     "allSeenPosts": [
       "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
@@ -2201,7 +2202,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:08.274Z",
+    "lastUpdated": "2026-03-23T07:23:25.344Z",
     "lastFetched": "2025-08-05T16:47:14.287Z",
     "allSeenPosts": [
       "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
@@ -2300,7 +2301,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:09.466Z",
+    "lastUpdated": "2026-03-23T07:23:26.793Z",
     "lastFetched": "2025-08-05T16:47:18.263Z",
     "allSeenPosts": [
       "https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/",
@@ -2395,7 +2396,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:10.757Z",
+    "lastUpdated": "2026-03-23T07:23:28.041Z",
     "lastFetched": "2025-08-05T17:12:13.399Z",
     "allSeenPosts": [
       "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
@@ -2423,7 +2424,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:11.839Z",
+    "lastUpdated": "2026-03-23T07:23:29.146Z",
     "lastFetched": "2025-08-05T17:12:14.768Z",
     "allSeenPosts": [
       ""
@@ -2506,7 +2507,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:12.936Z",
+    "lastUpdated": "2026-03-23T07:23:30.241Z",
     "lastFetched": "2025-08-05T17:12:16.079Z",
     "allSeenPosts": [
       "https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html",
@@ -2621,7 +2622,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:14.190Z",
+    "lastUpdated": "2026-03-23T07:23:31.458Z",
     "lastFetched": "2026-03-06T07:02:40.241Z",
     "allSeenPosts": [
       "https://tartanllama.xyz/posts/wasm-plugins/",
@@ -2755,7 +2756,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:15.313Z",
+    "lastUpdated": "2026-03-23T07:23:32.661Z",
     "lastFetched": "2025-08-05T17:12:32.314Z",
     "allSeenPosts": [
       "https://seiya.me/blog/gsoc19",
@@ -2859,7 +2860,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:16.723Z",
+    "lastUpdated": "2026-03-23T07:23:33.983Z",
     "lastFetched": "2026-02-02T07:13:56.703Z",
     "allSeenPosts": [
       "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html",
@@ -2956,7 +2957,7 @@
         "creator": "casey@mollyrocket.com (Casey Muratori)"
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:17.932Z",
+    "lastUpdated": "2026-03-23T07:23:35.202Z",
     "lastFetched": "2025-08-05T17:12:37.376Z",
     "allSeenPosts": [
       "https://caseymuratori.com/blog_0038",
@@ -3076,7 +3077,7 @@
         "creator": "Martin Kleppmann"
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:19.261Z",
+    "lastUpdated": "2026-03-23T07:23:36.541Z",
     "lastFetched": "2025-08-05T17:12:39.563Z",
     "allSeenPosts": [
       "http://martin.kleppmann.com/2024/07/05/pudding-user-discovery-anonymity-networks.html",
@@ -3169,7 +3170,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:20.441Z",
+    "lastUpdated": "2026-03-23T07:23:37.767Z",
     "lastFetched": "2025-08-05T17:12:41.570Z",
     "allSeenPosts": [
       "https://www.daemonology.net/blog/2025-06-06-A-year-of-funded-FreeBSD.html",
@@ -3265,7 +3266,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:21.930Z",
+    "lastUpdated": "2026-03-23T07:23:39.136Z",
     "lastFetched": "2025-08-05T17:12:44.760Z",
     "allSeenPosts": [
       "https://bcantrill.dtrace.org/2025/06/29/the-end-game-for-john-fisher/",
@@ -3373,7 +3374,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:23.337Z",
+    "lastUpdated": "2026-03-23T07:23:40.603Z",
     "lastFetched": "2025-08-05T17:12:47.626Z",
     "allSeenPosts": [
       "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
@@ -3477,7 +3478,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:24.734Z",
+    "lastUpdated": "2026-03-23T07:23:41.988Z",
     "lastFetched": "2025-08-05T17:12:54.062Z",
     "allSeenPosts": [
       "https://danluu.com/ballmer/",
@@ -3687,7 +3688,7 @@
         "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:25.924Z",
+    "lastUpdated": "2026-03-23T07:23:43.110Z",
     "lastFetched": "2025-08-05T17:12:56.085Z",
     "allSeenPosts": [
       "http://karpathy.github.io/2022/03/14/lecun1989/",
@@ -3780,7 +3781,7 @@
         "creator": "Stephen Wolfram"
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:28.018Z",
+    "lastUpdated": "2026-03-23T07:23:45.186Z",
     "lastFetched": "2025-08-05T17:13:06.201Z",
     "allSeenPosts": [
       "https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/",
@@ -3884,7 +3885,7 @@
       }
     ],
     "lastUpdated": "2025-09-08T06:39:02.181Z",
-    "lastFetched": "2026-03-22T07:01:29.177Z",
+    "lastFetched": "2026-03-23T07:23:46.370Z",
     "allSeenPosts": [
       "https://cliffle.com/blog/exhubris-super/",
       "https://cliffle.com/blog/exhubris/",
@@ -3958,6 +3959,20 @@
     "description": "I'm Evan Hahn, a programmer.",
     "latestPosts": [
       {
+        "title": "All tests pass: a short story",
+        "link": "https://evanhahn.com/all-tests-pass-a-short-story/",
+        "pubDate": "Sun, 22 Mar 2026 00:00:00 +0000",
+        "contentSnippet": "One night, I wrote a simple tool to pick a random programming language. After shuffling a few times, I landed on Arturo. I decided to try it for fun.\nWhat’s Arturo?\nBest I understand, Arturo is a stac",
+        "creator": ""
+      },
+      {
+        "title": "Little web app to pick a random programming language",
+        "link": "https://evanhahn.com/random-programming-language/",
+        "pubDate": "Sun, 22 Mar 2026 00:00:00 +0000",
+        "contentSnippet": "I wrote a web app to choose a random programming language.\nIt’s very simple; I hestitate to even call it an “app”! The interesting part was scraping all the languages on Rosetta Code, and even that wa",
+        "creator": ""
+      },
+      {
         "title": "human.json",
         "link": "https://evanhahn.com/human-dot-json/",
         "pubDate": "Sat, 14 Mar 2026 00:00:00 +0000",
@@ -4012,23 +4027,9 @@
         "pubDate": "Sat, 31 Jan 2026 00:00:00 +0000",
         "contentSnippet": "Happy new year! Here are some of my notes from the first month of 2026.\nNew job at Ghost!\nI started a new job as a Staff Engineer at Ghost this month. According to our homepage, Ghost is “for professi",
         "creator": ""
-      },
-      {
-        "title": "An LLM that's 7500× stupider",
-        "link": "https://evanhahn.com/an-llm-thats-7500x-stupider/",
-        "pubDate": "Tue, 27 Jan 2026 00:00:00 +0000",
-        "contentSnippet": "The Kimi K2.5 large language model was just released. It has 1 trillion parameters. Roughly speaking, the more parameters, the smarter the model. So it’s pretty smart, and is probably considered “stat",
-        "creator": ""
-      },
-      {
-        "title": "A mental math heuristic to convert between Fahrenheit and Celsius",
-        "link": "https://evanhahn.com/fahrenheit-celsius-heuristic/",
-        "pubDate": "Sat, 17 Jan 2026 00:00:00 +0000",
-        "contentSnippet": "I sometimes have to convert between Fahrenheit and Celsius. The actual formula is hard to do in my head, but someone once told me a useful approximation:\nTo convert from Celsius to Fahrenheit, double ",
-        "creator": ""
       }
     ],
-    "lastUpdated": "2026-03-22T07:01:29.396Z",
+    "lastUpdated": "2026-03-23T07:23:46.586Z",
     "lastFetched": "2026-02-02T07:14:24.340Z",
     "allSeenPosts": [
       "https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/",
@@ -4066,7 +4067,9 @@
       "https://evanhahn.com/the-two-kinds-of-error/",
       "https://evanhahn.com/llm-eliza/",
       "https://evanhahn.com/how-i-use-gen-ai-on-this-blog/",
-      "https://evanhahn.com/human-dot-json/"
+      "https://evanhahn.com/human-dot-json/",
+      "https://evanhahn.com/all-tests-pass-a-short-story/",
+      "https://evanhahn.com/random-programming-language/"
     ]
   }
 ]
