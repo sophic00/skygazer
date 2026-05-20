@@ -12,13 +12,13 @@ taxonomies = [
 ]
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+compile_sass = false
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
 # When set to "true", the generated HTML files are minified.
-minify_html = false
+minify_html = true
 
 # When set to "true", a feed is automatically generated.
 generate_feeds = true
