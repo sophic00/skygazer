@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {%- if config.webserver_sends_csp_headers %}
+  {%- if config.extra.webserver_sends_csp_headers %}
   {%- include "security_tags.html" ignore missing %}
   {%- endif %}
   <meta charset="utf-8">
@@ -9,7 +9,9 @@
   {% include "favicon.html" ignore missing -%}
   <title>{%- block title %}{{ config.title }}{%- endblock %}</title>
   {% include "seo_tags.html" ignore missing -%}
+  <link rel="canonical" href="{% if page %}{{ page.permalink }}{% elif section %}{{ section.permalink }}{% else %}{{ config.base_url }}{% endif %}">
   <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preload" href="/fonts/jetbrains-mono-regular.woff2" as="font" type="font/woff2" crossorigin>
   {%- if config.generate_feeds %}
   {% block rss -%}
   {%- for feed_filename in config.feed_filenames %}

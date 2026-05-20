@@ -1,13 +1,9 @@
+{% import "macros.html" as macros %}
 {% extends "base.html" %}
 
 {% block main %}
   <main>
     <h1>{{ taxonomy.name | capitalize }}</h1>
-    <div class="tags">
-      {%- set tags = get_taxonomy(kind="tags") %}
-      {%- for post in tags.items %}
-        <a href="{{ post.permalink }}">#{{ post.name }}</a>&nbsp;
-      {%- endfor %}
-    </div>
+    {{ macros::tag_cloud(kind=taxonomy.name) }}
   </main>
 {% endblock %}

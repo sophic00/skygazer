@@ -1,2 +1,27 @@
-<meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}">
-<meta name="description" content="{{ config.description }}">
+{%- set meta_title = config.title %}
+{%- set meta_description = config.description %}
+{%- set meta_url = config.base_url %}
+{%- set meta_type = "website" %}
+{%- if page.title %}
+  {%- set meta_title = page.title %}
+  {%- set meta_type = "article" %}
+  {%- set meta_url = page.permalink %}
+{%- elif section.title %}
+  {%- set meta_title = section.title %}
+  {%- set meta_url = section.permalink %}
+{%- endif %}
+{%- if page.description %}
+  {%- set meta_description = page.description %}
+{%- elif section.description %}
+  {%- set meta_description = section.description %}
+{%- endif %}
+<meta name="title" content="{{ meta_title }}">
+<meta name="description" content="{{ meta_description }}">
+<meta name="author" content="{{ config.author }}">
+<meta property="og:title" content="{{ meta_title }}">
+<meta property="og:description" content="{{ meta_description }}">
+<meta property="og:type" content="{{ meta_type }}">
+<meta property="og:url" content="{{ meta_url }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ meta_title }}">
+<meta name="twitter:description" content="{{ meta_description }}">

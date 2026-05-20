@@ -1,16 +1,16 @@
 <footer>
     {%- if not config.extra.hide_footer_links %}
     <div class="footer-content">
-        <span class="copyright">Copyright © 2026 | All rights reserved.</span>
+        <span class="copyright">Copyright © {{ now() | date(format="%Y") }} | All rights reserved.</span>
         <div class="footer-links">
             <a href="https://github.com/sophic00" aria-label="GitHub">
-                <img src="/icons/IconGitHub.svg" alt="GitHub" class="footer-icon">
+                <img src="/icons/IconGitHub.svg" alt="GitHub" class="footer-icon" width="24" height="24">
             </a>
             <a href="https://www.linkedin.com/in/vaibhav-sijaria" aria-label="LinkedIn">
-                <img src="/icons/IconLinkedin.svg" alt="LinkedIn" class="footer-icon">
+                <img src="/icons/IconLinkedin.svg" alt="LinkedIn" class="footer-icon" width="24" height="24">
             </a>
             <a href="https://huggingface.co/sophic00" aria-label="Hugging Face">
-                <img src="/icons/IconHuggingFace.svg" alt="Hugging Face" class="footer-icon hf-icon">
+                <img src="/icons/IconHuggingFace.svg" alt="Hugging Face" class="footer-icon hf-icon" width="29" height="29">
             </a>
         </div>
     </div>
