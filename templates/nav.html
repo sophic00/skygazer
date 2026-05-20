@@ -1,0 +1,34 @@
+{%- set current_lang = config.default_language %}
+{%- if page %}
+  {%- set current_lang = page.lang %}
+{%- elif section %}
+  {%- set current_lang = section.lang %}
+{%- endif %}
+{%- if config.extra.main_menu %}
+  {%- for item in config.extra.main_menu %}
+    {%- if current_lang == config.default_language %}
+      {%- set title = item.name %}
+    {%- else %}
+      {%- set language_key = 'name_' ~ current_lang %}
+      {%- set title = item[language_key] %}
+    {%- endif %}
+    {%- if item.url is matching("https?://") %}
+      {%- set target_url = item.url %}
+    {%- else %}
+      {%- set target_url = get_url(path=item.url) %}
+    {%- endif %}
+    {%- set is_active = false %}
+    {%- if current_url is defined %}
+      {%- if current_url == target_url %}
+        {%- set is_active = true %}
+      {%- elif item.name != "/home" and current_url is starting_with(target_url) %}
+        {%- set is_active = true %}
+      {%- endif %}
+    {%- endif %}
+    {%- if is_active %}
+      <a href="{{ target_url }}" class="active">{{ title }}</a>
+    {%- else %}
+      <a href="{{ target_url }}">{{ title }}</a>
+    {%- endif %}
+  {%- endfor %}
+{%- endif -%}
