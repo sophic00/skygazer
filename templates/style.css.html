@@ -351,11 +351,17 @@ ul.blog-posts {
   }
 }
 
+.footnote-definition:not(.footnote-definition + .footnote-definition) {
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  padding-block-start: 1rem;
+  margin-block-start: 1.5rem;
+}
+
 .footnote-definition {
   display: flex;
   margin-block-start: 1em;
 
-  &-label {
+  .footnote-definition-label {
     margin-inline-start: 1rem;
     margin-inline-end: 0.5rem;
     vertical-align: baseline;
