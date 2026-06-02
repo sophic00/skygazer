@@ -375,3 +375,40 @@ ul.blog-posts {
     margin: 0;
   }
 }
+
+.footnotes {
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  padding-block-start: 1.5rem;
+  margin-block-start: 2.5rem;
+  font-size: 0.9em;
+
+  ol {
+    padding-inline-start: 1.5rem;
+    margin: 0;
+  }
+
+  li {
+    margin-block-start: 0.75em;
+    color: var(--text-color);
+  }
+
+  p {
+    margin: 0;
+
+    + p {
+      margin-block-start: 0.5em;
+    }
+  }
+
+  a[href^="#fr-"] {
+    margin-inline-start: 0.3rem;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+      text-decoration: underline;
+    }
+  }
+}

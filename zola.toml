@@ -39,7 +39,7 @@ lazy_async_image = true
 github_alerts = true
 # insert_anchor_links = "left"
 # Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
-bottom_footnotes = false
+bottom_footnotes = true
 [markdown.highlighting]
 error_on_missing_language = true
 theme = "catppuccin-mocha"
