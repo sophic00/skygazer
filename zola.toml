@@ -49,6 +49,10 @@ date_format = "%d %b, %Y"
 favicon = "/favicon.svg"
 webserver_sends_csp_headers = false
 
+umami_website_id = "6bb4ab71-9eb0-469c-b307-112ccefa8e89"
+umami_script_url = "https://analytics.sophic.dev/telemetry"
+umami_domains = "sophic.dev"
+
 [extra.table_of_contents]
 show = false
 max_level = 6
@@ -70,6 +74,6 @@ url = "@/posts/_index.md"
 name = "/keys"
 url = "/public.asc"
 
-[[extra.main_menu]]
-name = "/feed"
-url = "/atom.xml"
+# [[extra.main_menu]]
+# name = "/feed"
+# url = "/atom.xml"
