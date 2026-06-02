@@ -62,13 +62,13 @@ url = "@/_index.md"
 name = "/posts"
 url = "@/posts/_index.md"
 
-[[extra.main_menu]]
-name = "/resume"
-url = "/resume.pdf"
+# [[extra.main_menu]]
+# name = "/resume"
+# url = "/resume.pdf"
 
 [[extra.main_menu]]
 name = "/keys"
-url = "https://keybase.io/vaibhav00/"
+url = "/public.asc"
 
 [[extra.main_menu]]
 name = "/feed"
