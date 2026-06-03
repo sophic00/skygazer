@@ -5,35 +5,26 @@ title = "Privacy"
 menu = true
 +++
 
-I like to track my personal data like where I spend my time on my phone[^1], laptop[^2], even in my code editor[^3] and browser[^4]. Similarly, I very much interested in knowing how many people visit my website, from where and what do they read. For that purpose I am using a self-hosted instance of [Umami](https://umami.is).
-
 ## Analytics
 
-Here is what I collect:
+Page views, referrer URLs, device type, browser, OS, and country. That's it. I use a self-hosted [Umami](https://umami.is) instance, so the data lives on my own server, no third party ever sees it.
 
-- Page views and referrer URLs
-- General device type, browser, and operating system
-- Country-level location (derived from your IP address, which is never stored)
+Your IP is used transiently to derive an anonymised daily session token, then discarded. It's never logged or stored.
 
-Here is what I **don't** do:
+No cookies. No cross-site tracking. No selling or sharing. Nothing personally identifiable.
 
-- **No cookies.** Umami does not set any cookies on your device.
-- **No cross-site tracking.** I have no interest in following you around the web.
-- **No selling or sharing.** The data lives on my own server and is never shared with advertisers or third parties.
-- **No personally identifiable information.** Your raw IP address is never logged or stored (only used transiently to derive an anonymised session token that resets daily).
+## Third-party scripts
 
-## Third-Party Services
+Everything on this site is served from a single domain i.e. no requests go out to external tracking domains. Behind it, the site runs on Cloudflare Pages and analytics on a self-hosted Oracle VM.
 
-This site does not load any scripts, fonts, or resources from external third-party tracking domains. All assets (including fonts, icons, and the analytics script itself) are served directly from the site's domain (website is hosted on Cloudflare Pages) or from my self-hosted server (Oracle VM).
+## Privacy
 
-## Contact
+I care about this stuff for myself too, so much that I use a number of privacy respecting software to track my own time:
 
-If you have any questions or concerns, feel free to reach out at **[hi@sophic.dev](mailto:hi@sophic.dev)**.
+- **Laptop/Phone:** [ActivityWatch](https://activitywatch.net)
+- **Editor:** [Wakapi](https://wakapi.dev)
+- **Browser:** [time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser)
 
-[^1]: [Digital Wellbeing](https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing&hl=en-US): I have a lot of qualms about this one. It is made by Google, which does not have the best reputation when it comes to privacy. I use it because it's convenient and I don't know any alternative, but I am not fully comfortable with it and you probably shouldn't be either.
+## Questions?
 
-[^2]: [ActivityWatch](https://activitywatch.net)
-
-[^3]: [wakapi](https://wakapi.dev)
-
-[^4]: [https://github.com/sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser)
+Reach me at [hi@sophic.dev](mailto:hi@sophic.dev).
