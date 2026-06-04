@@ -6,45 +6,19 @@
             <a href="/privacy" class="privacy-link">Privacy</a></span
         >
         <div class="footer-links">
-            <a href="https://github.com/sophic00" aria-label="GitHub">
-                <img
-                    src="/icons/IconGitHub.svg"
-                    alt="GitHub"
-                    class="footer-icon"
-                    width="24"
-                    height="24"
-                />
-            </a>
-            <a href="https://git.sophic.dev" aria-label="Forgejo">
-                <img
-                    src="/icons/IconForgejo.svg"
-                    alt="Forgejo"
-                    class="footer-icon"
-                    width="24"
-                    height="24"
-                />
-            </a>
-            <a
-                href="https://www.linkedin.com/in/vaibhav-sijaria"
-                aria-label="LinkedIn"
-            >
-                <img
-                    src="/icons/IconLinkedin.svg"
-                    alt="LinkedIn"
-                    class="footer-icon"
-                    width="24"
-                    height="24"
-                />
-            </a>
-            <a href="https://huggingface.co/sophic00" aria-label="Hugging Face">
-                <img
-                    src="/icons/IconHuggingFace.svg"
-                    alt="Hugging Face"
-                    class="footer-icon hf-icon"
-                    width="29"
-                    height="29"
-                />
-            </a>
+            {%- if config.extra.footer_icons -%}
+                {%- for item in config.extra.footer_icons -%}
+                <a href="{{ item.link }}" aria-label="{{ item.name }}">
+                    <img
+                        src="{{ item.icon }}"
+                        alt="{{ item.name }}"
+                        class="footer-icon"
+                        width="24"
+                        height="24"
+                    />
+                </a>
+                {%- endfor -%}
+            {%- endif -%}
         </div>
     </div>
     {%- endif %}

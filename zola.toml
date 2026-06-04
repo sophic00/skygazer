@@ -77,3 +77,24 @@ url = "/public.asc"
 # [[extra.main_menu]]
 # name = "/feed"
 # url = "/atom.xml"
+
+[[extra.footer_icons]]
+name = "GitHub"
+icon = "/icons/IconGitHub.svg"
+link = "https://github.com/sophic00"
+
+[[extra.footer_icons]]
+name = "Forgejo"
+icon = "/icons/IconForgejo.svg"
+link = "https://git.sophic.dev"
+
+[[extra.footer_icons]]
+name = "LinkedIn"
+icon = "/icons/IconLinkedin.svg"
+link = "https://www.linkedin.com/in/vaibhav-sijaria"
+
+[[extra.footer_icons]]
+name = "Hugging Face"
+icon = "/icons/IconHuggingFace.svg"
+link = "https://huggingface.co/sophic00"
+
