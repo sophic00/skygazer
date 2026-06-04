@@ -86,7 +86,7 @@ link = "https://github.com/sophic00"
 [[extra.footer_icons]]
 name = "Forgejo"
 icon = "/icons/IconForgejo.svg"
-link = "https://git.sophic.dev"
+link = "https://git.sophic.dev/sophic"
 
 [[extra.footer_icons]]
 name = "LinkedIn"
