@@ -45,7 +45,7 @@ error_on_missing_language = true
 theme = "catppuccin-mocha"
 
 [extra]
-blogroll_max_posts = 50
+blogroll_max_posts = 30
 date_format = "%d %b, %Y"
 favicon = "/favicon.svg"
 webserver_sends_csp_headers = false

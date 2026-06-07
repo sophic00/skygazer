@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07 04:47 UTC",
+  "updated_at": "2026-06-07 05:03 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -42,6 +42,202 @@
       "site_url": "https://gmpg.org/xfn/11",
       "status": "ok",
       "error": null
+    },
+    {
+      "title": "openmymind.net",
+      "feed_url": "https://www.openmymind.net/atom.xml",
+      "site_url": "https://www.openmymind.net/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "@typesanitizer's blog",
+      "feed_url": "https://typesanitizer.com/blog/rss.xml",
+      "site_url": "https://typesanitizer.com/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Ralf's Ramblings",
+      "feed_url": "https://www.ralfj.de/blog/feed.xml",
+      "site_url": "https://www.ralfj.de/blog/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Andrew Kelley",
+      "feed_url": "https://andrewkelley.me/rss.xml",
+      "site_url": "https://andrewkelley.me/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Digital Grove",
+      "feed_url": "https://www.rfleury.com/feed",
+      "site_url": "https://www.dgtlgrove.com",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Computer, Enhance!",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "site_url": "https://www.computerenhance.com",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Peter Norvig",
+      "feed_url": "https://norvig.com/rss-feed.xml",
+      "site_url": "http://www.norvig.com",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "gingerBill - Articles",
+      "feed_url": "https://www.gingerbill.org/article/index.xml",
+      "site_url": "https://www.gingerbill.org/article/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Isaac Clayton",
+      "feed_url": "https://slightknack.dev/atom.xml",
+      "site_url": "https://slightknack.dev",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "journal.stuffwithstuff.com",
+      "feed_url": "https://www.journal.stuffwithstuff.com/rss.xml",
+      "site_url": "http://journal.stuffwithstuff.com/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "eieio.games",
+      "feed_url": "https://eieio.games/feed.xml",
+      "site_url": "https://eieio.games",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "fuzzy notepad",
+      "feed_url": "https://eev.ee/feeds/atom.xml",
+      "site_url": "https://eev.ee/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Josh Haberman",
+      "feed_url": "https://blog.reverberate.org/feed.xml",
+      "site_url": "https://blog.reverberate.org/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "hirrolot",
+      "feed_url": "https://hirrolot.github.io/rss.xml",
+      "site_url": "https://hirrolot.github.io/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "lisyarus blog",
+      "feed_url": "https://lisyarus.github.io/blog/feed.xml",
+      "site_url": "https://lisyarus.github.io/blog",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Sy Brand",
+      "feed_url": "https://tartanllama.xyz/rss.xml",
+      "site_url": "https://tartanllama.xyz/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "seiya.me",
+      "feed_url": "https://seiya.me/atom.xml",
+      "site_url": "https://seiya.me",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Brendan Gregg's Blog",
+      "feed_url": "https://www.brendangregg.com/blog/rss.xml",
+      "site_url": "http://www.brendangregg.com/blog",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Casey Muratori's Blog",
+      "feed_url": "https://caseymuratori.com/blog_atom.rss",
+      "site_url": "https://caseymuratori.com/blog",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Martin Kleppmann's blog",
+      "feed_url": "https://feeds.feedburner.com/martinkl",
+      "site_url": "http://martin.kleppmann.com/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Daemonic Dispatches",
+      "feed_url": "https://www.daemonology.net/blog/index.rss",
+      "site_url": "https://www.daemonology.net/blog/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "The Observation Deck",
+      "feed_url": "https://bcantrill.dtrace.org/index.xml",
+      "site_url": "https://bcantrill.dtrace.org/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Dave Cheney",
+      "feed_url": "https://dave.cheney.net/feed/atom",
+      "site_url": "https://dave.cheney.net",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "",
+      "feed_url": "https://danluu.com/atom.xml",
+      "site_url": "https://danluu.com/atom/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Andrej Karpathy blog",
+      "feed_url": "https://karpathy.github.io/feed.xml",
+      "site_url": "http://karpathy.github.io/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "Stephen Wolfram Writings",
+      "feed_url": "https://writings.stephenwolfram.com/feed",
+      "site_url": "https://writings.stephenwolfram.com",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "https://cliffle.com/rss.xml",
+      "feed_url": "https://cliffle.com/rss.xml",
+      "site_url": "https://cliffle.com/rss.xml",
+      "status": "error",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "title": "Evan Hahn (dot com)",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
+      "site_url": "https://evanhahn.com/blog/",
+      "status": "ok",
+      "error": null
     }
   ],
   "posts": [
@@ -53,11 +249,39 @@
       "site_url": "https://www.scattered-thoughts.net/"
     },
     {
+      "title": "Will AI Make Me Worse?",
+      "url": "https://www.computerenhance.com/p/will-ai-make-me-worse",
+      "published": "2026-06-04",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Games between Programs: The Ruliology of Competition",
+      "url": "https://writings.stephenwolfram.com/2026/06/games-between-programs-the-ruliology-of-competition/",
+      "published": "2026-06-04",
+      "feed_title": "Stephen Wolfram Writings",
+      "site_url": "https://writings.stephenwolfram.com"
+    },
+    {
       "title": "My Software North Star",
       "url": "https://kristoff.it/blog/north-star/",
       "published": "2026-06-03",
       "feed_title": "Loris Cro's Personal Website",
       "site_url": "https://kristoff.it/"
+    },
+    {
+      "title": "\"Sixteenth of a year\", a 1.8 KiB art piece",
+      "url": "https://evanhahn.com/sixteenth-of-a-year/",
+      "published": "2026-06-03",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
+    {
+      "title": "The First Entity Component System",
+      "url": "https://www.computerenhance.com/p/the-first-entity-component-system",
+      "published": "2026-06-01",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
     },
     {
       "title": "You Must Fix Your Asserts",
@@ -67,6 +291,20 @@
       "site_url": "https://kristoff.it/"
     },
     {
+      "title": "How to Use uops.info",
+      "url": "https://www.computerenhance.com/p/how-to-use-uopsinfo",
+      "published": "2026-05-30",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Notes from May 2026",
+      "url": "https://evanhahn.com/notes-from-may-2026/",
+      "published": "2026-05-30",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
+    {
       "title": "About LLMs at Zig Days",
       "url": "https://kristoff.it/blog/llms-at-zig-days/",
       "published": "2026-05-28",
@@ -74,11 +312,32 @@
       "site_url": "https://kristoff.it/"
     },
     {
+      "title": "Q&A #85 (2026-05-26)",
+      "url": "https://www.computerenhance.com/p/q-and-a-85-2026-05-26",
+      "published": "2026-05-27",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "A portentous reunion",
+      "url": "https://bcantrill.dtrace.org/2026/05/25/a-portentous-reunion/",
+      "published": "2026-05-25",
+      "feed_title": "The Observation Deck",
+      "site_url": "https://bcantrill.dtrace.org/"
+    },
+    {
       "title": "Interleaved deltas",
       "url": "https://mmapped.blog/posts/51-interleaved-deltas.html",
       "published": "2026-05-22",
       "feed_title": "MMapped blog",
       "site_url": "https://mmapped.blog/"
+    },
+    {
+      "title": "On AI",
+      "url": "https://www.openmymind.net/On-AI/",
+      "published": "2026-05-22",
+      "feed_title": "openmymind.net",
+      "site_url": "https://www.openmymind.net/"
     },
     {
       "title": "TIL: Symlinking NixOS Dotfiles",
@@ -95,6 +354,13 @@
       "site_url": "https://matklad.github.io"
     },
     {
+      "title": "Make ZIP files smaller with ZIP Shrinker",
+      "url": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
+      "published": "2026-05-16",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
+    {
       "title": "Catch Flakes On Main",
       "url": "https://matklad.github.io/2026/05/14/catch-flakes-on-main.html",
       "published": "2026-05-14",
@@ -102,298 +368,18 @@
       "site_url": "https://matklad.github.io"
     },
     {
-      "title": "Learning Software Architecture",
-      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
-      "published": "2026-05-12",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
+      "title": "The Aesthetic Problem of Namespacing",
+      "url": "https://www.gingerbill.org/article/2026/05/13/aesthetic-namespacing/",
+      "published": "2026-05-13",
+      "feed_title": "gingerBill - Articles",
+      "site_url": "https://www.gingerbill.org/article/"
     },
     {
-      "title": "Steering Zig Fmt",
-      "url": "https://matklad.github.io/2026/05/08/steering-zig-fmt.html",
-      "published": "2026-05-08",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Scripty",
-      "url": "https://kristoff.it/blog/scripty/",
-      "published": "2026-05-05",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "Minimal Viable Zig Error Contexts",
-      "url": "https://matklad.github.io/2026/05/03/zig-error-context.html",
-      "published": "2026-05-03",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Contributor Poker and Zig's AI Ban",
-      "url": "https://kristoff.it/blog/contributor-poker-and-ai/",
-      "published": "2026-04-29",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "Borrow-checking without type-checking",
-      "url": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/",
-      "published": "2026-04-22",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "256 Lines or Less: Test Case Minimization",
-      "url": "https://matklad.github.io/2026/04/20/test-case-minimization.html",
-      "published": "2026-04-20",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Whispering gallery",
-      "url": "https://mmapped.blog/posts/50-whispering-gallery.html",
-      "published": "2026-04-14",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "0058: borrow-checking surprises, books, links",
-      "url": "https://www.scattered-thoughts.net/log/0058/",
-      "published": "2026-04-07",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Borrow-checking surprises",
-      "url": "https://www.scattered-thoughts.net/writing/borrow-checking-surprises/",
-      "published": "2026-04-07",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Kirk, Scotty, and Spock",
-      "url": "https://mmapped.blog/posts/49-kirk-scotty-spock.html",
-      "published": "2026-03-22",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "Consensus Board Game",
-      "url": "https://matklad.github.io/2026/03/19/consensus-board-game.html",
-      "published": "2026-03-19",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "JJ LSP Follow Up",
-      "url": "https://matklad.github.io/2026/03/05/jj-lsp-followup.html",
-      "published": "2026-03-05",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "The third hard problem",
-      "url": "https://mmapped.blog/posts/48-the-third-hard-problem.html",
-      "published": "2026-02-28",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "Against Query Based Compilers",
-      "url": "https://matklad.github.io/2026/02/25/against-query-based-compilers.html",
-      "published": "2026-02-25",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "0057: consulting, zest progress, reads that lasted, books, links",
-      "url": "https://www.scattered-thoughts.net/log/0057/",
-      "published": "2026-02-17",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "2025",
-      "url": "https://www.scattered-thoughts.net/writing/2025/",
-      "published": "2026-02-17",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Fast Unrounded Scaling: Proof by Ivy",
-      "url": "https://research.swtch.com/fp-proof",
-      "published": "2026-01-19",
-      "feed_title": "research!rsc",
-      "site_url": "https://research.swtch.com/"
-    },
-    {
-      "title": "Floating-Point Printing and Parsing Can Be Simple And Fast",
-      "url": "https://research.swtch.com/fp",
-      "published": "2026-01-19",
-      "feed_title": "research!rsc",
-      "site_url": "https://research.swtch.com/"
-    },
-    {
-      "title": "2025 retrospective",
-      "url": "https://mmapped.blog/posts/47-2025-retro.html",
-      "published": "2026-01-19",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "Pulling a New Proof from Knuth’s Fixed-Point Printer",
-      "url": "https://research.swtch.com/fp-knuth",
-      "published": "2026-01-10",
-      "feed_title": "research!rsc",
-      "site_url": "https://research.swtch.com/"
-    },
-    {
-      "title": "Floating Point Formatting",
-      "url": "https://research.swtch.com/fp-all",
-      "published": "2026-01-10",
-      "feed_title": "research!rsc",
-      "site_url": "https://research.swtch.com/"
-    },
-    {
-      "title": "Advent of Code 2025",
-      "url": "https://mmapped.blog/posts/46-aoc-2025.html",
-      "published": "2025-12-27",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "Simplistic Comptime Column Safety in SQLite Queries",
-      "url": "https://kristoff.it/blog/simplistic-comptime-sqlite/",
-      "published": "2025-12-20",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "0056: consulting, zest progress, existentialize, modular borrowing, do we understand sql, zjit updates, books",
-      "url": "https://www.scattered-thoughts.net/log/0056/",
-      "published": "2025-12-06",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "0055: consulting, sql needed structure, slow forum, on the line, out of thin air, papers, other stuff",
-      "url": "https://www.scattered-thoughts.net/log/0055/",
-      "published": "2025-11-01",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Compilation is communication",
-      "url": "https://mmapped.blog/posts/45-compilation-is-communication.html",
-      "published": "2025-10-13",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "SQL needed structure",
-      "url": "https://www.scattered-thoughts.net/writing/sql-needed-structure/",
-      "published": "2025-09-04",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
-      "url": "https://www.scattered-thoughts.net/log/0054/",
-      "published": "2025-09-02",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Tag-based logging",
-      "url": "https://mmapped.blog/posts/44-tag-based-logging.html",
-      "published": "2025-08-19",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "Everyone's got one",
-      "url": "https://www.scattered-thoughts.net/writing/everyones-got-one/",
-      "published": "2025-08-05",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Go allocation probe",
-      "url": "https://www.scattered-thoughts.net/writing/go-allocation-probe/",
-      "published": "2025-07-18",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Asynchrony is not Concurrency",
-      "url": "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
-      "published": "2025-07-18",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "Stepanov’s biggest blunder",
-      "url": "https://mmapped.blog/posts/43-stepanovs-biggest-blunder.html",
-      "published": "2025-07-13",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "Store tags after payloads",
-      "url": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/",
-      "published": "2025-07-13",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Zig's New Async I/O",
-      "url": "https://kristoff.it/blog/zig-new-async-io/",
-      "published": "2025-07-13",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "Parasites found",
-      "url": "https://mmapped.blog/posts/42-parasites-found.html",
-      "published": "2025-07-01",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "Box combinators",
-      "url": "https://mmapped.blog/posts/41-box-combinators.html",
-      "published": "2025-06-01",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
-      "url": "https://www.scattered-thoughts.net/log/0053/",
-      "published": "2025-05-31",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Three degrees of validity",
-      "url": "https://mmapped.blog/posts/40-three-degress-of-validity.html",
-      "published": "2025-04-26",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
-    },
-    {
-      "title": "Differential Coverage for Debugging",
-      "url": "https://research.swtch.com/diffcover",
-      "published": "2025-04-25",
-      "feed_title": "research!rsc",
-      "site_url": "https://research.swtch.com/"
-    },
-    {
-      "title": "Announcing zig.day",
-      "url": "https://kristoff.it/blog/announcing-zig-day/",
-      "published": "2025-04-23",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
+      "title": "Open Link in Unloaded Tab, a little Firefox extension",
+      "url": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
+      "published": "2026-05-13",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
     }
   ]
 }
