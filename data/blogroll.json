@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07 05:03 UTC",
+  "updated_at": "2026-06-07 05:09 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -226,11 +226,11 @@
       "error": null
     },
     {
-      "title": "https://cliffle.com/rss.xml",
+      "title": "Cliffle",
       "feed_url": "https://cliffle.com/rss.xml",
-      "site_url": "https://cliffle.com/rss.xml",
-      "status": "error",
-      "error": "HTTP Error 406: Not Acceptable"
+      "site_url": "https://cliffle.com",
+      "status": "ok",
+      "error": null
     },
     {
       "title": "Evan Hahn (dot com)",
@@ -378,6 +378,76 @@
       "title": "Open Link in Unloaded Tab, a little Firefox extension",
       "url": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
       "published": "2026-05-13",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
+    {
+      "title": "Learning Software Architecture",
+      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
+      "published": "2026-05-12",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
+    {
+      "title": "Steering Zig Fmt",
+      "url": "https://matklad.github.io/2026/05/08/steering-zig-fmt.html",
+      "published": "2026-05-08",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
+    {
+      "title": "Marc Andreessen Egg Game",
+      "url": "https://eieio.games/blog/marc-andreessen-egg-game",
+      "published": "2026-05-07",
+      "feed_title": "eieio.games",
+      "site_url": "https://eieio.games"
+    },
+    {
+      "title": "Making your own programming language is easier than you think (but also harder)",
+      "url": "https://lisyarus.github.io/blog/posts/making-your-own-programming-language.html",
+      "published": "2026-05-06",
+      "feed_title": "lisyarus blog",
+      "site_url": "https://lisyarus.github.io/blog"
+    },
+    {
+      "title": "Scripty",
+      "url": "https://kristoff.it/blog/scripty/",
+      "published": "2026-05-05",
+      "feed_title": "Loris Cro's Personal Website",
+      "site_url": "https://kristoff.it/"
+    },
+    {
+      "title": "Let's Answer Ray's Question!",
+      "url": "https://www.computerenhance.com/p/lets-answer-rays-question",
+      "published": "2026-05-04",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Designing microkernel IPC",
+      "url": "https://seiya.me/blog/microkernel-ipc-design",
+      "published": "2026-05-04",
+      "feed_title": "seiya.me",
+      "site_url": "https://seiya.me"
+    },
+    {
+      "title": "Minimal Viable Zig Error Contexts",
+      "url": "https://matklad.github.io/2026/05/03/zig-error-context.html",
+      "published": "2026-05-03",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
+    {
+      "title": "Signed By Default Camp",
+      "url": "https://www.gingerbill.org/article/2026/05/03/signed-by-default/",
+      "published": "2026-05-03",
+      "feed_title": "gingerBill - Articles",
+      "site_url": "https://www.gingerbill.org/article/"
+    },
+    {
+      "title": "png-cmp: like cmp for PNGs",
+      "url": "https://evanhahn.com/png-cmp-is-cmp-but-for-pngs/",
+      "published": "2026-05-03",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
     }

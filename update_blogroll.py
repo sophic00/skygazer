@@ -1,27 +1,27 @@
 # /// script
 # dependencies = [
 #   "feedparser",
+#   "requests",
 # ]
 # ///
 
 import os
 import json
 import time
-import urllib.request
-import urllib.error
 from datetime import datetime, timezone
 import feedparser
+import requests
 
-# Custom User-Agent to prevent blogs from blocking automated requests
+# Standard User-Agent to prevent blogs from blocking automated requests
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 skygazer-blogroll-bot'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
 def fetch_feed(url):
     """Fetches a feed URL and returns its byte content."""
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=15) as response:
-        return response.read()
+    r = requests.get(url, headers=HEADERS, timeout=15)
+    r.raise_for_status()
+    return r.content
 
 def clean_url(url):
     """Ensures absolute URLs and trims whitespace."""
