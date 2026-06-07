@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} | {{ super() }}{% endblock %}
+
+{% block main %}
+  <h1>{{ page.title }}</h1>
+  <main>
+    {{ page.content | safe }}
+
+    {# Load feed reader JSON data (not required, to allow initial build if file is absent) #}
+    {% set blogroll = load_data(path="data/blogroll.json", required=false) %}
+
+    {% if blogroll %}
+      <h2>Recent Posts</h2>
+      <ul class="blog-posts blogroll-posts">
+        {% for post in blogroll.posts %}
+          <li>
+            <span>{{ post.published }}</span>
+            <div class="post-details">
+              <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer" class="post-title">{{ post.title }}</a>
+              <span class="feed-source">
+                on <a href="{{ post.site_url }}" target="_blank" rel="noopener noreferrer" class="feed-link">{{ post.feed_title }}</a>
+              </span>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <hr>
+
+      <h2>Subscribed Blogs</h2>
+      <ul class="blogroll-feeds-list">
+        {% for feed in blogroll.feeds %}
+          <li>
+            <a href="{{ feed.site_url }}" target="_blank" rel="noopener noreferrer" class="feed-site-link">{{ feed.title }}</a>
+            <span class="feed-meta">
+              (<a href="{{ feed.feed_url }}" target="_blank" rel="noopener noreferrer">feed</a>)
+              {% if feed.status == "error" %}
+                <span class="feed-status error" title="Fetch error: {{ feed.error }}">⚠️ down</span>
+              {% endif %}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class="blogroll-footer">
+        Last updated: {{ blogroll.updated_at }}
+      </p>
+    {% else %}
+      <p>Feed data is loading. It will appear here once the updater runs.</p>
+    {% endif %}
+  </main>
+
+  <style>
+    .blogroll-posts li {
+      align-items: baseline;
+    }
+    .blogroll-posts .post-details {
+      display: inline-block;
+    }
+    .blogroll-posts .post-title {
+      font-weight: 500;
+    }
+    .blogroll-posts .post-title:visited {
+      color: var(--visited-color);
+    }
+    .blogroll-posts .feed-source {
+      font-size: 0.85em;
+      opacity: 0.6;
+      margin-left: 6px;
+      white-space: nowrap;
+    }
+    .blogroll-posts .feed-link {
+      color: var(--text-color);
+      text-decoration: underline dotted;
+      transition: color 0.15s;
+    }
+    .blogroll-posts .feed-link:hover {
+      color: var(--link-color);
+    }
+    
+    .blogroll-feeds-list {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-block: 1.5rem;
+    }
+    .blogroll-feeds-list li {
+      background: rgba(128, 128, 128, 0.05);
+      border: 1px solid rgba(128, 128, 128, 0.15);
+      border-radius: 4px;
+      padding: 6px 12px;
+      font-size: 0.88em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: border-color 0.15s, background-color 0.15s;
+    }
+    .blogroll-feeds-list li:hover {
+      background: rgba(128, 128, 128, 0.09);
+      border-color: var(--link-color);
+    }
+    .blogroll-feeds-list .feed-site-link {
+      font-weight: 600;
+      color: var(--heading-color);
+    }
+    .blogroll-feeds-list .feed-site-link:hover {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+    .blogroll-feeds-list .feed-meta {
+      opacity: 0.6;
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+    .blogroll-feeds-list .feed-status.error {
+      color: #ff5555;
+      margin-left: 4px;
+      cursor: help;
+    }
+    .blogroll-footer {
+      margin-top: 3rem;
+      font-size: 0.82em;
+      opacity: 0.55;
+      text-align: right;
+    }
+  </style>
+{% endblock %}
