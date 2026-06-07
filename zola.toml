@@ -66,6 +66,10 @@ url = "@/_index.md"
 name = "/posts"
 url = "@/posts/_index.md"
 
+[[extra.main_menu]]
+name = "/roll"
+url = "@/roll.md"
+
 # [[extra.main_menu]]
 # name = "/resume"
 # url = "/resume.pdf"
@@ -97,4 +101,3 @@ link = "https://www.linkedin.com/in/vaibhav-sijaria"
 name = "Hugging Face"
 icon = "/icons/IconHuggingFace.svg"
 link = "https://huggingface.co/sophic00"
-
