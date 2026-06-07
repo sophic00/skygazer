@@ -83,6 +83,29 @@ def resolve_site_url(feed_parsed, feed_url):
     except Exception:
         return feed_url
 
+def load_max_posts_config(default_val=100):
+    """Loads the max post limit from zola.toml [extra] block, falling back to default."""
+    if not os.path.exists('zola.toml'):
+        return default_val
+    try:
+        # Try using standard library's tomllib (Python 3.11+)
+        try:
+            import tomllib
+            with open('zola.toml', 'rb') as f:
+                data = tomllib.load(f)
+                return data.get('extra', {}).get('blogroll_max_posts', default_val)
+        except (ImportError, Exception):
+            # Fallback for Python < 3.11: simple line parsing
+            with open('zola.toml', 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith('blogroll_max_posts') and '=' in line:
+                        parts = line.split('=')
+                        return int(parts[1].strip())
+    except Exception as e:
+        print(f"Warning: Error reading blogroll_max_posts from zola.toml: {e}")
+    return default_val
+
 def main():
     feeds_file = 'feeds.txt'
     data_dir = 'data'
@@ -194,8 +217,9 @@ def main():
     # Sort posts by date (descending)
     filtered_posts.sort(key=lambda x: x['published'], reverse=True)
 
-    # Cap list to top 100 posts
-    final_posts = filtered_posts[:100]
+    # Cap list to top N posts configured in zola.toml
+    max_posts = load_max_posts_config()
+    final_posts = filtered_posts[:max_posts]
 
     # Compile the final dictionary
     output_data = {
