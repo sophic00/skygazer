@@ -12,6 +12,7 @@
 {%- endmacro %}
 
 {%- macro post_list(pages) %}
+{%- if pages %}
 <ul class="blog-posts">
   {%- for page in pages %}
     <li>
@@ -24,10 +25,11 @@
       </span>
       <a href="{{ page.permalink }}">{{ page.title }}</a>
     </li>
-  {%- else %}
-    <li>No posts</li>
   {%- endfor -%}
 </ul>
+{%- else %}
+<p style="opacity: 0.6;">No posts yet.</p>
+{%- endif %}
 {%- endmacro %}
 
 {%- macro tag_cloud(kind) %}
