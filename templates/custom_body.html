@@ -1,35 +1,163 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const refs = document.querySelectorAll(".footnote-reference");
+  if (!refs.length) return;
+
+  // Enable sidenotes layout on body
+  document.body.classList.add("has-sidenotes");
+
+  const sidenotes = [];
+
   refs.forEach(ref => {
     const link = ref.querySelector("a");
     if (!link) return;
-    const targetId = link.getAttribute("href").substring(1); // e.g. "fn-1"
+    const targetId = link.getAttribute("href").substring(1);
     const fnDef = document.getElementById(targetId);
     if (!fnDef) return;
 
-    // Extract the number from the reference link (e.g. "1")
     const refNumber = ref.textContent.trim();
 
-    // Create sidenote container span (inline element so it is valid inside <p>)
+    // Create sidenote container with ARIA attributes
     const sidenote = document.createElement("span");
     sidenote.className = "sidenote";
+    sidenote.setAttribute("role", "note");
+    sidenote.id = `sidenote-${refNumber}`;
+    sidenote.setAttribute("aria-label", `Sidenote ${refNumber}`);
+
+    // Link the reference to the sidenote for accessibility
+    link.setAttribute("aria-describedby", `sidenote-${refNumber}`);
 
     // Clone the footnote content from the bottom footnotes section
     const content = fnDef.cloneNode(true);
+    content.removeAttribute("id"); // Avoid duplicate IDs in the DOM
 
     // Remove the back-reference link inside the cloned content
-    const backref = content.querySelector(".footnote-backref");
+    const backref = content.querySelector(".footnote-backref, a[href^='#fr-'], a[href^='#fnref']");
     if (backref) backref.remove();
 
-    // Extract inner HTML and convert paragraph tags to spans to keep HTML valid
-    let html = content.innerHTML.trim();
-    html = html.replace(/<p>/g, '<span class="sidenote-paragraph">').replace(/<\/p>/g, '</span>');
+    // Convert block elements to spans using DOM APIs to keep HTML valid inside inline <span>
+    content.querySelectorAll("p").forEach(p => {
+      const span = document.createElement("span");
+      span.className = "sidenote-paragraph";
+      span.innerHTML = p.innerHTML;
+      p.replaceWith(span);
+    });
 
-    sidenote.innerHTML = `<span class="sidenote-number">${refNumber}.</span> ${html}`;
+    content.querySelectorAll("ul, ol").forEach(list => {
+      const isOrdered = list.tagName.toLowerCase() === "ol";
+      const span = document.createElement("span");
+      span.className = `sidenote-list ${isOrdered ? "sidenote-list--ordered" : "sidenote-list--unordered"}`;
+      span.innerHTML = list.innerHTML;
+      list.replaceWith(span);
+    });
+
+    content.querySelectorAll("li").forEach(li => {
+      const span = document.createElement("span");
+      span.className = "sidenote-list-item";
+      span.innerHTML = li.innerHTML;
+      li.replaceWith(span);
+    });
+
+    content.querySelectorAll("blockquote").forEach(bq => {
+      const span = document.createElement("span");
+      span.className = "sidenote-blockquote";
+      span.innerHTML = bq.innerHTML;
+      bq.replaceWith(span);
+    });
+
+    // Build sidenote content with number prefix
+    const numberSpan = document.createElement("span");
+    numberSpan.className = "sidenote-number";
+    numberSpan.textContent = `${refNumber}.`;
+    sidenote.appendChild(numberSpan);
+    sidenote.append(" ");
+
+    // Append the converted content's children
+    while (content.firstChild) {
+      sidenote.appendChild(content.firstChild);
+    }
 
     // Insert the sidenote immediately after the footnote reference sup element
     ref.parentNode.insertBefore(sidenote, ref.nextSibling);
+    sidenotes.push(sidenote);
+
+    // On desktop, highlight the sidenote instead of jumping to hidden footnotes
+    link.addEventListener("click", (e) => {
+      if (window.matchMedia("(min-width: 1280px)").matches) {
+        e.preventDefault();
+        sidenote.classList.add("sidenote--highlight");
+        setTimeout(() => sidenote.classList.remove("sidenote--highlight"), 1500);
+      }
+    });
+
+    // Highlight sidenote when hovering the reference link
+    link.addEventListener("mouseenter", () => {
+      sidenote.classList.add("sidenote--hover");
+    });
+    link.addEventListener("mouseleave", () => {
+      sidenote.classList.remove("sidenote--hover");
+    });
+
+    // Highlight reference link when hovering the sidenote
+    sidenote.addEventListener("mouseenter", () => {
+      ref.classList.add("footnote-reference--hover");
+    });
+    sidenote.addEventListener("mouseleave", () => {
+      ref.classList.remove("footnote-reference--hover");
+    });
   });
+
+  // Collision detection: push overlapping sidenotes down
+  function adjustSidenotePositions() {
+    if (!window.matchMedia("(min-width: 1280px)").matches) return;
+
+    // Reset any previously applied adjustments in one batch
+    sidenotes.forEach(sn => { sn.style.marginTop = ""; });
+
+    // Read all dimensions in a single batch to avoid layout thrashing
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const rects = sidenotes.map(sn => {
+      const rect = sn.getBoundingClientRect();
+      return {
+        top: rect.top + scrollTop,
+        height: rect.height
+      };
+    });
+
+    // Calculate layout adjustments in memory
+    let lastBottom = 0;
+    const gap = 12;
+    const adjustments = [];
+
+    sidenotes.forEach((sn, index) => {
+      const pos = rects[index];
+      let targetTop = pos.top;
+      if (lastBottom > 0 && targetTop < lastBottom + gap) {
+        targetTop = lastBottom + gap;
+      }
+      adjustments.push(targetTop - pos.top);
+      lastBottom = targetTop + pos.height;
+    });
+
+    // Write all adjustments back to the DOM in a single batch
+    sidenotes.forEach((sn, index) => {
+      const adj = adjustments[index];
+      if (adj > 0) {
+        sn.style.marginTop = `${adj}px`;
+      }
+    });
+  }
+
+  // Run initial layout adjustments
+  requestAnimationFrame(() => {
+    requestAnimationFrame(adjustSidenotePositions);
+  });
+
+  // Adjust on load, resize, and font ready
+  window.addEventListener("load", adjustSidenotePositions);
+  window.addEventListener("resize", adjustSidenotePositions);
+  if (document.fonts) {
+    document.fonts.ready.then(adjustSidenotePositions);
+  }
 });
 </script>
