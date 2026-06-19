@@ -1,0 +1,26 @@
+:is(code, pre code, .highlight, .code) {
+  background-color: var(--code-background-color);
+  color: var(--code-color);
+}
+
+:is(code, .highlight, .code) {
+  border-radius: 3px;
+}
+
+code {
+  padding: 2px;
+}
+
+pre code {
+  display: block;
+  padding: 20px;
+  white-space: pre-wrap;
+  font-size: 0.875rem;
+  overflow-x: auto;
+}
+
+.highlight, .code {
+  padding: 1px 15px;
+  margin-block: 1em;
+  overflow-x: auto;
+}
