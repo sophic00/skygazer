@@ -13,20 +13,32 @@
 
 {%- macro post_list(pages) %}
 {%- if pages %}
-<ul class="blog-posts">
+  {%- set_global has_visible = false %}
   {%- for page in pages %}
-    <li>
-      <span>
-        <i>
-          <time datetime="{{ page.date | date(format='%+') }}">
-            {{ page.date | date(format=config.extra.date_format) }}
-          </time>
-        </i>
-      </span>
-      <a href="{{ page.permalink }}">{{ page.title }}</a>
-    </li>
-  {%- endfor -%}
-</ul>
+    {%- if not page.extra.disabled and not page.extra.disable %}
+      {%- set_global has_visible = true %}
+    {%- endif %}
+  {%- endfor %}
+  {%- if has_visible %}
+    <ul class="blog-posts">
+      {%- for page in pages %}
+        {%- if not page.extra.disabled and not page.extra.disable %}
+          <li>
+            <span>
+              <i>
+                <time datetime="{{ page.date | date(format='%+') }}">
+                  {{ page.date | date(format=config.extra.date_format) }}
+                </time>
+              </i>
+            </span>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+          </li>
+        {%- endif %}
+      {%- endfor -%}
+    </ul>
+  {%- else %}
+    <p style="opacity: 0.6;">No posts yet.</p>
+  {%- endif %}
 {%- else %}
 <p style="opacity: 0.6;">No posts yet.</p>
 {%- endif %}
