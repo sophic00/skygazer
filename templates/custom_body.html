@@ -1,0 +1,35 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const refs = document.querySelectorAll(".footnote-reference");
+  refs.forEach(ref => {
+    const link = ref.querySelector("a");
+    if (!link) return;
+    const targetId = link.getAttribute("href").substring(1); // e.g. "fn-1"
+    const fnDef = document.getElementById(targetId);
+    if (!fnDef) return;
+
+    // Extract the number from the reference link (e.g. "1")
+    const refNumber = ref.textContent.trim();
+
+    // Create sidenote container span (inline element so it is valid inside <p>)
+    const sidenote = document.createElement("span");
+    sidenote.className = "sidenote";
+
+    // Clone the footnote content from the bottom footnotes section
+    const content = fnDef.cloneNode(true);
+
+    // Remove the back-reference link inside the cloned content
+    const backref = content.querySelector(".footnote-backref");
+    if (backref) backref.remove();
+
+    // Extract inner HTML and convert paragraph tags to spans to keep HTML valid
+    let html = content.innerHTML.trim();
+    html = html.replace(/<p>/g, '<span class="sidenote-paragraph">').replace(/<\/p>/g, '</span>');
+
+    sidenote.innerHTML = `<span class="sidenote-number">${refNumber}.</span> ${html}`;
+
+    // Insert the sidenote immediately after the footnote reference sup element
+    ref.parentNode.insertBefore(sidenote, ref.nextSibling);
+  });
+});
+</script>
