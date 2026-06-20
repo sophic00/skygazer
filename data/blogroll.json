@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20 03:31 UTC",
+  "updated_at": "2026-06-20 10:45 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -236,6 +236,13 @@
       "title": "Evan Hahn (dot com)",
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "site_url": "https://evanhahn.com/blog/",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "title": "jakelazaroff.com",
+      "feed_url": "https://jakelazaroff.com/rss.xml",
+      "site_url": "https://jakelazaroff.com/",
       "status": "ok",
       "error": null
     }
