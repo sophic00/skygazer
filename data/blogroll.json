@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08 03:52 UTC",
+  "updated_at": "2026-06-20 03:31 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -242,6 +242,48 @@
   ],
   "posts": [
     {
+      "title": "Will AI End the Open Internet?",
+      "url": "https://www.computerenhance.com/p/will-ai-end-the-open-internet",
+      "published": "2026-06-16",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Launching Version 15 of Wolfram Language & Mathematica: Built-in (Useful) AI & Lots of New Core Functionality",
+      "url": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
+      "published": "2026-06-16",
+      "feed_title": "Stephen Wolfram Writings",
+      "site_url": "https://writings.stephenwolfram.com"
+    },
+    {
+      "title": "Can you find a vector not orthogonal to N others?",
+      "url": "https://lisyarus.github.io/blog/posts/can-you-find-a-vector-not-orthogonal-to-n-others.html",
+      "published": "2026-06-15",
+      "feed_title": "lisyarus blog",
+      "site_url": "https://lisyarus.github.io/blog"
+    },
+    {
+      "title": "Q&A #86 (2026-06-10)",
+      "url": "https://www.computerenhance.com/p/q-and-a-86-2026-06-10",
+      "published": "2026-06-10",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Intuitive Random Selection (with Marc LeBlanc)",
+      "url": "https://www.computerenhance.com/p/intuitive-random-selection-with-marc",
+      "published": "2026-06-09",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Quivers: a year of linear algebra by drawing arrows",
+      "url": "https://lisyarus.github.io/blog/posts/quivers-a-year-of-linear-algebra-by-drawing-arrows.html",
+      "published": "2026-06-09",
+      "feed_title": "lisyarus blog",
+      "site_url": "https://lisyarus.github.io/blog"
+    },
+    {
       "title": "0059: NYC and SF?",
       "url": "https://www.scattered-thoughts.net/log/0059/",
       "published": "2026-06-05",
@@ -261,6 +303,13 @@
       "published": "2026-06-04",
       "feed_title": "Stephen Wolfram Writings",
       "site_url": "https://writings.stephenwolfram.com"
+    },
+    {
+      "title": "CSS: Unavoidable Bad Parts",
+      "url": "https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html",
+      "published": "2026-06-04",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
     },
     {
       "title": "My Software North Star",
@@ -401,55 +450,6 @@
       "published": "2026-05-07",
       "feed_title": "eieio.games",
       "site_url": "https://eieio.games"
-    },
-    {
-      "title": "Making your own programming language is easier than you think (but also harder)",
-      "url": "https://lisyarus.github.io/blog/posts/making-your-own-programming-language.html",
-      "published": "2026-05-06",
-      "feed_title": "lisyarus blog",
-      "site_url": "https://lisyarus.github.io/blog"
-    },
-    {
-      "title": "Scripty",
-      "url": "https://kristoff.it/blog/scripty/",
-      "published": "2026-05-05",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "Let's Answer Ray's Question!",
-      "url": "https://www.computerenhance.com/p/lets-answer-rays-question",
-      "published": "2026-05-04",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "Designing microkernel IPC",
-      "url": "https://seiya.me/blog/microkernel-ipc-design",
-      "published": "2026-05-04",
-      "feed_title": "seiya.me",
-      "site_url": "https://seiya.me"
-    },
-    {
-      "title": "Minimal Viable Zig Error Contexts",
-      "url": "https://matklad.github.io/2026/05/03/zig-error-context.html",
-      "published": "2026-05-03",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Signed By Default Camp",
-      "url": "https://www.gingerbill.org/article/2026/05/03/signed-by-default/",
-      "published": "2026-05-03",
-      "feed_title": "gingerBill - Articles",
-      "site_url": "https://www.gingerbill.org/article/"
-    },
-    {
-      "title": "png-cmp: like cmp for PNGs",
-      "url": "https://evanhahn.com/png-cmp-is-cmp-but-for-pngs/",
-      "published": "2026-05-03",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
     }
   ]
 }
