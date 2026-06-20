@@ -19,7 +19,7 @@
             <div class="post-details">
               <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer" class="post-title">{{ post.title }}</a>
               <span class="feed-source">
-                on <a href="{{ post.site_url }}" target="_blank" rel="noopener noreferrer" class="feed-link">{{ post.feed_title }}</a>
+                on <a href="{{ post.site_url }}" target="_blank" rel="noopener noreferrer" class="feed-link">{{ post.feed_title | default(value=post.site_url) }}</a>
               </span>
             </div>
           </li>
@@ -32,7 +32,7 @@
       <ul class="blogroll-feeds-list">
         {% for feed in blogroll.feeds %}
           <li>
-            <a href="{{ feed.site_url }}" target="_blank" rel="noopener noreferrer" class="feed-site-link">{{ feed.title }}</a>
+            <a href="{{ feed.site_url }}" target="_blank" rel="noopener noreferrer" class="feed-site-link">{{ feed.title | default(value=feed.site_url) }}</a>
             <span class="feed-meta">
               (<a href="{{ feed.feed_url }}" target="_blank" rel="noopener noreferrer">feed</a>)
               {% if feed.status == "error" %}
@@ -59,7 +59,7 @@
       display: inline-block;
     }
     .blogroll-posts .post-title {
-      font-weight: 500;
+      font-weight: 700;
     }
     .blogroll-posts .post-title:visited {
       color: var(--visited-color);
@@ -103,7 +103,7 @@
       border-color: var(--link-color);
     }
     .blogroll-feeds-list .feed-site-link {
-      font-weight: 600;
+      font-weight: 700;
       color: var(--heading-color);
     }
     .blogroll-feeds-list .feed-site-link:hover {
