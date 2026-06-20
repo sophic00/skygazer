@@ -155,7 +155,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Adjust on load, resize, and font ready
   window.addEventListener("load", adjustSidenotePositions);
-  window.addEventListener("resize", adjustSidenotePositions);
+  let resizeRaf;
+  window.addEventListener("resize", () => {
+    if (resizeRaf) cancelAnimationFrame(resizeRaf);
+    resizeRaf = requestAnimationFrame(adjustSidenotePositions);
+  });
   if (document.fonts) {
     document.fonts.ready.then(adjustSidenotePositions);
   }
