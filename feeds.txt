@@ -32,3 +32,4 @@ https://karpathy.github.io/feed.xml
 https://writings.stephenwolfram.com/feed
 https://cliffle.com/rss.xml
 https://evanhahn.com/blog/index.xml
+https://jakelazaroff.com/rss.xml
