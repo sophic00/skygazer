@@ -8,7 +8,7 @@
         <div class="footer-links">
             {%- if config.extra.footer_icons -%}
                 {%- for item in config.extra.footer_icons -%}
-                <a href="{{ item.link }}" aria-label="{{ item.name }}">
+                <a href="{{ item.link }}" aria-label="{{ item.name }}" target="_blank" rel="noopener noreferrer">
                     <img
                         src="{{ item.icon }}"
                         alt="{{ item.name }}"
