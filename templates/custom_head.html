@@ -1,7 +1,7 @@
 {%- if config.extra.umami_website_id and config.extra.umami_website_id != "YOUR_UMAMI_WEBSITE_ID_HERE" %}
 <!-- Umami Analytics -->
 <script defer 
-  src="{{ config.extra.umami_script_url | default(value="https://analytics.sophic.dev/script.js") }}" 
+  src="{{ config.extra.umami_script_url | default(value="https://analytics.sophic.dev/telemetry") }}" 
   data-website-id="{{ config.extra.umami_website_id }}"
   {%- if config.extra.umami_domains %}
   data-domains="{{ config.extra.umami_domains }}"
