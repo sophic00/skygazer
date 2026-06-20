@@ -9,6 +9,7 @@ import os
 import json
 import time
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import feedparser
 import requests
 
@@ -17,11 +18,22 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
+MAX_RETRIES = 2
+RETRY_DELAY = 3  # seconds
+
 def fetch_feed(url):
-    """Fetches a feed URL and returns its byte content."""
-    r = requests.get(url, headers=HEADERS, timeout=15)
-    r.raise_for_status()
-    return r.content
+    """Fetches a feed URL and returns its byte content. Retries once on failure."""
+    last_error = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=15)
+            r.raise_for_status()
+            return r.content
+        except Exception as e:
+            last_error = e
+            if attempt < MAX_RETRIES - 1:
+                time.sleep(RETRY_DELAY)
+    raise last_error
 
 def clean_url(url):
     """Ensures absolute URLs and trims whitespace."""
@@ -106,6 +118,80 @@ def load_max_posts_config(default_val=100):
         print(f"Warning: Error reading blogroll_max_posts from zola.toml: {e}")
     return default_val
 
+def process_feed(url, existing_data):
+    """Fetch and parse a single feed, returning (feed_info, posts) or (error_info, [])."""
+    print(f"Fetching: {url}")
+    try:
+        xml_data = fetch_feed(url)
+        parsed = feedparser.parse(xml_data)
+        
+        feed_info = parsed.feed
+        feed_title = feed_info.get('title', url)
+        site_url = resolve_site_url(parsed, url)
+
+        feed_result = {
+            'title': feed_title,
+            'feed_url': url,
+            'site_url': site_url,
+            'status': 'ok',
+            'error': None
+        }
+
+        print(f"  ✓ '{feed_title}' — {len(parsed.entries)} entries")
+
+        posts = []
+        for entry in parsed.entries:
+            post_url = clean_url(entry.get('link'))
+            if not post_url:
+                continue
+            
+            post_title = entry.get('title', 'Untitled')
+
+            # Find publication date
+            published_parsed = entry.get('published_parsed') or entry.get('updated_parsed')
+            if published_parsed:
+                published_date = time.strftime('%Y-%m-%d', published_parsed)
+            else:
+                date_str = entry.get('published') or entry.get('updated')
+                if date_str:
+                    try:
+                        dt = datetime.strptime(date_str[:19], "%Y-%m-%dT%H:%M:%S")
+                        published_date = dt.strftime('%Y-%m-%d')
+                    except Exception:
+                        published_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+                else:
+                    published_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+
+            posts.append({
+                'title': post_title,
+                'url': post_url,
+                'published': published_date,
+                'feed_title': feed_title,
+                'site_url': site_url
+            })
+
+        return feed_result, posts
+
+    except Exception as e:
+        print(f"  ✗ {url}: {e}")
+        # Try to retrieve name/site URL from existing cache
+        feed_title = url
+        site_url = url
+        for f in existing_data.get('feeds', []):
+            if f['feed_url'] == url:
+                feed_title = f['title']
+                site_url = f['site_url']
+                break
+        
+        feed_result = {
+            'title': feed_title,
+            'feed_url': url,
+            'site_url': site_url,
+            'status': 'error',
+            'error': str(e)
+        }
+        return feed_result, []
+
 def main():
     feeds_file = 'feeds.txt'
     data_dir = 'data'
@@ -136,79 +222,22 @@ def main():
         feed_urls = [line.strip() for line in f if line.strip() and not line.strip().startswith('#')]
 
     new_feeds = []
-    
-    for url in feed_urls:
-        print(f"Fetching: {url}")
-        try:
-            xml_data = fetch_feed(url)
-            parsed = feedparser.parse(xml_data)
-            
-            feed_info = parsed.feed
-            # Extract feed name and main site URL
-            feed_title = feed_info.get('title', url)
-            site_url = resolve_site_url(parsed, url)
 
-            new_feeds.append({
-                'title': feed_title,
-                'feed_url': url,
-                'site_url': site_url,
-                'status': 'ok',
-                'error': None
-            })
+    # Fetch all feeds concurrently
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {
+            executor.submit(process_feed, url, existing_data): url
+            for url in feed_urls
+        }
+        for future in as_completed(futures):
+            feed_result, posts = future.result()
+            new_feeds.append(feed_result)
+            for post in posts:
+                posts_cache[post['url']] = post
 
-            print(f"Successfully parsed feed: '{feed_title}' with {len(parsed.entries)} entries.")
-
-            for entry in parsed.entries:
-                post_url = clean_url(entry.get('link'))
-                if not post_url:
-                    continue
-                
-                post_title = entry.get('title', 'Untitled')
-
-                # Find publication date
-                published_parsed = entry.get('published_parsed') or entry.get('updated_parsed')
-                if published_parsed:
-                    published_date = time.strftime('%Y-%m-%d', published_parsed)
-                else:
-                    # Parse date string or fallback to today
-                    date_str = entry.get('published') or entry.get('updated')
-                    if date_str:
-                        try:
-                            # Let feedparser try parsing the string or default to current date
-                            # (some feeds have odd strings, so a robust fallback is needed)
-                            dt = datetime.strptime(date_str[:19], "%Y-%m-%dT%H:%M:%S")
-                            published_date = dt.strftime('%Y-%m-%d')
-                        except Exception:
-                            published_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-                    else:
-                        published_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-
-                posts_cache[post_url] = {
-                    'title': post_title,
-                    'url': post_url,
-                    'published': published_date,
-                    'feed_title': feed_title,
-                    'site_url': site_url
-                }
-
-        except Exception as e:
-            print(f"Error fetching/parsing {url}: {e}")
-            # Try to retrieve name/site URL from existing cache to avoid losing details
-            feed_title = url
-            site_url = url
-            for f in existing_data.get('feeds', []):
-                if f['feed_url'] == url:
-                    feed_title = f['title']
-                    site_url = f['site_url']
-                    break
-            
-            new_feeds.append({
-                'title': feed_title,
-                'feed_url': url,
-                'site_url': site_url,
-                'status': 'error',
-                'error': str(e)
-            })
+    # Preserve feed ordering from feeds.txt
+    feed_order = {url: i for i, url in enumerate(feed_urls)}
+    new_feeds.sort(key=lambda f: feed_order.get(f['feed_url'], len(feed_urls)))
 
     # Filter posts to only keep those from feeds currently listed in feeds.txt
     active_feed_titles = {f['title'] for f in new_feeds}
@@ -232,7 +261,8 @@ def main():
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
     
-    print(f"Updated blogroll JSON file with {len(final_posts)} posts.")
+    print(f"\nUpdated blogroll JSON file with {len(final_posts)} posts from {len(new_feeds)} feeds.")
 
 if __name__ == '__main__':
     main()
+
