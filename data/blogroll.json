@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22 04:03 UTC",
+  "updated_at": "2026-06-23 03:25 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -249,6 +249,20 @@
   ],
   "posts": [
     {
+      "title": "Let's Decode the Mystery Bytes!",
+      "url": "https://www.computerenhance.com/p/lets-decode-the-mystery-bytes",
+      "published": "2026-06-22",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "0060: SF",
+      "url": "https://www.scattered-thoughts.net/log/0060/",
+      "published": "2026-06-21",
+      "feed_title": "Scattered Thoughts",
+      "site_url": "https://www.scattered-thoughts.net/"
+    },
+    {
       "title": "Will AI End the Open Internet?",
       "url": "https://www.computerenhance.com/p/will-ai-end-the-open-internet",
       "published": "2026-06-16",
@@ -443,20 +457,6 @@
       "published": "2026-05-12",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Steering Zig Fmt",
-      "url": "https://matklad.github.io/2026/05/08/steering-zig-fmt.html",
-      "published": "2026-05-08",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Marc Andreessen Egg Game",
-      "url": "https://eieio.games/blog/marc-andreessen-egg-game",
-      "published": "2026-05-07",
-      "feed_title": "eieio.games",
-      "site_url": "https://eieio.games"
     }
   ]
 }
