@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23 03:25 UTC",
+  "updated_at": "2026-06-24 03:27 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -89,8 +89,8 @@
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml"
     },
     {
       "title": "gingerBill - Articles",
@@ -254,6 +254,13 @@
       "published": "2026-06-22",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Legibility of Effort",
+      "url": "https://eieio.games/blog/legibility-of-effort",
+      "published": "2026-06-22",
+      "feed_title": "eieio.games",
+      "site_url": "https://eieio.games"
     },
     {
       "title": "0060: SF",
@@ -450,13 +457,6 @@
       "published": "2026-05-13",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "Learning Software Architecture",
-      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
-      "published": "2026-05-12",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
     }
   ]
 }
