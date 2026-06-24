@@ -57,44 +57,81 @@ def clean_feed_url_to_site(url):
             'feed/', 'feed', 'atom/', 'atom', 'rss/', 'rss'
         ]
         
-        lower_path = path.lower()
-        for suffix in suffixes:
-            if lower_path.endswith(suffix):
-                path = path[:-len(suffix)]
-                break
-                
+        changed = True
+        while changed:
+            changed = False
+            lower_path = path.lower()
+            for suffix in suffixes:
+                if lower_path.endswith(suffix):
+                    path = path[:-len(suffix)]
+                    changed = True
+                    break
+                    
         return urlunparse((parsed.scheme, parsed.netloc, path, parsed.params, parsed.query, parsed.fragment))
     except Exception:
         return url
 
 def resolve_site_url(feed_parsed, feed_url):
-    """Finds a valid HTTP/HTTPS URL for the website from parsed feed."""
-    feed_info = feed_parsed.feed
+    """Finds a valid HTTP/HTTPS URL for the website from parsed feed by filtering by rel, type, and origin."""
+    from urllib.parse import urlparse, urljoin
     
-    # Try searching in links list for an alternate link first
+    feed_info = feed_parsed.feed
     links = feed_info.get('links', [])
+    
+    feed_parsed_url = urlparse(feed_url)
+    feed_host = feed_parsed_url.netloc.lower()
+    
+    # Fallback to feed URL's site origin
+    fallback_url = clean_feed_url_to_site(f"{feed_parsed_url.scheme}://{feed_parsed_url.netloc}")
+    
+    is_feedburner = 'feedburner' in feed_host
+    
+    candidates = []
     for l in links:
         href = l.get('href')
-        if href and (href.startswith('http://') or href.startswith('https://')):
-            if l.get('rel') == 'alternate':
-                return clean_feed_url_to_site(href.strip())
+        if not href:
+            continue
+            
+        # Resolve relative URLs
+        if not (href.startswith('http://') or href.startswith('https://')):
+            href = urljoin(feed_url, href)
+            
+        rel = l.get('rel', 'alternate')
+        rel = rel.strip().lower() if rel else 'alternate'
+        
+        type_val = l.get('type', '')
+        type_val = type_val.strip().lower() if type_val else ''
+        
+        # 1. Filter by rel (must be alternate)
+        if rel != 'alternate':
+            continue
+            
+        # 2. Filter by type (must not be a feed MIME type, stylesheet, etc.)
+        feed_types = {
+            'application/rss+xml', 'application/atom+xml', 'application/xml',
+            'text/xml', 'application/rdf+xml'
+        }
+        if type_val in feed_types:
+            continue
+        if type_val and type_val != 'text/html' and type_val != 'text/plain':
+            continue
+            
+        # 3. Filter by origin (allowing scheme and www subdomain differences)
+        if not is_feedburner:
+            href_parsed = urlparse(href)
+            href_host_val = href_parsed.netloc.lower()
+            
+            h1 = feed_host.removeprefix('www.')
+            h2 = href_host_val.removeprefix('www.')
+            if h1 != h2:
+                continue
                 
-    # Fallback to feed_info.get('link') if it's a valid HTTP URL
-    link = feed_info.get('link')
-    if link and (link.startswith('http://') or link.startswith('https://')):
-        return clean_feed_url_to_site(link.strip())
-            
-    # Try first valid http link from links list
-    for l in links:
-        href = l.get('href')
-        if href and (href.startswith('http://') or href.startswith('https://')):
-            return clean_feed_url_to_site(href.strip())
-            
-    # Fallback: parse the feed's URL to get the base domain
-    try:
-        return clean_feed_url_to_site(feed_url)
-    except Exception:
-        return feed_url
+        candidates.append(href)
+        
+    if candidates:
+        return clean_feed_url_to_site(candidates[0])
+        
+    return fallback_url
 
 def load_max_posts_config(default_val=100):
     """Loads the max post limit from zola.toml [extra] block, falling back to default."""

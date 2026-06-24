@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24 14:46 UTC",
+  "updated_at": "2026-06-24 14:53 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -11,14 +11,14 @@
     {
       "title": "research!rsc",
       "feed_url": "https://research.swtch.com/feed.atom",
-      "site_url": "https://research.swtch.com/",
+      "site_url": "https://research.swtch.com",
       "status": "ok",
       "error": null
     },
     {
       "title": "MMapped blog",
       "feed_url": "https://mmapped.blog/feed.xml",
-      "site_url": "https://mmapped.blog/",
+      "site_url": "https://mmapped.blog",
       "status": "ok",
       "error": null
     },
@@ -39,7 +39,7 @@
     {
       "title": "https://mcyoung.xyz/feed",
       "feed_url": "https://mcyoung.xyz/feed",
-      "site_url": "https://gmpg.org/xfn/11",
+      "site_url": "https://mcyoung.xyz",
       "status": "ok",
       "error": null
     },
@@ -74,7 +74,7 @@
     {
       "title": "Digital Grove",
       "feed_url": "https://www.rfleury.com/feed",
-      "site_url": "https://www.dgtlgrove.com",
+      "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null
     },
@@ -207,7 +207,7 @@
     {
       "title": "",
       "feed_url": "https://danluu.com/atom.xml",
-      "site_url": "https://danluu.com/atom/",
+      "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null
     },
@@ -407,7 +407,7 @@
       "url": "https://mmapped.blog/posts/51-interleaved-deltas.html",
       "published": "2026-05-22",
       "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog/"
+      "site_url": "https://mmapped.blog"
     },
     {
       "title": "On AI",
