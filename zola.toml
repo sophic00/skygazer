@@ -7,9 +7,9 @@ description = "My small place on internet."
 default_language = "en"
 author = "Vaibhav Sijaria"
 
-taxonomies = [
-    { name = "tags", feed = true }
-]
+# taxonomies = [
+#     { name = "tags", feed = true }
+# ]
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false

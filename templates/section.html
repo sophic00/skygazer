@@ -4,7 +4,17 @@
 {%- block main -%}
   <main>
     {{ macros::post_list(pages=section.pages) }}
-    {%- set taxonomy_group = section.extra.taxonomy_group | default(value="tags") %}
-    {{ macros::tag_cloud(kind=taxonomy_group) }}
+    {%- if config.taxonomies %}
+      {%- set taxonomy_group = section.extra.taxonomy_group | default(value="tags") %}
+      {%- set_global taxonomy_exists = false %}
+      {%- for taxonomy in config.taxonomies %}
+        {%- if taxonomy.name == taxonomy_group %}
+          {%- set_global taxonomy_exists = true %}
+        {%- endif %}
+      {%- endfor %}
+      {%- if taxonomy_exists %}
+        {{ macros::tag_cloud(kind=taxonomy_group) }}
+      {%- endif %}
+    {%- endif %}
   </main>
 {% endblock %}
