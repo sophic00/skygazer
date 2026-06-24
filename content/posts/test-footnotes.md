@@ -2,7 +2,7 @@
 title = "Testing Modern Footnote Styling"
 description = "A sample post demonstrating the clean, aligned footnotes style inspired by kacaii.dev."
 date = 2026-06-19
-draft = false
+draft = true
 extra = { disabled = true }
 +++
 
