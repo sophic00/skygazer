@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24 03:27 UTC",
+  "updated_at": "2026-06-25 03:24 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -89,8 +89,8 @@
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "error",
-      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml"
+      "status": "ok",
+      "error": null
     },
     {
       "title": "gingerBill - Articles",
@@ -222,8 +222,8 @@
       "title": "Stephen Wolfram Writings",
       "feed_url": "https://writings.stephenwolfram.com/feed",
       "site_url": "https://writings.stephenwolfram.com",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='writings.stephenwolfram.com', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
     },
     {
       "title": "Cliffle",
@@ -248,6 +248,13 @@
     }
   ],
   "posts": [
+    {
+      "title": "I'm not a cat",
+      "url": "https://www.scattered-thoughts.net/writing/im-not-a-cat/",
+      "published": "2026-06-24",
+      "feed_title": "Scattered Thoughts",
+      "site_url": "https://www.scattered-thoughts.net/"
+    },
     {
       "title": "Let's Decode the Mystery Bytes!",
       "url": "https://www.computerenhance.com/p/lets-decode-the-mystery-bytes",
@@ -450,13 +457,6 @@
       "published": "2026-05-13",
       "feed_title": "gingerBill - Articles",
       "site_url": "https://www.gingerbill.org/article/"
-    },
-    {
-      "title": "Open Link in Unloaded Tab, a little Firefox extension",
-      "url": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
-      "published": "2026-05-13",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
     }
   ]
 }
