@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29 03:42 UTC",
+  "updated_at": "2026-06-30 03:30 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -89,8 +89,8 @@
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml"
     },
     {
       "title": "gingerBill - Articles",
