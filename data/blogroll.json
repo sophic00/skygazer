@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30 03:30 UTC",
+  "updated_at": "2026-07-01 03:39 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -89,8 +89,8 @@
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "error",
-      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml"
+      "status": "ok",
+      "error": null
     },
     {
       "title": "gingerBill - Articles",
@@ -248,6 +248,13 @@
     }
   ],
   "posts": [
+    {
+      "title": "Notes from June 2026",
+      "url": "https://evanhahn.com/notes-from-june-2026/",
+      "published": "2026-06-30",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
     {
       "title": "I'm not a cat",
       "url": "https://www.scattered-thoughts.net/writing/im-not-a-cat/",
@@ -450,13 +457,6 @@
       "published": "2026-05-14",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "The Aesthetic Problem of Namespacing",
-      "url": "https://www.gingerbill.org/article/2026/05/13/aesthetic-namespacing/",
-      "published": "2026-05-13",
-      "feed_title": "gingerBill - Articles",
-      "site_url": "https://www.gingerbill.org/article/"
     }
   ]
 }
