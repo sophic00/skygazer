@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24 14:53 UTC",
+  "updated_at": "2026-07-08 03:45 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -249,6 +249,34 @@
   ],
   "posts": [
     {
+      "title": "Why AI Companies Need Scale",
+      "url": "https://www.computerenhance.com/p/why-ai-companies-need-scale",
+      "published": "2026-07-02",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Artificial adventures",
+      "url": "https://www.scattered-thoughts.net/writing/artificial-adventures/",
+      "published": "2026-07-01",
+      "feed_title": "Scattered Thoughts",
+      "site_url": "https://www.scattered-thoughts.net/"
+    },
+    {
+      "title": "Notes from June 2026",
+      "url": "https://evanhahn.com/notes-from-june-2026/",
+      "published": "2026-06-30",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
+    {
+      "title": "I'm not a cat",
+      "url": "https://www.scattered-thoughts.net/writing/im-not-a-cat/",
+      "published": "2026-06-24",
+      "feed_title": "Scattered Thoughts",
+      "site_url": "https://www.scattered-thoughts.net/"
+    },
+    {
       "title": "Let's Decode the Mystery Bytes!",
       "url": "https://www.computerenhance.com/p/lets-decode-the-mystery-bytes",
       "published": "2026-06-22",
@@ -429,34 +457,6 @@
       "published": "2026-05-18",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Make ZIP files smaller with ZIP Shrinker",
-      "url": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
-      "published": "2026-05-16",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "Catch Flakes On Main",
-      "url": "https://matklad.github.io/2026/05/14/catch-flakes-on-main.html",
-      "published": "2026-05-14",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "The Aesthetic Problem of Namespacing",
-      "url": "https://www.gingerbill.org/article/2026/05/13/aesthetic-namespacing/",
-      "published": "2026-05-13",
-      "feed_title": "gingerBill - Articles",
-      "site_url": "https://www.gingerbill.org/article/"
-    },
-    {
-      "title": "Open Link in Unloaded Tab, a little Firefox extension",
-      "url": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
-      "published": "2026-05-13",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
     }
   ]
 }
