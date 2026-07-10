@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09 02:49 UTC",
+  "updated_at": "2026-07-10 02:51 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -249,6 +249,20 @@
   ],
   "posts": [
     {
+      "title": "My Thoughts on the Bun Rust Rewrite",
+      "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+      "published": "2026-07-09",
+      "feed_title": "Andrew Kelley",
+      "site_url": "https://andrewkelley.me/"
+    },
+    {
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
+      "url": "https://danluu.com/ai-coding/",
+      "published": "2026-07-03",
+      "feed_title": "",
+      "site_url": "https://danluu.com/"
+    },
+    {
       "title": "Why AI Companies Need Scale",
       "url": "https://www.computerenhance.com/p/why-ai-companies-need-scale",
       "published": "2026-07-02",
@@ -443,20 +457,6 @@
       "published": "2026-05-22",
       "feed_title": "openmymind.net",
       "site_url": "https://www.openmymind.net/"
-    },
-    {
-      "title": "TIL: Symlinking NixOS Dotfiles",
-      "url": "https://matklad.github.io/2026/05/21/symlinking-nixos-dotfiles.html",
-      "published": "2026-05-21",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Always Be Blaming",
-      "url": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
-      "published": "2026-05-18",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
     }
   ]
 }
