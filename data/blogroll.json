@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10 02:51 UTC",
+  "updated_at": "2026-07-11 02:29 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -47,8 +47,8 @@
       "title": "openmymind.net",
       "feed_url": "https://www.openmymind.net/atom.xml",
       "site_url": "https://www.openmymind.net/",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.openmymind.net', port=443): Max retries exceeded with url: /atom.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))"
     },
     {
       "title": "@typesanitizer's blog",
@@ -248,6 +248,13 @@
     }
   ],
   "posts": [
+    {
+      "title": "Good Tools Are Invisible",
+      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+      "published": "2026-07-10",
+      "feed_title": "gingerBill - Articles",
+      "site_url": "https://www.gingerbill.org/article/"
+    },
     {
       "title": "My Thoughts on the Bun Rust Rewrite",
       "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
@@ -450,13 +457,6 @@
       "published": "2026-05-22",
       "feed_title": "MMapped blog",
       "site_url": "https://mmapped.blog"
-    },
-    {
-      "title": "On AI",
-      "url": "https://www.openmymind.net/On-AI/",
-      "published": "2026-05-22",
-      "feed_title": "openmymind.net",
-      "site_url": "https://www.openmymind.net/"
     }
   ]
 }
