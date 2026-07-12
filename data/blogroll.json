@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 02:29 UTC",
+  "updated_at": "2026-07-12 02:34 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -249,6 +249,13 @@
   ],
   "posts": [
     {
+      "title": "Prefer STRICT tables in SQLite",
+      "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+      "published": "2026-07-11",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
+    {
       "title": "Good Tools Are Invisible",
       "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
       "published": "2026-07-10",
@@ -450,13 +457,6 @@
       "published": "2026-05-25",
       "feed_title": "The Observation Deck",
       "site_url": "https://bcantrill.dtrace.org/"
-    },
-    {
-      "title": "Interleaved deltas",
-      "url": "https://mmapped.blog/posts/51-interleaved-deltas.html",
-      "published": "2026-05-22",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog"
     }
   ]
 }
