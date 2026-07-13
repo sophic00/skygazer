@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12 02:34 UTC",
+  "updated_at": "2026-07-13 02:36 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -47,8 +47,8 @@
       "title": "openmymind.net",
       "feed_url": "https://www.openmymind.net/atom.xml",
       "site_url": "https://www.openmymind.net/",
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.openmymind.net', port=443): Max retries exceeded with url: /atom.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))"
+      "status": "ok",
+      "error": null
     },
     {
       "title": "@typesanitizer's blog",
@@ -89,8 +89,8 @@
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml"
     },
     {
       "title": "gingerBill - Articles",
@@ -229,8 +229,8 @@
       "title": "Cliffle",
       "feed_url": "https://cliffle.com/rss.xml",
       "site_url": "https://cliffle.com",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='cliffle.com', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))"
     },
     {
       "title": "Evan Hahn (dot com)",
@@ -248,6 +248,13 @@
     }
   ],
   "posts": [
+    {
+      "title": "Backtrack-free cursive",
+      "url": "https://mmapped.blog/posts/52-backtrack-free-cursive.html",
+      "published": "2026-07-12",
+      "feed_title": "MMapped blog",
+      "site_url": "https://mmapped.blog"
+    },
     {
       "title": "Prefer STRICT tables in SQLite",
       "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
@@ -450,13 +457,6 @@
       "published": "2026-05-27",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "A portentous reunion",
-      "url": "https://bcantrill.dtrace.org/2026/05/25/a-portentous-reunion/",
-      "published": "2026-05-25",
-      "feed_title": "The Observation Deck",
-      "site_url": "https://bcantrill.dtrace.org/"
     }
   ]
 }
