@@ -7,7 +7,7 @@ I am working on a p2p watch party application in my free time. Currently it's in
 
 To get it up and running quickly, I've been pair-coding it with [Antigravity](https://antigravity.google). I usually review what it generates function by function and try to think how I would implement same thing in hopes to sometimes come up with something either [more performant](https://github.com/sophic00/peerwatch/commit/905e54e81b8cdf11f40a00cb68b737720eaf2220) or [more intuitive](https://github.com/sophic00/peerwatch/commit/3feae50fccf5de0fe643bdbd617bbb2db6b2ced5)
 
-I also sometimes look at assembly code for different implementation(I don't know if it's a good idea or bad or useful but I have free time and I like doing it ¯\\_(ツ)_/¯).
+I also sometimes look at assembly code for different implementation(I don't know if it's a good idea or bad or useful but I have free time and I like doing it {% nobr() %}¯\_(ツ)_/¯{% end %}).
 
 During this review I became aware of many golang's standard library functions which I wasn't aware of before. I also check how library implements them since they are written by people who know the language best. One such function was to copy unsigned 32bit integer to a byte array in big endian format. If I were to implement it (not being aware of the function), this is how I would:
 
@@ -62,7 +62,7 @@ func BenchmarkEncodeUint32Manual(b *testing.B) {
 }
 ```
 
-And to my disappointment, my implementation performed a bit slow (~45% (¬_¬"))
+And to my disappointment, my implementation performed a bit slow (~45% {% nobr() %}(¬_¬"){% end %})
 
 ```bash
 $ go test -bench=BenchmarkEncodeUint32 -benchmem uint32_test.go
@@ -156,6 +156,6 @@ func encodeUint32ManualReversed(buf []byte, offset int, v uint32) {
 
 And... it didn't work. My best guess is that offset might be negative, so `offset+3` being positive doesn't guarantee the same for `offset+2`. But I am not sure why I am not able to do this even with offset type being `uint`. I tried bunch of other ways like manually checking for offset being > 0 and `_ = buf[offset+3]` but all either did not prove that previous index access would not be illegal or compiler was not able to prove that.
 
-After some googling and chatgpting and claudeing I found that what standard library is using is a standard, well known optimization trick in Golang called bound check elimination(you can print where your code is doing BCE via `-gcflags="-d=ssa/check_bce/debug=1"`). I won't talk about that in detail since I am not currently an expert on the topic and others have much better blogs/writeups on them(maybe how compiler internally does BCE is worth looking at in future •ᴗ•).
+After some googling and chatgpting and claudeing I found that what standard library is using is a standard, well known optimization trick in Golang called bound check elimination(you can print where your code is doing BCE via `-gcflags="-d=ssa/check_bce/debug=1"`). I won't talk about that in detail since I am not currently an expert on the topic and others have much better blogs/writeups on them(maybe how compiler internally does BCE is worth looking at in future {% nobr() %}•ᴗ•{% end %}).
 
-None of this makes much difference to my project(like the nanosecond gain/loss is dwarfed by network overhead) but I think it's a good habit I picked up unknowingly, and it helped me write better Go code(I still write important code by hand (ᵕ—ᴗ—))
+None of this makes much difference to my project(like the nanosecond gain/loss is dwarfed by network overhead) but I think it's a good habit I picked up unknowingly, and it helped me write better Go code(I still write important code by hand {% nobr() %}(ᵕ—ᴗ—){% end %})
