@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14 02:20 UTC",
+  "updated_at": "2026-07-15 02:13 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -298,6 +298,13 @@
       "site_url": "https://www.scattered-thoughts.net/"
     },
     {
+      "title": "Job queues are deceptively tricky",
+      "url": "https://typesanitizer.com/blog/job-queues.html",
+      "published": "2026-07-01",
+      "feed_title": "@typesanitizer's blog",
+      "site_url": "https://typesanitizer.com/"
+    },
+    {
       "title": "Notes from June 2026",
       "url": "https://evanhahn.com/notes-from-june-2026/",
       "published": "2026-06-30",
@@ -450,13 +457,6 @@
       "published": "2026-05-28",
       "feed_title": "Loris Cro's Personal Website",
       "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "Q&A #85 (2026-05-26)",
-      "url": "https://www.computerenhance.com/p/q-and-a-85-2026-05-26",
-      "published": "2026-05-27",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
     }
   ]
 }
