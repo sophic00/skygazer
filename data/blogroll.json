@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19 02:31 UTC",
+  "updated_at": "2026-07-20 03:09 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -89,8 +89,8 @@
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml"
     },
     {
       "title": "gingerBill - Articles",
@@ -166,8 +166,8 @@
       "title": "Brendan Gregg's Blog",
       "feed_url": "https://www.brendangregg.com/blog/rss.xml",
       "site_url": "http://www.brendangregg.com/blog",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.brendangregg.com', port=443): Max retries exceeded with url: /blog/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brendangregg.com', port=443) at 0x7f7dc4410140>, 'Connection to www.brendangregg.com timed out. (connect timeout=15)'))"
     },
     {
       "title": "Casey Muratori's Blog",
@@ -236,8 +236,8 @@
       "title": "Evan Hahn (dot com)",
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "site_url": "https://evanhahn.com/blog/",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='evanhahn.com', port=443): Max retries exceeded with url: /blog/index.xml (Caused by NewConnectionError(\"HTTPSConnection(host='evanhahn.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "title": "jakelazaroff.com",
