@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20 03:09 UTC",
+  "updated_at": "2026-07-21 02:30 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -89,8 +89,8 @@
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "error",
-      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml"
+      "status": "ok",
+      "error": null
     },
     {
       "title": "gingerBill - Articles",
@@ -166,8 +166,8 @@
       "title": "Brendan Gregg's Blog",
       "feed_url": "https://www.brendangregg.com/blog/rss.xml",
       "site_url": "http://www.brendangregg.com/blog",
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.brendangregg.com', port=443): Max retries exceeded with url: /blog/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brendangregg.com', port=443) at 0x7f7dc4410140>, 'Connection to www.brendangregg.com timed out. (connect timeout=15)'))"
+      "status": "ok",
+      "error": null
     },
     {
       "title": "Casey Muratori's Blog",
@@ -236,8 +236,8 @@
       "title": "Evan Hahn (dot com)",
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "site_url": "https://evanhahn.com/blog/",
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='evanhahn.com', port=443): Max retries exceeded with url: /blog/index.xml (Caused by NewConnectionError(\"HTTPSConnection(host='evanhahn.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "status": "ok",
+      "error": null
     },
     {
       "title": "jakelazaroff.com",
@@ -248,6 +248,13 @@
     }
   ],
   "posts": [
+    {
+      "title": "Memory Safety's Hardest Problem",
+      "url": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
+      "published": "2026-07-20",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
     {
       "title": "Backtrack-free cursive",
       "url": "https://mmapped.blog/posts/52-backtrack-free-cursive.html",
@@ -450,13 +457,6 @@
       "published": "2026-05-30",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "About LLMs at Zig Days",
-      "url": "https://kristoff.it/blog/llms-at-zig-days/",
-      "published": "2026-05-28",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
     }
   ]
 }
