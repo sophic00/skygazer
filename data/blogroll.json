@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21 02:30 UTC",
+  "updated_at": "2026-07-22 02:28 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -249,6 +249,13 @@
   ],
   "posts": [
     {
+      "title": "Towards a Theory of Bugs: The Ruliology of the Unexpected",
+      "url": "https://writings.stephenwolfram.com/2026/07/towards-a-theory-of-bugs-the-ruliology-of-the-unexpected/",
+      "published": "2026-07-21",
+      "feed_title": "Stephen Wolfram Writings",
+      "site_url": "https://writings.stephenwolfram.com"
+    },
+    {
       "title": "Memory Safety's Hardest Problem",
       "url": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
       "published": "2026-07-20",
@@ -450,13 +457,6 @@
       "published": "2026-05-30",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "Notes from May 2026",
-      "url": "https://evanhahn.com/notes-from-may-2026/",
-      "published": "2026-05-30",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
     }
   ]
 }
