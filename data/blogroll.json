@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22 02:28 UTC",
+  "updated_at": "2026-07-23 02:33 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -222,8 +222,8 @@
       "title": "Stephen Wolfram Writings",
       "feed_url": "https://writings.stephenwolfram.com/feed",
       "site_url": "https://writings.stephenwolfram.com",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='writings.stephenwolfram.com', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
     },
     {
       "title": "Cliffle",
