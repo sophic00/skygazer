@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27 02:43 UTC",
+  "updated_at": "2026-07-28 02:23 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -256,6 +256,13 @@
       "site_url": "https://eieio.games"
     },
     {
+      "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
+      "url": "https://danluu.com/exercise-7/",
+      "published": "2026-07-23",
+      "feed_title": "",
+      "site_url": "https://danluu.com/"
+    },
+    {
       "title": "Towards a Theory of Bugs: The Ruliology of the Unexpected",
       "url": "https://writings.stephenwolfram.com/2026/07/towards-a-theory-of-bugs-the-ruliology-of-the-unexpected/",
       "published": "2026-07-21",
@@ -450,13 +457,6 @@
       "published": "2026-06-01",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "You Must Fix Your Asserts",
-      "url": "https://kristoff.it/blog/fix-your-asserts/",
-      "published": "2026-05-31",
-      "feed_title": "Loris Cro's Personal Website",
-      "site_url": "https://kristoff.it/"
     }
   ]
 }
