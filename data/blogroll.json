@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28 02:23 UTC",
+  "updated_at": "2026-07-29 02:28 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -166,8 +166,8 @@
       "title": "Brendan Gregg's Blog",
       "feed_url": "https://www.brendangregg.com/blog/rss.xml",
       "site_url": "http://www.brendangregg.com/blog",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.brendangregg.com', port=443): Max retries exceeded with url: /blog/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brendangregg.com', port=443) at 0x7f9d1c1ceff0>, 'Connection to www.brendangregg.com timed out. (connect timeout=15)'))"
     },
     {
       "title": "Casey Muratori's Blog",
@@ -236,8 +236,8 @@
       "title": "Evan Hahn (dot com)",
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "site_url": "https://evanhahn.com/blog/",
-      "status": "ok",
-      "error": null
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='evanhahn.com', port=443): Max retries exceeded with url: /blog/index.xml (Caused by NewConnectionError(\"HTTPSConnection(host='evanhahn.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "title": "jakelazaroff.com",
