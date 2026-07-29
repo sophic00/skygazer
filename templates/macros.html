@@ -1,16 +1,3 @@
-{%- macro table_of_contents(toc, max_level) %}
-<ul>
-  {%- for header in toc %}
-    <li>
-      <a href="{{ header.permalink | safe }}">{{ header.title }}</a>
-        {%- if header.children and header.level < max_level %}
-          {{- self::table_of_contents(toc=header.children, max_level=max_level) | indent() | safe() }}
-        {%- endif %}
-    </li>
-  {%- endfor %}
-</ul>
-{%- endmacro %}
-
 {%- macro post_list(pages) %}
 {%- if pages %}
   {%- set_global has_visible = false %}
@@ -42,13 +29,4 @@
 {%- else %}
 <p style="opacity: 0.6;">No posts yet.</p>
 {%- endif %}
-{%- endmacro %}
-
-{%- macro tag_cloud(kind) %}
-{%- set tags = get_taxonomy(kind=kind) %}
-<div class="tags">
-  {%- for tag in tags.items %}
-    <a href="{{ tag.permalink }}">#{{ tag.name }}</a>&nbsp;
-  {%- endfor %}
-</div>
 {%- endmacro %}

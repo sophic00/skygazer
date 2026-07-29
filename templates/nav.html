@@ -1,7 +1,7 @@
 {%- set current_lang = config.default_language %}
-{%- if page %}
+{%- if page is defined %}
   {%- set current_lang = page.lang %}
-{%- elif section %}
+{%- elif section is defined %}
   {%- set current_lang = section.lang %}
 {%- endif %}
 {%- if config.extra.main_menu %}

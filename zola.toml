@@ -7,10 +7,6 @@ description = "My small place on internet."
 default_language = "en"
 author = "Vaibhav Sijaria"
 
-# taxonomies = [
-#     { name = "tags", feed = true }
-# ]
-
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
@@ -54,11 +50,6 @@ umami_website_id = "6bb4ab71-9eb0-469c-b307-112ccefa8e89"
 umami_script_url = "https://analytics.sophic.dev/telemetry"
 umami_domains = "www.sophic.dev,sophic.dev"
 
-[extra.table_of_contents]
-show = false
-max_level = 6
-visible_on_load = true
-
 [[extra.main_menu]]
 name = "/home"
 url = "@/_index.md"
@@ -67,13 +58,9 @@ url = "@/_index.md"
 name = "/posts"
 url = "@/posts/_index.md"
 
-# [[extra.main_menu]]
-# name = "/roll"
-# url = "@/roll.md"
-
-# [[extra.main_menu]]
-# name = "/resume"
-# url = "/resume.pdf"
+[[extra.main_menu]]
+name = "/roll"
+url = "@/roll.md"
 
 [[extra.main_menu]]
 name = "/keys"

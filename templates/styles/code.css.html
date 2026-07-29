@@ -1,26 +1,18 @@
-:is(code, pre code, .highlight, .code) {
+code {
   background-color: var(--code-background-color);
   color: var(--code-color);
-}
-
-:is(code, .highlight, .code) {
   border-radius: 3px;
-}
-
-code {
   padding: 2px;
 }
 
+/* Fenced code blocks are pre-styled by the syntax highlighter (giallo);
+   let its inline colors show through instead of painting over them. */
 pre code {
   display: block;
   padding: 20px;
   white-space: pre;
   font-size: 0.875rem;
   overflow-x: auto;
-}
-
-.highlight, .code {
-  padding: 1px 15px;
-  margin-block: 1em;
-  overflow-x: auto;
+  background-color: transparent;
+  color: inherit;
 }

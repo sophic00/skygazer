@@ -2,15 +2,21 @@
   <a href="{{ get_url(path="@/_index.md") }}" class="title">
     <p>{{ config.title }}</p>
   </a>
-  <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('header').classList.toggle('menu-open')">
-    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="28" height="28">
+  <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav" onclick="const h=document.querySelector('header');h.classList.toggle('menu-open');this.setAttribute('aria-expanded',h.classList.contains('menu-open'))">
+    <svg class="menu-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="28" height="28">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
     </svg>
-    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="28" height="28">
+    <svg class="close-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="28" height="28">
       <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
     </svg>
   </button>
-  <nav aria-label="Navigation">
+  <nav id="site-nav" aria-label="Navigation">
     {%- include "nav.html" %}
   </nav>
+  <noscript>
+    <style>
+      .menu-toggle { display: none !important; }
+      header nav { display: block !important; }
+    </style>
+  </noscript>
 </header>

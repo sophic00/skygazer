@@ -1,250 +1,320 @@
 {
-  "updated_at": "2026-07-29 02:28 UTC",
+  "updated_at": "2026-07-29 16:57 UTC",
   "feeds": [
     {
       "title": "matklad",
       "feed_url": "https://matklad.github.io/feed.xml",
       "site_url": "https://matklad.github.io",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a694d89-1fef5\"",
+      "last_modified": "Wed, 29 Jul 2026 00:47:05 GMT"
     },
     {
       "title": "research!rsc",
       "feed_url": "https://research.swtch.com/feed.atom",
       "site_url": "https://research.swtch.com",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"251bbf957080fd7cbd39f7a4fc28d725\"",
+      "last_modified": "Sat, 02 May 2026 21:06:03 GMT"
     },
     {
       "title": "MMapped blog",
       "feed_url": "https://mmapped.blog/feed.xml",
       "site_url": "https://mmapped.blog",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"15674cc723b5879ba036f8da13a766db\"",
+      "last_modified": null
     },
     {
       "title": "Scattered Thoughts",
       "feed_url": "https://www.scattered-thoughts.net/atom.xml",
       "site_url": "https://www.scattered-thoughts.net/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"6a610ae5-12963\"",
+      "last_modified": "Wed, 22 Jul 2026 18:24:37 GMT"
     },
     {
       "title": "Loris Cro's Personal Website",
       "feed_url": "https://kristoff.it/index.xml",
       "site_url": "https://kristoff.it/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a4c7097-2d04\"",
+      "last_modified": "Tue, 07 Jul 2026 03:20:55 GMT"
     },
     {
-      "title": "https://mcyoung.xyz/feed",
+      "title": "mcyoung.xyz",
       "feed_url": "https://mcyoung.xyz/feed",
       "site_url": "https://mcyoung.xyz",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": null,
+      "last_modified": null
     },
     {
       "title": "openmymind.net",
       "feed_url": "https://www.openmymind.net/atom.xml",
       "site_url": "https://www.openmymind.net/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a3258c9-2e4cf\"",
+      "last_modified": "Wed, 17 Jun 2026 08:20:25 GMT"
     },
     {
       "title": "@typesanitizer's blog",
       "feed_url": "https://typesanitizer.com/blog/rss.xml",
       "site_url": "https://typesanitizer.com/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a55e563-3427\"",
+      "last_modified": "Tue, 14 Jul 2026 07:29:39 GMT"
     },
     {
       "title": "Ralf's Ramblings",
       "feed_url": "https://www.ralfj.de/blog/feed.xml",
       "site_url": "https://www.ralfj.de/blog/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"2b239-6568ff489072b-gzip\"",
+      "last_modified": "Tue, 14 Jul 2026 10:49:03 GMT"
     },
     {
       "title": "Andrew Kelley",
       "feed_url": "https://andrewkelley.me/rss.xml",
       "site_url": "https://andrewkelley.me/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"f76fdd9f4dac59af4c7f502449091468\"",
+      "last_modified": "Fri, 10 Jul 2026 23:37:16 GMT"
     },
     {
       "title": "Digital Grove",
       "feed_url": "https://www.rfleury.com/feed",
       "site_url": "https://www.rfleury.com",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"81f5b-rpNeNB1TyBPbIs84G/MEphd5w5A\"",
+      "last_modified": null
     },
     {
       "title": "Computer, Enhance!",
       "feed_url": "https://www.computerenhance.com/feed",
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"16503-PJrRQkx6cUa+3I0YkIUTb+wcv8g\"",
+      "last_modified": null
     },
     {
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": null,
+      "last_modified": "Mon, 22 Apr 2019 19:52:03 GMT"
     },
     {
       "title": "gingerBill - Articles",
       "feed_url": "https://www.gingerbill.org/article/index.xml",
       "site_url": "https://www.gingerbill.org/article/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a50c52f-8bcf\"",
+      "last_modified": "Fri, 10 Jul 2026 10:10:55 GMT"
     },
     {
       "title": "Isaac Clayton",
       "feed_url": "https://slightknack.dev/atom.xml",
       "site_url": "https://slightknack.dev",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a024879-9584a\"",
+      "last_modified": "Mon, 11 May 2026 21:22:01 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
       "feed_url": "https://www.journal.stuffwithstuff.com/rss.xml",
       "site_url": "http://journal.stuffwithstuff.com/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": null,
+      "last_modified": "Sat, 14 Feb 2026 20:03:19 GMT"
     },
     {
       "title": "eieio.games",
       "feed_url": "https://eieio.games/feed.xml",
       "site_url": "https://eieio.games",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"e24e156f201f83ef57dcc61af28e8260\"",
+      "last_modified": null
     },
     {
       "title": "fuzzy notepad",
       "feed_url": "https://eev.ee/feeds/atom.xml",
       "site_url": "https://eev.ee/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"687f0c0a-d40fa\"",
+      "last_modified": "Tue, 22 Jul 2025 03:56:58 GMT"
     },
     {
       "title": "Josh Haberman",
       "feed_url": "https://blog.reverberate.org/feed.xml",
       "site_url": "https://blog.reverberate.org/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"67aa4051-7119a\"",
+      "last_modified": "Mon, 10 Feb 2025 18:07:13 GMT"
     },
     {
       "title": "hirrolot",
       "feed_url": "https://hirrolot.github.io/rss.xml",
       "site_url": "https://hirrolot.github.io/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a2f4fd5-13e4\"",
+      "last_modified": "Mon, 15 Jun 2026 01:05:25 GMT"
     },
     {
       "title": "lisyarus blog",
       "feed_url": "https://lisyarus.github.io/blog/feed.xml",
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a60893b-3996\"",
+      "last_modified": "Wed, 22 Jul 2026 09:11:23 GMT"
     },
     {
       "title": "Sy Brand",
       "feed_url": "https://tartanllama.xyz/rss.xml",
       "site_url": "https://tartanllama.xyz/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"6891dcbb-48c6\"",
+      "last_modified": "Tue, 05 Aug 2025 10:28:11 GMT"
     },
     {
       "title": "seiya.me",
       "feed_url": "https://seiya.me/atom.xml",
       "site_url": "https://seiya.me",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"f9d86f0347e817d49201f9e5abac2315\"",
+      "last_modified": "Fri, 17 Jul 2026 10:41:53 GMT"
     },
     {
       "title": "Brendan Gregg's Blog",
       "feed_url": "https://www.brendangregg.com/blog/rss.xml",
       "site_url": "http://www.brendangregg.com/blog",
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.brendangregg.com', port=443): Max retries exceeded with url: /blog/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brendangregg.com', port=443) at 0x7f9d1c1ceff0>, 'Connection to www.brendangregg.com timed out. (connect timeout=15)'))"
+      "status": "ok",
+      "error": null,
+      "etag": "\"2349d-64a310a7bc380-gzip\"",
+      "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT"
     },
     {
       "title": "Casey Muratori's Blog",
       "feed_url": "https://caseymuratori.com/blog_atom.rss",
       "site_url": "https://caseymuratori.com/blog",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"dbfbbb81fa5540a8569e2138e471df5aa6fa45794a8348f5b461e719e04a319b\"",
+      "last_modified": "Fri, 17 Jan 2025 07:03:25 GMT"
     },
     {
       "title": "Martin Kleppmann's blog",
       "feed_url": "https://feeds.feedburner.com/martinkl",
       "site_url": "http://martin.kleppmann.com/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": null,
+      "last_modified": "Sat, 11 Jul 2026 13:13:50 GMT"
     },
     {
       "title": "Daemonic Dispatches",
       "feed_url": "https://www.daemonology.net/blog/index.rss",
       "site_url": "https://www.daemonology.net/blog/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"3321-64f78cf14af04\"",
+      "last_modified": "Wed, 15 Apr 2026 05:15:49 GMT"
     },
     {
       "title": "The Observation Deck",
       "feed_url": "https://bcantrill.dtrace.org/index.xml",
       "site_url": "https://bcantrill.dtrace.org/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"6a152ae1-382bc\"",
+      "last_modified": "Tue, 26 May 2026 05:08:49 GMT"
     },
     {
       "title": "Dave Cheney",
       "feed_url": "https://dave.cheney.net/feed/atom",
       "site_url": "https://dave.cheney.net",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"50b721097a1950085839dcdc45c0d80a\"",
+      "last_modified": null
     },
     {
-      "title": "",
+      "title": "danluu.com",
       "feed_url": "https://danluu.com/atom.xml",
       "site_url": "https://danluu.com/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"6a6734f6-a9e619\"",
+      "last_modified": "Mon, 27 Jul 2026 10:37:42 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
       "feed_url": "https://karpathy.github.io/feed.xml",
       "site_url": "http://karpathy.github.io/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "W/\"69d98cd7-d9f5c\"",
+      "last_modified": "Fri, 10 Apr 2026 23:50:47 GMT"
     },
     {
       "title": "Stephen Wolfram Writings",
       "feed_url": "https://writings.stephenwolfram.com/feed",
       "site_url": "https://writings.stephenwolfram.com",
       "status": "error",
-      "error": "HTTPSConnectionPool(host='writings.stephenwolfram.com', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      "error": "HTTPSConnectionPool(host='writings.stephenwolfram.com', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+      "etag": null,
+      "last_modified": null
     },
     {
       "title": "Cliffle",
       "feed_url": "https://cliffle.com/rss.xml",
       "site_url": "https://cliffle.com",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"Sat, 10 May 2025 16:07:08 GMT\"",
+      "last_modified": "Sat, 10 May 2025 16:07:08 GMT"
     },
     {
       "title": "Evan Hahn (dot com)",
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "site_url": "https://evanhahn.com/blog/",
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='evanhahn.com', port=443): Max retries exceeded with url: /blog/index.xml (Caused by NewConnectionError(\"HTTPSConnection(host='evanhahn.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "status": "ok",
+      "error": null,
+      "etag": "\"e7be-65712476d676a-gzip\"",
+      "last_modified": "Mon, 20 Jul 2026 22:17:59 GMT"
     },
     {
       "title": "jakelazaroff.com",
       "feed_url": "https://jakelazaroff.com/rss.xml",
       "site_url": "https://jakelazaroff.com/",
       "status": "ok",
-      "error": null
+      "error": null,
+      "etag": "\"diwksbes5wxw575a-gzip\"",
+      "last_modified": "Sun, 31 May 2026 04:26:01 GMT"
     }
   ],
   "posts": [
@@ -252,6 +322,7 @@
       "title": "I'm running a programming contest",
       "url": "https://eieio.games/blog/im-running-the-icfp-programming-contest",
       "published": "2026-07-24",
+      "feed_url": "https://eieio.games/feed.xml",
       "feed_title": "eieio.games",
       "site_url": "https://eieio.games"
     },
@@ -259,7 +330,8 @@
       "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
       "url": "https://danluu.com/exercise-7/",
       "published": "2026-07-23",
-      "feed_title": "",
+      "feed_url": "https://danluu.com/atom.xml",
+      "feed_title": "danluu.com",
       "site_url": "https://danluu.com/"
     },
     {
@@ -267,12 +339,14 @@
       "url": "https://writings.stephenwolfram.com/2026/07/towards-a-theory-of-bugs-the-ruliology-of-the-unexpected/",
       "published": "2026-07-21",
       "feed_title": "Stephen Wolfram Writings",
-      "site_url": "https://writings.stephenwolfram.com"
+      "site_url": "https://writings.stephenwolfram.com",
+      "feed_url": "https://writings.stephenwolfram.com/feed"
     },
     {
       "title": "Memory Safety's Hardest Problem",
       "url": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
       "published": "2026-07-20",
+      "feed_url": "https://matklad.github.io/feed.xml",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
     },
@@ -280,6 +354,7 @@
       "title": "Backtrack-free cursive",
       "url": "https://mmapped.blog/posts/52-backtrack-free-cursive.html",
       "published": "2026-07-12",
+      "feed_url": "https://mmapped.blog/feed.xml",
       "feed_title": "MMapped blog",
       "site_url": "https://mmapped.blog"
     },
@@ -287,6 +362,7 @@
       "title": "Prefer STRICT tables in SQLite",
       "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
       "published": "2026-07-11",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
     },
@@ -294,6 +370,7 @@
       "title": "Good Tools Are Invisible",
       "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
       "published": "2026-07-10",
+      "feed_url": "https://www.gingerbill.org/article/index.xml",
       "feed_title": "gingerBill - Articles",
       "site_url": "https://www.gingerbill.org/article/"
     },
@@ -301,6 +378,7 @@
       "title": "My Thoughts on the Bun Rust Rewrite",
       "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
       "published": "2026-07-09",
+      "feed_url": "https://andrewkelley.me/rss.xml",
       "feed_title": "Andrew Kelley",
       "site_url": "https://andrewkelley.me/"
     },
@@ -308,13 +386,15 @@
       "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
       "url": "https://danluu.com/ai-coding/",
       "published": "2026-07-03",
-      "feed_title": "",
+      "feed_url": "https://danluu.com/atom.xml",
+      "feed_title": "danluu.com",
       "site_url": "https://danluu.com/"
     },
     {
       "title": "Why AI Companies Need Scale",
       "url": "https://www.computerenhance.com/p/why-ai-companies-need-scale",
       "published": "2026-07-02",
+      "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
     },
@@ -322,6 +402,7 @@
       "title": "Artificial adventures",
       "url": "https://www.scattered-thoughts.net/writing/artificial-adventures/",
       "published": "2026-07-01",
+      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
       "feed_title": "Scattered Thoughts",
       "site_url": "https://www.scattered-thoughts.net/"
     },
@@ -329,6 +410,7 @@
       "title": "Job queues are deceptively tricky",
       "url": "https://typesanitizer.com/blog/job-queues.html",
       "published": "2026-07-01",
+      "feed_url": "https://typesanitizer.com/blog/rss.xml",
       "feed_title": "@typesanitizer's blog",
       "site_url": "https://typesanitizer.com/"
     },
@@ -336,6 +418,7 @@
       "title": "Notes from June 2026",
       "url": "https://evanhahn.com/notes-from-june-2026/",
       "published": "2026-06-30",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
     },
@@ -343,6 +426,7 @@
       "title": "I'm not a cat",
       "url": "https://www.scattered-thoughts.net/writing/im-not-a-cat/",
       "published": "2026-06-24",
+      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
       "feed_title": "Scattered Thoughts",
       "site_url": "https://www.scattered-thoughts.net/"
     },
@@ -350,6 +434,7 @@
       "title": "Let's Decode the Mystery Bytes!",
       "url": "https://www.computerenhance.com/p/lets-decode-the-mystery-bytes",
       "published": "2026-06-22",
+      "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
     },
@@ -357,6 +442,7 @@
       "title": "Legibility of Effort",
       "url": "https://eieio.games/blog/legibility-of-effort",
       "published": "2026-06-22",
+      "feed_url": "https://eieio.games/feed.xml",
       "feed_title": "eieio.games",
       "site_url": "https://eieio.games"
     },
@@ -364,6 +450,7 @@
       "title": "0060: SF",
       "url": "https://www.scattered-thoughts.net/log/0060/",
       "published": "2026-06-21",
+      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
       "feed_title": "Scattered Thoughts",
       "site_url": "https://www.scattered-thoughts.net/"
     },
@@ -371,6 +458,7 @@
       "title": "Will AI End the Open Internet?",
       "url": "https://www.computerenhance.com/p/will-ai-end-the-open-internet",
       "published": "2026-06-16",
+      "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
     },
@@ -379,12 +467,14 @@
       "url": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
       "published": "2026-06-16",
       "feed_title": "Stephen Wolfram Writings",
-      "site_url": "https://writings.stephenwolfram.com"
+      "site_url": "https://writings.stephenwolfram.com",
+      "feed_url": "https://writings.stephenwolfram.com/feed"
     },
     {
       "title": "Can you find a vector not orthogonal to N others?",
       "url": "https://lisyarus.github.io/blog/posts/can-you-find-a-vector-not-orthogonal-to-n-others.html",
       "published": "2026-06-15",
+      "feed_url": "https://lisyarus.github.io/blog/feed.xml",
       "feed_title": "lisyarus blog",
       "site_url": "https://lisyarus.github.io/blog"
     },
@@ -392,6 +482,7 @@
       "title": "Q&A #86 (2026-06-10)",
       "url": "https://www.computerenhance.com/p/q-and-a-86-2026-06-10",
       "published": "2026-06-10",
+      "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
     },
@@ -399,6 +490,7 @@
       "title": "Intuitive Random Selection (with Marc LeBlanc)",
       "url": "https://www.computerenhance.com/p/intuitive-random-selection-with-marc",
       "published": "2026-06-09",
+      "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
     },
@@ -406,6 +498,7 @@
       "title": "Quivers: a year of linear algebra by drawing arrows",
       "url": "https://lisyarus.github.io/blog/posts/quivers-a-year-of-linear-algebra-by-drawing-arrows.html",
       "published": "2026-06-09",
+      "feed_url": "https://lisyarus.github.io/blog/feed.xml",
       "feed_title": "lisyarus blog",
       "site_url": "https://lisyarus.github.io/blog"
     },
@@ -413,13 +506,23 @@
       "title": "0059: NYC and SF?",
       "url": "https://www.scattered-thoughts.net/log/0059/",
       "published": "2026-06-05",
+      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
       "feed_title": "Scattered Thoughts",
       "site_url": "https://www.scattered-thoughts.net/"
+    },
+    {
+      "title": "CSS: Unavoidable Bad Parts",
+      "url": "https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html",
+      "published": "2026-06-04",
+      "feed_url": "https://matklad.github.io/feed.xml",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
     },
     {
       "title": "Will AI Make Me Worse?",
       "url": "https://www.computerenhance.com/p/will-ai-make-me-worse",
       "published": "2026-06-04",
+      "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
     },
@@ -428,19 +531,14 @@
       "url": "https://writings.stephenwolfram.com/2026/06/games-between-programs-the-ruliology-of-competition/",
       "published": "2026-06-04",
       "feed_title": "Stephen Wolfram Writings",
-      "site_url": "https://writings.stephenwolfram.com"
-    },
-    {
-      "title": "CSS: Unavoidable Bad Parts",
-      "url": "https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html",
-      "published": "2026-06-04",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
+      "site_url": "https://writings.stephenwolfram.com",
+      "feed_url": "https://writings.stephenwolfram.com/feed"
     },
     {
       "title": "My Software North Star",
       "url": "https://kristoff.it/blog/north-star/",
       "published": "2026-06-03",
+      "feed_url": "https://kristoff.it/index.xml",
       "feed_title": "Loris Cro's Personal Website",
       "site_url": "https://kristoff.it/"
     },
@@ -448,6 +546,7 @@
       "title": "\"Sixteenth of a year\", a 1.8 KiB art piece",
       "url": "https://evanhahn.com/sixteenth-of-a-year/",
       "published": "2026-06-03",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
     },
@@ -455,6 +554,7 @@
       "title": "The First Entity Component System",
       "url": "https://www.computerenhance.com/p/the-first-entity-component-system",
       "published": "2026-06-01",
+      "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
     }

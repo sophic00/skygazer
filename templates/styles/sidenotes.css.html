@@ -1,31 +1,6 @@
-.footnote-definition:not(.footnote-definition + .footnote-definition) {
-  border-top: 1px solid rgba(128, 128, 128, 0.3);
-  padding-block-start: 1rem;
-  margin-block-start: 1.5rem;
-}
-
-.footnote-definition {
-  display: flex;
-  margin-block-start: 1em;
-
-  .footnote-definition-label {
-    margin-inline-start: 1rem;
-    margin-inline-end: 0.5rem;
-    vertical-align: baseline;
-
-    &::after {
-      content: ".";
-    }
-  }
-
-  > p {
-    margin: 0;
-  }
-}
-
 /* Modern Footnotes (Kacaii.dev / Leaflet Style) */
 .footnotes {
-  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  border-top: 1px solid var(--border-color);
   padding-block-start: 1.5rem;
   margin-block-start: 2.5rem;
   font-size: 0.85em;
@@ -235,7 +210,7 @@
     /* Emulate blockquotes inside floated sidenote spans */
     .sidenote-blockquote {
       display: block;
-      border-left: 2px solid rgba(128, 128, 128, 0.3);
+      border-left: 2px solid var(--border-color);
       padding-left: 0.5rem;
       margin-left: 0;
       margin-top: 0.25rem;

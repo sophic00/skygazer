@@ -1,20 +1,11 @@
 {% import "macros.html" as macros %}
 {% extends "base.html" %}
 
+{% block title %}{{ section.title }} | {{ super() }}{% endblock %}
+
 {%- block main -%}
+  <h1>{{ section.title }}</h1>
   <main>
     {{ macros::post_list(pages=section.pages) }}
-    {%- if config.taxonomies %}
-      {%- set taxonomy_group = section.extra.taxonomy_group | default(value="tags") %}
-      {%- set_global taxonomy_exists = false %}
-      {%- for taxonomy in config.taxonomies %}
-        {%- if taxonomy.name == taxonomy_group %}
-          {%- set_global taxonomy_exists = true %}
-        {%- endif %}
-      {%- endfor %}
-      {%- if taxonomy_exists %}
-        {{ macros::tag_cloud(kind=taxonomy_group) }}
-      {%- endif %}
-    {%- endif %}
   </main>
 {% endblock %}
