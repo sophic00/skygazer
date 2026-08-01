@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31 02:37 UTC",
+  "updated_at": "2026-08-01 02:35 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a6bf17a-1fef5\"",
-      "last_modified": "Fri, 31 Jul 2026 00:51:06 GMT"
+      "etag": "W/\"6a6d430a-1fef5\"",
+      "last_modified": "Sat, 01 Aug 2026 00:51:22 GMT"
     },
     {
       "title": "research!rsc",
@@ -34,8 +34,8 @@
       "site_url": "https://www.scattered-thoughts.net/",
       "status": "ok",
       "error": null,
-      "etag": "\"6a610ae0-12963\"",
-      "last_modified": "Wed, 22 Jul 2026 18:24:32 GMT"
+      "etag": "\"6a610ae4-12963\"",
+      "last_modified": "Wed, 22 Jul 2026 18:24:36 GMT"
     },
     {
       "title": "Loris Cro's Personal Website",
@@ -61,8 +61,8 @@
       "site_url": "https://www.openmymind.net/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a6b5835-2d993\"",
-      "last_modified": "Thu, 30 Jul 2026 13:57:09 GMT"
+      "etag": "W/\"6a6c6e1e-2d993\"",
+      "last_modified": "Fri, 31 Jul 2026 09:42:54 GMT"
     },
     {
       "title": "@typesanitizer's blog",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"81f5b-fQL45LIKZs0G2glkmy8bGlv6L/E\"",
+      "etag": "W/\"81f5b-qhE8Mjee9VYhxnuxgY0LExz1nkQ\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"16503-vgzO5ds++vvlxFUK/whd0zf/fFw\"",
+      "etag": "W/\"16503-xyzzqn3m61R9H+viDTSMceKa438\"",
       "last_modified": null
     },
     {
@@ -124,8 +124,8 @@
       "site_url": "https://www.gingerbill.org/article/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a50c52e-8bcf\"",
-      "last_modified": "Fri, 10 Jul 2026 10:10:54 GMT"
+      "etag": "W/\"6a50c52f-8bcf\"",
+      "last_modified": "Fri, 10 Jul 2026 10:10:55 GMT"
     },
     {
       "title": "Isaac Clayton",
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a024879-9584a\"",
-      "last_modified": "Mon, 11 May 2026 21:22:01 GMT"
+      "etag": "W/\"6a024878-9584a\"",
+      "last_modified": "Mon, 11 May 2026 21:22:00 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -178,8 +178,8 @@
       "site_url": "https://hirrolot.github.io/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a2f4fd5-13e4\"",
-      "last_modified": "Mon, 15 Jun 2026 01:05:25 GMT"
+      "etag": "W/\"6a6d3a10-13e4\"",
+      "last_modified": "Sat, 01 Aug 2026 00:13:04 GMT"
     },
     {
       "title": "lisyarus blog",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"e7be-65712476d676a-gzip\"",
-      "last_modified": "Mon, 20 Jul 2026 22:17:59 GMT"
+      "etag": "\"e512-657ebd62f19b6-gzip\"",
+      "last_modified": "Fri, 31 Jul 2026 17:51:22 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Notes from July 2026",
+      "url": "https://evanhahn.com/notes-from-july-2026/",
+      "published": "2026-07-31",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
     {
       "title": "std.Io.Writer.Allocating ate all my memory",
       "url": "https://www.openmymind.net/std-io-writer-allocating-ate-my-memory/",
@@ -549,14 +557,6 @@
       "feed_url": "https://kristoff.it/index.xml",
       "feed_title": "Loris Cro's Personal Website",
       "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "\"Sixteenth of a year\", a 1.8 KiB art piece",
-      "url": "https://evanhahn.com/sixteenth-of-a-year/",
-      "published": "2026-06-03",
-      "feed_url": "https://evanhahn.com/blog/index.xml",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
     }
   ]
 }
