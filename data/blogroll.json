@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09 01:28 UTC",
+  "updated_at": "2026-08-10 01:38 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a77ca10-20229\"",
-      "last_modified": "Sun, 09 Aug 2026 00:30:08 GMT"
+      "etag": "W/\"6a791bf3-20228\"",
+      "last_modified": "Mon, 10 Aug 2026 00:31:47 GMT"
     },
     {
       "title": "research!rsc",
@@ -43,8 +43,8 @@
       "site_url": "https://kristoff.it/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a77a916-2d04\"",
-      "last_modified": "Sat, 08 Aug 2026 22:09:26 GMT"
+      "etag": "W/\"6a7880ff-2e1b\"",
+      "last_modified": "Sun, 09 Aug 2026 13:30:39 GMT"
     },
     {
       "title": "mcyoung.xyz",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"76533-a5DizmzL5YJk5LwE+oQc39wBe0g\"",
+      "etag": "W/\"76533-MZ8i0rqlKG4Zh5oZ4m2ExUr0j2g\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"162ac-uV1Pl8jKD8+k7sLgHNOaiAzGz4I\"",
+      "etag": "W/\"162ac-t7ESRVtC8NMLRK3kkat9TCXBCpk\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a024879-9584a\"",
-      "last_modified": "Mon, 11 May 2026 21:22:01 GMT"
+      "etag": "W/\"6a024878-9584a\"",
+      "last_modified": "Mon, 11 May 2026 21:22:00 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"e512-657ebd62f19b6-gzip\"",
-      "last_modified": "Fri, 31 Jul 2026 17:51:22 GMT"
+      "etag": "\"e512-65893cde5c8c7-gzip\"",
+      "last_modified": "Sun, 09 Aug 2026 02:14:58 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Who Should Pay For Source Code Availability?",
+      "url": "https://kristoff.it/blog/source-code-availability/",
+      "published": "2026-08-09",
+      "feed_url": "https://kristoff.it/index.xml",
+      "feed_title": "Loris Cro's Personal Website",
+      "site_url": "https://kristoff.it/"
+    },
     {
       "title": "Zig's Io.Threaded is Neat",
       "url": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
@@ -549,14 +557,6 @@
       "feed_url": "https://lisyarus.github.io/blog/feed.xml",
       "feed_title": "lisyarus blog",
       "site_url": "https://lisyarus.github.io/blog"
-    },
-    {
-      "title": "Q&A #86 (2026-06-10)",
-      "url": "https://www.computerenhance.com/p/q-and-a-86-2026-06-10",
-      "published": "2026-06-10",
-      "feed_url": "https://www.computerenhance.com/feed",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
     }
   ]
 }
