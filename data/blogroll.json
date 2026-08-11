@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10 01:38 UTC",
+  "updated_at": "2026-08-11 01:27 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a791bf3-20228\"",
-      "last_modified": "Mon, 10 Aug 2026 00:31:47 GMT"
+      "etag": "W/\"6a7a6cbc-20228\"",
+      "last_modified": "Tue, 11 Aug 2026 00:28:44 GMT"
     },
     {
       "title": "research!rsc",
@@ -34,8 +34,8 @@
       "site_url": "https://www.scattered-thoughts.net/",
       "status": "ok",
       "error": null,
-      "etag": "\"6a610ae0-12963\"",
-      "last_modified": "Wed, 22 Jul 2026 18:24:32 GMT"
+      "etag": "\"6a610ae4-12963\"",
+      "last_modified": "Wed, 22 Jul 2026 18:24:36 GMT"
     },
     {
       "title": "Loris Cro's Personal Website",
@@ -43,8 +43,8 @@
       "site_url": "https://kristoff.it/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a7880ff-2e1b\"",
-      "last_modified": "Sun, 09 Aug 2026 13:30:39 GMT"
+      "etag": "W/\"6a79c09b-2e1b\"",
+      "last_modified": "Mon, 10 Aug 2026 12:14:19 GMT"
     },
     {
       "title": "mcyoung.xyz",
@@ -70,8 +70,8 @@
       "site_url": "https://typesanitizer.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a773952-3427\"",
-      "last_modified": "Sat, 08 Aug 2026 14:12:34 GMT"
+      "etag": "W/\"6a7a36ee-35c9\"",
+      "last_modified": "Mon, 10 Aug 2026 20:39:10 GMT"
     },
     {
       "title": "Ralf's Ramblings",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"76533-MZ8i0rqlKG4Zh5oZ4m2ExUr0j2g\"",
+      "etag": "W/\"76533-lnVeC4UijrYw3kxWVdPUtZiJqIg\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"162ac-t7ESRVtC8NMLRK3kkat9TCXBCpk\"",
+      "etag": "W/\"15b26-muiWiOZquJT2Z2QCQyyntLIL15Y\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a024878-9584a\"",
-      "last_modified": "Mon, 11 May 2026 21:22:00 GMT"
+      "etag": "W/\"6a024879-9584a\"",
+      "last_modified": "Mon, 11 May 2026 21:22:01 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a6734f6-a9e619\"",
-      "last_modified": "Mon, 27 Jul 2026 10:37:42 GMT"
+      "etag": "W/\"6a79cc90-aaa106\"",
+      "last_modified": "Mon, 10 Aug 2026 13:05:20 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -319,12 +319,36 @@
   ],
   "posts": [
     {
+      "title": "Reviewing code is a skill",
+      "url": "https://typesanitizer.com/blog/code-review.html",
+      "published": "2026-08-10",
+      "feed_url": "https://typesanitizer.com/blog/rss.xml",
+      "feed_title": "@typesanitizer's blog",
+      "site_url": "https://typesanitizer.com/"
+    },
+    {
+      "title": "Branchless Absolute Value",
+      "url": "https://www.computerenhance.com/p/branchless-absolute-value",
+      "published": "2026-08-10",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
       "title": "Who Should Pay For Source Code Availability?",
       "url": "https://kristoff.it/blog/source-code-availability/",
       "published": "2026-08-09",
       "feed_url": "https://kristoff.it/index.xml",
       "feed_title": "Loris Cro's Personal Website",
       "site_url": "https://kristoff.it/"
+    },
+    {
+      "title": "How do programming languages impact token efficiency and correctness?",
+      "url": "https://danluu.com/pl-tokens/",
+      "published": "2026-08-09",
+      "feed_url": "https://danluu.com/atom.xml",
+      "feed_title": "danluu.com",
+      "site_url": "https://danluu.com/"
     },
     {
       "title": "Zig's Io.Threaded is Neat",
@@ -533,30 +557,6 @@
       "feed_url": "https://www.scattered-thoughts.net/atom.xml",
       "feed_title": "Scattered Thoughts",
       "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Will AI End the Open Internet?",
-      "url": "https://www.computerenhance.com/p/will-ai-end-the-open-internet",
-      "published": "2026-06-16",
-      "feed_url": "https://www.computerenhance.com/feed",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "Launching Version 15 of Wolfram Language & Mathematica: Built-in (Useful) AI & Lots of New Core Functionality",
-      "url": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
-      "published": "2026-06-16",
-      "feed_title": "Stephen Wolfram Writings",
-      "site_url": "https://writings.stephenwolfram.com",
-      "feed_url": "https://writings.stephenwolfram.com/feed"
-    },
-    {
-      "title": "Can you find a vector not orthogonal to N others?",
-      "url": "https://lisyarus.github.io/blog/posts/can-you-find-a-vector-not-orthogonal-to-n-others.html",
-      "published": "2026-06-15",
-      "feed_url": "https://lisyarus.github.io/blog/feed.xml",
-      "feed_title": "lisyarus blog",
-      "site_url": "https://lisyarus.github.io/blog"
     }
   ]
 }
