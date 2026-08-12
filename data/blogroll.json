@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11 01:27 UTC",
+  "updated_at": "2026-08-12 01:45 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a7a6cbc-20228\"",
-      "last_modified": "Tue, 11 Aug 2026 00:28:44 GMT"
+      "etag": "W/\"6a7bbfb9-20228\"",
+      "last_modified": "Wed, 12 Aug 2026 00:35:05 GMT"
     },
     {
       "title": "research!rsc",
@@ -70,8 +70,8 @@
       "site_url": "https://typesanitizer.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a7a36ee-35c9\"",
-      "last_modified": "Mon, 10 Aug 2026 20:39:10 GMT"
+      "etag": "W/\"6a7b4e17-35c9\"",
+      "last_modified": "Tue, 11 Aug 2026 16:30:15 GMT"
     },
     {
       "title": "Ralf's Ramblings",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"76533-lnVeC4UijrYw3kxWVdPUtZiJqIg\"",
+      "etag": "W/\"6d3a7-cy3IcodfP9/PWd1MlwWXboeUS34\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"15b26-muiWiOZquJT2Z2QCQyyntLIL15Y\"",
+      "etag": "W/\"15b26-Txm+w1yrKFWoaV3jJVsWUSEz8eY\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a024879-9584a\"",
-      "last_modified": "Mon, 11 May 2026 21:22:01 GMT"
+      "etag": "W/\"6a024878-9584a\"",
+      "last_modified": "Mon, 11 May 2026 21:22:00 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -151,7 +151,7 @@
       "site_url": "https://eieio.games",
       "status": "ok",
       "error": null,
-      "etag": "W/\"e24e156f201f83ef57dcc61af28e8260\"",
+      "etag": "W/\"fb766edc8f4d879ce868e94d840e75ed\"",
       "last_modified": null
     },
     {
@@ -233,7 +233,7 @@
       "status": "ok",
       "error": null,
       "etag": null,
-      "last_modified": "Sat, 11 Jul 2026 13:13:50 GMT"
+      "last_modified": "Tue, 11 Aug 2026 08:50:37 GMT"
     },
     {
       "title": "Daemonic Dispatches",
@@ -257,8 +257,8 @@
       "title": "Dave Cheney",
       "feed_url": "https://dave.cheney.net/feed/atom",
       "site_url": "https://dave.cheney.net",
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "502 Server Error: Bad Gateway for url: https://dave.cheney.net/feed/atom",
       "etag": "W/\"50b721097a1950085839dcdc45c0d80a\"",
       "last_modified": null
     },
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a79cc90-aaa106\"",
-      "last_modified": "Mon, 10 Aug 2026 13:05:20 GMT"
+      "etag": "W/\"6a6734f6-a9e619\"",
+      "last_modified": "Mon, 27 Jul 2026 10:37:42 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -319,6 +319,14 @@
   ],
   "posts": [
     {
+      "title": "Demystifying Debuggers, Part 6: Recording & Displaying Debuggee State",
+      "url": "https://www.dgtlgrove.com/p/demystifying-debuggers-part-6-recording",
+      "published": "2026-08-11",
+      "feed_url": "https://www.rfleury.com/feed",
+      "feed_title": "Digital Grove",
+      "site_url": "https://www.rfleury.com"
+    },
+    {
       "title": "Reviewing code is a skill",
       "url": "https://typesanitizer.com/blog/code-review.html",
       "published": "2026-08-10",
@@ -341,14 +349,6 @@
       "feed_url": "https://kristoff.it/index.xml",
       "feed_title": "Loris Cro's Personal Website",
       "site_url": "https://kristoff.it/"
-    },
-    {
-      "title": "How do programming languages impact token efficiency and correctness?",
-      "url": "https://danluu.com/pl-tokens/",
-      "published": "2026-08-09",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
     },
     {
       "title": "Zig's Io.Threaded is Neat",
