@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 01:47 UTC",
+  "updated_at": "2026-08-14 01:45 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a7d1142-20228\"",
-      "last_modified": "Thu, 13 Aug 2026 00:35:14 GMT"
+      "etag": "W/\"6a7e62ec-20228\"",
+      "last_modified": "Fri, 14 Aug 2026 00:35:56 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6d3a7-9uIHJ2v6KTMnBvvI98fMgA1VFHs\"",
+      "etag": "W/\"6d3a7-C2/IQUK6CQBRx8FHRsapOaPXMh4\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"15b26-tg4buzTk4sNN45D4TZbNr3lTto0\"",
+      "etag": "W/\"15b26-SF51VOBUlUxoHp/wl/Z/o3UsYRM\"",
       "last_modified": null
     },
     {
@@ -124,8 +124,8 @@
       "site_url": "https://www.gingerbill.org/article/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a50c52e-8bcf\"",
-      "last_modified": "Fri, 10 Jul 2026 10:10:54 GMT"
+      "etag": "W/\"6a50c52f-8bcf\"",
+      "last_modified": "Fri, 10 Jul 2026 10:10:55 GMT"
     },
     {
       "title": "Isaac Clayton",
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a6734f6-a9e619\"",
-      "last_modified": "Mon, 27 Jul 2026 10:37:42 GMT"
+      "etag": "W/\"6a79cc90-aaa106\"",
+      "last_modified": "Mon, 10 Aug 2026 13:05:20 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -349,6 +349,14 @@
       "feed_url": "https://kristoff.it/index.xml",
       "feed_title": "Loris Cro's Personal Website",
       "site_url": "https://kristoff.it/"
+    },
+    {
+      "title": "How do programming languages impact token efficiency and correctness?",
+      "url": "https://danluu.com/pl-tokens/",
+      "published": "2026-08-09",
+      "feed_url": "https://danluu.com/atom.xml",
+      "feed_title": "danluu.com",
+      "site_url": "https://danluu.com/"
     },
     {
       "title": "Zig's Io.Threaded is Neat",
@@ -549,14 +557,6 @@
       "feed_url": "https://eieio.games/feed.xml",
       "feed_title": "eieio.games",
       "site_url": "https://eieio.games"
-    },
-    {
-      "title": "0060: SF",
-      "url": "https://www.scattered-thoughts.net/log/0060/",
-      "published": "2026-06-21",
-      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
     }
   ]
 }
