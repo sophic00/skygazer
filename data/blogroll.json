@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14 01:45 UTC",
+  "updated_at": "2026-08-15 01:05 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a7e62ec-20228\"",
-      "last_modified": "Fri, 14 Aug 2026 00:35:56 GMT"
+      "etag": "W/\"6a7fb0f3-12f25\"",
+      "last_modified": "Sat, 15 Aug 2026 00:21:07 GMT"
     },
     {
       "title": "research!rsc",
@@ -43,8 +43,8 @@
       "site_url": "https://kristoff.it/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a79c09c-2e1b\"",
-      "last_modified": "Mon, 10 Aug 2026 12:14:20 GMT"
+      "etag": "W/\"6a79c09b-2e1b\"",
+      "last_modified": "Mon, 10 Aug 2026 12:14:19 GMT"
     },
     {
       "title": "mcyoung.xyz",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6d3a7-C2/IQUK6CQBRx8FHRsapOaPXMh4\"",
+      "etag": "W/\"6d3a7-GB/QIC4p4AKmmBdJfFc+Z37fO+A\"",
       "last_modified": null
     },
     {
@@ -106,15 +106,15 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"15b26-SF51VOBUlUxoHp/wl/Z/o3UsYRM\"",
+      "etag": "W/\"15b26-OmRLPzRnpNyMIe0rwgPymDiagig\"",
       "last_modified": null
     },
     {
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml",
       "etag": null,
       "last_modified": "Mon, 22 Apr 2019 19:52:03 GMT"
     },
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a79cc90-aaa106\"",
-      "last_modified": "Mon, 10 Aug 2026 13:05:20 GMT"
+      "etag": "W/\"6a7b6626-aabb26\"",
+      "last_modified": "Tue, 11 Aug 2026 18:12:54 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -319,6 +319,14 @@
   ],
   "posts": [
     {
+      "title": "Printing Lists",
+      "url": "https://matklad.github.io/2026/08/14/printing-lists.html",
+      "published": "2026-08-14",
+      "feed_url": "https://matklad.github.io/feed.xml",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
+    {
       "title": "Demystifying Debuggers, Part 6: Recording & Displaying Debuggee State",
       "url": "https://www.dgtlgrove.com/p/demystifying-debuggers-part-6-recording",
       "published": "2026-08-11",
@@ -351,7 +359,7 @@
       "site_url": "https://kristoff.it/"
     },
     {
-      "title": "How do programming languages impact token efficiency and correctness?",
+      "title": "What's the best programming language for coding agents?",
       "url": "https://danluu.com/pl-tokens/",
       "published": "2026-08-09",
       "feed_url": "https://danluu.com/atom.xml",
@@ -549,14 +557,6 @@
       "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "Legibility of Effort",
-      "url": "https://eieio.games/blog/legibility-of-effort",
-      "published": "2026-06-22",
-      "feed_url": "https://eieio.games/feed.xml",
-      "feed_title": "eieio.games",
-      "site_url": "https://eieio.games"
     }
   ]
 }
