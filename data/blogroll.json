@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 01:05 UTC",
+  "updated_at": "2026-08-19 01:06 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a83a564-12f25\"",
-      "last_modified": "Tue, 18 Aug 2026 00:20:52 GMT"
+      "etag": "W/\"6a84f6de-12f25\"",
+      "last_modified": "Wed, 19 Aug 2026 00:20:46 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6d3a7-mjLSJczYu9Yp4+71jR6U9UTkCbU\"",
+      "etag": "W/\"810fb-KDeLEOjDB+S6UWyhnmacy6UuHs8\"",
       "last_modified": null
     },
     {
@@ -106,15 +106,15 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"169c3-PxENMgCCGUYOSn76awm7bTkKrmY\"",
+      "etag": "W/\"184e9-DVdZfaOlkTf6RafmSQwnLlDu+38\"",
       "last_modified": null
     },
     {
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "error",
-      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml",
+      "status": "ok",
+      "error": null,
       "etag": null,
       "last_modified": "Mon, 22 Apr 2019 19:52:03 GMT"
     },
@@ -124,8 +124,8 @@
       "site_url": "https://www.gingerbill.org/article/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a50c52f-8bcf\"",
-      "last_modified": "Fri, 10 Jul 2026 10:10:55 GMT"
+      "etag": "W/\"6a50c52e-8bcf\"",
+      "last_modified": "Fri, 10 Jul 2026 10:10:54 GMT"
     },
     {
       "title": "Isaac Clayton",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"e512-6592c0a66fd72-gzip\"",
-      "last_modified": "Sun, 16 Aug 2026 15:52:28 GMT"
+      "etag": "\"e512-659488a4d5111-gzip\"",
+      "last_modified": "Tue, 18 Aug 2026 01:52:33 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,22 @@
     }
   ],
   "posts": [
+    {
+      "title": "The Enemy of Art",
+      "url": "https://www.dgtlgrove.com/p/the-enemy-of-art",
+      "published": "2026-08-18",
+      "feed_url": "https://www.rfleury.com/feed",
+      "feed_title": "Digital Grove",
+      "site_url": "https://www.rfleury.com"
+    },
+    {
+      "title": "The Pattern Behind x64 CMPPS/PD Immediates",
+      "url": "https://www.computerenhance.com/p/the-pattern-behind-x64-cmppspd-immediates",
+      "published": "2026-08-18",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
     {
       "title": "SIMD Predicates",
       "url": "https://www.computerenhance.com/p/simd-predicates",
@@ -541,22 +557,6 @@
       "feed_url": "https://typesanitizer.com/blog/rss.xml",
       "feed_title": "@typesanitizer's blog",
       "site_url": "https://typesanitizer.com/"
-    },
-    {
-      "title": "Notes from June 2026",
-      "url": "https://evanhahn.com/notes-from-june-2026/",
-      "published": "2026-06-30",
-      "feed_url": "https://evanhahn.com/blog/index.xml",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "I'm not a cat",
-      "url": "https://www.scattered-thoughts.net/writing/im-not-a-cat/",
-      "published": "2026-06-24",
-      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
     }
   ]
 }
