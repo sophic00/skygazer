@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 01:09 UTC",
+  "updated_at": "2026-08-22 01:05 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a879a66-11e04\"",
-      "last_modified": "Fri, 21 Aug 2026 00:23:02 GMT"
+      "etag": "W/\"6a88eb6d-12358\"",
+      "last_modified": "Sat, 22 Aug 2026 00:21:01 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-nHPNDEELQ3shWrcfIR0YwVmOP38\"",
+      "etag": "W/\"810fb-i7Fy/2mhJ7+23KKLypm5PNJSP1Y\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"17a4d-vvCXQo/XuhDO0LBLNwZzY1vpXuE\"",
+      "etag": "W/\"17a4d-EUaRJFAjXu4qxmgT1DaTB0PmyHE\"",
       "last_modified": null
     },
     {
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Rust Glancer",
+      "url": "https://matklad.github.io/2026/08/21/rust-glancer.html",
+      "published": "2026-08-21",
+      "feed_url": "https://matklad.github.io/feed.xml",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
     {
       "title": "Better Batteries",
       "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
@@ -549,14 +557,6 @@
       "feed_url": "https://andrewkelley.me/rss.xml",
       "feed_title": "Andrew Kelley",
       "site_url": "https://andrewkelley.me/"
-    },
-    {
-      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
-      "url": "https://danluu.com/ai-coding/",
-      "published": "2026-07-03",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
     }
   ]
 }
