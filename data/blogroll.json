@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23 01:11 UTC",
+  "updated_at": "2026-08-24 01:08 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a8a3d64-12356\"",
-      "last_modified": "Sun, 23 Aug 2026 00:23:00 GMT"
+      "etag": "W/\"6a8b8ed8-12356\"",
+      "last_modified": "Mon, 24 Aug 2026 00:22:48 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-+nTuqisgjsE8a7HdaMW+42Ks7A0\"",
+      "etag": "W/\"810fb-AId3T2UooKlpAYeHr+vlA1w5GRM\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"17a4d-r3t0r0+qnJ9jSWuZAo1lOzGzWWg\"",
+      "etag": "W/\"17a4d-5xSixVJsu/NombIHhS2STX20BIA\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a024879-9584a\"",
-      "last_modified": "Mon, 11 May 2026 21:22:01 GMT"
+      "etag": "W/\"6a024878-9584a\"",
+      "last_modified": "Mon, 11 May 2026 21:22:00 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -233,7 +233,7 @@
       "status": "ok",
       "error": null,
       "etag": null,
-      "last_modified": "Tue, 11 Aug 2026 08:50:37 GMT"
+      "last_modified": "Sun, 23 Aug 2026 19:04:23 GMT"
     },
     {
       "title": "Daemonic Dispatches",
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a895c36-a99239\"",
-      "last_modified": "Sat, 22 Aug 2026 08:22:14 GMT"
+      "etag": "W/\"6a853712-aa41e5\"",
+      "last_modified": "Wed, 19 Aug 2026 04:54:42 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"e560-659a5285f43ea-gzip\"",
-      "last_modified": "Sat, 22 Aug 2026 16:22:22 GMT"
+      "etag": "\"e02f-659ac9d0cd5c6-gzip\"",
+      "last_modified": "Sun, 23 Aug 2026 01:16:04 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -327,20 +327,20 @@
       "site_url": "https://typesanitizer.com/"
     },
     {
+      "title": "Vim's UserGettingBored autocmd",
+      "url": "https://evanhahn.com/usergettingbored-vim/",
+      "published": "2026-08-22",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
+    {
       "title": "Rust Glancer",
       "url": "https://matklad.github.io/2026/08/21/rust-glancer.html",
       "published": "2026-08-21",
       "feed_url": "https://matklad.github.io/feed.xml",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "There's no reason for software to be slow anymore",
-      "url": "https://danluu.com/perf-opt/",
-      "published": "2026-08-21",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
     },
     {
       "title": "Better Batteries",
@@ -439,7 +439,7 @@
       "site_url": "https://kristoff.it/"
     },
     {
-      "title": "How does programming language affect token efficiency and correctness?",
+      "title": "What's the best programming language for coding agents?",
       "url": "https://danluu.com/pl-tokens/",
       "published": "2026-08-09",
       "feed_url": "https://danluu.com/atom.xml",
