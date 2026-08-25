@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24 01:08 UTC",
+  "updated_at": "2026-08-25 01:07 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a8b8ed8-12356\"",
-      "last_modified": "Mon, 24 Aug 2026 00:22:48 GMT"
+      "etag": "W/\"6a8ce006-12356\"",
+      "last_modified": "Tue, 25 Aug 2026 00:21:26 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-AId3T2UooKlpAYeHr+vlA1w5GRM\"",
+      "etag": "W/\"810fb-YWo7xeuANY+Xm+XJyA/nOEm07Sg\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"17a4d-5xSixVJsu/NombIHhS2STX20BIA\"",
+      "etag": "W/\"17a57-51FXMHf/lFw9bKqENG5KG42KNP8\"",
       "last_modified": null
     },
     {
