@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25 01:07 UTC",
+  "updated_at": "2026-08-26 01:09 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a8ce006-12356\"",
-      "last_modified": "Tue, 25 Aug 2026 00:21:26 GMT"
+      "etag": "W/\"6a8e31b2-12356\"",
+      "last_modified": "Wed, 26 Aug 2026 00:22:10 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-YWo7xeuANY+Xm+XJyA/nOEm07Sg\"",
+      "etag": "W/\"810fb-1Ou17VsdSog1ZA/TjqUed0fwkuI\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"17a57-51FXMHf/lFw9bKqENG5KG42KNP8\"",
+      "etag": "W/\"18921-06gMrxDjKesHPXY8nBK+V4fURmM\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a024878-9584a\"",
-      "last_modified": "Mon, 11 May 2026 21:22:00 GMT"
+      "etag": "W/\"6a024879-9584a\"",
+      "last_modified": "Mon, 11 May 2026 21:22:01 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Q&A #87 (2026-08-25)",
+      "url": "https://www.computerenhance.com/p/q-and-a-87-2026-08-25",
+      "published": "2026-08-25",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
     {
       "title": "There continue to be reasons for software to be slow",
       "url": "https://typesanitizer.com/blog/performance-issues.html",
@@ -549,14 +557,6 @@
       "feed_url": "https://matklad.github.io/feed.xml",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Backtrack-free cursive",
-      "url": "https://mmapped.blog/posts/52-backtrack-free-cursive.html",
-      "published": "2026-07-12",
-      "feed_url": "https://mmapped.blog/feed.xml",
-      "feed_title": "MMapped blog",
-      "site_url": "https://mmapped.blog"
     }
   ]
 }
