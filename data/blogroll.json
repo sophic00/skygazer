@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28 09:33 UTC",
+  "updated_at": "2026-08-29 05:39 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a90fe39-12356\"",
-      "last_modified": "Fri, 28 Aug 2026 03:19:21 GMT"
+      "etag": "W/\"6a922bbc-12356\"",
+      "last_modified": "Sat, 29 Aug 2026 00:45:48 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-sfr09daDIyoXQMNfZXZIwx5H7Fw\"",
+      "etag": "W/\"810fb-OI/btailvCc9D3T0wsQd0H8fx9Y\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c0a4-f0LVgJ1mfX79apBQU1YCX62yIKg\"",
+      "etag": "W/\"1c0a4-pa1xvXm+hcIAF1a+dRILSInOZq4\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a8f9d08-9584a\"",
-      "last_modified": "Thu, 27 Aug 2026 02:12:24 GMT"
+      "etag": "W/\"6a92447d-9584a\"",
+      "last_modified": "Sat, 29 Aug 2026 02:31:25 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
