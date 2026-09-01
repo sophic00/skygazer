@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 03:39 UTC",
+  "updated_at": "2026-09-01 03:35 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a94d151-12356\"",
-      "last_modified": "Mon, 31 Aug 2026 00:56:49 GMT"
+      "etag": "W/\"6a962410-12832\"",
+      "last_modified": "Tue, 01 Sep 2026 01:02:08 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-7SPt7nhHcBZ2kwq04F7RdsAL/8k\"",
+      "etag": "W/\"810fb-rpYqu5ktp0kptvyqQPg7MkEKzrE\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c0a4-gSLUj19NaVWaQemx4mnBK4afO7I\"",
+      "etag": "W/\"1ce98-QAXETRsqpXbNEh/XwqjkosBcA28\"",
       "last_modified": null
     },
     {
@@ -178,8 +178,8 @@
       "site_url": "https://hirrolot.github.io/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a80fa62-1555\"",
-      "last_modified": "Sat, 15 Aug 2026 23:46:42 GMT"
+      "etag": "W/\"6a95e8a9-1555\"",
+      "last_modified": "Mon, 31 Aug 2026 20:48:41 GMT"
     },
     {
       "title": "lisyarus blog",
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a60893b-3996\"",
-      "last_modified": "Wed, 22 Jul 2026 09:11:23 GMT"
+      "etag": "W/\"6a954f1e-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
     },
     {
       "title": "Sy Brand",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"e02f-659ac9d0cd5c6-gzip\"",
-      "last_modified": "Sun, 23 Aug 2026 01:16:04 GMT"
+      "etag": "\"e8d6-65a608ed6f4af-gzip\"",
+      "last_modified": "Mon, 31 Aug 2026 23:57:00 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,30 @@
     }
   ],
   "posts": [
+    {
+      "title": "Cancelation Terminology",
+      "url": "https://matklad.github.io/2026/08/31/cancelation-terminology.html",
+      "published": "2026-08-31",
+      "feed_url": "https://matklad.github.io/feed.xml",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
+    {
+      "title": "SIMD Masking",
+      "url": "https://www.computerenhance.com/p/simd-masking",
+      "published": "2026-08-31",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Notes from August 2026",
+      "url": "https://evanhahn.com/notes-from-august-2026/",
+      "published": "2026-08-31",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
     {
       "title": "Launching Route 53 Files",
       "url": "https://www.daemonology.net/blog/2026-08-27-Launching-Route-53-Files.html",
@@ -533,30 +557,6 @@
       "feed_url": "https://hirrolot.github.io/rss.xml",
       "feed_title": "hirrolot",
       "site_url": "https://hirrolot.github.io/"
-    },
-    {
-      "title": "Don't Take the Black Pill (Text Adaptation)",
-      "url": "https://andrewkelley.me/post/dont-take-black-pill.html",
-      "published": "2026-07-31",
-      "feed_url": "https://andrewkelley.me/rss.xml",
-      "feed_title": "Andrew Kelley",
-      "site_url": "https://andrewkelley.me/"
-    },
-    {
-      "title": "Notes from July 2026",
-      "url": "https://evanhahn.com/notes-from-july-2026/",
-      "published": "2026-07-31",
-      "feed_url": "https://evanhahn.com/blog/index.xml",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "std.Io.Writer.Allocating ate all my memory",
-      "url": "https://www.openmymind.net/std-io-writer-allocating-ate-my-memory/",
-      "published": "2026-07-30",
-      "feed_url": "https://www.openmymind.net/atom.xml",
-      "feed_title": "openmymind.net",
-      "site_url": "https://www.openmymind.net/"
     }
   ]
 }
