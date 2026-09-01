@@ -21,10 +21,11 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# Standard User-Agent to prevent blogs from blocking automated requests
+# Identify honestly: spoofed browser agents are widely blocked, and the
+# contact URL lets site owners reach out instead of banning the fetcher.
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+    'User-Agent': 'skygazer-blogroll/1.0 (+https://www.sophic.dev/roll)',
+    'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
 }
 
 MAX_RETRIES = 2
