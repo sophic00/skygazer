@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write         # Allows the job to push commits to the repository
 
+concurrency:
+  group: update-blogroll
+  cancel-in-progress: true  # Never let a manual run race the nightly cron on git push
+
 jobs:
   update-blogroll:
     runs-on: ubuntu-latest
