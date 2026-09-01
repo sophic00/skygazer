@@ -7,6 +7,7 @@
 
 import json
 import os
+import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -353,7 +354,7 @@ def main():
 
     if not os.path.exists(FEEDS_FILE):
         print(f"Error: {FEEDS_FILE} not found. Please create it.")
-        return
+        return 1
 
     # Read feeds from feeds.txt
     with open(FEEDS_FILE, 'r', encoding='utf-8') as f:
@@ -396,6 +397,19 @@ def main():
     max_posts = load_max_posts_config()
     final_posts = filtered_posts[:max_posts]
 
+    # Report failures so CI logs show exactly which feeds are unhealthy
+    failed_feeds = [f for f in new_feeds if f['status'] == 'error']
+    if failed_feeds:
+        print(f"\n{len(failed_feeds)} of {len(new_feeds)} feeds failed:")
+        for f in failed_feeds:
+            print(f"  ✗ {f['feed_url']}: {f['error']}")
+
+    # A total outage should fail the run (and CI) instead of silently doing
+    # nothing; the last good blogroll.json is left untouched in that case.
+    if new_feeds and len(failed_feeds) == len(new_feeds):
+        print("\nAll feeds failed — keeping the last good blogroll data.")
+        return 1
+
     # Compile the final dictionary
     output_data = {
         'updated_at': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
@@ -407,13 +421,14 @@ def main():
     if (existing_data.get('feeds') == output_data['feeds']
             and existing_data.get('posts') == output_data['posts']):
         print(f"\nNo changes — {len(final_posts)} posts from {len(new_feeds)} feeds are up to date.")
-        return
+        return 0
 
     # Write back to JSON file
     write_json_atomic(JSON_FILE, output_data)
 
     print(f"\nUpdated blogroll JSON file with {len(final_posts)} posts from {len(new_feeds)} feeds.")
+    return 0
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
