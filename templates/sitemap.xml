@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {%- for sitemap_entry in entries %}
-    {%- if not sitemap_entry.extra.disabled and not sitemap_entry.extra.disable %}
+    {%- if not sitemap_entry.extra.disabled %}
     <url>
         <loc>{{ sitemap_entry.permalink | escape_xml | safe }}</loc>
         {%- if sitemap_entry.updated %}

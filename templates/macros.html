@@ -2,14 +2,14 @@
 {%- if pages %}
   {%- set_global has_visible = false %}
   {%- for page in pages %}
-    {%- if not page.extra.disabled and not page.extra.disable %}
+    {%- if not page.extra.disabled %}
       {%- set_global has_visible = true %}
     {%- endif %}
   {%- endfor %}
   {%- if has_visible %}
     <ul class="blog-posts">
       {%- for page in pages %}
-        {%- if not page.extra.disabled and not page.extra.disable %}
+        {%- if not page.extra.disabled %}
           <li>
             <span>
               <i>
