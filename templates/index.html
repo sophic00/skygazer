@@ -1,7 +1,12 @@
+{% import "macros.html" as macros %}
 {% extends "base.html" %}
 
 {% block main %}
   <main>
     {{ section.content | safe }}
+
+    {%- set posts_section = get_section(path="posts/_index.md") %}
+    <h2>Recent posts</h2>
+    {{ macros::post_list(pages=posts_section.pages | slice(end=5)) }}
   </main>
 {% endblock %}
