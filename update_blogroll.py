@@ -15,6 +15,8 @@ from urllib.parse import urljoin, urlparse, urlunparse
 
 import feedparser
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Standard User-Agent to prevent blogs from blocking automated requests
 HEADERS = {
@@ -23,13 +25,24 @@ HEADERS = {
 }
 
 MAX_RETRIES = 2
-RETRY_DELAY = 3  # seconds
+RETRY_BACKOFF = 3  # seconds; doubles after each retry
 
 FETCH_TIMEOUT = 15  # seconds
+
+# Retry only transient failures; 4xx responses like 404 are permanent and
+# retrying them just wastes time.
+RETRY = Retry(
+    total=MAX_RETRIES,
+    backoff_factor=RETRY_BACKOFF,
+    status_forcelist=frozenset({429, 500, 502, 503, 504}),
+    allowed_methods=frozenset({'GET'}),
+)
 
 # Shared session so worker threads reuse pooled TCP/TLS connections instead of
 # paying a fresh handshake for every feed.
 SESSION = requests.Session()
+for _scheme in ('https://', 'http://'):
+    SESSION.mount(_scheme, HTTPAdapter(max_retries=RETRY))
 
 FEEDS_FILE = 'feeds.txt'
 DATA_DIR = 'data'
@@ -38,21 +51,16 @@ CONFIG_FILE = 'zola.toml'
 
 
 def fetch_feed(url, headers):
-    """GETs a feed URL via the shared session and returns the requests.Response. Retries on failure."""
-    last_error = None
-    for attempt in range(MAX_RETRIES):
-        try:
-            r = SESSION.get(url, headers=headers, timeout=FETCH_TIMEOUT)
-            # 304 Not Modified is a valid, cache-preserving response
-            if r.status_code == 304:
-                return r
-            r.raise_for_status()
-            return r
-        except Exception as e:
-            last_error = e
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_DELAY)
-    raise last_error
+    """GETs a feed URL via the shared session, retrying transient failures.
+
+    Returns the requests.Response; raises after retries are exhausted.
+    """
+    r = SESSION.get(url, headers=headers, timeout=FETCH_TIMEOUT)
+    # 304 Not Modified is a valid, cache-preserving response
+    if r.status_code == 304:
+        return r
+    r.raise_for_status()
+    return r
 
 
 def clean_url(url):
