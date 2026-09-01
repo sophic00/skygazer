@@ -10,6 +10,7 @@ import os
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse, urlunparse
 
 import feedparser
@@ -188,6 +189,20 @@ def load_max_posts_config(default_val=100):
     return default_val
 
 
+def _parse_date_string(date_str):
+    """Parses an ISO 8601 or RFC 822 date string into YYYY-MM-DD, or None."""
+    try:
+        dt = datetime.strptime(date_str[:19], "%Y-%m-%dT%H:%M:%S")
+        return dt.strftime('%Y-%m-%d')
+    except ValueError:
+        pass
+    try:
+        return parsedate_to_datetime(date_str).strftime('%Y-%m-%d')
+    except (TypeError, ValueError):
+        pass
+    return None
+
+
 def parse_entry_date(entry):
     """Extracts a YYYY-MM-DD publication date from a feed entry.
 
@@ -201,11 +216,7 @@ def parse_entry_date(entry):
 
     date_str = entry.get('published') or entry.get('updated')
     if date_str:
-        try:
-            dt = datetime.strptime(date_str[:19], "%Y-%m-%dT%H:%M:%S")
-            return dt.strftime('%Y-%m-%d')
-        except Exception:
-            pass
+        return _parse_date_string(date_str) or ""
     return ""
 
 
