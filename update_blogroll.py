@@ -10,7 +10,6 @@ import json
 import os
 import sys
 import time
-import tomllib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -18,6 +17,7 @@ from urllib.parse import urljoin, urlparse, urlunparse
 
 import feedparser
 import requests
+import tomllib
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -99,7 +99,7 @@ def clean_feed_url_to_site(url):
                     break
 
         return urlunparse((parsed.scheme, parsed.netloc, path, parsed.params, parsed.query, parsed.fragment))
-    except Exception:
+    except ValueError:
         return url
 
 
@@ -108,7 +108,7 @@ def hostname_title(url):
     try:
         host = urlparse(url).netloc.removeprefix('www.')
         return host or url
-    except Exception:
+    except ValueError:
         return url
 
 
@@ -140,7 +140,7 @@ def resolve_site_url(feed_parsed, feed_url):
             continue
 
         # Resolve relative URLs
-        if not (href.startswith('http://') or href.startswith('https://')):
+        if not href.startswith(('http://', 'https://')):
             href = urljoin(feed_url, href)
 
         rel = l.get('rel', 'alternate')
@@ -194,8 +194,9 @@ def load_max_posts_config(default_val=100):
 def _parse_date_string(date_str):
     """Parses an ISO 8601 or RFC 822 date string into YYYY-MM-DD, or None."""
     try:
-        dt = datetime.strptime(date_str[:19], "%Y-%m-%dT%H:%M:%S")
-        return dt.strftime('%Y-%m-%d')
+        # Naive by design: only the date part is kept, so a missing timezone
+        # cannot shift it.
+        return time.strftime('%Y-%m-%d', time.strptime(date_str[:19], "%Y-%m-%dT%H:%M:%S"))
     except ValueError:
         pass
     try:
@@ -243,7 +244,7 @@ def process_feed(url, cached_feed):
         r = fetch_feed(url, headers)
 
         if r.status_code == 304:
-            print(f"  = not modified, using cache")
+            print("  = not modified, using cache")
             feed_result = dict(cached_feed)
             feed_result['status'] = 'ok'
             feed_result['error'] = None
@@ -283,7 +284,7 @@ def process_feed(url, cached_feed):
 
         return feed_result, posts
 
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 — per-feed error boundary; one bad feed must not abort the whole run
         print(f"  ✗ {url}: {e}")
         # Preserve metadata from cache when available
         feed_result = {
@@ -307,7 +308,7 @@ def load_existing_data(json_file):
             data = json.load(f)
         print(f"Loaded existing data with {len(data.get('posts', []))} posts.")
         return data
-    except Exception as e:
+    except (OSError, ValueError) as e:
         print(f"Warning: Could not read existing JSON file: {e}")
         return {}
 
