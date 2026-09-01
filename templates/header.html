@@ -2,7 +2,7 @@
   <a href="{{ get_url(path="@/_index.md") }}" class="title">
     <p>{{ config.title }}</p>
   </a>
-  <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav" onclick="const h=document.querySelector('header');h.classList.toggle('menu-open');this.setAttribute('aria-expanded',h.classList.contains('menu-open'))">
+  <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
     <svg class="menu-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="28" height="28">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
     </svg>
@@ -19,4 +19,5 @@
       header nav { display: block !important; }
     </style>
   </noscript>
+  <script src="/js/menu.js" defer></script>
 </header>
