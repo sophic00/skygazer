@@ -25,6 +25,12 @@ HEADERS = {
 MAX_RETRIES = 2
 RETRY_DELAY = 3  # seconds
 
+FETCH_TIMEOUT = 15  # seconds
+
+# Shared session so worker threads reuse pooled TCP/TLS connections instead of
+# paying a fresh handshake for every feed.
+SESSION = requests.Session()
+
 FEEDS_FILE = 'feeds.txt'
 DATA_DIR = 'data'
 JSON_FILE = os.path.join(DATA_DIR, 'blogroll.json')
@@ -32,11 +38,11 @@ CONFIG_FILE = 'zola.toml'
 
 
 def fetch_feed(url, headers):
-    """GETs a feed URL and returns the requests.Response. Retries on failure."""
+    """GETs a feed URL via the shared session and returns the requests.Response. Retries on failure."""
     last_error = None
     for attempt in range(MAX_RETRIES):
         try:
-            r = requests.get(url, headers=headers, timeout=15)
+            r = SESSION.get(url, headers=headers, timeout=FETCH_TIMEOUT)
             # 304 Not Modified is a valid, cache-preserving response
             if r.status_code == 304:
                 return r
