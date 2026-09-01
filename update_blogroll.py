@@ -1,4 +1,5 @@
 # /// script
+# requires-python = ">=3.11"
 # dependencies = [
 #   "feedparser",
 #   "requests",
@@ -9,6 +10,7 @@ import json
 import os
 import sys
 import time
+import tomllib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -181,27 +183,11 @@ def resolve_site_url(feed_parsed, feed_url):
 def load_max_posts_config(default_val=100):
     """Loads the max post limit from zola.toml [extra] block, falling back to default."""
     try:
-        import tomllib
-    except ImportError:
-        tomllib = None
-
-    if tomllib is not None:
-        try:
-            with open(CONFIG_FILE, 'rb') as f:
-                return tomllib.load(f).get('extra', {}).get('blogroll_max_posts', default_val)
-        except Exception as e:
-            print(f"Warning: Error reading blogroll_max_posts from {CONFIG_FILE}: {e}")
-    else:
-        # Fallback for Python < 3.11: simple line parsing
-        try:
-            with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-                for line in f:
-                    line = line.strip()
-                    if line.startswith('blogroll_max_posts') and '=' in line:
-                        return int(line.split('=', 1)[1].strip())
-        except (OSError, ValueError) as e:
-            print(f"Warning: Error reading blogroll_max_posts from {CONFIG_FILE}: {e}")
-    return default_val
+        with open(CONFIG_FILE, 'rb') as f:
+            return tomllib.load(f).get('extra', {}).get('blogroll_max_posts', default_val)
+    except (OSError, ValueError) as e:
+        print(f"Warning: Error reading blogroll_max_posts from {CONFIG_FILE}: {e}")
+        return default_val
 
 
 def _parse_date_string(date_str):
