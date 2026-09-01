@@ -189,7 +189,12 @@ def load_max_posts_config(default_val=100):
 
 
 def parse_entry_date(entry):
-    """Extracts a YYYY-MM-DD publication date from a feed entry."""
+    """Extracts a YYYY-MM-DD publication date from a feed entry.
+
+    Returns an empty string when no date can be parsed. The fallback must be
+    deterministic across runs: stamping unparseable dates with today's date
+    would churn the JSON (and the CI commit) every day. Empty dates sort last.
+    """
     published_parsed = entry.get('published_parsed') or entry.get('updated_parsed')
     if published_parsed:
         return time.strftime('%Y-%m-%d', published_parsed)
@@ -201,7 +206,7 @@ def parse_entry_date(entry):
             return dt.strftime('%Y-%m-%d')
         except Exception:
             pass
-    return datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    return ""
 
 
 def process_feed(url, cached_feed):
