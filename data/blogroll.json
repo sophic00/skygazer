@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 03:35 UTC",
+  "updated_at": "2026-09-02 02:53 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a962410-12832\"",
-      "last_modified": "Tue, 01 Sep 2026 01:02:08 GMT"
+      "etag": "W/\"6a977338-12832\"",
+      "last_modified": "Wed, 02 Sep 2026 00:52:08 GMT"
     },
     {
       "title": "research!rsc",
@@ -88,8 +88,8 @@
       "site_url": "https://andrewkelley.me/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"b226a73d9348e3561a367caa3a42f54c\"",
-      "last_modified": "Wed, 05 Aug 2026 23:00:01 GMT"
+      "etag": "W/\"346152380c808895330cdf34864be0e9\"",
+      "last_modified": "Tue, 01 Sep 2026 18:04:03 GMT"
     },
     {
       "title": "Digital Grove",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-rpYqu5ktp0kptvyqQPg7MkEKzrE\"",
+      "etag": "W/\"810fb-zMmapSe2jShlHgQknDZS+24l/kg\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1ce98-QAXETRsqpXbNEh/XwqjkosBcA28\"",
+      "etag": "W/\"1ce98-A0b4AYrtD1qd+knm1xuelwwSpD8\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1e-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
+      "etag": "W/\"6a954f1d-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
     },
     {
       "title": "Sy Brand",
