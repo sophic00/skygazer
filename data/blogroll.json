@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03 02:58 UTC",
+  "updated_at": "2026-09-04 02:56 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a98c4dd-1506c\"",
-      "last_modified": "Thu, 03 Sep 2026 00:52:45 GMT"
+      "etag": "W/\"6a9a15bf-15068\"",
+      "last_modified": "Fri, 04 Sep 2026 00:50:07 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-l+vog+BL4jYQfU/g1tbRCQuTTQo\"",
+      "etag": "W/\"810fb-PAI2auOs+QhRz64DbBLVOjY5QFU\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c152-x81bqOqMH+hDkEHU/efzCzY58Q4\"",
+      "etag": "W/\"1c23b-6XHw5yb8j2YIq+OUE6D3K3fNQfg\"",
       "last_modified": null
     },
     {
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a978c17-634a03\"",
-      "last_modified": "Wed, 02 Sep 2026 02:38:15 GMT"
+      "etag": "W/\"6a8f1c62-627641\"",
+      "last_modified": "Wed, 26 Aug 2026 17:03:30 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -343,14 +343,6 @@
       "site_url": "https://www.gingerbill.org/article/"
     },
     {
-      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "url": "https://danluu.com/zitron/",
-      "published": "2026-09-01",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
-    },
-    {
       "title": "Cancelation Terminology",
       "url": "https://matklad.github.io/2026/08/31/cancelation-terminology.html",
       "published": "2026-08-31",
@@ -373,14 +365,6 @@
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "Bug blindness",
-      "url": "https://danluu.com/bug-blind/",
-      "published": "2026-08-30",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
     },
     {
       "title": "Launching Route 53 Files",
@@ -557,6 +541,22 @@
       "feed_url": "https://www.rfleury.com/feed",
       "feed_title": "Digital Grove",
       "site_url": "https://www.rfleury.com"
+    },
+    {
+      "title": "What New Jobs?",
+      "url": "https://www.computerenhance.com/p/what-new-jobs",
+      "published": "2026-08-05",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Three Steps from Scalar to SIMD",
+      "url": "https://www.computerenhance.com/p/three-steps-from-scalar-to-simd",
+      "published": "2026-08-03",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
     }
   ]
 }
