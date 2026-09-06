@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05 02:58 UTC",
+  "updated_at": "2026-09-06 02:57 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a9b671f-15068\"",
-      "last_modified": "Sat, 05 Sep 2026 00:49:35 GMT"
+      "etag": "W/\"6a9cba91-15068\"",
+      "last_modified": "Sun, 06 Sep 2026 00:57:53 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-Ipus9zGRwcl7sQHwTcpUcPvI/QQ\"",
+      "etag": "W/\"810fb-+RlGxXPydSa407PL/alTNOGrboE\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c23b-l/l4zkA6ZmnYUNl5QEdW1B/aI2Q\"",
+      "etag": "W/\"1c23b-3hG5b/kshdq/Zwm6WP7uAdVqp68\"",
       "last_modified": null
     },
     {
@@ -233,7 +233,7 @@
       "status": "ok",
       "error": null,
       "etag": null,
-      "last_modified": "Sun, 23 Aug 2026 19:04:23 GMT"
+      "last_modified": "Sat, 5 Sep 2026 16:08:55 GMT"
     },
     {
       "title": "Daemonic Dispatches",
@@ -250,8 +250,8 @@
       "site_url": "https://bcantrill.dtrace.org/",
       "status": "ok",
       "error": null,
-      "etag": "\"6a152ae1-382bc\"",
-      "last_modified": "Tue, 26 May 2026 05:08:49 GMT"
+      "etag": "\"6a9c8491-387b1\"",
+      "last_modified": "Sat, 05 Sep 2026 21:07:29 GMT"
     },
     {
       "title": "Dave Cheney",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "The revolt of the reader",
+      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+      "published": "2026-09-05",
+      "feed_url": "https://bcantrill.dtrace.org/index.xml",
+      "feed_title": "The Observation Deck",
+      "site_url": "https://bcantrill.dtrace.org/"
+    },
     {
       "title": "Static Allocation, Constant Work",
       "url": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
@@ -549,14 +557,6 @@
       "feed_url": "https://matklad.github.io/feed.xml",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Near The Zero Point",
-      "url": "https://www.dgtlgrove.com/p/near-the-zero-point",
-      "published": "2026-08-05",
-      "feed_url": "https://www.rfleury.com/feed",
-      "feed_title": "Digital Grove",
-      "site_url": "https://www.rfleury.com"
     }
   ]
 }
