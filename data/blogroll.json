@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06 02:57 UTC",
+  "updated_at": "2026-09-07 02:55 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a9cba91-15068\"",
-      "last_modified": "Sun, 06 Sep 2026 00:57:53 GMT"
+      "etag": "W/\"6a9e0bc8-15068\"",
+      "last_modified": "Mon, 07 Sep 2026 00:56:40 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-+RlGxXPydSa407PL/alTNOGrboE\"",
+      "etag": "W/\"810fb-NUCH50OY3sOfYA50iOWlYvPXu6U\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c23b-3hG5b/kshdq/Zwm6WP7uAdVqp68\"",
+      "etag": "W/\"1c23b-Y48J9o29WfO5vu0WN5TCzXWmzsY\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1d-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
+      "etag": "W/\"6a954f1e-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
     },
     {
       "title": "Sy Brand",
