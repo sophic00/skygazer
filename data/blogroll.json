@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07 02:55 UTC",
+  "updated_at": "2026-09-08 03:05 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a9e0bc8-15068\"",
-      "last_modified": "Mon, 07 Sep 2026 00:56:40 GMT"
+      "etag": "W/\"6a9f5c40-15068\"",
+      "last_modified": "Tue, 08 Sep 2026 00:52:16 GMT"
     },
     {
       "title": "research!rsc",
@@ -43,8 +43,8 @@
       "site_url": "https://kristoff.it/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a83954e-2e1b\"",
-      "last_modified": "Mon, 17 Aug 2026 23:12:14 GMT"
+      "etag": "W/\"6a9e923c-2e1b\"",
+      "last_modified": "Mon, 07 Sep 2026 10:30:20 GMT"
     },
     {
       "title": "mcyoung.xyz",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"810fb-NUCH50OY3sOfYA50iOWlYvPXu6U\"",
+      "etag": "W/\"810fb-xeXGZ0+fteUqIC0Q7+UZUg6NAc8\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c23b-Y48J9o29WfO5vu0WN5TCzXWmzsY\"",
+      "etag": "W/\"1c23b-48kIkc0EUq1QJYmOgktroI74tgI\"",
       "last_modified": null
     },
     {
