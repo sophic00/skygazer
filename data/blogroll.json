@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 03:11 UTC",
+  "updated_at": "2026-09-14 03:24 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aa5f4d2-15068\"",
-      "last_modified": "Sun, 13 Sep 2026 00:56:50 GMT"
+      "etag": "W/\"6aa7463f-15068\"",
+      "last_modified": "Mon, 14 Sep 2026 00:56:31 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"7dc7e-40q8XWW9gVED3mFaH8uCfpFBMrg\"",
+      "etag": "W/\"7dc7e-iLXvIZx8SXdjWrWm1b24ONUAxN0\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1944c-zdovHDePLUbwykOn0J6XcbWjUo8\"",
+      "etag": "W/\"1944c-1ftwOJgzv/zSq474DeIkqO5SYcY\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1e-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
+      "etag": "W/\"6a954f1d-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
     },
     {
       "title": "Sy Brand",
@@ -250,8 +250,8 @@
       "site_url": "https://bcantrill.dtrace.org/",
       "status": "ok",
       "error": null,
-      "etag": "\"6a9c8491-387b1\"",
-      "last_modified": "Sat, 05 Sep 2026 21:07:29 GMT"
+      "etag": "\"6aa724a5-38fd9\"",
+      "last_modified": "Sun, 13 Sep 2026 22:33:09 GMT"
     },
     {
       "title": "Dave Cheney",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"e8d6-65b03541000a2-gzip\"",
-      "last_modified": "Wed, 09 Sep 2026 02:08:33 GMT"
+      "etag": "\"ec7e-65b60566f2687-gzip\"",
+      "last_modified": "Sun, 13 Sep 2026 17:06:25 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,22 @@
     }
   ],
   "posts": [
+    {
+      "title": "The contagion of fear",
+      "url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "published": "2026-09-13",
+      "feed_url": "https://bcantrill.dtrace.org/index.xml",
+      "feed_title": "The Observation Deck",
+      "site_url": "https://bcantrill.dtrace.org/"
+    },
+    {
+      "title": "Anecdotally, programmers dislike \"reduce\"",
+      "url": "https://evanhahn.com/posts/2026-09-13-programmers-dislike-reduce/",
+      "published": "2026-09-13",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
     {
       "title": "What Is AI Doing to Math?",
       "url": "https://www.computerenhance.com/p/what-is-ai-doing-to-math",
@@ -541,22 +557,6 @@
       "feed_url": "https://danluu.com/atom.xml",
       "feed_title": "danluu.com",
       "site_url": "https://danluu.com/"
-    },
-    {
-      "title": "Printing Lists",
-      "url": "https://matklad.github.io/2026/08/14/printing-lists.html",
-      "published": "2026-08-14",
-      "feed_url": "https://matklad.github.io/feed.xml",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Demystifying Debuggers, Part 6: Recording & Displaying Debuggee State",
-      "url": "https://www.dgtlgrove.com/p/demystifying-debuggers-part-6-recording",
-      "published": "2026-08-11",
-      "feed_url": "https://www.rfleury.com/feed",
-      "feed_title": "Digital Grove",
-      "site_url": "https://www.rfleury.com"
     }
   ]
 }
