@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 03:24 UTC",
+  "updated_at": "2026-09-15 03:25 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aa7463f-15068\"",
-      "last_modified": "Mon, 14 Sep 2026 00:56:31 GMT"
+      "etag": "W/\"6aa896cb-15068\"",
+      "last_modified": "Tue, 15 Sep 2026 00:52:27 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"7dc7e-iLXvIZx8SXdjWrWm1b24ONUAxN0\"",
+      "etag": "W/\"7dc7e-ZXfHbDA2Uu4XizaNnTX2yVQ0s0Q\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1944c-1ftwOJgzv/zSq474DeIkqO5SYcY\"",
+      "etag": "W/\"18e47-cA6SR7AUh5KMpI7NtD6IJwClCYg\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1d-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
+      "etag": "W/\"6a954f1e-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
     },
     {
       "title": "Sy Brand",
@@ -205,8 +205,8 @@
       "site_url": "https://seiya.me",
       "status": "ok",
       "error": null,
-      "etag": "W/\"f9d86f0347e817d49201f9e5abac2315\"",
-      "last_modified": "Fri, 17 Jul 2026 10:41:53 GMT"
+      "etag": "W/\"042b27e2853f8015949ee083713a625c\"",
+      "last_modified": "Tue, 15 Sep 2026 00:45:02 GMT"
     },
     {
       "title": "Brendan Gregg's Blog",
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aa276d2-645fd0\"",
-      "last_modified": "Thu, 10 Sep 2026 09:22:26 GMT"
+      "etag": "W/\"6aa7b2fa-6462a3\"",
+      "last_modified": "Mon, 14 Sep 2026 08:40:26 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -319,6 +319,22 @@
   ],
   "posts": [
     {
+      "title": "SIMD Mask Registers",
+      "url": "https://www.computerenhance.com/p/simd-mask-registers",
+      "published": "2026-09-14",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Introducing FTL: A new operating system for clouds",
+      "url": "https://seiya.me/blog/introducing-ftl",
+      "published": "2026-09-14",
+      "feed_url": "https://seiya.me/atom.xml",
+      "feed_title": "seiya.me",
+      "site_url": "https://seiya.me"
+    },
+    {
       "title": "The contagion of fear",
       "url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
       "published": "2026-09-13",
@@ -367,7 +383,7 @@
       "site_url": "https://www.computerenhance.com"
     },
     {
-      "title": "How well do agents use test/verification techniques?",
+      "title": "How well do agents use test and verification techniques?",
       "url": "https://danluu.com/agentic-testing/",
       "published": "2026-09-07",
       "feed_url": "https://danluu.com/atom.xml",
@@ -541,22 +557,6 @@
       "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "SIMD Predicates",
-      "url": "https://www.computerenhance.com/p/simd-predicates",
-      "published": "2026-08-17",
-      "feed_url": "https://www.computerenhance.com/feed",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "The benchmarkpocalypse",
-      "url": "https://danluu.com/benchpocalypse/",
-      "published": "2026-08-17",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
     }
   ]
 }
