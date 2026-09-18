@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17 03:27 UTC",
+  "updated_at": "2026-09-18 03:13 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aab3982-15068\"",
-      "last_modified": "Thu, 17 Sep 2026 00:51:14 GMT"
+      "etag": "W/\"6aac8af8-15068\"",
+      "last_modified": "Fri, 18 Sep 2026 00:51:04 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80bd4-eIn0qvR0sS1BXCl5Ygi14x7jeR0\"",
+      "etag": "W/\"813cc-XTGWxkj2ltWH8E5tHwfQh1/2mMk\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"18e8b-fmLTdldm9JK9x3x3Icj3nYCF8Fw\"",
+      "etag": "W/\"19023-IcQUXAU4WB+ca12UMYNDhiUyWMk\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a92447d-9584a\"",
-      "last_modified": "Sat, 29 Aug 2026 02:31:25 GMT"
+      "etag": "W/\"6aaca3b0-978c1\"",
+      "last_modified": "Fri, 18 Sep 2026 02:36:32 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Two things that need to happen in software ASAP",
+      "url": "https://slightknack.dev/daily/2026-09-17/",
+      "published": "2026-09-17",
+      "feed_url": "https://slightknack.dev/atom.xml",
+      "feed_title": "Isaac Clayton",
+      "site_url": "https://slightknack.dev"
+    },
     {
       "title": "DG64[1]: The Frame Loop, Debug Text, And Controller Input",
       "url": "https://www.dgtlgrove.com/p/dg641-the-frame-loop-debug-text-and",
@@ -549,14 +557,6 @@
       "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "The Enemy of Art",
-      "url": "https://www.dgtlgrove.com/p/the-enemy-of-art",
-      "published": "2026-08-18",
-      "feed_url": "https://www.rfleury.com/feed",
-      "feed_title": "Digital Grove",
-      "site_url": "https://www.rfleury.com"
     }
   ]
 }
