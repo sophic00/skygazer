@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18 03:13 UTC",
+  "updated_at": "2026-09-19 03:10 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aac8af8-15068\"",
-      "last_modified": "Fri, 18 Sep 2026 00:51:04 GMT"
+      "etag": "W/\"6aaddc1f-15068\"",
+      "last_modified": "Sat, 19 Sep 2026 00:49:35 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"813cc-XTGWxkj2ltWH8E5tHwfQh1/2mMk\"",
+      "etag": "W/\"813cc-jNvIFn0oV/DachwnHxJ/tVO4g6k\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"19023-IcQUXAU4WB+ca12UMYNDhiUyWMk\"",
+      "etag": "W/\"19023-12I8KvErO6vusWmLCgiv9zmWvQs\"",
       "last_modified": null
     },
     {
@@ -133,15 +133,15 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aaca3b0-978c1\"",
-      "last_modified": "Fri, 18 Sep 2026 02:36:32 GMT"
+      "etag": "W/\"6aadda3b-98c4d\"",
+      "last_modified": "Sat, 19 Sep 2026 00:41:31 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
       "feed_url": "https://www.journal.stuffwithstuff.com/rss.xml",
       "site_url": "http://journal.stuffwithstuff.com/",
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.journal.stuffwithstuff.com', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.journal.stuffwithstuff.com', port=443) at 0x7fab5456c1a0>, 'Connection to www.journal.stuffwithstuff.com timed out. (connect timeout=15)'))",
       "etag": null,
       "last_modified": "Sat, 14 Feb 2026 20:03:19 GMT"
     },
@@ -319,7 +319,7 @@
   ],
   "posts": [
     {
-      "title": "Two things that need to happen in software ASAP",
+      "title": "Second September",
       "url": "https://slightknack.dev/daily/2026-09-17/",
       "published": "2026-09-17",
       "feed_url": "https://slightknack.dev/atom.xml",
