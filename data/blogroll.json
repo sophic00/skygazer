@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 03:21 UTC",
+  "updated_at": "2026-09-22 03:20 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab080d4-1f366\"",
-      "last_modified": "Mon, 21 Sep 2026 00:56:52 GMT"
+      "etag": "W/\"6ab1d134-1f366\"",
+      "last_modified": "Tue, 22 Sep 2026 00:52:04 GMT"
     },
     {
       "title": "research!rsc",
@@ -34,8 +34,8 @@
       "site_url": "https://www.scattered-thoughts.net/",
       "status": "ok",
       "error": null,
-      "etag": "\"6a8711b5-12963\"",
-      "last_modified": "Thu, 20 Aug 2026 14:39:49 GMT"
+      "etag": "\"6ab0bbea-12c55\"",
+      "last_modified": "Mon, 21 Sep 2026 05:08:58 GMT"
     },
     {
       "title": "Loris Cro's Personal Website",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"813cc-m81G+2RT/+RvuSUOeX2NagNbZpk\"",
+      "etag": "W/\"813cc-8pp/4wWQvAj2kdj75a7Xaye4Loo\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"19023-VrRpt0n2qWI0sh1JaWk2c2quAMI\"",
+      "etag": "W/\"19023-HLD+JrMM1c2lZ69CJilExWb4pUU\"",
       "last_modified": null
     },
     {
@@ -151,7 +151,7 @@
       "site_url": "https://eieio.games",
       "status": "ok",
       "error": null,
-      "etag": "W/\"fb766edc8f4d879ce868e94d840e75ed\"",
+      "etag": "W/\"c009ee38c4e529c53d5fe6515c4e7ba0\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1d-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
+      "etag": "W/\"6a954f1e-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
     },
     {
       "title": "Sy Brand",
@@ -250,8 +250,8 @@
       "site_url": "https://bcantrill.dtrace.org/",
       "status": "ok",
       "error": null,
-      "etag": "\"6aa724a5-38fd9\"",
-      "last_modified": "Sun, 13 Sep 2026 22:33:09 GMT"
+      "etag": "\"6ab0b87d-385ae\"",
+      "last_modified": "Mon, 21 Sep 2026 04:54:21 GMT"
     },
     {
       "title": "Dave Cheney",
@@ -318,6 +318,38 @@
     }
   ],
   "posts": [
+    {
+      "title": "Solitaire Alone Together",
+      "url": "https://eieio.games/blog/solitaire-alone-together",
+      "published": "2026-09-21",
+      "feed_url": "https://eieio.games/feed.xml",
+      "feed_title": "eieio.games",
+      "site_url": "https://eieio.games"
+    },
+    {
+      "title": "0061: i'm not a cat, artificial adventures, synthetic sagas, anthropic, sponsors",
+      "url": "https://www.scattered-thoughts.net/log/0061/",
+      "published": "2026-09-20",
+      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
+      "feed_title": "Scattered Thoughts",
+      "site_url": "https://www.scattered-thoughts.net/"
+    },
+    {
+      "title": "Synthetic sagas",
+      "url": "https://www.scattered-thoughts.net/writing/synthetic-sagas/",
+      "published": "2026-09-20",
+      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
+      "feed_title": "Scattered Thoughts",
+      "site_url": "https://www.scattered-thoughts.net/"
+    },
+    {
+      "title": "What Sun got wrong",
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "published": "2026-09-20",
+      "feed_url": "https://bcantrill.dtrace.org/index.xml",
+      "feed_title": "The Observation Deck",
+      "site_url": "https://bcantrill.dtrace.org/"
+    },
     {
       "title": "Finding Bugs",
       "url": "https://matklad.github.io/2026/09/19/finding-bugs.html",
@@ -525,38 +557,6 @@
       "feed_url": "https://typesanitizer.com/blog/rss.xml",
       "feed_title": "@typesanitizer's blog",
       "site_url": "https://typesanitizer.com/"
-    },
-    {
-      "title": "Vim's UserGettingBored autocmd",
-      "url": "https://evanhahn.com/usergettingbored-vim/",
-      "published": "2026-08-22",
-      "feed_url": "https://evanhahn.com/blog/index.xml",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "Rust Glancer",
-      "url": "https://matklad.github.io/2026/08/21/rust-glancer.html",
-      "published": "2026-08-21",
-      "feed_url": "https://matklad.github.io/feed.xml",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "There's no reason for software to be slow anymore",
-      "url": "https://danluu.com/perf-opt/",
-      "published": "2026-08-21",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
-    },
-    {
-      "title": "Better Batteries",
-      "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
-      "published": "2026-08-20",
-      "feed_url": "https://matklad.github.io/feed.xml",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
     }
   ]
 }
