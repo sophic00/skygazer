@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 03:27 UTC",
+  "updated_at": "2026-09-26 03:33 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab5c565-1f366\"",
-      "last_modified": "Fri, 25 Sep 2026 00:50:45 GMT"
+      "etag": "W/\"6ab716da-1f366\"",
+      "last_modified": "Sat, 26 Sep 2026 00:50:34 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"811b3-Tv7AJGid0G83KtTjO+9anIB4By8\"",
+      "etag": "W/\"811b3-I5OUMwu6FdJYZjEU/lFCYOVKlX4\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"19eb2-vlnMm7vHcvW6/nR9WYjuPA/oRlk\"",
+      "etag": "W/\"19eb2-btj5H4d8w5+UJv3QnsUxQsExEq8\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aaf64b7-9b6ac\"",
-      "last_modified": "Sun, 20 Sep 2026 04:44:39 GMT"
+      "etag": "W/\"6aaf64b8-9b6ac\"",
+      "last_modified": "Sun, 20 Sep 2026 04:44:40 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -233,7 +233,7 @@
       "status": "ok",
       "error": null,
       "etag": null,
-      "last_modified": "Sat, 5 Sep 2026 16:08:55 GMT"
+      "last_modified": "Fri, 25 Sep 2026 19:40:32 GMT"
     },
     {
       "title": "Daemonic Dispatches",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"ffe17919d064920bdf11a648596f6f4b\"",
-      "last_modified": "Thu, 24 Sep 2026 21:44:40 GMT"
+      "etag": "\"d30f44beed9378d0d262e38ee69d6c81\"",
+      "last_modified": "Fri, 25 Sep 2026 18:28:03 GMT"
     },
     {
       "title": "Cliffle",
