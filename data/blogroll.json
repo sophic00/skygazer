@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26 03:33 UTC",
+  "updated_at": "2026-09-27 03:41 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab716da-1f366\"",
-      "last_modified": "Sat, 26 Sep 2026 00:50:34 GMT"
+      "etag": "W/\"6ab86a68-1f366\"",
+      "last_modified": "Sun, 27 Sep 2026 00:59:20 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"811b3-I5OUMwu6FdJYZjEU/lFCYOVKlX4\"",
+      "etag": "W/\"811b3-nvqZI+aHkR642EnDHvAmQGl7oF0\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"19eb2-btj5H4d8w5+UJv3QnsUxQsExEq8\"",
+      "etag": "W/\"19eb2-1NFXHXe/HVW0cKPNxxRTzE/YPrk\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aaf64b8-9b6ac\"",
-      "last_modified": "Sun, 20 Sep 2026 04:44:40 GMT"
+      "etag": "W/\"6ab74cff-9ba5e\"",
+      "last_modified": "Sat, 26 Sep 2026 04:41:35 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -351,6 +351,14 @@
       "site_url": "https://www.computerenhance.com"
     },
     {
+      "title": "As nuvens sobre Sapucaia",
+      "url": "https://slightknack.dev/gallery/as-nuvens/",
+      "published": "2026-09-22",
+      "feed_url": "https://slightknack.dev/atom.xml",
+      "feed_title": "Isaac Clayton",
+      "site_url": "https://slightknack.dev"
+    },
+    {
       "title": "Solitaire Alone Together",
       "url": "https://eieio.games/blog/solitaire-alone-together",
       "published": "2026-09-21",
@@ -549,14 +557,6 @@
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "Bug blindness",
-      "url": "https://danluu.com/bug-blind/",
-      "published": "2026-08-30",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
     }
   ]
 }
