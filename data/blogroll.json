@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27 03:41 UTC",
+  "updated_at": "2026-09-28 03:40 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab86a68-1f366\"",
-      "last_modified": "Sun, 27 Sep 2026 00:59:20 GMT"
+      "etag": "W/\"6ab9bbdb-1f366\"",
+      "last_modified": "Mon, 28 Sep 2026 00:59:07 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"811b3-nvqZI+aHkR642EnDHvAmQGl7oF0\"",
+      "etag": "W/\"811b3-puEyJrA/oD82VHT/EzdidoiXpB4\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"19eb2-1NFXHXe/HVW0cKPNxxRTzE/YPrk\"",
+      "etag": "W/\"19eb2-eRgkmVtU5wIj5697BPHgbAKUzXc\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab74cff-9ba5e\"",
-      "last_modified": "Sat, 26 Sep 2026 04:41:35 GMT"
+      "etag": "W/\"6ab9de03-9ba5e\"",
+      "last_modified": "Mon, 28 Sep 2026 03:24:51 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1e-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
+      "etag": "W/\"6a954f1d-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
     },
     {
       "title": "Sy Brand",
@@ -250,8 +250,8 @@
       "site_url": "https://bcantrill.dtrace.org/",
       "status": "ok",
       "error": null,
-      "etag": "\"6ab0b87d-385ae\"",
-      "last_modified": "Mon, 21 Sep 2026 04:54:21 GMT"
+      "etag": "\"6ab9ca02-384da\"",
+      "last_modified": "Mon, 28 Sep 2026 01:59:30 GMT"
     },
     {
       "title": "Dave Cheney",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Fool's Expertise",
+      "url": "https://bcantrill.dtrace.org/2026/09/27/fools-expertise/",
+      "published": "2026-09-27",
+      "feed_url": "https://bcantrill.dtrace.org/index.xml",
+      "feed_title": "The Observation Deck",
+      "site_url": "https://bcantrill.dtrace.org/"
+    },
     {
       "title": "Launching FreeBSD/EC2 desktop AMIs",
       "url": "https://www.daemonology.net/blog/2026-09-24-Launching-FreeBSD-EC2-desktop-AMIs.html",
@@ -549,14 +557,6 @@
       "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "Notes from August 2026",
-      "url": "https://evanhahn.com/notes-from-august-2026/",
-      "published": "2026-08-31",
-      "feed_url": "https://evanhahn.com/blog/index.xml",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
     }
   ]
 }
