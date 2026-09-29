@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 03:40 UTC",
+  "updated_at": "2026-09-29 04:15 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab9bbdb-1f366\"",
-      "last_modified": "Mon, 28 Sep 2026 00:59:07 GMT"
+      "etag": "W/\"6abb0c8c-1f366\"",
+      "last_modified": "Tue, 29 Sep 2026 00:55:40 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"811b3-puEyJrA/oD82VHT/EzdidoiXpB4\"",
+      "etag": "W/\"811b3-JBbI3QSC4tMfhQvj7AvHpzbPjQI\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"19eb2-eRgkmVtU5wIj5697BPHgbAKUzXc\"",
+      "etag": "W/\"19eb2-ccrSfRX+gkX5yoh6pnjdmxB0Hg4\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab9de03-9ba5e\"",
-      "last_modified": "Mon, 28 Sep 2026 03:24:51 GMT"
+      "etag": "W/\"6ab9f430-9ba5e\"",
+      "last_modified": "Mon, 28 Sep 2026 04:59:28 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1d-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
+      "etag": "W/\"6a954f1e-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
     },
     {
       "title": "Sy Brand",
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aa7b2fa-6462a3\"",
-      "last_modified": "Mon, 14 Sep 2026 08:40:26 GMT"
+      "etag": "W/\"6ab872ce-64b71c\"",
+      "last_modified": "Sun, 27 Sep 2026 01:35:10 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"d30f44beed9378d0d262e38ee69d6c81\"",
-      "last_modified": "Fri, 25 Sep 2026 18:28:03 GMT"
+      "etag": "\"a471a2c6677761adc96e83554a46f7bd\"",
+      "last_modified": "Mon, 28 Sep 2026 22:47:35 GMT"
     },
     {
       "title": "Cliffle",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "What’s the Future for Pure Math Research in the Age of AI?",
+      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+      "published": "2026-09-28",
+      "feed_url": "https://writings.stephenwolfram.com/feed",
+      "feed_title": "Stephen Wolfram Writings",
+      "site_url": "https://writings.stephenwolfram.com"
+    },
     {
       "title": "Fool's Expertise",
       "url": "https://bcantrill.dtrace.org/2026/09/27/fools-expertise/",
@@ -413,6 +421,14 @@
       "feed_url": "https://slightknack.dev/atom.xml",
       "feed_title": "Isaac Clayton",
       "site_url": "https://slightknack.dev"
+    },
+    {
+      "title": "There's no point at which turning your brain off will work",
+      "url": "https://danluu.com/brain-off/",
+      "published": "2026-09-18",
+      "feed_url": "https://danluu.com/atom.xml",
+      "feed_title": "danluu.com",
+      "site_url": "https://danluu.com/"
     },
     {
       "title": "Second September",
@@ -541,22 +557,6 @@
       "feed_url": "https://danluu.com/atom.xml",
       "feed_title": "danluu.com",
       "site_url": "https://danluu.com/"
-    },
-    {
-      "title": "Cancelation Terminology",
-      "url": "https://matklad.github.io/2026/08/31/cancelation-terminology.html",
-      "published": "2026-08-31",
-      "feed_url": "https://matklad.github.io/feed.xml",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "SIMD Masking",
-      "url": "https://www.computerenhance.com/p/simd-masking",
-      "published": "2026-08-31",
-      "feed_url": "https://www.computerenhance.com/feed",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
     }
   ]
 }
