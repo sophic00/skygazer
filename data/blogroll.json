@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 04:00 UTC",
+  "updated_at": "2026-10-01 04:11 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6abc5e59-1f364\"",
-      "last_modified": "Wed, 30 Sep 2026 00:56:57 GMT"
+      "etag": "W/\"6abdb18c-1f364\"",
+      "last_modified": "Thu, 01 Oct 2026 01:04:12 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"811b3-owLR7bU+91wf1T3l70I80jYzTbk\"",
+      "etag": "W/\"811b3-qJWnxSTL8WAeYya2R/VSDquvD5E\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"19eb2-o1QnCmT3cWTHOKRruIPHjDrwxIE\"",
+      "etag": "W/\"19eb2-hlN6r+CXmjxARpbXKKz+uYM2vmY\"",
       "last_modified": null
     },
     {
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"db51b1e1736d0481a45d3e1c2f03a658\"",
-      "last_modified": "Tue, 29 Sep 2026 21:31:29 GMT"
+      "etag": "\"6e7fafa337b6614b52ed5f3d0fc0383d\"",
+      "last_modified": "Wed, 30 Sep 2026 21:58:32 GMT"
     },
     {
       "title": "Cliffle",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"ec7e-65b60566f2687-gzip\"",
-      "last_modified": "Sun, 13 Sep 2026 17:06:25 GMT"
+      "etag": "\"f3f3-65cb24029e41b-gzip\"",
+      "last_modified": "Wed, 30 Sep 2026 12:15:10 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Notes from September 2026",
+      "url": "https://evanhahn.com/notes-from-september-2026/",
+      "published": "2026-09-30",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
     {
       "title": "What’s the Future for Pure Math Research in the Age of AI?",
       "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
@@ -549,14 +557,6 @@
       "feed_url": "https://www.gingerbill.org/article/index.xml",
       "feed_title": "gingerBill - Articles",
       "site_url": "https://www.gingerbill.org/article/"
-    },
-    {
-      "title": "Ed Zitron's AI prediction track record",
-      "url": "https://danluu.com/zitron/",
-      "published": "2026-09-01",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
     }
   ]
 }
