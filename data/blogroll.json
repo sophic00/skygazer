@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 04:04 UTC",
+  "updated_at": "2026-10-03 03:49 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6abf00d7-1f364\"",
-      "last_modified": "Fri, 02 Oct 2026 00:54:47 GMT"
+      "etag": "W/\"6ac051a3-1f364\"",
+      "last_modified": "Sat, 03 Oct 2026 00:51:47 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"811b3-KHAcjz0tzVBMm6QphETt+49tl+g\"",
+      "etag": "W/\"811b3-qexJNZRhCLmL+wF5ODMYo3OPw50\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"19eb2-AaQhP9iefIUoWdiRFKQp8+q3TQc\"",
+      "etag": "W/\"1a9af-F0/VnNsoWjzAgiOtHwFMcXQTpRI\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1e-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
+      "etag": "W/\"6a954f1d-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
     },
     {
       "title": "Sy Brand",
@@ -205,8 +205,8 @@
       "site_url": "https://seiya.me",
       "status": "ok",
       "error": null,
-      "etag": "W/\"042b27e2853f8015949ee083713a625c\"",
-      "last_modified": "Tue, 15 Sep 2026 00:45:02 GMT"
+      "etag": "W/\"912c9b67208c02918bf2c5b7c3d5d7c9\"",
+      "last_modified": "Sat, 03 Oct 2026 02:31:41 GMT"
     },
     {
       "title": "Brendan Gregg's Blog",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"2e54b40055811aedb462059421f04cc2\"",
-      "last_modified": "Thu, 01 Oct 2026 22:31:44 GMT"
+      "etag": "\"4bd05c1225fc32bb918e9c2338d9cf38\"",
+      "last_modified": "Fri, 02 Oct 2026 21:06:07 GMT"
     },
     {
       "title": "Cliffle",
@@ -318,6 +318,22 @@
     }
   ],
   "posts": [
+    {
+      "title": "FTL v0.1.0: Better Linux compatibility, and multi-threaded Tokio",
+      "url": "https://seiya.me/blog/ftl-v0.1.0",
+      "published": "2026-10-03",
+      "feed_url": "https://seiya.me/atom.xml",
+      "feed_title": "seiya.me",
+      "site_url": "https://seiya.me"
+    },
+    {
+      "title": "Q&A #88 (2026-10-02)",
+      "url": "https://www.computerenhance.com/p/q-and-a-88-2026-10-02",
+      "published": "2026-10-02",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
     {
       "title": "Notes from September 2026",
       "url": "https://evanhahn.com/notes-from-september-2026/",
@@ -541,22 +557,6 @@
       "feed_url": "https://matklad.github.io/feed.xml",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Is AI a Good Research Assistant?",
-      "url": "https://www.computerenhance.com/p/is-ai-a-good-research-assistant",
-      "published": "2026-09-02",
-      "feed_url": "https://www.computerenhance.com/feed",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "CTTI is Exponential, RTTI is Linear",
-      "url": "https://www.gingerbill.org/article/2026/09/02/ctti-is-exponential-rtti-is-linear/",
-      "published": "2026-09-02",
-      "feed_url": "https://www.gingerbill.org/article/index.xml",
-      "feed_title": "gingerBill - Articles",
-      "site_url": "https://www.gingerbill.org/article/"
     }
   ]
 }
