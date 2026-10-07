@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www.sophic.dev"
+base_url = "https://sophic.dev"
 
 # Used for feed
 title = "sophic00"
@@ -48,7 +48,7 @@ webserver_sends_csp_headers = false
 
 umami_website_id = "6bb4ab71-9eb0-469c-b307-112ccefa8e89"
 umami_script_url = "https://analytics.sophic.dev/telemetry"
-umami_domains = "www.sophic.dev,sophic.dev"
+umami_domains = "sophic.dev"
 
 [[extra.main_menu]]
 name = "/home"

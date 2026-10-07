@@ -24,7 +24,7 @@ from urllib3.util.retry import Retry
 # Identify honestly: spoofed browser agents are widely blocked, and the
 # contact URL lets site owners reach out instead of banning the fetcher.
 HEADERS = {
-    'User-Agent': 'skygazer-blogroll/1.0 (+https://www.sophic.dev/roll)',
+    'User-Agent': 'skygazer-blogroll/1.0 (+https://sophic.dev/roll)',
     'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
 }
 
