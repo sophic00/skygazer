@@ -3,7 +3,11 @@ name: CI
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'data/blogroll.json'
   pull_request:
+    paths-ignore:
+      - 'data/blogroll.json'
 
 permissions:
   contents: read
