@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 04:20 UTC",
+  "updated_at": "2026-10-08 04:32 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ac598e8-1ecde\"",
-      "last_modified": "Wed, 07 Oct 2026 00:57:12 GMT"
+      "etag": "W/\"6ac6ea39-1c59c\"",
+      "last_modified": "Thu, 08 Oct 2026 00:56:25 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80c69-9EIL8sDCIilCcAMoKa181Tj45Ds\"",
+      "etag": "W/\"80c69-lEvjcjnvxATvVSmc2t2tmaQnqa4\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1a9af-WoYiMjsAUv4XleLr+AVAvb78HWI\"",
+      "etag": "W/\"1aca7-0Vl5yhET4U7Ne1uSeiT9yMoADrk\"",
       "last_modified": null
     },
     {
@@ -233,7 +233,7 @@
       "status": "ok",
       "error": null,
       "etag": null,
-      "last_modified": "Fri, 25 Sep 2026 19:40:32 GMT"
+      "last_modified": "Wed, 7 Oct 2026 12:22:46 GMT"
     },
     {
       "title": "Daemonic Dispatches",
@@ -259,7 +259,7 @@
       "site_url": "https://dave.cheney.net",
       "status": "ok",
       "error": null,
-      "etag": "W/\"fa47c7045e1f915638542822b68336bb\"",
+      "etag": "W/\"f0c733289521d99c3a94d9429957d9dd\"",
       "last_modified": null
     },
     {
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"2b21b4fb3ae2013de2072fd41e6149ec\"",
-      "last_modified": "Tue, 06 Oct 2026 22:24:58 GMT"
+      "etag": "\"20c59168e9bc814c5fdaa268c3cc93c1\"",
+      "last_modified": "Wed, 07 Oct 2026 18:44:39 GMT"
     },
     {
       "title": "Cliffle",
@@ -318,6 +318,30 @@
     }
   ],
   "posts": [
+    {
+      "title": "On Git Refs",
+      "url": "https://matklad.github.io/2026/10/07/git-ref.html",
+      "published": "2026-10-07",
+      "feed_url": "https://matklad.github.io/feed.xml",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
+    {
+      "title": "SIMD Shuffles",
+      "url": "https://www.computerenhance.com/p/simd-shuffles",
+      "published": "2026-10-07",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
+    {
+      "title": "Announcing the Centre for Cryptographic Trust Infrastructure (CCTI)",
+      "url": "http://martin.kleppmann.com/2026/10/07/centre-for-cryptographic-trust-infrastructure.html",
+      "published": "2026-10-07",
+      "feed_url": "https://feeds.feedburner.com/martinkl",
+      "feed_title": "Martin Kleppmann's blog",
+      "site_url": "http://martin.kleppmann.com/"
+    },
     {
       "title": "Benchmark In Milliseconds",
       "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
@@ -533,30 +557,6 @@
       "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "520 Pages Per Hour",
-      "url": "https://www.computerenhance.com/p/520-pages-per-hour",
-      "published": "2026-09-08",
-      "feed_url": "https://www.computerenhance.com/feed",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "How well do agents use test and verification techniques?",
-      "url": "https://danluu.com/agentic-testing/",
-      "published": "2026-09-07",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
-    },
-    {
-      "title": "The revolt of the reader",
-      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
-      "published": "2026-09-05",
-      "feed_url": "https://bcantrill.dtrace.org/index.xml",
-      "feed_title": "The Observation Deck",
-      "site_url": "https://bcantrill.dtrace.org/"
     }
   ]
 }
