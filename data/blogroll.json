@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 04:32 UTC",
+  "updated_at": "2026-10-09 04:35 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ac6ea39-1c59c\"",
-      "last_modified": "Thu, 08 Oct 2026 00:56:25 GMT"
+      "etag": "W/\"6ac83c46-1c59c\"",
+      "last_modified": "Fri, 09 Oct 2026 00:58:46 GMT"
     },
     {
       "title": "research!rsc",
@@ -88,8 +88,8 @@
       "site_url": "https://andrewkelley.me/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"346152380c808895330cdf34864be0e9\"",
-      "last_modified": "Tue, 01 Sep 2026 18:04:03 GMT"
+      "etag": "W/\"eeda172bda1f2d24473d51e335999bc5\"",
+      "last_modified": "Thu, 08 Oct 2026 19:02:27 GMT"
     },
     {
       "title": "Digital Grove",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80c69-lEvjcjnvxATvVSmc2t2tmaQnqa4\"",
+      "etag": "W/\"80c69-GE4szd9WW4Gtyj14cBIn3rdeHTU\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1aca7-0Vl5yhET4U7Ne1uSeiT9yMoADrk\"",
+      "etag": "W/\"1aca7-Vy7gtd0KC5hLJv3XWAJRzeEHm1M\"",
       "last_modified": null
     },
     {
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"f3f3-65cb24029e41b-gzip\"",
-      "last_modified": "Wed, 30 Sep 2026 12:15:10 GMT"
+      "etag": "\"f3f3-65d5f7f637397-gzip\"",
+      "last_modified": "Fri, 09 Oct 2026 02:56:40 GMT"
     },
     {
       "title": "jakelazaroff.com",
