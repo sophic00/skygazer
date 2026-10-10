@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 04:35 UTC",
+  "updated_at": "2026-10-10 04:21 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ac83c46-1c59c\"",
-      "last_modified": "Fri, 09 Oct 2026 00:58:46 GMT"
+      "etag": "W/\"6ac98d64-1c59c\"",
+      "last_modified": "Sat, 10 Oct 2026 00:57:08 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80c69-GE4szd9WW4Gtyj14cBIn3rdeHTU\"",
+      "etag": "W/\"80c69-Ia2NYADAeM8PXRCOd6klhEBFrqU\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1aca7-Vy7gtd0KC5hLJv3XWAJRzeEHm1M\"",
+      "etag": "W/\"1aca7-W7F4lmgfeoELWHcKJsYFJfV1faI\"",
       "last_modified": null
     },
     {
@@ -259,7 +259,7 @@
       "site_url": "https://dave.cheney.net",
       "status": "ok",
       "error": null,
-      "etag": "W/\"f0c733289521d99c3a94d9429957d9dd\"",
+      "etag": "W/\"e0f7e6838445885f3793492beb88b26a\"",
       "last_modified": null
     },
     {
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"f3f3-65d5f7f637397-gzip\"",
-      "last_modified": "Fri, 09 Oct 2026 02:56:40 GMT"
+      "etag": "\"f3f3-65d6e0477fdff-gzip\"",
+      "last_modified": "Fri, 09 Oct 2026 20:16:03 GMT"
     },
     {
       "title": "jakelazaroff.com",
