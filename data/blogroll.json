@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11 04:01 UTC",
+  "updated_at": "2026-10-12 04:21 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6acae019-1c59c\"",
-      "last_modified": "Sun, 11 Oct 2026 01:02:17 GMT"
+      "etag": "W/\"6acc31ef-1c59c\"",
+      "last_modified": "Mon, 12 Oct 2026 01:03:43 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80c69-Kzq0AZV1QxIZMBed35EZIpYvSOw\"",
+      "etag": "W/\"80c69-kYMdEyRL96C4BAFrB2jfSmMF3Fw\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1aca7-Thu9TW34kBKzeeEXOI8ZxQZq/D0\"",
+      "etag": "W/\"1aca7-hQhSFK9rKrtXzidEulTfAzLElK0\"",
       "last_modified": null
     },
     {
@@ -302,10 +302,10 @@
       "title": "Evan Hahn (dot com)",
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "site_url": "https://evanhahn.com/blog/",
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='evanhahn.com', port=443): Max retries exceeded with url: /blog/index.xml (Caused by NewConnectionError(\"HTTPSConnection(host='evanhahn.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-      "etag": "\"f3f3-65d6e0477fdff-gzip\"",
-      "last_modified": "Fri, 09 Oct 2026 20:16:03 GMT"
+      "status": "ok",
+      "error": null,
+      "etag": "\"6aca38af-f3f3\"",
+      "last_modified": "Sat, 10 Oct 2026 13:07:59 GMT"
     },
     {
       "title": "jakelazaroff.com",
