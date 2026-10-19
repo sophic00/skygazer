@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18 03:02 UTC",
+  "updated_at": "2026-10-19 03:16 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ad41867-1c59c\"",
-      "last_modified": "Sun, 18 Oct 2026 00:52:55 GMT"
+      "etag": "W/\"6ad569cd-1c59c\"",
+      "last_modified": "Mon, 19 Oct 2026 00:52:29 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80c69-tM3+cLrqjunKbG26Tg5zSO+FdBs\"",
+      "etag": "W/\"80c69-O5YfZNEI0gB5TM0/+TcPBjP5ODU\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1bb23-uNt65CZb3e5pc0QkhXUjux6BPrg\"",
+      "etag": "W/\"1bb23-gCrcA2P1jDZjI22zgT3tlkPmmAw\"",
       "last_modified": null
     },
     {
@@ -133,8 +133,8 @@
       "site_url": "https://slightknack.dev",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab9f430-9ba5e\"",
-      "last_modified": "Mon, 28 Sep 2026 04:59:28 GMT"
+      "etag": "W/\"6ad53dd6-9ccf4\"",
+      "last_modified": "Sun, 18 Oct 2026 21:44:54 GMT"
     },
     {
       "title": "journal.stuffwithstuff.com",
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab872ce-64b71c\"",
-      "last_modified": "Sun, 27 Sep 2026 01:35:10 GMT"
+      "etag": "W/\"6abed88c-64bda8\"",
+      "last_modified": "Thu, 01 Oct 2026 22:02:52 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -389,6 +389,14 @@
       "feed_url": "https://writings.stephenwolfram.com/feed",
       "feed_title": "Stephen Wolfram Writings",
       "site_url": "https://writings.stephenwolfram.com"
+    },
+    {
+      "title": "Half an Umbrella",
+      "url": "https://slightknack.dev/daily/2026-09-27/",
+      "published": "2026-09-27",
+      "feed_url": "https://slightknack.dev/atom.xml",
+      "feed_title": "Isaac Clayton",
+      "site_url": "https://slightknack.dev"
     },
     {
       "title": "Fool's Expertise",
@@ -549,14 +557,6 @@
       "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "DG64[0]: Making A Bare Metal N64 ROM",
-      "url": "https://www.dgtlgrove.com/p/dg640-making-a-bare-metal-n64-rom",
-      "published": "2026-09-09",
-      "feed_url": "https://www.rfleury.com/feed",
-      "feed_title": "Digital Grove",
-      "site_url": "https://www.rfleury.com"
     }
   ]
 }
