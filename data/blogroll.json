@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 03:16 UTC",
+  "updated_at": "2026-10-20 03:25 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ad569cd-1c59c\"",
-      "last_modified": "Mon, 19 Oct 2026 00:52:29 GMT"
+      "etag": "W/\"6ad6ba78-1c59c\"",
+      "last_modified": "Tue, 20 Oct 2026 00:48:56 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80c69-O5YfZNEI0gB5TM0/+TcPBjP5ODU\"",
+      "etag": "W/\"80c69-gw0R4hTbwXnHh9rw/a1++88HxAE\"",
       "last_modified": null
     },
     {
@@ -106,15 +106,15 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1bb23-gCrcA2P1jDZjI22zgT3tlkPmmAw\"",
+      "etag": "W/\"1bb23-L1T+MKAnE0qPrTbg2woGPLfiPUs\"",
       "last_modified": null
     },
     {
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml",
       "etag": null,
       "last_modified": "Mon, 22 Apr 2019 19:52:03 GMT"
     },
@@ -140,8 +140,8 @@
       "title": "journal.stuffwithstuff.com",
       "feed_url": "https://www.journal.stuffwithstuff.com/rss.xml",
       "site_url": "http://journal.stuffwithstuff.com/",
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.journal.stuffwithstuff.com', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.journal.stuffwithstuff.com', port=443) at 0x7f71f4d5a990>, 'Connection to www.journal.stuffwithstuff.com timed out. (connect timeout=15)'))",
       "etag": null,
       "last_modified": "Sat, 14 Feb 2026 20:03:19 GMT"
     },
@@ -212,8 +212,8 @@
       "title": "Brendan Gregg's Blog",
       "feed_url": "https://www.brendangregg.com/blog/rss.xml",
       "site_url": "http://www.brendangregg.com/blog",
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.brendangregg.com', port=443): Max retries exceeded with url: /blog/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brendangregg.com', port=443) at 0x7f71f4d6a4e0>, 'Connection to www.brendangregg.com timed out. (connect timeout=15)'))",
       "etag": "\"2349d-64a310a7bc380-gzip\"",
       "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT"
     },
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6abed88c-64bda8\"",
-      "last_modified": "Thu, 01 Oct 2026 22:02:52 GMT"
+      "etag": "W/\"6ab872ce-64b71c\"",
+      "last_modified": "Sun, 27 Sep 2026 01:35:10 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"c5c312bf538dad445474e8864ec40858\"",
-      "last_modified": "Thu, 15 Oct 2026 18:10:43 GMT"
+      "etag": "\"03a5ad6e39add19e5d6d7468a78c9a61\"",
+      "last_modified": "Mon, 19 Oct 2026 20:23:04 GMT"
     },
     {
       "title": "Cliffle",
