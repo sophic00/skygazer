@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21 03:20 UTC",
+  "updated_at": "2026-10-22 03:18 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ad80bbc-1c59c\"",
-      "last_modified": "Wed, 21 Oct 2026 00:47:56 GMT"
+      "etag": "W/\"6ad95d3c-1c59c\"",
+      "last_modified": "Thu, 22 Oct 2026 00:47:56 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80db9-paB7ke1ytpeBDIfh3efWMH5dZhU\"",
+      "etag": "W/\"80eb5-ezmjSJmC/JxRIu1TQsRKDunI5eY\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1bb2f-mhCEi+6Sj4CFfNalciUaPKz5QZw\"",
+      "etag": "W/\"1c7d8-RPrduoEdTdAU8gJFcmh36/kHIKQ\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1e-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
+      "etag": "W/\"6a954f1d-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
     },
     {
       "title": "Sy Brand",
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab872ce-64b71c\"",
-      "last_modified": "Sun, 27 Sep 2026 01:35:10 GMT"
+      "etag": "W/\"6abed88c-64bda8\"",
+      "last_modified": "Thu, 01 Oct 2026 22:02:52 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"d5c583ea69c1b6052040f10c221f189a\"",
-      "last_modified": "Tue, 20 Oct 2026 15:29:44 GMT"
+      "etag": "\"9c4bc47d6e21065b8f0ef8ff6ddfdf50\"",
+      "last_modified": "Wed, 21 Oct 2026 14:37:25 GMT"
     },
     {
       "title": "Cliffle",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Horizontal Operations",
+      "url": "https://www.computerenhance.com/p/horizontal-operations",
+      "published": "2026-10-21",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
     {
       "title": "SIMD Unpacks",
       "url": "https://www.computerenhance.com/p/simd-unpacks",
@@ -549,14 +557,6 @@
       "feed_url": "https://evanhahn.com/blog/index.xml",
       "feed_title": "Evan Hahn (dot com)",
       "site_url": "https://evanhahn.com/blog/"
-    },
-    {
-      "title": "What Is AI Doing to Math?",
-      "url": "https://www.computerenhance.com/p/what-is-ai-doing-to-math",
-      "published": "2026-09-10",
-      "feed_url": "https://www.computerenhance.com/feed",
-      "feed_title": "Computer, Enhance!",
-      "site_url": "https://www.computerenhance.com"
     }
   ]
 }
