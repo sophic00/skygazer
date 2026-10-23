@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 03:18 UTC",
+  "updated_at": "2026-10-23 03:24 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ad95d3c-1c59c\"",
-      "last_modified": "Thu, 22 Oct 2026 00:47:56 GMT"
+      "etag": "W/\"6adaaf26-1c59c\"",
+      "last_modified": "Fri, 23 Oct 2026 00:49:42 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80eb5-ezmjSJmC/JxRIu1TQsRKDunI5eY\"",
+      "etag": "W/\"80eb5-UIGVorA5ryDMvSuPuquBnwzfvBg\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c7d8-RPrduoEdTdAU8gJFcmh36/kHIKQ\"",
+      "etag": "W/\"1c7d8-aVLIUQdCOK9hZa/crZlyU7xW46M\"",
       "last_modified": null
     },
     {
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6abed88c-64bda8\"",
-      "last_modified": "Thu, 01 Oct 2026 22:02:52 GMT"
+      "etag": "W/\"6ad55e08-64bdae\"",
+      "last_modified": "Mon, 19 Oct 2026 00:02:16 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"9c4bc47d6e21065b8f0ef8ff6ddfdf50\"",
-      "last_modified": "Wed, 21 Oct 2026 14:37:25 GMT"
+      "etag": "\"45f87e482d20b460998ac83834bd9f2d\"",
+      "last_modified": "Thu, 22 Oct 2026 20:58:45 GMT"
     },
     {
       "title": "Cliffle",
