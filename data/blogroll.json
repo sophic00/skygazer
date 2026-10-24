@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 03:24 UTC",
+  "updated_at": "2026-10-24 03:18 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6adaaf26-1c59c\"",
-      "last_modified": "Fri, 23 Oct 2026 00:49:42 GMT"
+      "etag": "W/\"6adbffe2-1c59c\"",
+      "last_modified": "Sat, 24 Oct 2026 00:46:26 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80eb5-UIGVorA5ryDMvSuPuquBnwzfvBg\"",
+      "etag": "W/\"80c69-yeeod97jS2tB7OV0SrJ4GGDwV14\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c7d8-aVLIUQdCOK9hZa/crZlyU7xW46M\"",
+      "etag": "W/\"1c7cc-hTbc2ex04LgGH8drrgckJFhxsqE\"",
       "last_modified": null
     },
     {
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ad55e08-64bdae\"",
-      "last_modified": "Mon, 19 Oct 2026 00:02:16 GMT"
+      "etag": "W/\"6ad55e09-64bdae\"",
+      "last_modified": "Mon, 19 Oct 2026 00:02:17 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"45f87e482d20b460998ac83834bd9f2d\"",
-      "last_modified": "Thu, 22 Oct 2026 20:58:45 GMT"
+      "etag": "\"45e597199279c8da12080ff0ff171177\"",
+      "last_modified": "Fri, 23 Oct 2026 21:44:40 GMT"
     },
     {
       "title": "Cliffle",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "“Endless Forms Most Beautiful and Most Wonderful”: Ruliobiology and the Theoretical Foundations of Biological Form",
+      "url": "https://writings.stephenwolfram.com/2026/10/endless-forms-most-beautiful-and-most-wonderful-ruliobiology-and-the-theoretical-foundations-of-biological-form/",
+      "published": "2026-10-23",
+      "feed_url": "https://writings.stephenwolfram.com/feed",
+      "feed_title": "Stephen Wolfram Writings",
+      "site_url": "https://writings.stephenwolfram.com"
+    },
     {
       "title": "Horizontal Operations",
       "url": "https://www.computerenhance.com/p/horizontal-operations",
@@ -549,14 +557,6 @@
       "feed_url": "https://bcantrill.dtrace.org/index.xml",
       "feed_title": "The Observation Deck",
       "site_url": "https://bcantrill.dtrace.org/"
-    },
-    {
-      "title": "Anecdotally, programmers dislike \"reduce\"",
-      "url": "https://evanhahn.com/posts/2026-09-13-programmers-dislike-reduce/",
-      "published": "2026-09-13",
-      "feed_url": "https://evanhahn.com/blog/index.xml",
-      "feed_title": "Evan Hahn (dot com)",
-      "site_url": "https://evanhahn.com/blog/"
     }
   ]
 }
