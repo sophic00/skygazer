@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25 03:13 UTC",
+  "updated_at": "2026-10-26 03:14 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6add52bb-1c59c\"",
-      "last_modified": "Sun, 25 Oct 2026 00:52:11 GMT"
+      "etag": "W/\"6adea3e0-1c59c\"",
+      "last_modified": "Mon, 26 Oct 2026 00:50:40 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80d59-PLzASXX0K55pxH9Hb8zvL5rSUDk\"",
+      "etag": "W/\"80d59-k2RfHSV1YWNSFRPARpLtZ6tIYHM\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c7cc-va325l6zAvCV/gqLWms0+Z/pzT4\"",
+      "etag": "W/\"1c7cc-aY0Aznfyw+nDiDbfbYZFdNdclm0\"",
       "last_modified": null
     },
     {
@@ -178,8 +178,8 @@
       "site_url": "https://hirrolot.github.io/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a95e8a9-1555\"",
-      "last_modified": "Mon, 31 Aug 2026 20:48:41 GMT"
+      "etag": "W/\"6ade253c-1555\"",
+      "last_modified": "Sun, 25 Oct 2026 15:50:20 GMT"
     },
     {
       "title": "lisyarus blog",
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ab872ce-64b71c\"",
-      "last_modified": "Sun, 27 Sep 2026 01:35:10 GMT"
+      "etag": "W/\"6addc880-653d24\"",
+      "last_modified": "Sun, 25 Oct 2026 09:14:40 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"6adce551-e9b0\"",
-      "last_modified": "Sat, 24 Oct 2026 17:05:21 GMT"
+      "etag": "\"6ade62e2-5d9e\"",
+      "last_modified": "Sun, 25 Oct 2026 20:13:22 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "“We should be more ambitious with the software we build”",
+      "url": "https://danluu.com/ambitious/",
+      "published": "2026-10-24",
+      "feed_url": "https://danluu.com/atom.xml",
+      "feed_title": "danluu.com",
+      "site_url": "https://danluu.com/"
+    },
     {
       "title": "List of Vim forks",
       "url": "https://evanhahn.com/list-of-vim-forks/",
@@ -549,14 +557,6 @@
       "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "Introducing FTL: A new operating system for clouds",
-      "url": "https://seiya.me/blog/introducing-ftl",
-      "published": "2026-09-14",
-      "feed_url": "https://seiya.me/atom.xml",
-      "feed_title": "seiya.me",
-      "site_url": "https://seiya.me"
     }
   ]
 }
