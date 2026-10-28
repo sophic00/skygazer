@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27 03:43 UTC",
+  "updated_at": "2026-10-28 04:00 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6adff502-1c59c\"",
-      "last_modified": "Tue, 27 Oct 2026 00:49:06 GMT"
+      "etag": "W/\"6ae143e9-1c59c\"",
+      "last_modified": "Wed, 28 Oct 2026 00:38:01 GMT"
     },
     {
       "title": "research!rsc",
@@ -25,7 +25,7 @@
       "site_url": "https://mmapped.blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"15674cc723b5879ba036f8da13a766db\"",
+      "etag": "W/\"c39d10edb2e322df620ced047cca4e25\"",
       "last_modified": null
     },
     {
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80e55-6OA1Qb6PrgVJlUDylnDLvCgTjVc\"",
+      "etag": "W/\"80ea9-bNXcPUrBk3iUZnmAMrXizj1geR0\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c7cc-6fiDxjreRn+aaUlG14vyT6PoTBU\"",
+      "etag": "W/\"1c8e5-0C/9f3XoNpBr4C3Cdm8KN4X4Df4\"",
       "last_modified": null
     },
     {
@@ -212,8 +212,8 @@
       "title": "Brendan Gregg's Blog",
       "feed_url": "https://www.brendangregg.com/blog/rss.xml",
       "site_url": "http://www.brendangregg.com/blog",
-      "status": "ok",
-      "error": null,
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.brendangregg.com', port=443): Max retries exceeded with url: /blog/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brendangregg.com', port=443) at 0x7f57de4a8c80>, 'Connection to www.brendangregg.com timed out. (connect timeout=15)'))",
       "etag": "\"2349d-64a310a7bc380-gzip\"",
       "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT"
     },
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"f7b50c80aa14982f11c8d8fe90a1d89f\"",
-      "last_modified": "Mon, 26 Oct 2026 18:59:35 GMT"
+      "etag": "\"de170c0684112e4dba003072d9f84175\"",
+      "last_modified": "Tue, 27 Oct 2026 14:41:09 GMT"
     },
     {
       "title": "Cliffle",
@@ -318,6 +318,22 @@
     }
   ],
   "posts": [
+    {
+      "title": "Answers at the back of The Book",
+      "url": "https://mmapped.blog/posts/53-answers-from-the-book.html",
+      "published": "2026-10-27",
+      "feed_url": "https://mmapped.blog/feed.xml",
+      "feed_title": "MMapped blog",
+      "site_url": "https://mmapped.blog"
+    },
+    {
+      "title": "What’s in a Token?",
+      "url": "https://www.computerenhance.com/p/whats-in-a-token",
+      "published": "2026-10-27",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
     {
       "title": "\"Confessiones\" на Русском Языке, Книга Пятая",
       "url": "https://hirrolot.github.io/posts/confessiones-in-russian-5.html",
@@ -541,22 +557,6 @@
       "feed_url": "https://danluu.com/atom.xml",
       "feed_title": "danluu.com",
       "site_url": "https://danluu.com/"
-    },
-    {
-      "title": "Second September",
-      "url": "https://slightknack.dev/daily/2026-09-17/",
-      "published": "2026-09-17",
-      "feed_url": "https://slightknack.dev/atom.xml",
-      "feed_title": "Isaac Clayton",
-      "site_url": "https://slightknack.dev"
-    },
-    {
-      "title": "DG64[1]: The Frame Loop, Debug Text, And Controller Input",
-      "url": "https://www.dgtlgrove.com/p/dg641-the-frame-loop-debug-text-and",
-      "published": "2026-09-15",
-      "feed_url": "https://www.rfleury.com/feed",
-      "feed_title": "Digital Grove",
-      "site_url": "https://www.rfleury.com"
     }
   ]
 }
