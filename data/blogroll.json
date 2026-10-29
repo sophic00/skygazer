@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 04:00 UTC",
+  "updated_at": "2026-10-29 04:24 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ae143e9-1c59c\"",
-      "last_modified": "Wed, 28 Oct 2026 00:38:01 GMT"
+      "etag": "W/\"6ae2952d-1c59c\"",
+      "last_modified": "Thu, 29 Oct 2026 00:37:01 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80ea9-bNXcPUrBk3iUZnmAMrXizj1geR0\"",
+      "etag": "W/\"80ea9-6VffFzvAVKecqiFhL3gdBXXmT64\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c8e5-0C/9f3XoNpBr4C3Cdm8KN4X4Df4\"",
+      "etag": "W/\"1c8e5-AhrJO2NPhnN5jO89hcPYdHHoNLM\"",
       "last_modified": null
     },
     {
@@ -124,8 +124,8 @@
       "site_url": "https://www.gingerbill.org/article/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a98b306-92d2\"",
-      "last_modified": "Wed, 02 Sep 2026 23:36:38 GMT"
+      "etag": "W/\"6ae246ad-961c\"",
+      "last_modified": "Wed, 28 Oct 2026 19:02:05 GMT"
     },
     {
       "title": "Isaac Clayton",
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1e-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
+      "etag": "W/\"6a954f1d-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
     },
     {
       "title": "Sy Brand",
@@ -212,8 +212,8 @@
       "title": "Brendan Gregg's Blog",
       "feed_url": "https://www.brendangregg.com/blog/rss.xml",
       "site_url": "http://www.brendangregg.com/blog",
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.brendangregg.com', port=443): Max retries exceeded with url: /blog/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brendangregg.com', port=443) at 0x7f57de4a8c80>, 'Connection to www.brendangregg.com timed out. (connect timeout=15)'))",
+      "status": "ok",
+      "error": null,
       "etag": "\"2349d-64a310a7bc380-gzip\"",
       "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT"
     },
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"6ade62e2-5d9e\"",
-      "last_modified": "Sun, 25 Oct 2026 20:13:22 GMT"
+      "etag": "\"6ae1e31e-5d9e\"",
+      "last_modified": "Wed, 28 Oct 2026 11:57:18 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Free Software, Per Accidens",
+      "url": "https://www.gingerbill.org/article/2026/10/28/free-software-per-accidens/",
+      "published": "2026-10-28",
+      "feed_url": "https://www.gingerbill.org/article/index.xml",
+      "feed_title": "gingerBill - Articles",
+      "site_url": "https://www.gingerbill.org/article/"
+    },
     {
       "title": "Answers at the back of The Book",
       "url": "https://mmapped.blog/posts/53-answers-from-the-book.html",
@@ -549,14 +557,6 @@
       "feed_url": "https://slightknack.dev/atom.xml",
       "feed_title": "Isaac Clayton",
       "site_url": "https://slightknack.dev"
-    },
-    {
-      "title": "There's no point at which turning your brain off will work",
-      "url": "https://danluu.com/brain-off/",
-      "published": "2026-09-18",
-      "feed_url": "https://danluu.com/atom.xml",
-      "feed_title": "danluu.com",
-      "site_url": "https://danluu.com/"
     }
   ]
 }
