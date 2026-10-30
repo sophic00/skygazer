@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 04:24 UTC",
+  "updated_at": "2026-10-30 04:23 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ae2952d-1c59c\"",
-      "last_modified": "Thu, 29 Oct 2026 00:37:01 GMT"
+      "etag": "W/\"6ae3e6d6-1ca48\"",
+      "last_modified": "Fri, 30 Oct 2026 00:37:42 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80ea9-6VffFzvAVKecqiFhL3gdBXXmT64\"",
+      "etag": "W/\"80ea9-4HxkzALyMIkNS6pdufLre2W2C28\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c8e5-AhrJO2NPhnN5jO89hcPYdHHoNLM\"",
+      "etag": "W/\"1c8e5-1hHrrx3HsaW+p7ipK/AOCHBI50w\"",
       "last_modified": null
     },
     {
@@ -124,8 +124,8 @@
       "site_url": "https://www.gingerbill.org/article/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ae246ad-961c\"",
-      "last_modified": "Wed, 28 Oct 2026 19:02:05 GMT"
+      "etag": "W/\"6ae246ae-961c\"",
+      "last_modified": "Wed, 28 Oct 2026 19:02:06 GMT"
     },
     {
       "title": "Isaac Clayton",
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1d-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
+      "etag": "W/\"6a954f1e-3996\"",
+      "last_modified": "Mon, 31 Aug 2026 09:53:34 GMT"
     },
     {
       "title": "Sy Brand",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"de170c0684112e4dba003072d9f84175\"",
-      "last_modified": "Tue, 27 Oct 2026 14:41:09 GMT"
+      "etag": "\"b8e3b0bbb51ac8b4a4f153074f9d0711\"",
+      "last_modified": "Thu, 29 Oct 2026 19:58:29 GMT"
     },
     {
       "title": "Cliffle",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"6ae1e31e-5d9e\"",
-      "last_modified": "Wed, 28 Oct 2026 11:57:18 GMT"
+      "etag": "\"6ae36f72-5d9e\"",
+      "last_modified": "Thu, 29 Oct 2026 16:08:18 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Avoid Public Functions Calling Other Public Functions",
+      "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+      "published": "2026-10-29",
+      "feed_url": "https://matklad.github.io/feed.xml",
+      "feed_title": "matklad",
+      "site_url": "https://matklad.github.io"
+    },
     {
       "title": "Free Software, Per Accidens",
       "url": "https://www.gingerbill.org/article/2026/10/28/free-software-per-accidens/",
@@ -549,14 +557,6 @@
       "feed_url": "https://matklad.github.io/feed.xml",
       "feed_title": "matklad",
       "site_url": "https://matklad.github.io"
-    },
-    {
-      "title": "Personal software blog series",
-      "url": "https://slightknack.dev/daily/2026-09-19/",
-      "published": "2026-09-19",
-      "feed_url": "https://slightknack.dev/atom.xml",
-      "feed_title": "Isaac Clayton",
-      "site_url": "https://slightknack.dev"
     }
   ]
 }
