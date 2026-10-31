@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 04:23 UTC",
+  "updated_at": "2026-10-31 04:03 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ae3e6d6-1ca48\"",
-      "last_modified": "Fri, 30 Oct 2026 00:37:42 GMT"
+      "etag": "W/\"6ae536c7-1ca48\"",
+      "last_modified": "Sat, 31 Oct 2026 00:31:03 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80ea9-4HxkzALyMIkNS6pdufLre2W2C28\"",
+      "etag": "W/\"80eb5-Hn4o+7D4/tqDO3aqWhM09CpQfbk\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c8e5-1hHrrx3HsaW+p7ipK/AOCHBI50w\"",
+      "etag": "W/\"1c8f1-bsHdXoWPmFtTJGGjrqal/L9P/ig\"",
       "last_modified": null
     },
     {
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"b8e3b0bbb51ac8b4a4f153074f9d0711\"",
-      "last_modified": "Thu, 29 Oct 2026 19:58:29 GMT"
+      "etag": "\"ae1b6af2d4c77be1e1cbed8bbad075c1\"",
+      "last_modified": "Fri, 30 Oct 2026 19:47:57 GMT"
     },
     {
       "title": "Cliffle",
