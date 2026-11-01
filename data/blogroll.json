@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31 04:03 UTC",
+  "updated_at": "2026-11-01 04:26 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ae536c7-1ca48\"",
-      "last_modified": "Sat, 31 Oct 2026 00:31:03 GMT"
+      "etag": "W/\"6ae689f4-1ca48\"",
+      "last_modified": "Sun, 01 Nov 2026 00:38:12 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80eb5-Hn4o+7D4/tqDO3aqWhM09CpQfbk\"",
+      "etag": "W/\"80eb5-N3AElEwHN8S9Vz73j+wWNqquu8M\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c8f1-bsHdXoWPmFtTJGGjrqal/L9P/ig\"",
+      "etag": "W/\"1c8f1-B9X5fTWk6n0hAxU4KOtnnR+HeZY\"",
       "last_modified": null
     },
     {
@@ -124,8 +124,8 @@
       "site_url": "https://www.gingerbill.org/article/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ae246ae-961c\"",
-      "last_modified": "Wed, 28 Oct 2026 19:02:06 GMT"
+      "etag": "W/\"6ae5fc42-961e\"",
+      "last_modified": "Sat, 31 Oct 2026 14:33:38 GMT"
     },
     {
       "title": "Isaac Clayton",
@@ -241,8 +241,8 @@
       "site_url": "https://www.daemonology.net/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"29ef-65c42b3f2b18e\"",
-      "last_modified": "Thu, 24 Sep 2026 23:10:16 GMT"
+      "etag": "\"2892-65f2794139d8d\"",
+      "last_modified": "Sat, 31 Oct 2026 19:04:12 GMT"
     },
     {
       "title": "The Observation Deck",
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"6ae36f72-5d9e\"",
-      "last_modified": "Thu, 29 Oct 2026 16:08:18 GMT"
+      "etag": "\"6ae60fa6-61c7\"",
+      "last_modified": "Sat, 31 Oct 2026 15:56:22 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,22 @@
     }
   ],
   "posts": [
+    {
+      "title": "The Duty of a Scholar",
+      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "published": "2026-10-31",
+      "feed_url": "https://www.daemonology.net/blog/index.rss",
+      "feed_title": "Daemonic Dispatches",
+      "site_url": "https://www.daemonology.net/blog/"
+    },
+    {
+      "title": "Notes from October 2026",
+      "url": "https://evanhahn.com/notes-from-october-2026/",
+      "published": "2026-10-31",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
     {
       "title": "Avoid Public Functions Calling Other Public Functions",
       "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
@@ -541,22 +557,6 @@
       "feed_url": "https://www.scattered-thoughts.net/atom.xml",
       "feed_title": "Scattered Thoughts",
       "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "What Sun got wrong",
-      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
-      "published": "2026-09-20",
-      "feed_url": "https://bcantrill.dtrace.org/index.xml",
-      "feed_title": "The Observation Deck",
-      "site_url": "https://bcantrill.dtrace.org/"
-    },
-    {
-      "title": "Finding Bugs",
-      "url": "https://matklad.github.io/2026/09/19/finding-bugs.html",
-      "published": "2026-09-19",
-      "feed_url": "https://matklad.github.io/feed.xml",
-      "feed_title": "matklad",
-      "site_url": "https://matklad.github.io"
     }
   ]
 }
