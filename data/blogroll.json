@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01 04:26 UTC",
+  "updated_at": "2026-11-02 04:27 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ae689f4-1ca48\"",
-      "last_modified": "Sun, 01 Nov 2026 00:38:12 GMT"
+      "etag": "W/\"6ae7da8e-1ca48\"",
+      "last_modified": "Mon, 02 Nov 2026 00:34:22 GMT"
     },
     {
       "title": "research!rsc",
@@ -70,8 +70,8 @@
       "site_url": "https://typesanitizer.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aa1bd44-3815\"",
-      "last_modified": "Wed, 09 Sep 2026 20:10:44 GMT"
+      "etag": "W/\"6ae76d1e-39de\"",
+      "last_modified": "Sun, 01 Nov 2026 16:47:26 GMT"
     },
     {
       "title": "Ralf's Ramblings",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80eb5-N3AElEwHN8S9Vz73j+wWNqquu8M\"",
+      "etag": "W/\"80eb5-yYs9DeFJMkAOT9F/Bg7ZST2N+bo\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c8f1-B9X5fTWk6n0hAxU4KOtnnR+HeZY\"",
+      "etag": "W/\"1c8f1-L+A1CUYNJXODTthIMoUGZUc7fxA\"",
       "last_modified": null
     },
     {
@@ -151,7 +151,7 @@
       "site_url": "https://eieio.games",
       "status": "ok",
       "error": null,
-      "etag": "W/\"c009ee38c4e529c53d5fe6515c4e7ba0\"",
+      "etag": "W/\"a6550426d5f5f37b8bdeac7ff867c50d\"",
       "last_modified": null
     },
     {
@@ -304,8 +304,8 @@
       "site_url": "https://evanhahn.com/blog/",
       "status": "ok",
       "error": null,
-      "etag": "\"6ae60fa6-61c7\"",
-      "last_modified": "Sat, 31 Oct 2026 15:56:22 GMT"
+      "etag": "\"6ae73843-7036\"",
+      "last_modified": "Sun, 01 Nov 2026 13:01:55 GMT"
     },
     {
       "title": "jakelazaroff.com",
@@ -318,6 +318,22 @@
     }
   ],
   "posts": [
+    {
+      "title": "An outsider's perspective on Scion and Mononoke",
+      "url": "https://typesanitizer.com/blog/scion.html",
+      "published": "2026-11-01",
+      "feed_url": "https://typesanitizer.com/blog/rss.xml",
+      "feed_title": "@typesanitizer's blog",
+      "site_url": "https://typesanitizer.com/"
+    },
+    {
+      "title": "A Mastodon bot powered by iOS Shortcuts",
+      "url": "https://evanhahn.com/mastodon-bot-with-ios-shortcuts/",
+      "published": "2026-11-01",
+      "feed_url": "https://evanhahn.com/blog/index.xml",
+      "feed_title": "Evan Hahn (dot com)",
+      "site_url": "https://evanhahn.com/blog/"
+    },
     {
       "title": "The Duty of a Scholar",
       "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
@@ -541,22 +557,6 @@
       "feed_url": "https://eieio.games/feed.xml",
       "feed_title": "eieio.games",
       "site_url": "https://eieio.games"
-    },
-    {
-      "title": "0061: i'm not a cat, artificial adventures, synthetic sagas, anthropic, sponsors",
-      "url": "https://www.scattered-thoughts.net/log/0061/",
-      "published": "2026-09-20",
-      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
-    },
-    {
-      "title": "Synthetic sagas",
-      "url": "https://www.scattered-thoughts.net/writing/synthetic-sagas/",
-      "published": "2026-09-20",
-      "feed_url": "https://www.scattered-thoughts.net/atom.xml",
-      "feed_title": "Scattered Thoughts",
-      "site_url": "https://www.scattered-thoughts.net/"
     }
   ]
 }
