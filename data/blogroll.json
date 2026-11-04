@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03 05:22 UTC",
+  "updated_at": "2026-11-04 04:51 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6ae92b52-1ca48\"",
-      "last_modified": "Tue, 03 Nov 2026 00:31:14 GMT"
+      "etag": "W/\"6aea7c96-1ca48\"",
+      "last_modified": "Wed, 04 Nov 2026 00:30:14 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80eb5-/ytcR7uk3RLugSQviweu6ivaMHU\"",
+      "etag": "W/\"80eb5-J1iBT0X7xtGZRdoHG4FRMudsz30\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c8f1-VkQcq+Wccou3rzO5bOrTWIYfSH4\"",
+      "etag": "W/\"1c8f1-0VtC480BPLTrER+3oK4X5V9bnfs\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6a954f1d-3996\"",
-      "last_modified": "Mon, 31 Aug 2026 09:53:33 GMT"
+      "etag": "W/\"6aea5828-3af0\"",
+      "last_modified": "Tue, 03 Nov 2026 21:54:48 GMT"
     },
     {
       "title": "Sy Brand",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Revisiting importance sampling",
+      "url": "https://lisyarus.github.io/blog/posts/revisiting-importance-sampling.html",
+      "published": "2026-11-03",
+      "feed_url": "https://lisyarus.github.io/blog/feed.xml",
+      "feed_title": "lisyarus blog",
+      "site_url": "https://lisyarus.github.io/blog"
+    },
     {
       "title": "An outsider's perspective on Scion and Mononoke",
       "url": "https://typesanitizer.com/blog/scion.html",
@@ -549,14 +557,6 @@
       "feed_url": "https://slightknack.dev/atom.xml",
       "feed_title": "Isaac Clayton",
       "site_url": "https://slightknack.dev"
-    },
-    {
-      "title": "Solitaire Alone Together",
-      "url": "https://eieio.games/blog/solitaire-alone-together",
-      "published": "2026-09-21",
-      "feed_url": "https://eieio.games/feed.xml",
-      "feed_title": "eieio.games",
-      "site_url": "https://eieio.games"
     }
   ]
 }
