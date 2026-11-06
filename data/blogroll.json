@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 05:08 UTC",
+  "updated_at": "2026-11-06 05:07 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aebcec0-1ca48\"",
-      "last_modified": "Thu, 05 Nov 2026 00:33:04 GMT"
+      "etag": "W/\"6aed2007-1ca48\"",
+      "last_modified": "Fri, 06 Nov 2026 00:32:07 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80eb5-uaj9A2DdkTCm01ZwvQ86QZWcGIA\"",
+      "etag": "W/\"80eb5-9+gZ3ifPHPejhthC0ndsn0H4msw\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1c8f1-RLn+xpDyzWTfDsIzJGwfPevdf/w\"",
+      "etag": "W/\"1b5b9-0jDiLhdrGP5X0N7hhJZ7f5nMD1A\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aea5828-3af0\"",
-      "last_modified": "Tue, 03 Nov 2026 21:54:48 GMT"
+      "etag": "W/\"6aea5829-3af0\"",
+      "last_modified": "Tue, 03 Nov 2026 21:54:49 GMT"
     },
     {
       "title": "Sy Brand",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"d2bab08169c8739e3372f4ebd7d55b86\"",
-      "last_modified": "Mon, 02 Nov 2026 22:13:36 GMT"
+      "etag": "\"f63294ac6cfddeaafe45e4f0aafa6852\"",
+      "last_modified": "Thu, 05 Nov 2026 14:47:09 GMT"
     },
     {
       "title": "Cliffle",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "Additional SIMD Predicate Options",
+      "url": "https://www.computerenhance.com/p/additional-simd-predicate-options",
+      "published": "2026-11-05",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
     {
       "title": "Revisiting importance sampling",
       "url": "https://lisyarus.github.io/blog/posts/revisiting-importance-sampling.html",
@@ -549,14 +557,6 @@
       "feed_url": "https://www.computerenhance.com/feed",
       "feed_title": "Computer, Enhance!",
       "site_url": "https://www.computerenhance.com"
-    },
-    {
-      "title": "As nuvens sobre Sapucaia",
-      "url": "https://slightknack.dev/gallery/as-nuvens/",
-      "published": "2026-09-22",
-      "feed_url": "https://slightknack.dev/atom.xml",
-      "feed_title": "Isaac Clayton",
-      "site_url": "https://slightknack.dev"
     }
   ]
 }
