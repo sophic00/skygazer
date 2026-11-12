@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 04:43 UTC",
+  "updated_at": "2026-11-12 05:46 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6af3b786-1ca48\"",
-      "last_modified": "Wed, 11 Nov 2026 00:32:06 GMT"
+      "etag": "W/\"6af5093e-1ca48\"",
+      "last_modified": "Thu, 12 Nov 2026 00:33:02 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80eb5-WSq/gl29zyMb5s0xzj3w/yQ7JYs\"",
+      "etag": "W/\"80eb5-GwT2BbV5Z7umlmumQA/bEMzbNUU\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1b7fb-pwFGt5n0jqurjZuobc/gVyzGNbM\"",
+      "etag": "W/\"1b7e3-evbdridiY58Tsr1/3aUu5G2/OE4\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aedbde7-3af0\"",
-      "last_modified": "Fri, 06 Nov 2026 11:45:43 GMT"
+      "etag": "W/\"6aedbde6-3af0\"",
+      "last_modified": "Fri, 06 Nov 2026 11:45:42 GMT"
     },
     {
       "title": "Sy Brand",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "SIMD Gather",
+      "url": "https://www.computerenhance.com/p/simd-gather",
+      "published": "2026-11-12",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
     {
       "title": "Skeletal Animation Programming LIVE!",
       "url": "https://www.computerenhance.com/p/skeletal-animation-programming-live",
@@ -549,14 +557,6 @@
       "feed_url": "https://bcantrill.dtrace.org/index.xml",
       "feed_title": "The Observation Deck",
       "site_url": "https://bcantrill.dtrace.org/"
-    },
-    {
-      "title": "Launching FreeBSD/EC2 desktop AMIs",
-      "url": "https://www.daemonology.net/blog/2026-09-24-Launching-FreeBSD-EC2-desktop-AMIs.html",
-      "published": "2026-09-24",
-      "feed_url": "https://www.daemonology.net/blog/index.rss",
-      "feed_title": "Daemonic Dispatches",
-      "site_url": "https://www.daemonology.net/blog/"
     }
   ]
 }
