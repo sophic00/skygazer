@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 05:46 UTC",
+  "updated_at": "2026-11-13 05:05 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6af5093e-1ca48\"",
-      "last_modified": "Thu, 12 Nov 2026 00:33:02 GMT"
+      "etag": "W/\"6af65a58-1ca48\"",
+      "last_modified": "Fri, 13 Nov 2026 00:31:20 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"80eb5-GwT2BbV5Z7umlmumQA/bEMzbNUU\"",
+      "etag": "W/\"80eb5-YUWoxAP+3Q0+E2OV3I+IbCQsYcg\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1b7e3-evbdridiY58Tsr1/3aUu5G2/OE4\"",
+      "etag": "W/\"1b7e3-IplvrXWUfwRluXosNOdOASNleJM\"",
       "last_modified": null
     },
     {
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aedbde6-3af0\"",
-      "last_modified": "Fri, 06 Nov 2026 11:45:42 GMT"
+      "etag": "W/\"6aedbde7-3af0\"",
+      "last_modified": "Fri, 06 Nov 2026 11:45:43 GMT"
     },
     {
       "title": "Sy Brand",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"5cedf9183b35b004b088175b1afc9577\"",
-      "last_modified": "Tue, 10 Nov 2026 17:53:45 GMT"
+      "etag": "\"a2715facf2fa2d754befbb6564d8c5c2\"",
+      "last_modified": "Thu, 12 Nov 2026 16:24:30 GMT"
     },
     {
       "title": "Cliffle",
