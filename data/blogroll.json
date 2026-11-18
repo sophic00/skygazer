@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 06:34 UTC",
+  "updated_at": "2026-11-18 05:54 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6afba08c-1ca48\"",
-      "last_modified": "Tue, 17 Nov 2026 00:32:12 GMT"
+      "etag": "W/\"6afcf20b-1ca48\"",
+      "last_modified": "Wed, 18 Nov 2026 00:32:11 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"814f4-dSYRfBlf7baHxhdr0MrLXUrPtR0\"",
+      "etag": "W/\"814f4-+Tzuz6tULJmXp2FqU4e+2FeMDNw\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1b7e3-6hda+L8K2zqZHvEMUdDZuWfkcac\"",
+      "etag": "W/\"1b7e3-Z8q9zhRMN3wQw7JJwH7D45wxYFw\"",
       "last_modified": null
     },
     {
@@ -178,8 +178,8 @@
       "site_url": "https://hirrolot.github.io/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6adeda41-166a\"",
-      "last_modified": "Mon, 26 Oct 2026 04:42:41 GMT"
+      "etag": "W/\"6afd0f8c-166a\"",
+      "last_modified": "Wed, 18 Nov 2026 02:38:04 GMT"
     },
     {
       "title": "lisyarus blog",
