@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 05:54 UTC",
+  "updated_at": "2026-11-19 05:55 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6afcf20b-1ca48\"",
-      "last_modified": "Wed, 18 Nov 2026 00:32:11 GMT"
+      "etag": "W/\"6afe4382-1ca48\"",
+      "last_modified": "Thu, 19 Nov 2026 00:32:02 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"814f4-+Tzuz6tULJmXp2FqU4e+2FeMDNw\"",
+      "etag": "W/\"814f4-UwEc84/Jw2VkfzXLvd73W8Cr+hI\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1b7e3-Z8q9zhRMN3wQw7JJwH7D45wxYFw\"",
+      "etag": "W/\"1b7ed-qfecYXYuMC6QCkH1eKvsbk4agyE\"",
       "last_modified": null
     },
     {
@@ -178,8 +178,8 @@
       "site_url": "https://hirrolot.github.io/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6afd0f8c-166a\"",
-      "last_modified": "Wed, 18 Nov 2026 02:38:04 GMT"
+      "etag": "W/\"6afe4806-166a\"",
+      "last_modified": "Thu, 19 Nov 2026 00:51:18 GMT"
     },
     {
       "title": "lisyarus blog",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"a2715facf2fa2d754befbb6564d8c5c2\"",
-      "last_modified": "Thu, 12 Nov 2026 16:24:30 GMT"
+      "etag": "\"a18175fd0fad305ae2c8c9a05d324d0e\"",
+      "last_modified": "Wed, 18 Nov 2026 22:18:31 GMT"
     },
     {
       "title": "Cliffle",
@@ -318,6 +318,14 @@
     }
   ],
   "posts": [
+    {
+      "title": "SIMD Tranpose",
+      "url": "https://www.computerenhance.com/p/simd-tranpose",
+      "published": "2026-11-18",
+      "feed_url": "https://www.computerenhance.com/feed",
+      "feed_title": "Computer, Enhance!",
+      "site_url": "https://www.computerenhance.com"
+    },
     {
       "title": "A Compiler Design For Debugger Evaluation — REBASE 2026",
       "url": "https://www.dgtlgrove.com/p/a-compiler-design-for-debugger-evaluation",
@@ -549,14 +557,6 @@
       "feed_url": "https://writings.stephenwolfram.com/feed",
       "feed_title": "Stephen Wolfram Writings",
       "site_url": "https://writings.stephenwolfram.com"
-    },
-    {
-      "title": "Half an Umbrella",
-      "url": "https://slightknack.dev/daily/2026-09-27/",
-      "published": "2026-09-27",
-      "feed_url": "https://slightknack.dev/atom.xml",
-      "feed_title": "Isaac Clayton",
-      "site_url": "https://slightknack.dev"
     }
   ]
 }
