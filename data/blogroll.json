@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 05:44 UTC",
+  "updated_at": "2026-11-21 05:39 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aff946b-1ca48\"",
-      "last_modified": "Fri, 20 Nov 2026 00:29:31 GMT"
+      "etag": "W/\"6b00e64f-1ca48\"",
+      "last_modified": "Sat, 21 Nov 2026 00:31:11 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"814f4-9O+i+PGWecZ2H1p7gIJtDLFRpro\"",
+      "etag": "W/\"814f4-boJoGnJus+36dwDbnoLkBMXI0bU\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1b7ed-9f/3X70T+VPiq53nBKkFBIZk26E\"",
+      "etag": "W/\"1b7ed-ZLtlZkS80DXgYtWf/oCh1TUyGyI\"",
       "last_modified": null
     },
     {
@@ -178,8 +178,8 @@
       "site_url": "https://hirrolot.github.io/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aff9d2d-166a\"",
-      "last_modified": "Fri, 20 Nov 2026 01:06:53 GMT"
+      "etag": "W/\"6b00d2c7-166a\"",
+      "last_modified": "Fri, 20 Nov 2026 23:07:51 GMT"
     },
     {
       "title": "lisyarus blog",
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aff5964-3c3f\"",
-      "last_modified": "Thu, 19 Nov 2026 20:17:40 GMT"
+      "etag": "W/\"6aff5963-3c3f\"",
+      "last_modified": "Thu, 19 Nov 2026 20:17:39 GMT"
     },
     {
       "title": "Sy Brand",
@@ -286,8 +286,8 @@
       "site_url": "https://writings.stephenwolfram.com",
       "status": "ok",
       "error": null,
-      "etag": "\"b21af92b4c6d5d83a0ecf59a3502dcce\"",
-      "last_modified": "Thu, 19 Nov 2026 21:55:48 GMT"
+      "etag": "\"519ac01fd81a5e8f5504b6fea68cc34c\"",
+      "last_modified": "Fri, 20 Nov 2026 17:22:22 GMT"
     },
     {
       "title": "Cliffle",
