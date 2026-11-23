@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 05:06 UTC",
+  "updated_at": "2026-11-23 05:47 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6b02387a-1ca48\"",
-      "last_modified": "Sun, 22 Nov 2026 00:34:02 GMT"
+      "etag": "W/\"6b038a54-1ca48\"",
+      "last_modified": "Mon, 23 Nov 2026 00:35:32 GMT"
     },
     {
       "title": "research!rsc",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"814f4-di/c9VWBzWwJUHsVscrWi/cpHIE\"",
+      "etag": "W/\"814f4-ip/JVu4EAtuiDU2GY7gGXFsKYfA\"",
       "last_modified": null
     },
     {
@@ -106,7 +106,7 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"1b7ed-gN1U8mLMDLcXmQ2Kiavk4BHQN3A\"",
+      "etag": "W/\"1b7ed-IFz5t24cwIHfY1cgENtigmF4104\"",
       "last_modified": null
     },
     {
@@ -178,8 +178,8 @@
       "site_url": "https://hirrolot.github.io/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6b0275b9-1781\"",
-      "last_modified": "Sun, 22 Nov 2026 04:55:21 GMT"
+      "etag": "W/\"6b033f1f-1781\"",
+      "last_modified": "Sun, 22 Nov 2026 19:14:39 GMT"
     },
     {
       "title": "lisyarus blog",
@@ -187,8 +187,8 @@
       "site_url": "https://lisyarus.github.io/blog",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6aff5964-3c3f\"",
-      "last_modified": "Thu, 19 Nov 2026 20:17:40 GMT"
+      "etag": "W/\"6aff5963-3c3f\"",
+      "last_modified": "Thu, 19 Nov 2026 20:17:39 GMT"
     },
     {
       "title": "Sy Brand",
@@ -212,8 +212,8 @@
       "title": "Brendan Gregg's Blog",
       "feed_url": "https://www.brendangregg.com/blog/rss.xml",
       "site_url": "http://www.brendangregg.com/blog",
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.brendangregg.com', port=443): Max retries exceeded with url: /blog/rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brendangregg.com', port=443) at 0x71f732807b10>, 'Connection to www.brendangregg.com timed out. (connect timeout=15)'))",
+      "status": "ok",
+      "error": null,
       "etag": "\"2349d-64a310a7bc380-gzip\"",
       "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT"
     },
@@ -233,7 +233,7 @@
       "status": "ok",
       "error": null,
       "etag": null,
-      "last_modified": "Mon, 9 Nov 2026 02:27:12 GMT"
+      "last_modified": "Mon, 23 Nov 2026 05:19:34 GMT"
     },
     {
       "title": "Daemonic Dispatches",
