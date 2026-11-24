@@ -13,13 +13,13 @@
     <updated>{% if last_updated is defined %}{{ last_updated | date(format="%Y-%m-%dT%H:%M:%S+00:00") }}{% else %}1970-01-01T00:00:00Z{% endif %}</updated>
     <id>{{ feed_url | safe }}</id>
     {%- for page in pages %}
-        {%- if not page.extra.disabled %}
+        {%- if not page.extra?.disabled %}
         <entry xml:lang="{{ page.lang }}">
             <title>{{ page.title }}</title>
             <link href="{{ page.permalink | safe }}" rel="alternate" type="text/html"/>
             <id>{{ page.permalink | safe }}</id>
             <published>{{ page.date | date(format="%Y-%m-%dT%H:%M:%S+00:00") }}</published>
-            <updated>{{ page.updated | default(value=page.date) | date(format="%Y-%m-%dT%H:%M:%S+00:00") }}</updated>
+            <updated>{{ page.updated or page.date | date(format="%Y-%m-%dT%H:%M:%S+00:00") }}</updated>
             {%- if page.summary %}
             <summary type="html">{{ page.summary }}</summary>
             {%- endif %}

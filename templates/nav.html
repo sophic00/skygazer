@@ -1,7 +1,7 @@
 {%- if config.extra.main_menu %}
   {%- for item in config.extra.main_menu %}
     {%- set title = item.name %}
-    {%- if item.url is matching("https?://") %}
+    {%- if item.url is matching(pat="https?://") %}
       {%- set target_url = item.url %}
     {%- else %}
       {%- set target_url = get_url(path=item.url) %}
@@ -10,7 +10,7 @@
     {%- if current_url is defined %}
       {%- if current_url == target_url %}
         {%- set is_active = true %}
-      {%- elif item.name != "/home" and current_url is starting_with(target_url) %}
+      {%- elif item.name != "/home" and current_url is starting_with(pat=target_url) %}
         {%- set is_active = true %}
       {%- endif %}
     {%- endif %}

@@ -1,26 +1,58 @@
 :root {
-  --width: 720px;
-  --font-family: 'JetBrains Mono', monospace;
-  --font-scale: 1.08em;
+  color-scheme: light;
+
+  /* Typography */
+  --font-family: 'Alegreya', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-family-display: 'Alegreya SC', 'Alegreya', Georgia, serif;
+  --font-family-code: 'Courier Prime', ui-monospace, 'SFMono-Regular', monospace;
+
+  --font-scale: 1.0625em;
+  --font-weight-normal: 450;
+  --font-weight-medium: 600;
+  --font-weight-bold: 800;
+  --line-height: 1.6;
+
+  /* Metrics */
+  --width: 74ch;
+  --border-thickness: 1.5px;
+
+  /* Colour: ink on paper */
   --background-color: #fff;
-  --heading-color: #222;
-  --text-color: #444;
-  --link-color: #3273dc;
-  --visited-color: #8b6fcb;
-  --code-background-color: #f2f2f2;
-  --code-color: #222;
-  --border-color: rgba(128, 128, 128, 0.3);
+  --text-color: #000;
+  --heading-color: var(--text-color);
+  --link-color: var(--text-color);
+  --visited-color: var(--text-color);
+  --muted-color: rgba(0, 0, 0, 0.6);
+  --border-color: var(--text-color);
+  --border-subtle: rgba(0, 0, 0, 0.14);
+  --underline-color: rgba(0, 0, 0, 0.4);
+  --surface-color: #f7f7f5;
+  --code-background-color: #f7f7f5;
+  --code-border-color: #d8d5cd;
+  --code-color: var(--text-color);
+  --danger-color: #a4262c;
   --icon-filter: none;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #11131a;
-    --heading-color: #eee;
-    --text-color: #ddd;
-    --link-color: #8cc2dd;
-    --code-background-color: #000;
-    --code-color: #ddd;
+    color-scheme: dark;
+
+    /* Colour: paper on ink */
+    --background-color: #171717;
+    --text-color: #e8e6df;
+    --heading-color: var(--text-color);
+    --link-color: var(--text-color);
+    --visited-color: var(--text-color);
+    --muted-color: rgba(232, 230, 223, 0.6);
+    --border-color: var(--text-color);
+    --border-subtle: rgba(232, 230, 223, 0.18);
+    --underline-color: rgba(232, 230, 223, 0.42);
+    --surface-color: #1f1f1f;
+    --code-background-color: #24292e;
+    --code-border-color: #444c56;
+    --code-color: var(--text-color);
+    --danger-color: #ff7b72;
     --icon-filter: invert(1);
   }
 }

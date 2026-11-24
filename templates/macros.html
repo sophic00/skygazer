@@ -1,19 +1,19 @@
-{%- macro post_list(pages) %}
+{%- component post_list(pages, config) %}
 {%- if pages %}
   {%- set_global has_visible = false %}
   {%- for page in pages %}
-    {%- if not page.extra.disabled %}
+    {%- if not page.extra?.disabled %}
       {%- set_global has_visible = true %}
     {%- endif %}
   {%- endfor %}
   {%- if has_visible %}
     <ul class="blog-posts">
       {%- for page in pages %}
-        {%- if not page.extra.disabled %}
+        {%- if not page.extra?.disabled %}
           <li>
             <span>
               <i>
-                <time datetime="{{ page.date | date(format='%+') }}">
+                <time datetime="{{ page.date | date(format="%Y-%m-%dT%H:%M:%S+00:00") }}">
                   {{ page.date | date(format=config.extra.date_format) }}
                 </time>
               </i>
@@ -29,4 +29,4 @@
 {%- else %}
 <p style="opacity: 0.6;">No posts yet.</p>
 {%- endif %}
-{%- endmacro %}
+{%- endcomponent post_list %}

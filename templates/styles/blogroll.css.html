@@ -5,24 +5,25 @@
   display: inline-block;
 }
 .blogroll-posts .post-title {
-  font-weight: 700;
+  font-weight: var(--font-weight-medium);
 }
 .blogroll-posts .post-title:visited {
   color: var(--visited-color);
 }
 .blogroll-posts .feed-source {
   font-size: 0.85em;
-  opacity: 0.6;
+  color: var(--muted-color);
   margin-left: 6px;
   white-space: nowrap;
 }
 .blogroll-posts .feed-link {
   color: var(--text-color);
   text-decoration: underline dotted;
-  transition: color 0.15s;
+  text-decoration-color: var(--underline-color);
+  transition: text-decoration-color 0.15s;
 }
 .blogroll-posts .feed-link:hover {
-  color: var(--link-color);
+  text-decoration-color: currentColor;
 }
 
 .blogroll-feeds-list {
@@ -34,41 +35,42 @@
   margin-block: 1.5rem;
 }
 .blogroll-feeds-list li {
-  background: rgba(128, 128, 128, 0.05);
-  border: 1px solid rgba(128, 128, 128, 0.15);
-  border-radius: 4px;
-  padding: 6px 12px;
+  background: var(--surface-color);
+  border: 1px solid var(--border-subtle);
+  border-radius: 3px;
+  padding: 5px 12px;
   font-size: 0.88em;
   display: flex;
   align-items: center;
   gap: 8px;
-  transition: border-color 0.15s, background-color 0.15s;
+  margin: 0;
+  transition: border-color 0.15s;
 }
 .blogroll-feeds-list li:hover {
-  background: rgba(128, 128, 128, 0.09);
-  border-color: var(--link-color);
+  border-color: var(--text-color);
 }
 .blogroll-feeds-list .feed-site-link {
-  font-weight: 700;
+  font-weight: var(--font-weight-medium);
   color: var(--heading-color);
-}
-.blogroll-feeds-list .feed-site-link:hover {
-  color: var(--link-color);
   text-decoration: none;
 }
+.blogroll-feeds-list .feed-site-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--underline-color);
+}
 .blogroll-feeds-list .feed-meta {
-  opacity: 0.6;
+  color: var(--muted-color);
   font-size: 0.9em;
   white-space: nowrap;
 }
 .blogroll-feeds-list .feed-status.error {
-  color: #ff5555;
+  color: var(--danger-color);
   margin-left: 4px;
   cursor: help;
 }
 .blogroll-footer {
   margin-top: 3rem;
-  font-size: 0.82em;
-  opacity: 0.55;
+  font-size: 0.85em;
+  color: var(--muted-color);
   text-align: right;
 }

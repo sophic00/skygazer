@@ -1,67 +1,215 @@
+html {
+  background-color: var(--background-color);
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   font-family: var(--font-family);
   font-size: var(--font-scale);
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-normal);
+  font-variant-numeric: oldstyle-nums;
+  font-feature-settings: 'onum' 1;
+  line-height: var(--line-height);
   margin-inline: auto;
-  padding: 20px;
+  padding: 1.5rem 1.25rem 0;
   max-width: var(--width);
   text-align: start;
   background-color: var(--background-color);
+  color: var(--text-color);
   word-wrap: break-word;
   overflow-wrap: break-word;
-  line-height: 1.5;
-  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--text-color);
+  color: var(--background-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family);
+  font-family: var(--font-family-display);
   color: var(--heading-color);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  margin-block: 2.25rem 0.75rem;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-size: 2.25rem;
+  letter-spacing: 0.06em;
+}
+
+h2 {
+  font-variant: small-caps;
+  font-size: 1.375rem;
+  letter-spacing: 0.07em;
+  padding-bottom: 0.35rem;
+  border-bottom: var(--border-thickness) solid var(--border-color);
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0;
+}
+
+h4, h5, h6 {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-size: 1.0625rem;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0;
+}
+
+p {
+  margin-block: 0 1rem;
 }
 
 a {
   color: var(--link-color);
   cursor: pointer;
-  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--border-thickness);
+  text-underline-offset: 0.18em;
+  text-decoration-color: var(--underline-color);
+  transition: text-decoration-color 0.15s ease, color 0.15s ease;
+}
 
-  &:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+:focus-visible {
+  outline: var(--border-thickness) solid var(--text-color);
+  outline-offset: 2px;
 }
 
 strong, b {
   color: var(--heading-color);
+  font-weight: var(--font-weight-bold);
+}
+
+em, i, cite {
+  font-style: italic;
+}
+
+small {
+  font-size: 0.875em;
+}
+
+abbr[title] {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  text-decoration: none;
 }
 
 button {
   margin: 0;
   cursor: pointer;
+  font: inherit;
+  color: inherit;
 }
 
 main {
-  line-height: 1.6;
+  line-height: var(--line-height);
+}
+
+ul, ol {
+  margin-block: 0 1rem;
+  padding-inline-start: 1.5em;
+}
+
+li {
+  margin-block: 0.25rem;
 }
 
 table {
   width: 100%;
+  border-collapse: collapse;
+  margin-block: 1.5rem;
+}
+
+th, td {
+  text-align: start;
+  vertical-align: top;
+  padding: 0.35rem 0.6ch;
+}
+
+th {
+  font-family: var(--font-family-display);
+  font-variant: small-caps;
+  font-size: 1.125em;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  border-bottom: var(--border-thickness) solid var(--border-color);
+}
+
+td {
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 hr {
   border: 0;
-  border-block-start: 1px solid var(--border-color);
-  margin-block: 1.5rem;
+  border-block-start: var(--border-thickness) solid var(--border-color);
+  margin-block: 2.5rem;
 }
 
-img {
+img, video {
   max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-inline: 0;
+}
+
+figcaption {
+  font-size: 0.9375rem;
+  color: var(--muted-color);
+  text-align: start;
 }
 
 blockquote {
-  border-inline-start: 3px solid var(--link-color);
-  background-color: rgba(128, 128, 128, 0.05);
-  color: var(--text-color);
-  padding: 10px 20px;
-  border-radius: 0 6px 6px 0;
-  font-style: italic;
   margin-inline: 0;
+  margin-block: 1.5rem;
+  padding-inline-start: 1.5ch;
+  border-inline-start: var(--border-thickness) solid var(--border-color);
+  font-style: italic;
+  color: var(--text-color);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote footer {
+  font-style: normal;
+  font-size: 0.9375rem;
+  color: var(--muted-color);
+}
+
+kbd, samp, pre, code {
+  font-family: var(--font-family-code);
+  font-variant-numeric: normal;
+  font-feature-settings: normal;
+}
+
+sup, sub {
+  font-size: 0.75em;
+  line-height: 0;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
 }
 
 header + h1,

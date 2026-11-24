@@ -1,25 +1,25 @@
 {%- set has_footnotes = false %}
-{%- if page is defined and page.content is containing("footnote-reference") %}
+{%- if page is defined and page.content is defined and "footnote-reference" in page.content %}
   {%- set has_footnotes = true %}
 {%- endif %}
-{%- if section is defined and section.content is containing("footnote-reference") %}
+{%- if section is defined and section.content is defined and "footnote-reference" in section.content %}
   {%- set has_footnotes = true %}
 {%- endif %}
 <!DOCTYPE html>
 <html lang="{{ config.default_language | default(value="en") }}">
 <head>
   {%- if not config.extra.webserver_sends_csp_headers %}
-  {%- include "security_tags.html" ignore missing %}
+  {%- include "security_tags.html" %}
   {%- endif %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% include "favicon.html" ignore missing -%}
+  {% include "favicon.html" -%}
   <title>{%- block title %}{{ config.title }}{%- endblock %}</title>
-  {% include "seo_tags.html" ignore missing -%}
+  {% include "seo_tags.html" -%}
   <link rel="canonical" href="{% if page is defined %}{{ page.permalink }}{% elif section is defined %}{{ section.permalink }}{% else %}{{ config.base_url }}{% endif %}">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <link rel="preload" href="/fonts/jetbrains-mono-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/jetbrains-mono-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/alegreya-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/alegreya-sc-500.woff2" as="font" type="font/woff2" crossorigin>
   {%- if config.generate_feeds %}
   {% block rss -%}
   {%- for feed_filename in config.feed_filenames %}
@@ -28,21 +28,21 @@
   {%- endblock -%}
   {%- endif %}
   <style>
-  {% include "style.css.html" ignore missing %}
+  {% include "style.css.html" %}
   </style>
   {%- if has_footnotes %}
   <style>
-  {% include "styles/sidenotes.css.html" ignore missing %}
+  {% include "styles/sidenotes.css.html" %}
   </style>
   {%- endif %}
-  {%- include "custom_head.html" ignore missing %}
+  {%- include "custom_head.html" %}
 </head>
 <body>
-  {% include "header.html" ignore missing %}
+  {% include "header.html" %}
   {%- block main -%}{%- endblock -%}
-  {%- include "footer.html" ignore missing -%}
+  {%- include "footer.html" -%}
   {%- if has_footnotes %}
-  {%- include "custom_body.html" ignore missing -%}
+  {%- include "custom_body.html" -%}
   {%- endif %}
 </body>
 </html>
