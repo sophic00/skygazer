@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 06:44 UTC",
+  "updated_at": "2026-11-28 06:19 UTC",
   "feeds": [
     {
       "title": "matklad",
@@ -7,8 +7,8 @@
       "site_url": "https://matklad.github.io",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6b08cf4d-1ca48\"",
-      "last_modified": "Fri, 27 Nov 2026 00:31:09 GMT"
+      "etag": "W/\"6b0a209e-1ca48\"",
+      "last_modified": "Sat, 28 Nov 2026 00:30:22 GMT"
     },
     {
       "title": "research!rsc",
@@ -34,8 +34,8 @@
       "site_url": "https://www.scattered-thoughts.net/",
       "status": "ok",
       "error": null,
-      "etag": "\"6ab4b856-12c55\"",
-      "last_modified": "Thu, 24 Sep 2026 05:42:46 GMT"
+      "etag": "W/\"6b0a16b3-12c55\"",
+      "last_modified": "Fri, 27 Nov 2026 23:48:03 GMT"
     },
     {
       "title": "Loris Cro's Personal Website",
@@ -97,7 +97,7 @@
       "site_url": "https://www.rfleury.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"814f4-wElTx8Dg04qOsgX0TENzRD06DTk\"",
+      "etag": "W/\"814f4-5gMG60Na8cdtzXSB597WJoCSrwk\"",
       "last_modified": null
     },
     {
@@ -106,15 +106,15 @@
       "site_url": "https://www.computerenhance.com",
       "status": "ok",
       "error": null,
-      "etag": "W/\"199b8-jFHgAnMeR0Hrnp7YkAujTVAudkQ\"",
+      "etag": "W/\"199b8-J0l2dzk9rJwjshrJRFDvfTZQKBo\"",
       "last_modified": null
     },
     {
       "title": "Peter Norvig",
       "feed_url": "https://norvig.com/rss-feed.xml",
       "site_url": "http://www.norvig.com",
-      "status": "error",
-      "error": "415 Client Error: Unsupported Media Type for url: https://norvig.com/rss-feed.xml",
+      "status": "ok",
+      "error": null,
       "etag": null,
       "last_modified": "Mon, 22 Apr 2019 19:52:03 GMT"
     },
@@ -268,8 +268,8 @@
       "site_url": "https://danluu.com/",
       "status": "ok",
       "error": null,
-      "etag": "W/\"6afab2ce-659bd7\"",
-      "last_modified": "Mon, 16 Nov 2026 07:37:50 GMT"
+      "etag": "W/\"6b074959-659f7d\"",
+      "last_modified": "Wed, 25 Nov 2026 20:47:21 GMT"
     },
     {
       "title": "Andrej Karpathy blog",
